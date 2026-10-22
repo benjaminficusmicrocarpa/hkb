@@ -17,7 +17,7 @@ import time
 from pathlib import Path
 
 import requests
-from PIL import Image
+from PIL import Image, ImageOps
 
 HKB = Path(__file__).resolve().parents[1]
 PAGES = HKB / "data" / "pages.json"
@@ -58,6 +58,8 @@ def request_with_retry(method: str, url: str, headers: dict, **kwargs) -> reques
 def to_webp(jpg: Path, dest: Path) -> tuple[int, int]:
     dest.parent.mkdir(parents=True, exist_ok=True)
     with Image.open(jpg) as img:
+        # Cloudflare serves stored pixels and drops Orientation, so bake it in.
+        img = ImageOps.exif_transpose(img)
         img = img.convert("RGB")
         width, height = img.size
         long_side = max(width, height)
