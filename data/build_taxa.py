@@ -131,6 +131,38 @@ def main() -> None:
         f"genera={payload['n_genera']} families={payload['n_families']} "
         f"orders={payload['n_orders']} bytes={OUT.stat().st_size}"
     )
+    
+    # Also emit slim derivatives used by the homepage and search path.
+    ranks = defaultdict(int)
+    for t in taxa:
+        ranks[t["rank"]] += 1
+    stats = {
+        "source": "data/taxa.json",
+        "built": date.today().isoformat(),
+        "n_taxa": payload["n_taxa"],
+        "n_species": payload["n_species"],
+        "n_genera": payload["n_genera"],
+        "n_families": payload["n_families"],
+        "n_orders": payload["n_orders"],
+        "n_varieties": ranks["VARIETY"],
+        "n_subspecies": ranks["SUBSPECIES"],
+        "n_forms": ranks["FORM"],
+        "n_cultivars": ranks["Cultivar"],
+    }
+    stats_path = OUT.parent / "stats.json"
+    stats_path.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    slim = []
+    for t in taxa:
+        row = {"b": t["blp"], "s": t["sci"], "c": t.get("chi") or "", "g": t["genus"], "f": t["family"], "r": t["rank"]}
+        if t.get("order"):
+            row["o"] = t["order"]
+        if t.get("alt"):
+            row["a"] = t["alt"]
+        slim.append(row)
+    search_path = OUT.parent / "search.json"
+    search_path.write_text(json.dumps(slim, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"wrote {stats_path} and {search_path} ({len(slim)} rows)")
+
     print(f"genus_in_two_families={len(split)}")
     for g, fs in sorted(split.items()):
         print(f"  {g}: {fs}")

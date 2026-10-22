@@ -45,3 +45,24 @@ function hkbLoadTaxa() {
 function hkbFormatCount(n) {
     return Number(n).toLocaleString("en-GB");
 }
+
+function hkbLoadSearch() {
+    const base = document.querySelector('meta[name="hkb-base"]')?.content || "..";
+    return fetch(base + "/data/search.json").then((res) => {
+        if (!res.ok) throw new Error("search.json " + res.status);
+        return res.json();
+    }).then((rows) => rows.map((r) => ({
+        blp: r.b,
+        sci: r.s,
+        chi: r.c,
+        genus: r.g,
+        family: r.f,
+        rank: r.r,
+        order: r.o || "",
+        alt: r.a || ""
+    })));
+}
+
+function hkbSearchBlob(t) {
+    return [t.sci, t.chi, t.alt, t.genus, t.family, t.order, t.blp].join(" ").toLowerCase();
+}

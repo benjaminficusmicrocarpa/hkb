@@ -1,0 +1,13 @@
+{
+  "source": "data/taxa.json",
+  "built": "2026-10-22",
+  "n_taxa": 4456,
+  "n_species": 4141,
+  "n_genera": 1734,
+  "n_families": 258,
+  "n_orders": 69,
+  "n_varieties": 137,
+  "n_subspecies": 55,
+  "n_forms": 4,
+  "n_cultivars": 113
+}

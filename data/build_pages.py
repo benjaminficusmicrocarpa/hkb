@@ -342,9 +342,7 @@ def render(page: dict) -> str:
     <meta name="twitter:description" content="{esc(desc)}">
     <meta name="twitter:image" content="{OG}">
     <link rel="icon" href="../hkb.svg" type="image/svg+xml">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/hkb.built.css?v=2">
     <link rel="stylesheet" href="../css/hkb.css?v=4">
     <script>
         tailwind.config = {{ theme: {{ extend: {{
