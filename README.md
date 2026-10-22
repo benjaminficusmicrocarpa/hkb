@@ -32,12 +32,6 @@ Three older pages are hand-written and are not generated: `species/bauhinia-blak
 
 ## Photographs
 
-Species photographs are hosted on Cloudflare Images. The HTML stores an image id, not a file in this repository.
-
-Do not commit `~photos/` or `~original-jpg/`. They are local working copies. `data/host_page_photos.py` uploads them. Credentials stay in `.env` in this folder, which is not committed. After an image id changes, run `build_pages.py` again so the static page picks it up.
+Species photographs are hosted on Cloudflare Images. The HTML stores an image id, not a file in this repository. After an image id changes, run `build_pages.py` again so the static page picks it up.
 
 The share card for the site is `og.png`.
-
-## What is not published
-
-`.env`, `~photos/`, `~original-jpg/`, and `_parked/` stay on this machine.
