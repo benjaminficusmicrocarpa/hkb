@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="hkb-base" content=".">
+    <title>Hong Kong Botanica | 香港草木誌</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hong Kong Botanica">
+    <meta property="og:title" content="Hong Kong Botanica | 香港草木誌">
+    <meta property="og:description" content="A catalogue of the vascular plants of Hong Kong.">
+    <meta property="og:url" content="https://benjaminficusmicrocarpa.github.io/hkb/">
+    <meta property="og:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:secure_url" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Hong Kong Botanica">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hong Kong Botanica | 香港草木誌">
+    <meta name="twitter:description" content="A catalogue of the vascular plants of Hong Kong.">
+    <meta name="twitter:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <link rel="icon" href="hkb.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/hkb.css?v=5">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Roboto', 'Noto Sans TC', 'sans-serif'],
+                        serif: ['Playfair Display', 'Noto Serif TC', 'serif'],
+                    },
+                    colors: {
+                        botanical: { light: '#82c07b', DEFAULT: '#4a8244', dark: '#2d5229', accent: '#d4af37' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-stone-50 text-gray-800 font-sans antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center gap-2.5 text-botanical-dark font-serif font-bold text-xl sm:text-2xl tracking-tight">
+                        <img src="hkb.svg" alt="HKB" class="h-9 w-9">
+                        <span class="lang-en">Hong Kong Botanica</span>
+                        <span class="lang-zh hidden">香港草木誌</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 lg:space-x-8 text-sm lg:text-base">
+                    <a href="species/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Species Directory</span>
+                        <span class="lang-zh hidden">物種目錄</span>
+                    </a>
+                    <a href="families/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Families & Genera</span>
+                        <span class="lang-zh hidden">科屬分類</span>
+                    </a>
+                    <a style="display:none" href="about/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">About</span>
+                        <span class="lang-zh hidden">關於本庫</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4 text-stone-500">
+                    <a href="search/index.html" class="hover:text-botanical transition"><i class="fa-solid fa-search text-lg"></i></a>
+                    <button onclick="toggleLanguage()" class="hover:text-botanical transition font-bold text-sm px-2 py-1 rounded border border-stone-200 hover:border-botanical">
+                        <span class="lang-en">中</span>
+                        <span class="lang-zh hidden">EN</span>
+                    </button>
+                    <button onclick="openMobileNav()" class="md:hidden hover:text-botanical transition"><i class="fa-solid fa-bars text-xl"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE DRAWER -->
+    <div id="mobileOverlay" class="mobile-nav-overlay" onclick="closeMobileNav()"></div>
+    <div id="mobileDrawer" class="mobile-nav-drawer">
+        <div class="p-5 border-b border-stone-100 flex justify-between items-center">
+            <span class="font-serif font-bold text-lg text-botanical-dark">
+                <span class="lang-en">Menu</span><span class="lang-zh hidden">選單</span>
+            </span>
+            <button onclick="closeMobileNav()" class="text-stone-400 hover:text-stone-700"><i class="fa-solid fa-xmark text-xl"></i></button>
+        </div>
+        <div class="p-5 space-y-1">
+            <a href="species/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-leaf w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Species Directory</span><span class="lang-zh hidden">物種目錄</span>
+            </a>
+            <a href="families/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-sitemap w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Families & Genera</span><span class="lang-zh hidden">科屬分類</span>
+            </a>
+            <a style="display:none" href="about/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-circle-info w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span>
+            </a>
+            <a href="search/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-search w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span>
+            </a>
+        </div>
+        <div class="p-5 border-t border-stone-100">
+            <button onclick="toggleLanguage()" class="w-full px-4 py-3 rounded-lg border border-stone-200 text-stone-600 font-medium hover:border-botanical hover:text-botanical transition">
+                <span class="lang-en">切換中文</span><span class="lang-zh hidden">Switch to English</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <header class="hero-deck relative h-[550px] flex flex-col justify-center items-center text-center px-4">
+        <div class="hero-track" id="heroTrack"></div>
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <button type="button" class="hero-nav prev" id="heroPrev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+        <button type="button" class="hero-nav next" id="heroNext" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="hero-dots" id="heroDots"></div>
+        <div class="relative z-10 max-w-4xl w-full text-white space-y-6">
+            <div class="inline-block px-4 py-1 rounded-full border border-botanical-accent/50 bg-black/30 backdrop-blur-sm text-botanical-accent text-sm font-medium tracking-widest uppercase mb-2">
+                <span class="lang-en">Indo-Burma Biodiversity Hotspot</span>
+                <span class="lang-zh hidden">印緬生物多樣性熱點</span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-serif font-bold drop-shadow-lg leading-tight">
+                <span class="lang-en">Documenting the Vascular Flora of Hong Kong</span>
+                <span class="lang-zh hidden">記錄香港維管束植物多樣性</span>
+            </h1>
+            <p class="text-lg md:text-xl text-stone-200 font-light max-w-2xl mx-auto drop-shadow">
+                <span class="lang-en">A personal botanical database detailing native, naturalised, and exotic plant species across the region.</span>
+                <span class="lang-zh hidden">一個記錄本地原生、歸化及外來植物物種的個人植物學數據庫。</span>
+            </p>
+            <form class="search-form flex w-full max-w-3xl mx-auto mt-8 shadow-2xl rounded-lg overflow-hidden bg-white focus-within:ring-4 ring-botanical/30 transition">
+                <input type="text"
+                       data-placeholder-en="Search by scientific name (e.g., Bauhinia blakeana), family, or common name…"
+                       data-placeholder-zh="透過學名 (例如 Bauhinia blakeana)、科名或俗名搜尋…"
+                       placeholder="Search by scientific name (e.g., Bauhinia blakeana), family, or common name…"
+                       class="flex-grow px-6 py-4 text-stone-800 outline-none text-base md:text-lg font-sans placeholder-stone-400">
+                <button type="submit" class="bg-botanical hover:bg-botanical-dark text-white px-8 py-4 transition flex items-center justify-center">
+                    <i class="fa-solid fa-search text-xl"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <!-- STATS STRIP -->
+    <section class="bg-white border-b border-stone-200 py-12 shadow-sm relative z-10 -mt-6 mx-4 sm:mx-8 lg:mx-auto max-w-7xl rounded-xl">
+        <div class="px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 divide-y md:divide-y-0 md:divide-x divide-stone-100 text-center">
+                <div class="flex flex-col items-center px-4">
+                    <div class="w-14 h-14 bg-botanical/10 text-botanical rounded-full flex items-center justify-center mb-4"><i class="fa-solid fa-leaf text-2xl"></i></div>
+                    <div class="text-4xl font-serif font-bold text-stone-800" id="statTaxa">4,456</div>
+                    <h3 class="text-sm font-bold text-stone-500 mt-2 uppercase tracking-wider">
+                        <span class="lang-en">Taxa in the catalogue</span><span class="lang-zh hidden">名錄分類群</span>
+                    </h3>
+                    <p class="text-xs text-stone-400 mt-2 leading-relaxed">
+                        <span class="lang-en"><span class="text-botanical-dark font-medium" id="statSpecies">4,141</span> of rank species</span>
+                        <span class="lang-zh hidden">其中 <span class="text-botanical-dark font-medium" id="statSpeciesZh">4,141</span> 個為種</span>
+                    </p>
+                </div>
+                <div class="flex flex-col items-center px-4 pt-6 md:pt-0">
+                    <div class="w-14 h-14 bg-stone-100 text-stone-600 rounded-full flex items-center justify-center mb-4"><i class="fa-solid fa-sitemap text-2xl"></i></div>
+                    <div class="text-4xl font-serif font-bold text-stone-800" id="statFamilies">258</div>
+                    <h3 class="text-sm font-bold text-stone-500 mt-2 uppercase tracking-wider">
+                        <span class="lang-en">Families</span><span class="lang-zh hidden">科</span>
+                    </h3>
+                    <div class="mt-3 w-full bg-stone-50 rounded-lg p-2 text-xs border border-stone-100 flex justify-around">
+                        <div class="text-left">
+                            <span class="block text-stone-400 font-semibold uppercase"><span class="lang-en">Orders</span><span class="lang-zh hidden">目</span></span>
+                            <span class="text-lg font-serif font-bold text-stone-700" id="statOrders">69</span>
+                        </div>
+                        <div class="w-px bg-stone-200"></div>
+                        <div class="text-left">
+                            <span class="block text-stone-400 font-semibold uppercase"><span class="lang-en">Genera</span><span class="lang-zh hidden">屬</span></span>
+                            <span class="text-lg font-serif font-bold text-stone-700" id="statGenera">1,734</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center px-4 pt-6 lg:pt-0">
+                    <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center mb-4"><i class="fa-solid fa-code-branch text-2xl"></i></div>
+                    <div class="w-full text-sm text-stone-500 bg-stone-50 rounded-lg border border-stone-100">
+                        <div class="flex justify-between items-center px-3 py-2">
+                            <span class="font-semibold uppercase tracking-wider text-stone-400"><span class="lang-en">Varieties</span><span class="lang-zh hidden">變種</span></span>
+                            <span class="text-lg font-serif font-bold text-stone-800" id="statVarieties">137</span>
+                        </div>
+                        <div class="flex justify-between items-center px-3 py-2 border-t border-stone-200">
+                            <span class="font-semibold uppercase tracking-wider text-stone-400"><span class="lang-en">Subspecies</span><span class="lang-zh hidden">亞種</span></span>
+                            <span class="text-lg font-serif font-bold text-stone-800" id="statSubspecies">55</span>
+                        </div>
+                        <div class="flex justify-between items-center px-3 py-2 border-t border-stone-200">
+                            <span class="font-semibold uppercase tracking-wider text-stone-400"><span class="lang-en">Forms</span><span class="lang-zh hidden">變型</span></span>
+                            <span class="text-lg font-serif font-bold text-stone-800" id="statForms">4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center px-4 pt-6 lg:pt-0">
+                    <div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-full flex items-center justify-center mb-4"><i class="fa-solid fa-tag text-2xl"></i></div>
+                    <div class="text-4xl font-serif font-bold text-stone-800" id="statCultivars">113</div>
+                    <h3 class="text-sm font-bold text-stone-500 mt-2 uppercase tracking-wider">
+                        <span class="lang-en">Cultivars</span><span class="lang-zh hidden">栽培品種</span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- ABOUT THE DATABASE -->
+        <section class="py-20 bg-stone-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="w-full md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1583207804784-198ba4353030?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Hong Kong Forest Canopy" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3] border-4 border-white">
+                    </div>
+                    <div class="w-full md:w-1/2 space-y-6">
+                        <div class="inline-flex items-center gap-2 text-botanical font-bold tracking-wider uppercase text-sm mb-2">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <span class="lang-en">Project Overview</span><span class="lang-zh hidden">項目概覽</span>
+                        </div>
+                        <h2 class="text-3xl md:text-4xl font-serif font-bold text-stone-900 leading-tight">
+                            <span class="lang-en">What is the Hong Kong Botanica?</span>
+                            <span class="lang-zh hidden">什麼是香港草木誌？</span>
+                        </h2>
+                        <div class="text-lg text-stone-600 leading-relaxed space-y-4 font-light">
+                            <p>
+                                <span class="lang-en">This archive is a personal, independent initiative to meticulously catalogue, photograph, and document the diverse vascular plants found across Hong Kong's complex topography—from coastal mangroves, high-altitude montane forest, to highly populated urban area, where it is native, cultivated or naturalised.</span>
+                                <span class="lang-zh hidden">本檔案庫是一個獨立的個人項目，旨在仔細分類、拍攝和記錄遍佈香港複雜地形的各種維管束植物——從沿海紅樹林、高海拔山地森林，到人口稠密的市區，包括原生、栽培或歸化的。</span>
+                            </p>
+                            <p>
+                                <span class="lang-en">Despite its small landmass, Hong Kong sits squarely within the <strong>Indo-Burma biodiversity hotspot</strong>, hosting an astonishing variety of flora. This database serves as both a field notebook and an open reference, combining personal field observations with established taxonomic frameworks.</span>
+                                <span class="lang-zh hidden">儘管面積不大，香港正處於<strong>印緬生物多樣性熱點</strong>，擁有令人驚嘆的植物多樣性。本數據庫既是野外筆記，也是公開的參考資料，結合了個人的野外觀察與已建立的分類學框架。</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DATA SOURCES -->
+        <section class="py-20 bg-stone-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <h2 class="text-3xl font-serif font-bold text-stone-900 mb-4">
+                        <span class="lang-en">Data Sources & Taxonomy</span><span class="lang-zh hidden">數據來源與分類學</span>
+                    </h2>
+                    <p class="text-stone-600">
+                        <span class="lang-en">This database synthesises personal observations with authoritative botanical literature and modern taxonomic frameworks.</span>
+                        <span class="lang-zh hidden">本數據庫綜合了個人觀察、權威植物學文獻及現代分類學框架。</span>
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-stone-200 text-center">
+                        <div class="w-16 h-16 mx-auto bg-stone-50 text-stone-700 rounded-full flex items-center justify-center mb-6 border border-stone-100"><i class="fa-solid fa-camera-retro text-2xl"></i></div>
+                        <h4 class="font-bold text-lg text-stone-900 mb-3">
+                            <span class="lang-en">Field Observations</span><span class="lang-zh hidden">野外觀察</span>
+                        </h4>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            <span class="lang-en">Photographic records, phenology data, and habitat notes collected directly from trails, country parks, and urban spaces across Hong Kong.</span>
+                            <span class="lang-zh hidden">直接從香港的行山徑、郊野公園及市區空間收集的攝影紀錄、物候數據及生境筆記。</span>
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-stone-200 text-center">
+                        <div class="w-16 h-16 mx-auto bg-stone-50 text-stone-700 rounded-full flex items-center justify-center mb-6 border border-stone-100"><i class="fa-solid fa-book-journal-whills text-2xl"></i></div>
+                        <h4 class="font-bold text-lg text-stone-900 mb-3">
+                            <span class="lang-en">Regional Literature</span><span class="lang-zh hidden">地區文獻</span>
+                        </h4>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            <span class="lang-en">Cross-referenced with the <em>Flora of Hong Kong</em> (AFCD), checklists by the HK Herbarium, and ecological data from Kadoorie Farm and Botanic Garden (KFBG).</span>
+                            <span class="lang-zh hidden">與漁護署的《香港植物誌》、香港植物標本室的名錄，以及嘉道理農場暨植物園的生態數據進行交叉比對。</span>
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-stone-200 text-center">
+                        <div class="w-16 h-16 mx-auto bg-stone-50 text-stone-700 rounded-full flex items-center justify-center mb-6 border border-stone-100"><i class="fa-solid fa-network-wired text-2xl"></i></div>
+                        <h4 class="font-bold text-lg text-stone-900 mb-3">
+                            <span class="lang-en">Global Taxonomy</span><span class="lang-zh hidden">全球分類學</span>
+                        </h4>
+                        <p class="text-stone-600 text-sm leading-relaxed">
+                            <span class="lang-en">Nomenclature and family assignments strictly follow the APG IV system, verified against Plants of the World Online (POWO) and WFO.</span>
+                            <span class="lang-zh hidden">命名和科級分類嚴格遵循 APG IV 系統，並與世界在線植物誌 (POWO) 及 WFO 進行核對。</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-900 text-stone-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3 text-white">
+                <img src="hkb.svg" alt="" class="h-8 w-8 opacity-80">
+                <span class="font-serif font-bold text-xl">
+                    <span class="lang-en">Hong Kong Botanica</span><span class="lang-zh hidden">香港草木誌</span>
+                </span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-medium">
+                <a href="species/index.html" class="hover:text-white transition"><span class="lang-en">Species List</span><span class="lang-zh hidden">物種名錄</span></a>
+                <a href="families/index.html" class="hover:text-white transition"><span class="lang-en">Taxonomy Guide</span><span class="lang-zh hidden">分類指南</span></a>
+                <a style="display:none" href="about/index.html" class="hover:text-white transition"><span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span></a>
+                <a href="search/index.html" class="hover:text-white transition"><span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span></a>
+            </div>
+            <div class="text-sm text-stone-500 text-center md:text-right">
+                <span class="lang-en">&copy; 2026 Hong Kong Botanica. All rights reserved.</span>
+                <span class="lang-zh hidden">&copy; 2026 香港草木誌。保留所有權利。</span><br>
+                <span class="text-xs"><span class="lang-en">Images are for educational purposes.</span><span class="lang-zh hidden">圖片僅供教育用途。</span></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/hkb.js?v=3"></script>
+    <script src="js/taxa.js"></script>
+    <script>
+    (function hkbHeroDeck() {
+        const slides = [
+            "hkb-49562-habit-aerial-roots",
+            "hkb-55052-habit",
+            "hkb-58702-habit",
+            "hkb-49562-leaf-plate",
+            "hkb-55052-flower",
+            "hkb-58702-flower",
+            "hkb-55052-leaf",
+            "hkb-58702-leaf",
+            "hkb-49562-leaf-fig",
+            "hkb-55052-fruit",
+            "hkb-58702-fruit-bristles",
+            "hkb-55052-hypocotyl",
+            "hkb-58702-fruit-dehisced",
+            "hkb-49562-trunk",
+            "hkb-58702-stem-bristles"
+        ].map((id) => hkbPhotoUrl(id));
+        const track = document.getElementById("heroTrack");
+        const dots = document.getElementById("heroDots");
+        if (!track || !dots) return;
+        let i = 0;
+        let timer = 0;
+        track.innerHTML = slides.map((src) => `<div class="hero-slide"><img src="${src}" alt=""></div>`).join("");
+        dots.innerHTML = slides.map((_, n) => `<button type="button" data-slide="${n}" aria-label="Slide ${n + 1}"></button>`).join("");
+        function show(next) {
+            i = (next + slides.length) % slides.length;
+            track.style.transform = `translateX(-${i * 100}%)`;
+            dots.querySelectorAll("button").forEach((dot, n) => dot.classList.toggle("on", n === i));
+        }
+        function arm() {
+            clearInterval(timer);
+            if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+            timer = setInterval(() => show(i + 1), 5000);
+        }
+        document.getElementById("heroPrev").addEventListener("click", () => { show(i - 1); arm(); });
+        document.getElementById("heroNext").addEventListener("click", () => { show(i + 1); arm(); });
+        dots.addEventListener("click", (event) => {
+            const dot = event.target.closest("button");
+            if (!dot) return;
+            show(Number(dot.dataset.slide));
+            arm();
+        });
+        const deck = track.closest(".hero-deck");
+        deck.addEventListener("mouseenter", () => clearInterval(timer));
+        deck.addEventListener("mouseleave", arm);
+        document.addEventListener("keydown", (event) => {
+            if (event.target.matches("input, textarea")) return;
+            if (event.key === "ArrowLeft") { show(i - 1); arm(); }
+            else if (event.key === "ArrowRight") { show(i + 1); arm(); }
+        });
+        show(0);
+        arm();
+    })();
+    hkbLoadTaxa().then((data) => {
+        const n = (rank) => data.taxa.filter((t) => t.rank === rank).length;
+        const set = (id, value) => {
+            const el = document.getElementById(id);
+            if (el) el.textContent = hkbFormatCount(value);
+        };
+        set("statTaxa", data.n_taxa);
+        set("statSpecies", data.n_species);
+        set("statSpeciesZh", data.n_species);
+        set("statFamilies", data.n_families);
+        set("statOrders", data.n_orders);
+        set("statGenera", data.n_genera);
+        set("statVarieties", n("VARIETY"));
+        set("statSubspecies", n("SUBSPECIES"));
+        set("statForms", n("FORM"));
+        set("statCultivars", n("Cultivar"));
+        if (typeof applyLanguage === "function") applyLanguage();
+    });
+    </script>
+</body>
+</html>

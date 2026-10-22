@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- Old address. Sends detail.html?species=49562&language=en to 49562.html. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hong Kong Botanica</title>
+    <link rel="canonical" href="https://benjaminficusmicrocarpa.github.io/hkb/species/">
+    <script>
+        var params = new URLSearchParams(location.search);
+        var species = (params.get("species") || "").trim();
+        var lang = params.get("language");
+        if (lang !== "en" && lang !== "zh") {
+            lang = localStorage.getItem("hkb-lang") === "zh" ? "zh" : "en";
+        }
+        if (/^\d{5}$/.test(species)) {
+            location.replace(species + ".html?language=" + lang);
+        }
+    </script>
+</head>
+<body>
+    <p><a href="index.html">Species directory</a></p>
+</body>
+</html>

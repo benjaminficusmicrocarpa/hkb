@@ -1,0 +1,65 @@
+{
+  "note": "Directory index only: which taxa have a generated page, plus the card photo. Full text is in species/{blp}.html.",
+  "pages": {
+    "17001": {
+      "hero_id": "hkb-17001-habit"
+    },
+    "26103": {
+      "hero_id": "hkb-26103-habit"
+    },
+    "30100": {
+      "hero_id": "hkb-30100-habit"
+    },
+    "47180": {
+      "hero_id": "hkb-47180-habit"
+    },
+    "49562": {
+      "hero_id": "hkb-49562-habit-aerial-roots"
+    },
+    "55052": {
+      "hero_id": "hkb-55052-habit"
+    },
+    "55350": {
+      "hero_id": "hkb-55350-habit"
+    },
+    "55904": {
+      "hero_id": "hkb-55904-habit"
+    },
+    "55910": {
+      "hero_id": "hkb-55910-habit"
+    },
+    "56506": {
+      "hero_id": "hkb-56506-habit"
+    },
+    "58382": {
+      "hero_id": "hkb-58382-habit"
+    },
+    "58702": {
+      "hero_id": "hkb-58702-habit"
+    },
+    "61052": {
+      "hero_id": "hkb-61052-habit"
+    },
+    "61450": {
+      "hero_id": "hkb-61450-trunk"
+    },
+    "67415": {
+      "hero_id": "hkb-67415-habit"
+    },
+    "67609": {
+      "hero_id": "hkb-67609-habit"
+    },
+    "71045": {
+      "hero_id": "hkb-71045-habit"
+    },
+    "71834": {
+      "hero_id": "hkb-71834-habit"
+    },
+    "79200": {
+      "hero_id": "hkb-79200-habit"
+    },
+    "82051": {
+      "hero_id": "hkb-82051-habit"
+    }
+  }
+}

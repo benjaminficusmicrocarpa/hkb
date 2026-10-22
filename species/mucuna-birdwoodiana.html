@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="hkb-base" content="..">
+    <title>Mucuna birdwoodiana | Hong Kong Botanica</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hong Kong Botanica">
+    <meta property="og:title" content="Mucuna birdwoodiana | Hong Kong Botanica">
+    <meta property="og:description" content="Mucuna birdwoodiana in Hong Kong Botanica.">
+    <meta property="og:url" content="https://benjaminficusmicrocarpa.github.io/hkb/species/mucuna-birdwoodiana.html">
+    <meta property="og:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:secure_url" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Hong Kong Botanica">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mucuna birdwoodiana | Hong Kong Botanica">
+    <meta name="twitter:description" content="Mucuna birdwoodiana in Hong Kong Botanica.">
+    <meta name="twitter:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <link rel="icon" href="../hkb.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/hkb.css">
+    <script>
+        tailwind.config = {
+            theme: { extend: {
+                fontFamily: { sans: ['Roboto', 'Noto Sans TC', 'sans-serif'], serif: ['Playfair Display', 'Noto Serif TC', 'serif'] },
+                colors: { botanical: { light: '#82c07b', DEFAULT: '#4a8244', dark: '#2d5229', accent: '#d4af37' } }
+            }}
+        }
+    </script>
+</head>
+<body class="bg-stone-50 text-gray-800 font-sans antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="flex items-center gap-2.5 text-botanical-dark font-serif font-bold text-xl sm:text-2xl tracking-tight">
+                        <img src="../hkb.svg" alt="HKB" class="h-9 w-9">
+                        <span class="lang-en">Hong Kong Botanica</span>
+                        <span class="lang-zh hidden">香港草木誌</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 lg:space-x-8 text-sm lg:text-base">
+                    <a href="../species/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Species Directory</span>
+                        <span class="lang-zh hidden">物種目錄</span>
+                    </a>
+                    <a href="../families/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Families & Genera</span>
+                        <span class="lang-zh hidden">科屬分類</span>
+                    </a>
+                    <a style="display:none" href="../about/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">About</span>
+                        <span class="lang-zh hidden">關於本庫</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4 text-stone-500">
+                    <a href="../search/index.html" class="hover:text-botanical transition"><i class="fa-solid fa-search text-lg"></i></a>
+                    <button onclick="toggleLanguage()" class="hover:text-botanical transition font-bold text-sm px-2 py-1 rounded border border-stone-200 hover:border-botanical">
+                        <span class="lang-en">中</span>
+                        <span class="lang-zh hidden">EN</span>
+                    </button>
+                    <button onclick="openMobileNav()" class="md:hidden hover:text-botanical transition"><i class="fa-solid fa-bars text-xl"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE DRAWER -->
+    <div id="mobileOverlay" class="mobile-nav-overlay" onclick="closeMobileNav()"></div>
+    <div id="mobileDrawer" class="mobile-nav-drawer">
+        <div class="p-5 border-b border-stone-100 flex justify-between items-center">
+            <span class="font-serif font-bold text-lg text-botanical-dark">
+                <span class="lang-en">Menu</span><span class="lang-zh hidden">選單</span>
+            </span>
+            <button onclick="closeMobileNav()" class="text-stone-400 hover:text-stone-700"><i class="fa-solid fa-xmark text-xl"></i></button>
+        </div>
+        <div class="p-5 space-y-1">
+            <a href="../species/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-leaf w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Species Directory</span><span class="lang-zh hidden">物種目錄</span>
+            </a>
+            <a href="../families/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-sitemap w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Families & Genera</span><span class="lang-zh hidden">科屬分類</span>
+            </a>
+            <a style="display:none" href="../about/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-circle-info w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span>
+            </a>
+            <a href="../search/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-search w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span>
+            </a>
+        </div>
+        <div class="p-5 border-t border-stone-100">
+            <button onclick="toggleLanguage()" class="w-full px-4 py-3 rounded-lg border border-stone-200 text-stone-600 font-medium hover:border-botanical hover:text-botanical transition">
+                <span class="lang-en">切換中文</span><span class="lang-zh hidden">Switch to English</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <header class="species-hero bg-cover bg-center"
+            style="background-image: linear-gradient(135deg, rgba(20,60,30,0.7), rgba(40,80,50,0.5), rgba(15,35,20,0.85)), url('https://images.unsplash.com/photo-1621259020959-1ecf0117075c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
+            <div class="flex flex-col gap-3">
+                <div class="flex items-center gap-3">
+                    <span class="bg-emerald-600/90 backdrop-blur text-white text-xs font-bold px-3 py-1 rounded-full tracking-wide">
+                        <span class="lang-en">Native</span><span class="lang-zh hidden">原生</span>
+                    </span>
+                    <span class="bg-white/20 backdrop-blur text-white text-xs font-medium px-3 py-1 rounded-full">Fabaceae</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white italic drop-shadow-lg">
+                    Mucuna birdwoodiana
+                </h1>
+                <p class="text-xl md:text-2xl text-white/90 font-light">
+                    <span class="lang-en">Birdwood's Mucuna</span>
+                    <span class="lang-zh hidden">禾雀花 · 白花油麻藤</span>
+                </p>
+                <p class="text-lg text-white/70 font-serif">
+                    <span class="lang-en">Tutcher</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="animate-in">
+
+        <!-- BREADCRUMB -->
+        <section class="bg-white border-b border-stone-200 py-4">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <nav class="breadcrumb">
+                    <a href="../index.html"><i class="fa-solid fa-house text-xs"></i> <span class="lang-en">Home</span><span class="lang-zh hidden">首頁</span></a>
+                    <span class="separator"><i class="fa-solid fa-chevron-right text-[10px]"></i></span>
+                    <a href="index.html"><span class="lang-en">Species Directory</span><span class="lang-zh hidden">物種目錄</span></a>
+                    <span class="separator"><i class="fa-solid fa-chevron-right text-[10px]"></i></span>
+                    <span class="text-stone-900 font-medium italic">Mucuna birdwoodiana</span>
+                </nav>
+            </div>
+        </section>
+
+        <!-- CONTENT -->
+        <section class="py-10 md:py-14">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+
+                    <!-- LEFT COLUMN -->
+                    <div class="w-full lg:w-[60%] space-y-8">
+
+                        <!-- Taxonomy Card -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-sitemap text-botanical"></i>
+                                    <span class="lang-en">Taxonomic classification (APG IV)</span>
+                                    <span class="lang-zh hidden">分類（APG IV）</span>
+                                </h2>
+                            </div>
+                            <div class="p-6">
+                                <table class="w-full text-sm">
+                                    <tbody>
+                                        <tr class="border-b border-stone-100">
+                                            <td class="py-2.5 pr-4 text-stone-500 font-medium w-32"><span class="lang-en">Kingdom</span><span class="lang-zh hidden">界</span></td>
+                                            <td class="py-2.5 text-stone-800">Plantae</td>
+                                        </tr>
+                                        <tr class="border-b border-stone-100">
+                                            <td class="py-2.5 pr-4 text-stone-500 font-medium"><span class="lang-en">Division</span><span class="lang-zh hidden">門</span></td>
+                                            <td class="py-2.5 text-stone-800">Magnoliophyta</td>
+                                        </tr>
+                                        <tr class="border-b border-stone-100">
+                                            <td class="py-2.5 pr-4 text-stone-500 font-medium"><span class="lang-en">Class</span><span class="lang-zh hidden">綱</span></td>
+                                            <td class="py-2.5 text-stone-800">Magnoliopsida</td>
+                                        </tr>
+                                        <tr class="border-b border-stone-100">
+                                            <td class="py-2.5 pr-4 text-stone-500 font-medium"><span class="lang-en">Order</span><span class="lang-zh hidden">目</span></td>
+                                            <td class="py-2.5 text-stone-800">Fabales</td>
+                                        </tr>
+                                        <tr class="border-b border-stone-100">
+                                            <td class="py-2.5 pr-4 text-stone-500 font-medium"><span class="lang-en">Family</span><span class="lang-zh hidden">科</span></td>
+                                            <td class="py-2.5 text-stone-800 font-medium">Fabaceae</td>
+                                        </tr>
+                                        <tr class="border-b border-stone-100">
+                                            <td class="py-2.5 pr-4 text-stone-500 font-medium"><span class="lang-en">Genus</span><span class="lang-zh hidden">屬</span></td>
+                                            <td class="py-2.5 text-stone-800 italic">Mucuna</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-2.5 pr-4 text-stone-500 font-medium"><span class="lang-en">Species</span><span class="lang-zh hidden">種</span></td>
+                                            <td class="py-2.5 text-stone-800 italic">M. birdwoodiana</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Plant morphology -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-seedling text-botanical"></i>
+                                    <span class="lang-en">Plant morphology</span>
+                                    <span class="lang-zh hidden">植物形態</span>
+                                </h2>
+                            </div>
+                            <div class="p-6 space-y-6 text-stone-700 leading-relaxed text-sm">
+                                <div>
+                                    <h3 class="font-serif font-bold text-stone-900 text-base mb-3">
+                                        <span class="lang-en">General Habit</span>
+                                        <span class="lang-zh hidden">一般習性</span>
+                                    </h3>
+                                    <div class="space-y-4">
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1"><span class="lang-en">Growth Form</span><span class="lang-zh hidden">生長形態</span></div>
+                                            <p class="lang-en">Large woody climber.</p>
+                                            <p class="lang-zh hidden">大型木質藤本。</p>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1">Stem Characteristics</div>
+                                            <p class="lang-en">Exudes white juice when hurt that quickly turns red; transverse section of stem is red-brown with 3–4 obliquely concentric circles.</p>
+                                            <p class="lang-zh hidden">受傷時先流出白色汁液，隨後迅速變紅；莖橫切面呈紅褐色，具 3–4 個斜向的同心圓環。</p>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1"><span class="lang-en">Special Notes</span><span class="lang-zh hidden">備註</span></div>
+                                            <p class="lang-en">Common in Hong Kong forests. Type specimen was collected from Mount Parker by W. J. Tutcher in 1903. Medicinal and ornamental uses.</p>
+                                            <p class="lang-zh hidden">常見於香港林地。模式標本由 W. J. Tutcher 於 1903 年在柏架山採集。具藥用及觀賞價值。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-t border-stone-100 pt-6">
+                                    <h3 class="font-serif font-bold text-stone-900 text-base mb-3">
+                                        <span class="lang-en">Leaves</span>
+                                        <span class="lang-zh hidden">葉</span>
+                                    </h3>
+                                    <div class="space-y-4">
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1"><span class="lang-en">Shape</span><span class="lang-zh hidden">形狀</span></div>
+                                            <p class="lang-en">Pinnately 3-foliolate. Terminal leaflets elliptic, ovate, or ± obovate with rounded or cuneate base and caudate-acuminate apex; lateral leaflets oblique at base.</p>
+                                            <p class="lang-zh hidden">羽狀三出複葉。頂生小葉呈橢圓形、卵形或略倒卵形，基部圓形或楔形，先端尾狀漸尖；側生小葉基部偏斜。</p>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1"><span class="lang-en">Size</span><span class="lang-zh hidden">大小</span></div>
+                                            <p class="lang-en">Terminal leaflets 3–16 cm long and 2–6 cm wide; acumen (tip) 1.3–2 cm.</p>
+                                            <p class="lang-zh hidden">頂生小葉長 3–16 厘米，闊 2–6 厘米；漸尖頭長 1.3–2 厘米。</p>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1"><span class="lang-en">Texture</span><span class="lang-zh hidden">質地</span></div>
+                                            <p class="lang-en">Subleathery; glabrous or sparsely pubescent.</p>
+                                            <p class="lang-zh hidden">近革質；無毛或疏生短柔毛。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-t border-stone-100 pt-6">
+                                    <h3 class="font-serif font-bold text-stone-900 text-base mb-3">
+                                        <span class="lang-en">Flowers</span>
+                                        <span class="lang-zh hidden">花</span>
+                                    </h3>
+                                    <div class="space-y-4">
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1"><span class="lang-en">Inflorescence</span><span class="lang-zh hidden">花序</span></div>
+                                            <p class="lang-en">Axillary racemes or borne on old branches, 20–38 cm long, with 2–3 flowers on each node. Campanulate calyx with rusty pubescence.</p>
+                                            <p class="lang-zh hidden">總狀花序腋生或生於老枝上，長 20–38 厘米，每節具 2–3 朵花。鐘狀花萼被鏽色短柔毛。</p>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1">Corolla Appearance</div>
+                                            <p class="lang-en">Greyish white. Vexillum ovate-orbicular (3.5–4 cm); wings (6–7 cm); keel narrowly winged and brown pubescent (7.5–8.7 cm).</p>
+                                            <p class="lang-zh hidden">花冠灰白色。旗瓣卵狀圓形（長 3.5–4 厘米）；翼瓣（長 6–7 厘米）；龍骨瓣具狹翅及棕色短柔毛（長 7.5–8.7 厘米）。</p>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1"><span class="lang-en">Flowering Period</span><span class="lang-zh hidden">花期</span></div>
+                                            <p class="lang-en">April to June.</p>
+                                            <p class="lang-zh hidden">4 月至 6 月。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-t border-stone-100 pt-6">
+                                    <h3 class="font-serif font-bold text-stone-900 text-base mb-3">
+                                        <span class="lang-en">Fruits</span>
+                                        <span class="lang-zh hidden">果</span>
+                                    </h3>
+                                    <div class="space-y-4">
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1">Type &amp; Characteristics</div>
+                                            <p class="lang-en">Leathery, loriform (strap-shaped) pod, densely rusty-pubescent, with 2 narrow wings along sutures, slightly constricted between seeds.</p>
+                                            <p class="lang-zh hidden">革質帶狀莢果，密被鏽色短柔毛，沿縫線具 2 條狹翅，種子間微縊縮。</p>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1">Size &amp; Seed Count</div>
+                                            <p class="lang-en">30–45 cm long, 3.5–4 cm wide. Contains 5–13 seeds.</p>
+                                            <p class="lang-zh hidden">長 30–45 厘米，闊 3.5–4 厘米。內含 5–13 顆種子。</p>
+                                        </div>
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1"><span class="lang-en">Fruiting Period</span><span class="lang-zh hidden">果期</span></div>
+                                            <p class="lang-en">June to November.</p>
+                                            <p class="lang-zh hidden">6 月至 11 月。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-t border-stone-100 pt-6">
+                                    <h3 class="font-serif font-bold text-stone-900 text-base mb-3">
+                                        <span class="lang-en">Seeds</span>
+                                        <span class="lang-zh hidden">種子</span>
+                                    </h3>
+                                    <div class="space-y-4">
+                                        <div>
+                                            <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1">Appearance &amp; Size</div>
+                                            <p class="lang-en">Suborbicular, purple-black, shining. 2.8–3 cm long and 2–2.5 cm wide. Poisonous.</p>
+                                            <p class="lang-zh hidden">近圓形，紫黑色具光澤。長 2.8–3 厘米，闊 2–2.5 厘米。有毒。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ecology -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-leaf text-botanical"></i>
+                                    <span class="lang-en">Ecology</span>
+                                    <span class="lang-zh hidden">生態學</span>
+                                </h2>
+                            </div>
+                            <div class="p-6">
+                                <ul class="list-disc list-inside space-y-3 text-stone-700 leading-relaxed">
+                                    <li>Native to Hong Kong and South China (Fujian, Guangdong, Guangxi, Guizhou, Jiangxi, Sichuan) in dense or open woodlands, rocky areas, and moist valleys at altitudes of 800–2500 m.</li>
+                                    <li>Primary pollinators are non-flying mammals, specifically Masked palm civets (<em>Paguma larvata</em>) and Pallas's squirrels (<em>Callosciurus erythraeus styani</em>).</li>
+                                    <li>Reproduction relies strictly on "explosive opening" of petals triggered by physical manipulation from mammals; unopened flowers do not fructify.</li>
+                                    <li>Secretes sucrose-dominant nectar continuously, with no variation in nectar volume or sugar concentration throughout the day or night to maximize mammalian attraction.</li>
+                                    <li>Woody climbing vines grow up to 15 cm in diameter, providing sufficient structural support to carry arboreal mammals weighing up to 6 kg.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Landscape Architecture -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-draw-polygon text-botanical"></i>
+                                    <span class="lang-en">Landscape Architecture</span>
+                                    <span class="lang-zh hidden">景觀設計</span>
+                                </h2>
+                            </div>
+                            <div class="p-6">
+                                <ul class="list-disc list-inside space-y-3 text-stone-700 leading-relaxed">
+                                    <li>Classified as a large, evergreen climbing vine suitable for hillside, slope, and hanging plant designs.</li>
+                                    <li>Produces hanging inflorescences 20–38 cm long, each bearing 12–40 pale green, yellow, or white flowers measuring 7.5–9 cm tall.</li>
+                                    <li>Foliage consists of leathery, glossy, glabrous leaves measuring 17–30 cm long with 8–20 cm petioles.</li>
+                                    <li>Flowering occurs from March to June, with fruit production from June to November.</li>
+                                    <li>Requires robust vertical supports capable of sustaining heavy, thick woody lianas up to 15 cm in diameter.</li>
+                                    <li>Produces woody legumes 30–45 cm long, 3.5–4.5 cm wide, and 1–1.5 cm thick, covered in fine, reddish-brown irritant hairs that require careful spatial planning away from contact zones.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Urban Forestry -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-city text-botanical"></i>
+                                    <span class="lang-en">Urban Forestry</span>
+                                    <span class="lang-zh hidden">城市林業</span>
+                                </h2>
+                            </div>
+                            <div class="p-6">
+                                <ul class="list-disc list-inside space-y-3 text-stone-700 leading-relaxed">
+                                    <li>Best deployed in peripheral urban woodlands, ravines, and conservation parks rather than high-traffic pedestrian areas due to poisonous seeds and irritant pod hairs.</li>
+                                    <li>Functions as a critical biodiversity enhancer in urban patches, as its large nectar volumes sustain local non-flying urban mammal populations like civets and squirrels.</li>
+                                    <li>Requires existing mature canopy trees or heavy infrastructure to support vertical climbing habit.</li>
+                                    <li>Maintenance personnel must be aware that cutting or damaging the stem releases a white sap that rapidly oxidizes to a red-brown colour.</li>
+                                    <li>Can aggressively festoon woodland canopies, requiring monitoring to prevent excessive structural loading on host trees.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Phytosociology -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-people-group text-botanical"></i>
+                                    <span class="lang-en">Phytosociology</span>
+                                    <span class="lang-zh hidden">植群生態學</span>
+                                </h2>
+                            </div>
+                            <div class="p-6">
+                                <ul class="list-disc list-inside space-y-3 text-stone-700 leading-relaxed">
+                                    <li>Belongs to the Fabaceae family, specifically placed in <em>Mucuna</em> subg. <em>Macrocarpa</em>, characterized by long ovaries, numerous seeds per legume, and linear, woody epicarps.</li>
+                                    <li>Dominates as a canopy liana in broadleaved evergreen forests and valley ecosystems across South China.</li>
+                                    <li>Shares overlapping spatial distribution and flowering phenology with sympatric species <em>Mucuna championii</em> in regions like Hong Kong, maintaining segregation through distinct pollinator interactions.</li>
+                                    <li>Lacks persistent stipels, separating it phenotypically from other regional vines.</li>
+                                    <li>Acts as a structural link between the understory and upper canopy, providing vital arboreal pathways.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Ethnobotany -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-mortar-pestle text-botanical"></i>
+                                    <span class="lang-en">Ethnobotany</span>
+                                    <span class="lang-zh hidden">民族植物學</span>
+                                </h2>
+                            </div>
+                            <div class="p-6">
+                                <ul class="list-disc list-inside space-y-3 text-stone-700 leading-relaxed">
+                                    <li>Seeds are traditionally processed for medicinal applications to treat joint pain and irregular menstruation.</li>
+                                    <li>Utilized historically as a source of starch, though seeds are noted as poisonous and require specific local processing.</li>
+                                    <li>Colloquially known as the "Rice Bird Flower" (禾雀花) because its floral morphology-pale yellow vexillum, lateral wings, and curled tail-like petals-mimics the Yellow-breasted Bunting (<em>Emberiza aureola</em>).</li>
+                                    <li>Tied to Chinese folklore involving Iron-Crutch Li of the Eight Immortals, corresponding its blooming period with the Ching Ming Festival.</li>
+                                    <li>The stems yield a red-brown transverse section with 3-4 obliquely concentric circles, historically noted by local gatherers.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- References -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-bookmark text-botanical"></i>
+                                    <span class="lang-en">References</span>
+                                    <span class="lang-zh hidden">參考文獻</span>
+                                </h2>
+                            </div>
+                            <div class="p-6">
+                                <ol class="list-decimal list-inside space-y-3 text-sm text-stone-600 leading-relaxed">
+                                    <li>Chiang, K., Huang, Y., &amp; De Moura, T. M. (2020). <em>Mucuna guangxiensis</em>, a new species of <em>Mucuna</em> subg. <em>Macrocarpa</em> (Leguminosae-Papilionoideae) from China. <em>Phytotaxa</em>.</li>
+                                    <li>Chung, P. (2016). Hong Kong's Wild Stars | Birdwood's Mucuna - Dangling "Birds" on a Tree. <em>Green Country</em>, 118. Green Power.</li>
+                                    <li>Coates, G. S. (2025). <em>HK Digital Arboretum</em>. The University of Hong Kong, Division of Landscape Architecture.</li>
+                                    <li>eFloras. (n.d.). <em>Mucuna birdwoodiana</em> Tutcher. <em>Flora of China</em>, 10, 211.</li>
+                                    <li>HK Herbarium. (2008). <em>Mucuna birdwoodiana</em> Tutcher. <em>Flora of Hong Kong</em>, 2.</li>
+                                    <li>Kadoorie Farm and Botanic Garden. (n.d.). <em>Birdwood's Mucuna</em>.</li>
+                                    <li>Kobayashi, S., Gale, S. W., Denda, T., &amp; Izawa, M. (2019). Civet pollination in <em>Mucuna birdwoodiana</em> (Fabaceae: Papilionoideae). <em>Plant Ecology</em>, 220(4-5), 457-466.</li>
+                                    <li>Kobayashi, S., Gale, S. W., Denda, T., &amp; Izawa, M. (2020). Rat- and bat-pollination of <em>Mucuna championii</em> (Fabaceae) in Hong Kong. <em>Plant Species Biology</em>.</li>
+                                    <li>Natarajan, K., Narayanan, N., &amp; Natesan, R. (2012). Review on "Mucuna" - The wonder plant. <em>International Journal of Pharmaceutical Sciences Review and Research</em>, 17(1), 86-93.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT COLUMN (SIDEBAR) -->
+                    <div class="w-full lg:w-[40%] space-y-6">
+
+                        <!-- Quick Facts Card -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-botanical-dark text-white">
+                                <h2 class="font-serif font-bold text-lg flex items-center gap-2">
+                                    <i class="fa-solid fa-clipboard-list"></i>
+                                    <span class="lang-en">Quick Facts</span>
+                                    <span class="lang-zh hidden">速覽</span>
+                                </h2>
+                            </div>
+                            <div class="p-6 space-y-5">
+                                <div class="flex items-start gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-vine"></i></div>
+                                    <div>
+                                        <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider"><span class="lang-en">Growth Form</span><span class="lang-zh hidden">生長形態</span></div>
+                                        <div class="text-stone-800 font-medium"><span class="lang-en">Large woody climber</span><span class="lang-zh hidden">大型木質藤本</span></div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-pink-50 text-pink-600 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-flower-tulip"></i></div>
+                                    <div class="w-full">
+                                        <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1.5"><span class="lang-en">Flowering Period</span><span class="lang-zh hidden">花期</span></div>
+                                        <div class="text-stone-800 font-medium text-sm mb-2"><span class="lang-en">April – June</span><span class="lang-zh hidden">4 月至 6 月</span></div>
+                                        <div id="phenology-mucuna"></div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-orange-50 text-orange-600 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-apple-whole"></i></div>
+                                    <div>
+                                        <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider"><span class="lang-en">Fruiting Period</span><span class="lang-zh hidden">果期</span></div>
+                                        <div class="text-stone-800 font-medium"><span class="lang-en">June – November</span><span class="lang-zh hidden">6 月至 11 月</span></div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-sun"></i></div>
+                                    <div>
+                                        <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider"><span class="lang-en">Light</span><span class="lang-zh hidden">光照</span></div>
+                                        <div class="text-stone-800 font-medium">Canopy access with robust support</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-droplet"></i></div>
+                                    <div>
+                                        <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider"><span class="lang-en">Water</span><span class="lang-zh hidden">水分</span></div>
+                                        <div class="text-stone-800 font-medium">Moist soil</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-red-50 text-red-600 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-temperature-half"></i></div>
+                                    <div>
+                                        <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider"><span class="lang-en">Temperature</span><span class="lang-zh hidden">溫度</span></div>
+                                        <div class="text-stone-800 font-medium">Subtropical warm forest</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <div class="w-9 h-9 rounded-lg bg-yellow-50 text-yellow-700 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-skull-crossbones"></i></div>
+                                    <div>
+                                        <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider"><span class="lang-en">Toxicity</span><span class="lang-zh hidden">毒性</span></div>
+                                        <div class="text-stone-800 font-medium">Toxic <span class="text-xs text-stone-400">(poisonous seeds; irritant pod hairs)</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Attribute Pills -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-tags text-botanical"></i>
+                                    <span class="lang-en">Attributes</span>
+                                    <span class="lang-zh hidden">屬性標籤</span>
+                                </h2>
+                            </div>
+                            <div class="p-6 flex flex-wrap gap-2">
+                                <span class="attr-pill growth-form"><i class="fa-solid fa-vine text-[10px]"></i> Canopy Liana</span>
+                                <span class="attr-pill growth-form"><i class="fa-solid fa-seedling text-[10px]"></i> Heavy Climber</span>
+                                <span class="attr-pill light"><i class="fa-solid fa-tree text-[10px]"></i> Forest Canopy Access</span>
+                                <span class="attr-pill light"><i class="fa-solid fa-link text-[10px]"></i> Needs Strong Support</span>
+                                <span class="attr-pill water"><i class="fa-solid fa-droplet text-[10px]"></i> Moist Soil</span>
+                                <span class="attr-pill temperature"><i class="fa-solid fa-temperature-half text-[10px]"></i> Subtropical Warmth</span>
+                                <span class="attr-pill soil"><i class="fa-solid fa-mountain text-[10px]"></i> Ravines & Woodland Edges</span>
+                                <span class="attr-pill caution"><i class="fa-solid fa-skull-crossbones text-[10px]"></i> Toxic Seeds</span>
+                                <span class="attr-pill habitat"><i class="fa-solid fa-tree text-[10px]"></i> Ravine Forest</span>
+                            </div>
+                        </div>
+
+                        <!-- Names Card -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-language text-botanical"></i>
+                                    <span class="lang-en">Names</span>
+                                    <span class="lang-zh hidden">名稱</span>
+                                </h2>
+                            </div>
+                            <div class="p-6 space-y-4">
+                                <div>
+                                    <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1">Scientific Name</div>
+                                    <div class="text-stone-900 font-serif italic text-lg">Mucuna birdwoodiana <span class="not-italic text-stone-500 text-sm">Tutcher</span></div>
+                                </div>
+                                <div class="border-t border-stone-100 pt-4">
+                                    <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1.5">中文名 Chinese Names</div>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="bg-stone-100 text-stone-700 px-3 py-1 rounded-full text-sm font-medium">禾雀花</span>
+                                        <span class="bg-stone-100 text-stone-700 px-3 py-1 rounded-full text-sm font-medium">白花油麻藤</span>
+                                        <span class="bg-stone-100 text-stone-700 px-3 py-1 rounded-full text-sm font-medium">老人根</span>
+                                        <span class="bg-stone-100 text-stone-700 px-3 py-1 rounded-full text-sm font-medium">亮葉崖豆藤</span>
+                                        <span class="bg-stone-100 text-stone-700 px-3 py-1 rounded-full text-sm font-medium">亮葉雞血藤</span>
+                                        <span class="bg-stone-100 text-stone-700 px-3 py-1 rounded-full text-sm font-medium">勃氏黧豆</span>
+                                    </div>
+                                </div>
+                                <div class="border-t border-stone-100 pt-4">
+                                    <div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1.5">English Names</div>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="bg-stone-100 text-stone-700 px-3 py-1 rounded-full text-sm font-medium">Birdwood's Mucuna</span>
+                                        <span class="bg-stone-100 text-stone-700 px-3 py-1 rounded-full text-sm font-medium">Glittering-leaved Millettia</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Related Species -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden">
+                            <div class="px-6 py-4 bg-stone-50 border-b border-stone-200">
+                                <h2 class="font-serif font-bold text-lg text-stone-900 flex items-center gap-2">
+                                    <i class="fa-solid fa-code-branch text-botanical"></i>
+                                    <span class="lang-en">Related Species</span>
+                                    <span class="lang-zh hidden">近緣物種</span>
+                                </h2>
+                            </div>
+                            <div class="divide-y divide-stone-100">
+                                <a href="#" class="flex items-center gap-4 px-6 py-4 hover:bg-stone-50 transition group">
+                                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-teal-200 to-green-100 flex items-center justify-center flex-shrink-0">
+                                        <i class="fa-solid fa-vine text-teal-400"></i>
+                                    </div>
+                                    <div class="flex-grow min-w-0">
+                                        <div class="font-serif font-bold text-stone-900 italic group-hover:text-botanical transition truncate">Mucuna macrocarpa</div>
+                                        <div class="text-sm text-stone-500"><span class="lang-en">Large-fruited Mucuna</span><span class="lang-zh hidden">大果油麻藤</span> · Fabaceae</div>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right text-stone-300 text-xs"></i>
+                                </a>
+                                <a href="#" class="flex items-center gap-4 px-6 py-4 hover:bg-stone-50 transition group">
+                                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-200 to-lime-100 flex items-center justify-center flex-shrink-0">
+                                        <i class="fa-solid fa-vine text-emerald-400"></i>
+                                    </div>
+                                    <div class="flex-grow min-w-0">
+                                        <div class="font-serif font-bold text-stone-900 italic group-hover:text-botanical transition truncate">Mucuna sempervirens</div>
+                                        <div class="text-sm text-stone-500"><span class="lang-en">Evergreen Mucuna</span><span class="lang-zh hidden">常春油麻藤</span> · Fabaceae</div>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right text-stone-300 text-xs"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-900 text-stone-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3 text-white">
+                <img src="../hkb.svg" alt="" class="h-8 w-8 opacity-80">
+                <span class="font-serif font-bold text-xl">
+                    <span class="lang-en">Hong Kong Botanica</span><span class="lang-zh hidden">香港草木誌</span>
+                </span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-medium">
+                <a href="../species/index.html" class="hover:text-white transition"><span class="lang-en">Species List</span><span class="lang-zh hidden">物種名錄</span></a>
+                <a href="../families/index.html" class="hover:text-white transition"><span class="lang-en">Taxonomy Guide</span><span class="lang-zh hidden">分類指南</span></a>
+                <a style="display:none" href="../about/index.html" class="hover:text-white transition"><span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span></a>
+                <a href="../search/index.html" class="hover:text-white transition"><span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span></a>
+            </div>
+            <div class="text-sm text-stone-500 text-center md:text-right">
+                <span class="lang-en">&copy; 2026 Hong Kong Botanica. All rights reserved.</span>
+                <span class="lang-zh hidden">&copy; 2026 香港草木誌。保留所有權利。</span><br>
+                <span class="text-xs"><span class="lang-en">Images are for educational purposes.</span><span class="lang-zh hidden">圖片僅供教育用途。</span></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/hkb.js?v=3"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const el = document.getElementById('phenology-mucuna');
+        if (el) renderPhenologyBar('4-6', '6-11', el);
+    });
+    </script>
+</body>
+</html>

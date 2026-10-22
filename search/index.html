@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        const q = new URLSearchParams(location.search).get("q");
+        location.replace("../species/index.html" + (q ? "?q=" + encodeURIComponent(q) : ""));
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="hkb-base" content="..">
+    <title>Search | Hong Kong Botanica</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hong Kong Botanica">
+    <meta property="og:title" content="Search | Hong Kong Botanica">
+    <meta property="og:description" content="Search Hong Kong Botanica.">
+    <meta property="og:url" content="https://benjaminficusmicrocarpa.github.io/hkb/search/index.html">
+    <meta property="og:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:secure_url" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Hong Kong Botanica">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Search | Hong Kong Botanica">
+    <meta name="twitter:description" content="Search Hong Kong Botanica.">
+    <meta name="twitter:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <link rel="icon" href="../hkb.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/hkb.css">
+    <script>
+        tailwind.config = {
+            theme: { extend: {
+                fontFamily: { sans: ['Roboto', 'Noto Sans TC', 'sans-serif'], serif: ['Playfair Display', 'Noto Serif TC', 'serif'] },
+                colors: { botanical: { light: '#82c07b', DEFAULT: '#4a8244', dark: '#2d5229', accent: '#d4af37' } }
+            }}
+        }
+    </script>
+</head>
+<body class="bg-stone-50 text-gray-800 font-sans antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="flex items-center gap-2.5 text-botanical-dark font-serif font-bold text-xl sm:text-2xl tracking-tight">
+                        <img src="../hkb.svg" alt="HKB" class="h-9 w-9">
+                        <span class="lang-en">Hong Kong Botanica</span>
+                        <span class="lang-zh hidden">香港草木誌</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 lg:space-x-8 text-sm lg:text-base">
+                    <a href="../species/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Species Directory</span>
+                        <span class="lang-zh hidden">物種目錄</span>
+                    </a>
+                    <a href="../families/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Families & Genera</span>
+                        <span class="lang-zh hidden">科屬分類</span>
+                    </a>
+                    <a style="display:none" href="../about/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">About</span>
+                        <span class="lang-zh hidden">關於本庫</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4 text-stone-500">
+                    <a href="../search/index.html" class="text-botanical transition"><i class="fa-solid fa-search text-lg"></i></a>
+                    <button onclick="toggleLanguage()" class="hover:text-botanical transition font-bold text-sm px-2 py-1 rounded border border-stone-200 hover:border-botanical">
+                        <span class="lang-en">中</span>
+                        <span class="lang-zh hidden">EN</span>
+                    </button>
+                    <button onclick="openMobileNav()" class="md:hidden hover:text-botanical transition"><i class="fa-solid fa-bars text-xl"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE DRAWER -->
+    <div id="mobileOverlay" class="mobile-nav-overlay" onclick="closeMobileNav()"></div>
+    <div id="mobileDrawer" class="mobile-nav-drawer">
+        <div class="p-5 border-b border-stone-100 flex justify-between items-center">
+            <span class="font-serif font-bold text-lg text-botanical-dark">
+                <span class="lang-en">Menu</span><span class="lang-zh hidden">選單</span>
+            </span>
+            <button onclick="closeMobileNav()" class="text-stone-400 hover:text-stone-700"><i class="fa-solid fa-xmark text-xl"></i></button>
+        </div>
+        <div class="p-5 space-y-1">
+            <a href="../species/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-leaf w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Species Directory</span><span class="lang-zh hidden">物種目錄</span>
+            </a>
+            <a href="../families/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-sitemap w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Families & Genera</span><span class="lang-zh hidden">科屬分類</span>
+            </a>
+            <a style="display:none" href="../about/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-circle-info w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span>
+            </a>
+            <a href="../search/index.html" class="block px-4 py-3 rounded-lg text-botanical bg-botanical/10 font-medium transition">
+                <i class="fa-solid fa-search w-6 text-center mr-2"></i>
+                <span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span>
+            </a>
+        </div>
+        <div class="p-5 border-t border-stone-100">
+            <button onclick="toggleLanguage()" class="w-full px-4 py-3 rounded-lg border border-stone-200 text-stone-600 font-medium hover:border-botanical hover:text-botanical transition">
+                <span class="lang-en">切換中文</span><span class="lang-zh hidden">Switch to English</span>
+            </button>
+        </div>
+    </div>
+
+    <main>
+        <!-- SEARCH HEADER -->
+        <section class="bg-white border-b border-stone-200 pt-16 pb-12">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+                <div class="inline-flex items-center gap-2 text-botanical font-bold tracking-wider uppercase text-sm mb-4">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span class="lang-en">Explore the Database</span>
+                    <span class="lang-zh hidden">探索數據庫</span>
+                </div>
+                <h1 class="text-3xl md:text-5xl font-serif font-bold text-stone-900 mb-3">
+                    <span class="lang-en">Search the Botanica</span>
+                    <span class="lang-zh hidden">搜尋草木誌</span>
+                </h1>
+                <p class="text-stone-500 text-base md:text-lg mb-10">
+                    <span class="lang-en">Search <span id="searchSpeciesCount">4,141</span> species by scientific name, common name, or family</span>
+                    <span class="lang-zh hidden">透過學名、俗名或科名搜尋 <span id="searchSpeciesCountZh">4,141</span> 個物種</span>
+                </p>
+
+                <div class="relative max-w-2xl mx-auto">
+                    <div class="flex items-center bg-white border-2 border-stone-300 rounded-xl shadow-lg focus-within:border-botanical focus-within:ring-4 focus-within:ring-botanical/15 transition-all duration-200">
+                        <i class="fa-solid fa-magnifying-glass text-stone-400 ml-5 text-lg"></i>
+                        <input id="searchInput" type="text" autocomplete="off" autofocus
+                               data-placeholder-en="Type a name, e.g. Bauhinia, 洋紫荊, Orchidaceae…"
+                               data-placeholder-zh="輸入名稱，例如 Bauhinia、洋紫荊、Orchidaceae…"
+                               placeholder="Type a name, e.g. Bauhinia, 洋紫荊, Orchidaceae…"
+                               class="flex-grow px-4 py-4 md:py-5 text-stone-800 outline-none text-base md:text-lg font-sans placeholder-stone-400 bg-transparent min-w-0">
+                        <button id="clearBtn" class="hidden mr-2 text-stone-400 hover:text-stone-600 transition p-2" title="Clear">
+                            <i class="fa-solid fa-xmark text-lg"></i>
+                        </button>
+                        <kbd class="hidden sm:inline-block mr-4 text-xs text-stone-400 border border-stone-200 rounded px-1.5 py-0.5 font-mono whitespace-nowrap">Esc</kbd>
+                    </div>
+                </div>
+
+                <!-- Popular searches -->
+                <div id="popularSearches" class="mt-6 flex flex-wrap items-center justify-center gap-2">
+                    <span class="text-sm text-stone-400 mr-1">
+                        <span class="lang-en">Popular:</span>
+                        <span class="lang-zh hidden">熱門:</span>
+                    </span>
+                    <button class="search-pill" data-query="Bauhinia">Bauhinia</button>
+                    <button class="search-pill" data-query="Ficus">Ficus</button>
+                    <button class="search-pill" data-query="Orchidaceae">Orchidaceae</button>
+                    <button class="search-pill" data-query="Rhododendron">Rhododendron</button>
+                    <button class="search-pill" data-query="Hibiscus">Hibiscus</button>
+                    <button class="search-pill" data-query="Bamboo">Bamboo</button>
+                    <button class="search-pill" data-query="Camellia">Camellia</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESULTS AREA -->
+        <section class="py-10">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6">
+                <!-- Results count -->
+                <div id="resultsCount" class="hidden mb-6 text-sm text-stone-500 font-medium"></div>
+
+                <!-- Results list -->
+                <div id="resultsList"></div>
+
+                <!-- No results -->
+                <div id="noResults" class="hidden text-center py-20">
+                    <div class="w-20 h-20 mx-auto bg-stone-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-leaf text-3xl text-stone-300"></i>
+                    </div>
+                    <h3 class="text-xl font-serif font-bold text-stone-700 mb-2">
+                        <span class="lang-en">No species found</span>
+                        <span class="lang-zh hidden">找不到相關物種</span>
+                    </h3>
+                    <p class="text-stone-500 mb-6 max-w-md mx-auto">
+                        <span class="lang-en">Try searching with a different spelling, or browse by category below.</span>
+                        <span class="lang-zh hidden">請嘗試使用不同的拼寫，或瀏覽以下分類。</span>
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <button class="search-pill" data-query="Bauhinia">Bauhinia</button>
+                        <button class="search-pill" data-query="Orchidaceae">Orchidaceae</button>
+                        <button class="search-pill" data-query="Ficus">Ficus</button>
+                        <button class="search-pill" data-query="Camellia">Camellia</button>
+                    </div>
+                </div>
+
+                <!-- Empty/browse state -->
+                <div id="browseState" class="py-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Browse by Growth Form -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm p-6">
+                            <h3 class="text-sm font-bold text-stone-400 uppercase tracking-wider mb-4">
+                                <i class="fa-solid fa-layer-group mr-1.5"></i>
+                                <span class="lang-en">Browse by Growth Form</span>
+                                <span class="lang-zh hidden">按生長型瀏覽</span>
+                            </h3>
+                            <div class="space-y-2">
+                                <a href="../species/index.html#trees" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="flex items-center gap-3">
+                                        <i class="fa-solid fa-tree text-botanical w-5 text-center"></i>
+                                        <span class="font-medium text-stone-700 group-hover:text-botanical transition">
+                                            <span class="lang-en">Trees</span><span class="lang-zh hidden">喬木</span>
+                                        </span>
+                                    </span>
+                                    <span class="text-sm text-stone-400 font-mono">542</span>
+                                </a>
+                                <a href="../species/index.html#shrubs" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="flex items-center gap-3">
+                                        <i class="fa-solid fa-seedling text-botanical w-5 text-center"></i>
+                                        <span class="font-medium text-stone-700 group-hover:text-botanical transition">
+                                            <span class="lang-en">Shrubs</span><span class="lang-zh hidden">灌木</span>
+                                        </span>
+                                    </span>
+                                    <span class="text-sm text-stone-400 font-mono">733</span>
+                                </a>
+                                <a href="../species/index.html#herbs" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="flex items-center gap-3">
+                                        <i class="fa-solid fa-spa text-botanical w-5 text-center"></i>
+                                        <span class="font-medium text-stone-700 group-hover:text-botanical transition">
+                                            <span class="lang-en">Herbs</span><span class="lang-zh hidden">草本</span>
+                                        </span>
+                                    </span>
+                                    <span class="text-sm text-stone-400 font-mono">2,000</span>
+                                </a>
+                                <a href="../species/index.html#climbers" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="flex items-center gap-3">
+                                        <i class="fa-solid fa-vine text-botanical w-5 text-center"></i>
+                                        <span class="font-medium text-stone-700 group-hover:text-botanical transition">
+                                            <span class="lang-en">Climbers</span><span class="lang-zh hidden">藤本</span>
+                                        </span>
+                                    </span>
+                                    <span class="text-sm text-stone-400 font-mono">413</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Browse by Family -->
+                        <div class="bg-white rounded-xl border border-stone-200 shadow-sm p-6">
+                            <h3 class="text-sm font-bold text-stone-400 uppercase tracking-wider mb-4">
+                                <i class="fa-solid fa-sitemap mr-1.5"></i>
+                                <span class="lang-en">Browse by Family</span>
+                                <span class="lang-zh hidden">按科名瀏覽</span>
+                            </h3>
+                            <div class="space-y-2">
+                                <a href="../families/index.html#orchidaceae" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="font-medium text-stone-700 group-hover:text-botanical transition">Orchidaceae</span>
+                                    <span class="text-sm text-stone-400 font-mono">304</span>
+                                </a>
+                                <a href="../families/index.html#cactaceae" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="font-medium text-stone-700 group-hover:text-botanical transition">Cactaceae</span>
+                                    <span class="text-sm text-stone-400 font-mono">182</span>
+                                </a>
+                                <a href="../families/index.html#liliaceae" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="font-medium text-stone-700 group-hover:text-botanical transition">Liliaceae</span>
+                                    <span class="text-sm text-stone-400 font-mono">154</span>
+                                </a>
+                                <a href="../families/index.html#euphorbiaceae" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="font-medium text-stone-700 group-hover:text-botanical transition">Euphorbiaceae</span>
+                                    <span class="text-sm text-stone-400 font-mono">133</span>
+                                </a>
+                                <a href="../families/index.html#caesalpiniaceae" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="font-medium text-stone-700 group-hover:text-botanical transition">Caesalpiniaceae</span>
+                                    <span class="text-sm text-stone-400 font-mono">128</span>
+                                </a>
+                                <a href="../families/index.html#theaceae" class="flex items-center justify-between px-4 py-3 rounded-lg hover:bg-stone-50 transition group">
+                                    <span class="font-medium text-stone-700 group-hover:text-botanical transition">Theaceae</span>
+                                    <span class="text-sm text-stone-400 font-mono">97</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-900 text-stone-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3 text-white">
+                <img src="../hkb.svg" alt="" class="h-8 w-8 opacity-80">
+                <span class="font-serif font-bold text-xl">
+                    <span class="lang-en">Hong Kong Botanica</span><span class="lang-zh hidden">香港草木誌</span>
+                </span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-medium">
+                <a href="../species/index.html" class="hover:text-white transition"><span class="lang-en">Species List</span><span class="lang-zh hidden">物種名錄</span></a>
+                <a href="../families/index.html" class="hover:text-white transition"><span class="lang-en">Taxonomy Guide</span><span class="lang-zh hidden">分類指南</span></a>
+                <a style="display:none" href="../about/index.html" class="hover:text-white transition"><span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span></a>
+                <a href="../search/index.html" class="hover:text-white transition"><span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span></a>
+            </div>
+            <div class="text-sm text-stone-500 text-center md:text-right">
+                <span class="lang-en">&copy; 2026 Hong Kong Botanica. All rights reserved.</span>
+                <span class="lang-zh hidden">&copy; 2026 香港草木誌。保留所有權利。</span><br>
+                <span class="text-xs"><span class="lang-en">Images are for educational purposes.</span><span class="lang-zh hidden">圖片僅供教育用途。</span></span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    const searchData = [
+        { sci: "Ficus microcarpa", en: "Chinese Banyan", zh: "細葉榕", family: "Moraceae", form: "Tree", flower: "5-12", link: "#" },
+        { sci: "Bauhinia blakeana", en: "Hong Kong Orchid Tree", zh: "洋紫荊", family: "Caesalpiniaceae", form: "Tree", flower: "10-4", link: "bauhinia-blakeana.html" },
+        { sci: "Rhododendron simsii", en: "Red Azalea", zh: "映山紅", family: "Ericaceae", form: "Shrub", flower: "2-4", link: "rhododendron-simsii.html" },
+        { sci: "Bombax ceiba", en: "Red Kapok Tree", zh: "木棉", family: "Bombacaceae", form: "Tree", flower: "3-4", link: "#" },
+        { sci: "Hibiscus rosa-sinensis", en: "Chinese Hibiscus", zh: "朱槿", family: "Malvaceae", form: "Shrub", flower: "1-12", link: "#" },
+        { sci: "Plumeria acutifolia", en: "Frangipani", zh: "雞蛋花", family: "Apocynaceae", form: "Tree", flower: "5-12", link: "#" },
+        { sci: "Mucuna birdwoodiana", en: "Birdwood's Mucuna", zh: "禾雀花", family: "Fabaceae", form: "Climber", flower: "3-4", link: "mucuna-birdwoodiana.html" },
+        { sci: "Delonix regia", en: "Flame of the Forest", zh: "鳳凰木", family: "Caesalpiniaceae", form: "Tree", flower: "3-10", link: "#" },
+        { sci: "Alangium chinense", en: "Chinese Alangium", zh: "八角楓", family: "Alangiaceae", form: "Tree", flower: "5", link: "#" },
+        { sci: "Bougainvillea spectabilis", en: "Bougainvillea", zh: "簕杜鵑", family: "Nyctaginaceae", form: "Climber", flower: "3-11", link: "#" },
+        { sci: "Alpinia zerumbet", en: "Shell Ginger", zh: "大草蔻", family: "Zingiberaceae", form: "Herb", flower: "4-6", link: "#" },
+        { sci: "Thuja orientalis", en: "Chinese Arborvitae", zh: "扁柏", family: "Cupressaceae", form: "Tree", flower: "3-4", link: "#" },
+        { sci: "Fortunella margarita", en: "Oval Kumquat", zh: "金柑", family: "Rutaceae", form: "Shrub", flower: "3-5", link: "#" },
+        { sci: "Terminalia mantaly", en: "Madagascar Almond", zh: "小葉欖仁", family: "Combretaceae", form: "Tree", flower: "3-4", link: "#" },
+        { sci: "Illicium dunnianum", en: "Dunn's Star-anise", zh: "紅花八角", family: "Illiciaceae", form: "Shrub", flower: "3-5", link: "#" },
+        { sci: "Camellia amplexicaulis", en: "Vietnamese Camellia", zh: "越南抱莖茶", family: "Theaceae", form: "Tree", flower: "12-3", link: "#" },
+        { sci: "Syzygium paniculatum", en: "Brush Cherry", zh: "小彈珠", family: "Myrtaceae", form: "Shrub", flower: "4-12", link: "#" },
+        { sci: "Allium schoenoprasum", en: "Chives", zh: "香葱", family: "Liliaceae", form: "Herb", flower: "3-5", link: "#" },
+        { sci: "Solanum jasminoides", en: "Potato Vine", zh: "花葉蔓花茄子", family: "Solanaceae", form: "Climber", flower: "3-11", link: "#" },
+        { sci: "Vernicia montana", en: "Mo-oil Tree", zh: "千年桐", family: "Euphorbiaceae", form: "Tree", flower: "4-5", link: "#" },
+        { sci: "Choerospondias axillaris", en: "Hog Plum", zh: "五眼果", family: "Anacardiaceae", form: "Tree", flower: "4-5", link: "#" },
+        { sci: "Eulophia graminea", en: "Grass Eulophia", zh: "禾芋蘭", family: "Orchidaceae", form: "Herb", flower: "4-7", link: "#" },
+        { sci: "Plumeria pudica", en: "White Frangipani", zh: "匙葉雞蛋花", family: "Apocynaceae", form: "Tree", flower: "3-10", link: "#" },
+        { sci: "Bauhinia purpurea", en: "Purple Bauhinia", zh: "紅花羊蹄甲", family: "Caesalpiniaceae", form: "Tree", flower: "9-12", link: "#" },
+        { sci: "Bauhinia variegata", en: "Mountain Ebony", zh: "宮粉羊蹄甲", family: "Caesalpiniaceae", form: "Tree", flower: "2-4", link: "#" },
+        { sci: "Nerium oleander", en: "Oleander", zh: "夾竹桃", family: "Apocynaceae", form: "Shrub", flower: "4-10", link: "#" },
+        { sci: "Bambusa ventricosa", en: "Buddha's Belly Bamboo", zh: "佛肚竹", family: "Poaceae", form: "Herb", flower: "", link: "#" },
+        { sci: "Phalaenopsis hybrid", en: "Moth Orchid", zh: "蝴蝶蘭", family: "Orchidaceae", form: "Herb", flower: "1-12", link: "#" },
+        { sci: "Dendrobium nobile", en: "Noble Dendrobium", zh: "石斛", family: "Orchidaceae", form: "Herb", flower: "3-5", link: "#" },
+        { sci: "Camellia sinensis", en: "Tea Plant", zh: "茶", family: "Theaceae", form: "Shrub", flower: "10-2", link: "#" }
+    ];
+
+    const formIcons = {
+        Tree: '<i class="fa-solid fa-tree text-[10px]"></i>',
+        Shrub: '<i class="fa-solid fa-seedling text-[10px]"></i>',
+        Herb: '<i class="fa-solid fa-spa text-[10px]"></i>',
+        Climber: '<i class="fa-solid fa-vine text-[10px]"></i>'
+    };
+
+    const input = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('clearBtn');
+    const resultsList = document.getElementById('resultsList');
+    const resultsCount = document.getElementById('resultsCount');
+    const noResults = document.getElementById('noResults');
+    const browseState = document.getElementById('browseState');
+    const popularSearches = document.getElementById('popularSearches');
+
+    let debounceTimer = null;
+
+    function escapeRegex(str) {
+        return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function highlight(text, query) {
+        if (!query) return text;
+        const escaped = escapeRegex(query);
+        const re = new RegExp('(' + escaped + ')', 'gi');
+        return text.replace(re, '<mark class="bg-yellow-200 text-yellow-900 rounded px-0.5">$1</mark>');
+    }
+
+    function buildSpeciesLink(item) {
+        if (item.link === '#') return '#';
+        return '../species/' + item.link;
+    }
+
+    function renderResults(matches, query) {
+        resultsList.innerHTML = '';
+        resultsCount.classList.add('hidden');
+        noResults.classList.add('hidden');
+        browseState.classList.add('hidden');
+        popularSearches.classList.add('hidden');
+
+        if (!query) {
+            browseState.classList.remove('hidden');
+            popularSearches.classList.remove('hidden');
+            return;
+        }
+
+        if (matches.length === 0) {
+            noResults.classList.remove('hidden');
+            return;
+        }
+
+        resultsCount.classList.remove('hidden');
+        resultsCount.innerHTML =
+            '<span class="lang-en">Found <strong>' + matches.length + '</strong> species matching &lsquo;<strong>' + escapeHtml(query) + '</strong>&rsquo;</span>' +
+            '<span class="lang-zh hidden">找到 <strong>' + matches.length + '</strong> 個匹配「<strong>' + escapeHtml(query) + '</strong>」的物種</span>';
+        syncLang();
+
+        const fragment = document.createDocumentFragment();
+        matches.forEach(function(item, i) {
+            const card = document.createElement('a');
+            card.href = buildSpeciesLink(item);
+            card.className = 'block bg-white rounded-xl border border-stone-200 shadow-sm hover:shadow-md hover:border-botanical/30 transition-all duration-200 p-5 sm:p-6 group';
+            if (i > 0) card.classList.add('mt-3');
+
+            const formIcon = formIcons[item.form] || '';
+            const formLabel = item.form;
+
+            card.innerHTML =
+                '<div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">' +
+                    '<div class="flex-1 min-w-0">' +
+                        '<h3 class="font-serif text-lg font-bold text-stone-900 italic group-hover:text-botanical transition truncate">' +
+                            highlight(item.sci, query) +
+                        '</h3>' +
+                        '<p class="text-stone-600 text-sm mt-0.5">' +
+                            '<span class="lang-en">' + highlight(item.en, query) + '</span>' +
+                            '<span class="lang-zh hidden">' + highlight(item.en, query) + '</span>' +
+                            ' · ' +
+                            '<span class="text-stone-500">' + highlight(item.zh, query) + '</span>' +
+                        '</p>' +
+                        '<p class="text-stone-400 text-xs mt-1">' +
+                            '<span class="lang-en">Family:</span><span class="lang-zh hidden">科:</span> ' +
+                            highlight(item.family, query) +
+                        '</p>' +
+                    '</div>' +
+                    '<div class="flex items-center gap-2 shrink-0">' +
+                        '<span class="attr-pill growth-form text-xs">' + formIcon + ' ' + formLabel + '</span>' +
+                        (item.link !== '#' ?
+                            '<span class="text-xs text-botanical font-medium hidden sm:inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition">' +
+                                '<span class="lang-en">View</span><span class="lang-zh hidden">查看</span> <i class="fa-solid fa-arrow-right text-[10px]"></i>' +
+                            '</span>' : '') +
+                    '</div>' +
+                '</div>';
+
+            fragment.appendChild(card);
+        });
+        resultsList.appendChild(fragment);
+    }
+
+    function escapeHtml(str) {
+        const d = document.createElement('div');
+        d.textContent = str;
+        return d.innerHTML;
+    }
+
+    function doSearch(query) {
+        query = query.trim();
+        if (!query) {
+            renderResults([], '');
+            return;
+        }
+        const q = query.toLowerCase();
+        const matches = searchData.filter(function(s) {
+            return s.sci.toLowerCase().includes(q) ||
+                   s.en.toLowerCase().includes(q) ||
+                   s.zh.includes(query) ||
+                   s.family.toLowerCase().includes(q);
+        });
+        renderResults(matches, query);
+    }
+
+    function syncLang() {
+        if (typeof window._hkbLang === 'undefined') return;
+        document.querySelectorAll('.lang-en, .lang-zh').forEach(function(el) {
+            if (el.classList.contains('lang-en')) {
+                el.classList.toggle('hidden', window._hkbLang === 'zh');
+            } else {
+                el.classList.toggle('hidden', window._hkbLang !== 'zh');
+            }
+        });
+    }
+
+    input.addEventListener('input', function() {
+        clearBtn.classList.toggle('hidden', !input.value);
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(function() {
+            doSearch(input.value);
+            const url = new URL(window.location);
+            if (input.value.trim()) {
+                url.searchParams.set('q', input.value.trim());
+            } else {
+                url.searchParams.delete('q');
+            }
+            history.replaceState(null, '', url);
+        }, 200);
+    });
+
+    clearBtn.addEventListener('click', function() {
+        input.value = '';
+        input.focus();
+        clearBtn.classList.add('hidden');
+        doSearch('');
+        const url = new URL(window.location);
+        url.searchParams.delete('q');
+        history.replaceState(null, '', url);
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && document.activeElement === input) {
+            input.value = '';
+            clearBtn.classList.add('hidden');
+            doSearch('');
+            input.blur();
+        }
+        if (e.key === '/' && document.activeElement !== input) {
+            e.preventDefault();
+            input.focus();
+        }
+    });
+
+    document.querySelectorAll('.search-pill').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            const q = btn.getAttribute('data-query');
+            input.value = q;
+            clearBtn.classList.remove('hidden');
+            input.focus();
+            doSearch(q);
+            const url = new URL(window.location);
+            url.searchParams.set('q', q);
+            history.replaceState(null, '', url);
+        });
+    });
+
+    (function init() {
+        const params = new URLSearchParams(window.location.search);
+        const q = params.get('q');
+        if (q) {
+            input.value = q;
+            clearBtn.classList.remove('hidden');
+            doSearch(q);
+        }
+    })();
+    </script>
+
+    <style>
+    .search-pill {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        color: #57534e;
+        background: #fafaf9;
+        border: 1px solid #e7e5e4;
+        border-radius: 9999px;
+        cursor: pointer;
+        transition: all 0.15s;
+    }
+    .search-pill:hover {
+        color: #4a8244;
+        border-color: #4a8244;
+        background: #f0fdf4;
+    }
+    </style>
+
+    <script src="../js/hkb.js?v=3"></script>
+    <script src="../js/taxa.js"></script>
+    <script>
+    hkbLoadTaxa().then((data) => {
+        const n = hkbFormatCount(data.n_species);
+        const en = document.getElementById("searchSpeciesCount");
+        const zh = document.getElementById("searchSpeciesCountZh");
+        if (en) en.textContent = n;
+        if (zh) zh.textContent = n;
+    });
+    </script>
+</body>
+</html>

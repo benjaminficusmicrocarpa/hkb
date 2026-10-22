@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="hkb-base" content="..">
+    <title>Families & Genera | Hong Kong Botanica</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hong Kong Botanica">
+    <meta property="og:title" content="Families & Genera | Hong Kong Botanica">
+    <meta property="og:description" content="Families and genera in Hong Kong Botanica.">
+    <meta property="og:url" content="https://benjaminficusmicrocarpa.github.io/hkb/families/index.html">
+    <meta property="og:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:secure_url" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Hong Kong Botanica">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Families & Genera | Hong Kong Botanica">
+    <meta name="twitter:description" content="Families and genera in Hong Kong Botanica.">
+    <meta name="twitter:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <link rel="icon" href="../hkb.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/hkb.css">
+    <script>
+        tailwind.config = {
+            theme: { extend: {
+                fontFamily: { sans: ['Roboto', 'Noto Sans TC', 'sans-serif'], serif: ['Playfair Display', 'Noto Serif TC', 'serif'] },
+                colors: { botanical: { light: '#82c07b', DEFAULT: '#4a8244', dark: '#2d5229', accent: '#d4af37' } }
+            }}
+        }
+    </script>
+    <style>
+        .alpha-link { transition: all 0.15s; }
+        .alpha-link:hover:not(.disabled) { background: #4a8244; color: white; }
+        .alpha-link.active { background: #4a8244; color: white; font-weight: 600; }
+        .alpha-link.disabled { color: #d6d3d1; cursor: default; pointer-events: none; }
+        .genus-pill { display: inline-block; padding: 2px 10px; border-radius: 9999px; font-size: 0.75rem; font-style: italic; background: #f5f5f4; color: #57534e; border: 1px solid #e7e5e4; transition: all 0.15s; }
+        .genus-pill:hover { border-color: #4a8244; color: #4a8244; }
+        .system-btn { padding: 8px 20px; border-radius: 9999px; font-size: 0.8125rem; font-weight: 500; cursor: pointer; border: 1.5px solid #d6d3d1; background: white; color: #57534e; transition: all 0.15s; }
+        .system-btn:hover { border-color: #4a8244; color: #4a8244; }
+        .system-btn.active { background: #4a8244; color: white; border-color: #4a8244; }
+    </style>
+</head>
+<body class="bg-stone-50 text-gray-800 font-sans antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="flex items-center gap-2.5 text-botanical-dark font-serif font-bold text-xl sm:text-2xl tracking-tight">
+                        <img src="../hkb.svg" alt="HKB" class="h-9 w-9">
+                        <span class="lang-en">Hong Kong Botanica</span>
+                        <span class="lang-zh hidden">香港草木誌</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 lg:space-x-8 text-sm lg:text-base">
+                    <a href="../index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Home</span>
+                        <span class="lang-zh hidden">主頁</span>
+                    </a>
+                    <a href="../species/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Species Directory</span>
+                        <span class="lang-zh hidden">物種目錄</span>
+                    </a>
+                    <a href="index.html" class="text-botanical font-bold border-b-2 border-botanical pb-0.5 transition">
+                        <span class="lang-en">Families & Genera</span>
+                        <span class="lang-zh hidden">科屬分類</span>
+                    </a>
+                    <a style="display:none" href="../about/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">About</span>
+                        <span class="lang-zh hidden">關於本庫</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4 text-stone-500">
+                    <a href="../search/index.html" class="hover:text-botanical transition"><i class="fa-solid fa-search text-lg"></i></a>
+                    <button onclick="toggleLanguage()" class="hover:text-botanical transition font-bold text-sm px-2 py-1 rounded border border-stone-200 hover:border-botanical">
+                        <span class="lang-en">中</span>
+                        <span class="lang-zh hidden">EN</span>
+                    </button>
+                    <button onclick="openMobileNav()" class="md:hidden hover:text-botanical transition"><i class="fa-solid fa-bars text-xl"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE DRAWER -->
+    <div id="mobileOverlay" class="mobile-nav-overlay" onclick="closeMobileNav()"></div>
+    <div id="mobileDrawer" class="mobile-nav-drawer">
+        <div class="p-5 border-b border-stone-100 flex justify-between items-center">
+            <span class="font-serif font-bold text-lg text-botanical-dark">
+                <span class="lang-en">Menu</span><span class="lang-zh hidden">選單</span>
+            </span>
+            <button onclick="closeMobileNav()" class="text-stone-400 hover:text-stone-700"><i class="fa-solid fa-xmark text-xl"></i></button>
+        </div>
+        <div class="p-5 space-y-1">
+            <a href="../index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-house w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Home</span><span class="lang-zh hidden">主頁</span>
+            </a>
+            <a href="../species/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-leaf w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Species Directory</span><span class="lang-zh hidden">物種目錄</span>
+            </a>
+            <a href="index.html" class="block px-4 py-3 rounded-lg bg-botanical/10 text-botanical font-bold transition">
+                <i class="fa-solid fa-sitemap w-6 text-center mr-2 text-botanical"></i>
+                <span class="lang-en">Families & Genera</span><span class="lang-zh hidden">科屬分類</span>
+            </a>
+            <a style="display:none" href="../about/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-circle-info w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span>
+            </a>
+            <a href="../search/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <i class="fa-solid fa-search w-6 text-center mr-2 text-stone-400"></i>
+                <span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span>
+            </a>
+        </div>
+        <div class="p-5 border-t border-stone-100">
+            <button onclick="toggleLanguage()" class="w-full px-4 py-3 rounded-lg border border-stone-200 text-stone-600 font-medium hover:border-botanical hover:text-botanical transition">
+                <span class="lang-en">切換中文</span><span class="lang-zh hidden">Switch to English</span>
+            </button>
+        </div>
+    </div>
+
+    <header class="bg-white border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+            <nav class="breadcrumb mb-6">
+                <a href="../index.html"><span class="lang-en">Home</span><span class="lang-zh hidden">主頁</span></a>
+                <span class="separator"><i class="fa-solid fa-chevron-right text-[10px]"></i></span>
+                <span class="text-stone-900 font-medium"><span class="lang-en">Families & Genera</span><span class="lang-zh hidden">科屬分類</span></span>
+            </nav>
+            <h1 class="text-3xl md:text-4xl font-serif font-bold text-stone-900 leading-tight">
+                <span class="lang-en">Families & Genera</span>
+                <span class="lang-zh hidden">科與屬</span>
+            </h1>
+            <p class="text-stone-500 mt-2 text-lg max-w-3xl">
+                <span class="lang-en">Same catalogue as the species list. Order follows the catalogue filing: ferns, gymnosperms, then APG IV.</span>
+                <span class="lang-zh hidden">與物種目錄同一名錄。目依名錄排列：蕨類、裸子植物，然後 APG IV。</span>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-white border-b border-stone-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-center" id="taxStats">
+                    <span class="text-stone-400 text-sm"><span class="lang-en">Loading…</span><span class="lang-zh hidden">載入中…</span></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="sticky top-16 z-40 bg-stone-50 border-b border-stone-200 shadow-sm">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 space-y-4">
+                <div class="flex flex-wrap items-center gap-3">
+                    <button type="button" class="system-btn active" id="btnOrder" data-view="order">
+                        <span class="lang-en">By order</span><span class="lang-zh hidden">按目</span>
+                    </button>
+                    <button type="button" class="system-btn" id="btnLetter" data-view="letter">
+                        <span class="lang-en">By letter</span><span class="lang-zh hidden">按字母</span>
+                    </button>
+                    <div class="relative flex-grow max-w-sm">
+                        <i class="fa-solid fa-search absolute left-3 top-1/2 -translate-y-1/2 text-stone-400 text-sm"></i>
+                        <input type="search" id="familySearch"
+                               data-placeholder-en="Family, genus, or order"
+                               data-placeholder-zh="科、屬或目"
+                               placeholder="Family, genus, or order"
+                               class="w-full pl-9 pr-3 py-2 rounded-lg border border-stone-300 text-sm outline-none focus:border-botanical">
+                    </div>
+                    <select id="orderJump" class="text-sm border border-stone-300 rounded-lg px-3 py-2 bg-white"></select>
+                </div>
+                <div class="flex flex-wrap gap-1" id="alphaBar"></div>
+            </div>
+        </section>
+
+        <section class="py-10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12" id="familyRoot"></div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3 text-white">
+                <img src="../hkb.svg" alt="" class="h-8 w-8 opacity-80">
+                <span class="font-serif font-bold text-xl">
+                    <span class="lang-en">Hong Kong Botanica</span><span class="lang-zh hidden">香港草木誌</span>
+                </span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-medium">
+                <a href="../species/index.html" class="hover:text-white transition"><span class="lang-en">Species List</span><span class="lang-zh hidden">物種名錄</span></a>
+                <a href="index.html" class="hover:text-white transition"><span class="lang-en">Taxonomy Guide</span><span class="lang-zh hidden">分類指南</span></a>
+                <a style="display:none" href="../about/index.html" class="hover:text-white transition"><span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span></a>
+                <a href="../search/index.html" class="hover:text-white transition"><span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span></a>
+            </div>
+            <div class="text-sm text-stone-500 text-center md:text-right">
+                <span class="lang-en">&copy; 2026 Hong Kong Botanica. All rights reserved.</span>
+                <span class="lang-zh hidden">&copy; 2026 香港草木誌。保留所有權利。</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/hkb.js?v=3"></script>
+    <script src="../js/taxa.js"></script>
+    <script>
+    let DATA = null;
+    let FAM = null;
+    let view = "order";
+    let query = "";
+
+    function indexFamilies(data) {
+        const fam = new Map();
+        data.taxa.forEach((t) => {
+            if (!fam.has(t.family)) fam.set(t.family, { n: 0, genera: new Map(), order: t.order });
+            const rec = fam.get(t.family);
+            rec.n += 1;
+            rec.genera.set(t.genus, (rec.genera.get(t.genus) || 0) + 1);
+        });
+        return fam;
+    }
+
+    function familyCard(name) {
+        const rec = FAM.get(name);
+        const genera = [...rec.genera.keys()].sort((a, b) => a.localeCompare(b));
+        const shown = genera.slice(0, 8);
+        const more = genera.length - shown.length;
+        const pills = shown.map((g) => {
+            const href = "../species/index.html?" + new URLSearchParams({ genus: g, family: name }).toString();
+            return `<a class="genus-pill" href="${href}">${hkbEsc(g)}</a>`;
+        }).join("");
+        const moreHtml = more > 0
+            ? `<a class="genus-pill" href="../species/index.html?family=${encodeURIComponent(name)}">+${more}</a>`
+            : "";
+        const listHref = "../species/index.html?family=" + encodeURIComponent(name);
+        return `<div class="family-card bg-white rounded-xl border border-stone-200 p-6 shadow-sm hover:shadow-md" id="family-${hkbEsc(name)}" data-search="${hkbEsc((name + " " + rec.order + " " + genera.join(" ")).toLowerCase())}">
+            <div class="flex items-start justify-between gap-3 mb-2">
+                <h3 class="font-serif font-bold text-xl text-stone-900">${hkbEsc(name)}</h3>
+                <div class="flex gap-2 flex-shrink-0">
+                    <span class="inline-flex items-center gap-1 text-xs font-bold bg-botanical/10 text-botanical px-2.5 py-1 rounded-full">${rec.n} <span class="lang-en">taxa</span><span class="lang-zh hidden">分類群</span></span>
+                    <span class="inline-flex items-center gap-1 text-xs font-medium bg-stone-100 text-stone-600 px-2.5 py-1 rounded-full">${genera.length} <span class="lang-en">genera</span><span class="lang-zh hidden">屬</span></span>
+                </div>
+            </div>
+            <p class="text-sm text-stone-500 mb-3"><a class="hover:text-botanical" href="#order-${hkbEsc(rec.order)}">${hkbEsc(rec.order)}</a></p>
+            <div class="flex flex-wrap gap-1.5 mb-4">${pills}${moreHtml}</div>
+            <a href="${listHref}" class="text-sm text-botanical font-medium hover:text-botanical-dark">
+                <span class="lang-en">View taxa</span><span class="lang-zh hidden">查看分類群</span>
+                <i class="fa-solid fa-arrow-right ml-1 text-xs"></i>
+            </a>
+        </div>`;
+    }
+
+    function section(id, title, countLabel, cards) {
+        return `<div id="${id}" class="scroll-mt-40">
+            <div class="flex items-center gap-3 mb-6">
+                <span class="text-2xl md:text-3xl font-serif font-bold text-botanical">${hkbEsc(title)}</span>
+                <div class="flex-1 h-px bg-stone-200"></div>
+                <span class="text-sm text-stone-400 font-medium">${countLabel}</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">${cards}</div>
+        </div>`;
+    }
+
+    function render() {
+        const q = query.trim().toLowerCase();
+        const root = document.getElementById("familyRoot");
+        const parts = [];
+        if (view === "order") {
+            DATA.orders.forEach((order) => {
+                const cards = order.families
+                    .filter((name) => !q || (FAM.get(name) && (name + " " + order.name + " " + [...FAM.get(name).genera.keys()].join(" ")).toLowerCase().includes(q)))
+                    .map(familyCard);
+                if (!cards.length) return;
+                const label = `${cards.length} <span class="lang-en">families</span><span class="lang-zh hidden">科</span>`;
+                parts.push(section("order-" + order.name, order.name, label, cards.join("")));
+            });
+        } else {
+            const byLetter = new Map();
+            FAM.forEach((rec, name) => {
+                const blob = (name + " " + rec.order + " " + [...rec.genera.keys()].join(" ")).toLowerCase();
+                if (q && !blob.includes(q)) return;
+                const letter = name[0].toUpperCase();
+                if (!byLetter.has(letter)) byLetter.set(letter, []);
+                byLetter.get(letter).push(name);
+            });
+            [...byLetter.keys()].sort().forEach((letter) => {
+                const names = byLetter.get(letter).sort((a, b) => a.localeCompare(b));
+                const label = `${names.length} <span class="lang-en">families</span><span class="lang-zh hidden">科</span>`;
+                parts.push(section("letter-" + letter, letter, label, names.map(familyCard).join("")));
+            });
+        }
+        root.innerHTML = parts.length
+            ? parts.join("")
+            : `<p class="text-stone-500 text-center py-10"><span class="lang-en">No families match.</span><span class="lang-zh hidden">沒有符合的科。</span></p>`;
+        document.getElementById("alphaBar").style.display = view === "letter" ? "" : "none";
+        document.getElementById("orderJump").style.display = view === "order" ? "" : "none";
+        document.getElementById("btnOrder").classList.toggle("active", view === "order");
+        document.getElementById("btnLetter").classList.toggle("active", view === "letter");
+        if (typeof applyLanguage === "function") applyLanguage();
+        if (location.hash.length > 1) {
+            const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+            if (el) el.scrollIntoView();
+        }
+    }
+
+    function fillChrome() {
+        const stats = document.getElementById("taxStats");
+        const item = (n, en, zh) => `<div><span class="text-2xl font-serif font-bold text-stone-800">${hkbFormatCount(n)}</span> <span class="text-sm text-stone-500"><span class="lang-en">${en}</span><span class="lang-zh hidden">${zh}</span></span></div>`;
+        stats.innerHTML = [
+            item(DATA.n_orders, "Orders", "目"),
+            item(DATA.n_families, "Families", "科"),
+            item(DATA.n_genera, "Genera", "屬"),
+            item(DATA.n_taxa, "Taxa", "分類群")
+        ].join('<span class="hidden sm:block text-stone-300 text-xl">·</span>');
+        const jump = document.getElementById("orderJump");
+        jump.innerHTML = `<option value="">${"Order"}</option>` + DATA.orders.map((o) => `<option value="${hkbEsc(o.name)}">${hkbEsc(o.name)}</option>`).join("");
+        const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+        const present = new Set([...FAM.keys()].map((n) => n[0].toUpperCase()));
+        document.getElementById("alphaBar").innerHTML = letters.map((l) => {
+            const on = present.has(l);
+            return `<a href="#letter-${l}" class="alpha-link inline-flex items-center justify-center w-8 h-8 rounded text-sm font-medium ${on ? "bg-white border border-stone-200 text-stone-700 shadow-sm" : "disabled"}">${l}</a>`;
+        }).join("");
+    }
+
+    document.getElementById("btnOrder").addEventListener("click", () => { view = "order"; render(); });
+    document.getElementById("btnLetter").addEventListener("click", () => { view = "letter"; render(); });
+    document.getElementById("familySearch").addEventListener("input", (e) => { query = e.target.value; render(); });
+    document.getElementById("orderJump").addEventListener("change", (e) => {
+        if (!e.target.value) return;
+        view = "order";
+        render();
+        const el = document.getElementById("order-" + e.target.value);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+    });
+
+    hkbLoadTaxa().then((data) => {
+        DATA = data;
+        FAM = indexFamilies(data);
+        if (FAM.size !== data.n_families || data.taxa.length !== data.n_taxa) {
+            throw new Error("family count mismatch");
+        }
+        if (location.hash.startsWith("#letter-")) view = "letter";
+        fillChrome();
+        render();
+    }).catch((err) => {
+        document.getElementById("taxStats").textContent = "Could not load the catalogue list. " + err.message;
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%" aria-label="Hong Kong Flora Archive Logo" role="img">
+  <title>HK Flora Archive Emblem</title>
+  
+  <defs>
+    <!-- Drop shadow for the main book block to give a badge/enamel feel -->
+    <filter id="badgeShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#2d5229" flood-opacity="0.15" />
+    </filter>
+
+    <!-- Subtle blueprint/archive grid pattern for the pages -->
+    <pattern id="archiveGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#e8f0e7" stroke-width="3" />
+    </pattern>
+
+    <!-- Base path for the Open Book pages -->
+    <path id="bookShape" d="M 256 110 
+                            C 200 80, 100 110, 48 150 
+                            L 48 420 
+                            C 100 380, 200 350, 256 410 
+                            C 312 350, 412 380, 464 420 
+                            L 464 150 
+                            C 412 110, 312 80, 256 110 Z" />
+
+    <!-- Clipping path for the grid/rings so they stay strictly within the book pages -->
+    <clipPath id="bookClip">
+      <use href="#bookShape" />
+    </clipPath>
+
+    <!-- Base paths for the Bauhinia leaf lobes -->
+    <path id="leftLobePath" d="M 256 220 
+                               C 250 160, 230 100, 200 80 
+                               C 160 60, 80 120, 60 260 
+                               C 40 400, 160 500, 256 440 Z" />
+                               
+    <path id="rightLobePath" d="M 256 220 
+                                C 262 160, 282 100, 312 80 
+                                C 352 60, 432 120, 452 260 
+                                C 472 400, 352 500, 256 440 Z" />
+
+    <!-- Clipping paths for the leaf veins -->
+    <clipPath id="leftLobeClip">
+      <use href="#leftLobePath" />
+    </clipPath>
+    <clipPath id="rightLobeClip">
+      <use href="#rightLobePath" />
+    </clipPath>
+  </defs>
+
+  <!-- ==========================================
+       BACKGROUND: THE ARCHIVAL TOME
+       ========================================== -->
+  
+  <!-- 1. Thick Back Cover (Gold Layer with Shadow) -->
+  <path d="M 256 130 C 200 100, 100 130, 48 170 L 48 440 C 100 400, 200 370, 256 430 C 312 370, 412 400, 464 440 L 464 170 C 412 130, 312 100, 256 130 Z" 
+        fill="#d4af37" stroke="#2d5229" stroke-width="12" stroke-linejoin="round" filter="url(#badgeShadow)" />
+
+  <!-- 2. Hanging Bookmark Ribbon -->
+  <path d="M 240 410 L 240 480 L 256 465 L 272 480 L 272 410 Z" 
+        fill="#82c07b" stroke="#2d5229" stroke-width="8" stroke-linejoin="round" />
+
+  <!-- 3. Front Pages Fill (White) -->
+  <use href="#bookShape" fill="#fcfcfb" />
+
+  <!-- 4. Inner Grid & Scientific Rings (Clipped to the pages) -->
+  <rect width="512" height="512" fill="url(#archiveGrid)" clip-path="url(#bookClip)" />
+  <circle cx="256" cy="260" r="140" fill="none" stroke="#d4af37" stroke-width="4" clip-path="url(#bookClip)" />
+  <circle cx="256" cy="260" r="128" fill="none" stroke="#d4af37" stroke-width="1.5" clip-path="url(#bookClip)" />
+
+  <!-- 5. Structural Book Outlines & Edges (Drawn over the grid for a clean border) -->
+  <use href="#bookShape" fill="none" stroke="#2d5229" stroke-width="12" stroke-linejoin="round" />
+  
+  <!-- Thick page edges to give 3D depth to the book block -->
+  <line x1="48" y1="150" x2="48" y2="440" stroke="#2d5229" stroke-width="12" stroke-linecap="round" />
+  <line x1="464" y1="150" x2="464" y2="440" stroke="#2d5229" stroke-width="12" stroke-linecap="round" />
+  <line x1="256" y1="110" x2="256" y2="430" stroke="#2d5229" stroke-width="12" stroke-linecap="round" />
+
+  <!-- ==========================================
+       FOREGROUND: THE BAUHINIA LEAF
+       ========================================== -->
+       
+  <!-- Leaf Stem (Grows straight out of the book's center fold) -->
+  <line x1="256" y1="410" x2="256" y2="220" stroke="#2d5229" stroke-width="16" stroke-linecap="round" />
+
+  <!-- Scaled and centered leaf grouping (Scale: 65%) -->
+  <g transform="translate(89.6, 80) scale(0.65)">
+    <!-- Fills -->
+    <use href="#leftLobePath" fill="#4a8244" />
+    <use href="#rightLobePath" fill="#82c07b" />
+
+    <!-- Left Veins (Gold) -->
+    <g clip-path="url(#leftLobeClip)" fill="none" stroke="#d4af37" stroke-width="10" stroke-linecap="round">
+      <path d="M 256 420 Q 200 300 180 120" />
+      <path d="M 256 430 Q 140 360 90 240" />
+      <path d="M 256 440 Q 160 430 100 360" />
+    </g>
+    
+    <!-- Right Veins (Dark Green) -->
+    <g clip-path="url(#rightLobeClip)" fill="none" stroke="#2d5229" stroke-width="10" stroke-linecap="round">
+      <path d="M 256 420 Q 312 300 332 120" />
+      <path d="M 256 430 Q 372 360 422 240" />
+      <path d="M 256 440 Q 352 430 412 360" />
+    </g>
+
+    <!-- Bold Outlines -->
+    <use href="#leftLobePath" fill="none" stroke="#2d5229" stroke-width="16" stroke-linejoin="round" />
+    <use href="#rightLobePath" fill="none" stroke="#2d5229" stroke-width="16" stroke-linejoin="round" />
+  </g>
+
+</svg>
