@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Host hkb species-page photos on Cloudflare Images.
 
-Local WebP: ~photos/<blp>/<stem>.webp
-Local JPG:  ~original-jpg/<blp>/<stem>.jpg
-Committed match: species_page_images.json
-pages.json stores image_id only. Do not commit the image folders.
+Local WebP: ~photos/<blp>/<code>.webp
+Local JPG:  ~original-jpg/<blp>/<code>.jpg
+code is the BLP number plus a letter, in carousel order: a–z, then aa, ab, … zz.
+Do not renumber a code that is already on a photo.
+Committed match: species_page_images.json (filename, image_id, description).
+description is the plate note. Do not put it back in the filename.
+pages.json stores image_id and code. Do not commit the image folders.
 After image_id changes, run build_pages.py so the static HTML picks them up.
 """
 
@@ -113,10 +116,13 @@ def prepare_local(payload: dict) -> list[dict]:
             raise SystemExit(f"{blp} has no hero")
         for photo in page["photos"]:
             src = photo.get("src")
-            stem = Path(src).stem if src else photo["image_id"].split("-", 2)[-1]
-            image_id = photo.get("image_id") or f"hkb-{blp}-{stem}"
-            jpg_dest = ORIGINALS / blp / f"{stem}.jpg"
-            webp_dest = PHOTOS / blp / f"{stem}.webp"
+            note = Path(src).stem if src else photo["image_id"].split("-", 2)[-1]
+            code = photo.get("code")
+            if not code:
+                raise SystemExit(f"{blp} photo {photo.get('image_id')} has no code")
+            image_id = photo.get("image_id") or f"hkb-{blp}-{note}"
+            jpg_dest = ORIGINALS / blp / f"{code}.jpg"
+            webp_dest = PHOTOS / blp / f"{code}.webp"
             jpg = HKB / "species" / src if src else jpg_dest
             if not jpg.exists():
                 jpg = jpg_dest
@@ -132,7 +138,8 @@ def prepare_local(payload: dict) -> list[dict]:
                 "src": src,
                 "hero_src": hero_src,
                 "image_id": image_id,
-                "filename": f"{blp}/{stem}.webp",
+                "description": note,
+                "filename": f"{blp}/{code}.webp",
                 "jpg": HKB / "species" / src if src else None,
                 "jpg_dest": jpg_dest,
                 "webp": webp_dest,
@@ -186,7 +193,11 @@ def main() -> None:
             job["jpg"].unlink()
         if job["src"] and job["src"] == job["hero_src"]:
             hero_by_blp[job["blp"]] = image_id
-        match_rows.append({"filename": job["filename"], "image_id": image_id})
+        match_rows.append({
+            "filename": job["filename"],
+            "image_id": image_id,
+            "description": job["description"],
+        })
 
     for blp, page in payload["pages"].items():
         hero_id = hero_by_blp.get(blp) or page.get("hero_id")

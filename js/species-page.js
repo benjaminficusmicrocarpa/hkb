@@ -41,6 +41,7 @@ function hkbPhotoViewer(photos) {
         <button type="button" class="photo-arrow prev" data-act="left" aria-label="Left"><i class="fa-solid fa-chevron-left"></i></button>
         <button type="button" class="photo-arrow next" data-act="right" aria-label="Right"><i class="fa-solid fa-chevron-right"></i></button>
         <img id="photoImg" alt="" draggable="false">
+        <p id="photoCode" class="photo-code"></p>
         <p id="photoCaption" class="photo-caption"></p>
         <div id="photoDock" class="photo-dock">
             <button type="button" data-act="enlarge"><i class="fa-solid fa-magnifying-glass-plus"></i><span class="lang-en">Enlarge</span><span class="lang-zh hidden">放大</span></button>
@@ -56,12 +57,18 @@ function hkbPhotoViewer(photos) {
     const stage = document.getElementById("photoStage");
     const img = document.getElementById("photoImg");
     const thumbs = document.getElementById("photoThumbs");
-    thumbs.innerHTML = photos.map((photo, i) => `<button type="button" class="photo-thumb" data-i="${i}"><img src="${hkbPageEsc(photo.image_id ? hkbPhotoUrl(photo.image_id, "H300") : photo.src)}" alt=""></button>`).join("");
+    thumbs.innerHTML = photos.map((photo, i) => {
+        const code = photo.code || "";
+        return `<button type="button" class="photo-thumb" data-i="${i}" title="${hkbPageEsc(code)}" aria-label="${hkbPageEsc(code)}"><img src="${hkbPageEsc(photo.image_id ? hkbPhotoUrl(photo.image_id, "H300") : photo.src)}" alt=""></button>`;
+    }).join("");
 
     function applyFrame() {
         const photo = photos[state.i];
         img.src = photo.image_id ? hkbPhotoUrl(photo.image_id) : photo.src;
-        img.alt = photo.en || "";
+        img.alt = photo.code ? `${photo.code}. ${photo.en || ""}`.trim() : (photo.en || "");
+        const codeEl = document.getElementById("photoCode");
+        codeEl.textContent = photo.code || "";
+        codeEl.hidden = !photo.code;
         document.getElementById("photoCaption").innerHTML = hkbPair(photo.en, photo.zh);
         document.getElementById("photoCount").textContent = `${state.i + 1} / ${photos.length}`;
         thumbs.querySelectorAll(".photo-thumb").forEach((btn, i) => btn.classList.toggle("on", i === state.i));

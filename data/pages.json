@@ -130,22 +130,26 @@
         {
           "en": "Park tree with a curtain of pendulous aerial roots.",
           "zh": "公園大樹，下垂氣根成簾。",
-          "image_id": "hkb-49562-habit-aerial-roots"
+          "image_id": "hkb-49562-habit-aerial-roots",
+          "code": "49562a"
         },
         {
           "en": "Deep grey bark and a column of aerial roots.",
           "zh": "深灰樹皮，氣根成柱。",
-          "image_id": "hkb-49562-trunk"
+          "image_id": "hkb-49562-trunk",
+          "code": "49562b"
         },
         {
           "en": "Leathery leaves and sessile axillary figs.",
           "zh": "革質葉，無柄的腋生隱頭花序。",
-          "image_id": "hkb-49562-leaf-fig"
+          "image_id": "hkb-49562-leaf-fig",
+          "code": "49562c"
         },
         {
           "en": "Cuneate bases and bluntly apiculate tips.",
           "zh": "楔形葉基，先端鈍而具短尖。",
-          "image_id": "hkb-49562-leaf-plate"
+          "image_id": "hkb-49562-leaf-plate",
+          "code": "49562d"
         }
       ],
       "reference": {
@@ -289,27 +293,32 @@
         {
           "en": "Flowering tree at the edge of flooded mangrove.",
           "zh": "水淹紅樹林邊緣的開花植株。",
-          "image_id": "hkb-55052-habit"
+          "image_id": "hkb-55052-habit",
+          "code": "55052a"
         },
         {
           "en": "White lanceolate sepals.",
           "zh": "白色披針形萼片。",
-          "image_id": "hkb-55052-flower"
+          "image_id": "hkb-55052-flower",
+          "code": "55052b"
         },
         {
           "en": "Oblong leaf with a rounded apex.",
           "zh": "長圓形葉，先端圓。",
-          "image_id": "hkb-55052-leaf"
+          "image_id": "hkb-55052-leaf",
+          "code": "55052c"
         },
         {
           "en": "Fallen viviparous hypocotyls on mud.",
           "zh": "掉在泥上的胎生胚軸。",
-          "image_id": "hkb-55052-hypocotyl"
+          "image_id": "hkb-55052-hypocotyl",
+          "code": "55052d"
         },
         {
           "en": "Ovoid fruit with reflexed sepals.",
           "zh": "卵形果，萼片反折。",
-          "image_id": "hkb-55052-fruit"
+          "image_id": "hkb-55052-fruit",
+          "code": "55052e"
         }
       ],
       "reference": {
@@ -471,32 +480,38 @@
         {
           "en": "Erect shrub on a trail, among ferns.",
           "zh": "小徑上的直立灌木，生於芒萁之間。",
-          "image_id": "hkb-58702-habit"
+          "image_id": "hkb-58702-habit",
+          "code": "58702a"
         },
         {
           "en": "Five purple petals and dimorphic stamens.",
           "zh": "五片紫色花瓣，雄蕊二型。",
-          "image_id": "hkb-58702-flower"
+          "image_id": "hkb-58702-flower",
+          "code": "58702b"
         },
         {
           "en": "Opposite five-nerved leaves.",
           "zh": "對生、5 脈的葉。",
-          "image_id": "hkb-58702-leaf"
+          "image_id": "hkb-58702-leaf",
+          "code": "58702c"
         },
         {
           "en": "Spreading bristles on the stem.",
           "zh": "莖上開展的刺毛。",
-          "image_id": "hkb-58702-stem-bristles"
+          "image_id": "hkb-58702-stem-bristles",
+          "code": "58702d"
         },
         {
           "en": "Young fruits with long spreading bristles.",
           "zh": "幼果，具長而開展的刺毛。",
-          "image_id": "hkb-58702-fruit-bristles"
+          "image_id": "hkb-58702-fruit-bristles",
+          "code": "58702e"
         },
         {
           "en": "Capsule opening irregularly.",
           "zh": "蒴果不規則開裂。",
-          "image_id": "hkb-58702-fruit-dehisced"
+          "image_id": "hkb-58702-fruit-dehisced",
+          "code": "58702f"
         }
       ],
       "reference": {
@@ -615,22 +630,26 @@
         {
           "en": "Hillside tree with a red-brown trunk.",
           "zh": "丘陵上的樹，樹幹紅褐色。",
-          "image_id": "hkb-17001-habit"
+          "image_id": "hkb-17001-habit",
+          "code": "17001a"
         },
         {
           "en": "Two slender needles in a bundle, and brown winter buds.",
           "zh": "每束兩枚細長針葉，冬芽褐色。",
-          "image_id": "hkb-17001-needles"
+          "image_id": "hkb-17001-needles",
+          "code": "17001b"
         },
         {
           "en": "Open male catkins.",
           "zh": "開放的雄球花。",
-          "image_id": "hkb-17001-male"
+          "image_id": "hkb-17001-male",
+          "code": "17001c"
         },
         {
           "en": "Mature chestnut-brown cones.",
           "zh": "成熟的栗褐色球果。",
-          "image_id": "hkb-17001-cones"
+          "image_id": "hkb-17001-cones",
+          "code": "17001d"
         }
       ],
       "reference": {
@@ -754,22 +773,26 @@
         {
           "en": "Flowering tree in hill forest.",
           "zh": "山坡林中開花的樹。",
-          "image_id": "hkb-67609-habit"
+          "image_id": "hkb-67609-habit",
+          "code": "67609a"
         },
         {
           "en": "White flowers with many stamens.",
           "zh": "白花，雄蕊多數。",
-          "image_id": "hkb-67609-flower"
+          "image_id": "hkb-67609-flower",
+          "code": "67609b"
         },
         {
           "en": "Leaf with a crenulate margin and cuneate base.",
           "zh": "葉緣具圓齒，基部楔形。",
-          "image_id": "hkb-67609-leaf"
+          "image_id": "hkb-67609-leaf",
+          "code": "67609c"
         },
         {
           "en": "Subglobose capsules.",
           "zh": "近球形蒴果。",
-          "image_id": "hkb-67609-capsule"
+          "image_id": "hkb-67609-capsule",
+          "code": "67609d"
         }
       ],
       "reference": {
@@ -891,22 +914,26 @@
         {
           "en": "Flowering tree with pale bark.",
           "zh": "開花的樹，樹皮淡色。",
-          "image_id": "hkb-82051-habit"
+          "image_id": "hkb-82051-habit",
+          "code": "82051a"
         },
         {
           "en": "Digitate leaves with entire leaflets.",
           "zh": "掌狀複葉，小葉全緣。",
-          "image_id": "hkb-82051-leaf"
+          "image_id": "hkb-82051-leaf",
+          "code": "82051b"
         },
         {
           "en": "Cream umbels on the panicle.",
           "zh": "圓錐花序上的乳白色傘形花序。",
-          "image_id": "hkb-82051-flower"
+          "image_id": "hkb-82051-flower",
+          "code": "82051c"
         },
         {
           "en": "Green globose fruits in umbels.",
           "zh": "傘形果序上的綠色球形果。",
-          "image_id": "hkb-82051-fruit"
+          "image_id": "hkb-82051-fruit",
+          "code": "82051d"
         }
       ],
       "reference": {
@@ -1034,17 +1061,20 @@
         {
           "en": "Flowering shrubs on a grassy ridge.",
           "zh": "草坡上開花的灌叢。",
-          "image_id": "hkb-58382-habit"
+          "image_id": "hkb-58382-habit",
+          "code": "58382a"
         },
         {
           "en": "Five magenta petals and red stamens.",
           "zh": "五枚洋紅色花瓣，雄蕊紅色。",
-          "image_id": "hkb-58382-flower"
+          "image_id": "hkb-58382-flower",
+          "code": "58382b"
         },
         {
           "en": "Grey-tomentose lower leaf surface.",
           "zh": "葉背灰色絨毛。",
-          "image_id": "hkb-58382-leaf"
+          "image_id": "hkb-58382-leaf",
+          "code": "58382c"
         }
       ],
       "reference": {
@@ -1167,22 +1197,26 @@
         {
           "en": "Pendulous greyish-white racemes on the woody climber.",
           "zh": "木質藤上的下垂灰白色總狀花序。",
-          "image_id": "hkb-47180-habit"
+          "image_id": "hkb-47180-habit",
+          "code": "47180a"
         },
         {
           "en": "Open greyish-white flower, with a long keel.",
           "zh": "開放的灰白色花，龍骨瓣長。",
-          "image_id": "hkb-47180-flower"
+          "image_id": "hkb-47180-flower",
+          "code": "47180b"
         },
         {
           "en": "Pinnately 3-foliolate leaves.",
           "zh": "羽狀三出複葉。",
-          "image_id": "hkb-47180-leaf"
+          "image_id": "hkb-47180-leaf",
+          "code": "47180c"
         },
         {
           "en": "Hanging loriform pods.",
           "zh": "下垂的條形莢果。",
-          "image_id": "hkb-47180-pods"
+          "image_id": "hkb-47180-pods",
+          "code": "47180d"
         }
       ],
       "reference": {
@@ -1303,22 +1337,26 @@
         {
           "en": "Shrub on a rocky seashore.",
           "zh": "岩石海岸上的灌木。",
-          "image_id": "hkb-79200-habit"
+          "image_id": "hkb-79200-habit",
+          "code": "79200a"
         },
         {
           "en": "White half-split fan flowers.",
           "zh": "白色半邊扇形花。",
-          "image_id": "hkb-79200-flower"
+          "image_id": "hkb-79200-flower",
+          "code": "79200b"
         },
         {
           "en": "Thick stem and crowded leaf tips.",
           "zh": "粗莖，葉聚生於枝端。",
-          "image_id": "hkb-79200-stem"
+          "image_id": "hkb-79200-stem",
+          "code": "79200c"
         },
         {
           "en": "White fruits with the fan flowers.",
           "zh": "白色果與扇形花。",
-          "image_id": "hkb-79200-fruit"
+          "image_id": "hkb-79200-fruit",
+          "code": "79200d"
         }
       ],
       "reference": {
@@ -1443,22 +1481,26 @@
         {
           "en": "Massive dark-grey trunk.",
           "zh": "粗大的深灰樹幹。",
-          "image_id": "hkb-61450-trunk"
+          "image_id": "hkb-61450-trunk",
+          "code": "61450a"
         },
         {
           "en": "Leaf with many subparallel lateral veins.",
           "zh": "葉具多條近平行的側脈。",
-          "image_id": "hkb-61450-leaf"
+          "image_id": "hkb-61450-leaf",
+          "code": "61450b"
         },
         {
           "en": "Yellowish-green flower with five calyx lobes.",
           "zh": "黃綠色花，萼裂片 5。",
-          "image_id": "hkb-61450-flower"
+          "image_id": "hkb-61450-flower",
+          "code": "61450c"
         },
         {
           "en": "Seed hanging with its tail-shaped appendage.",
           "zh": "種子連尾狀附屬物懸垂。",
-          "image_id": "hkb-61450-seed"
+          "image_id": "hkb-61450-seed",
+          "code": "61450d"
         }
       ],
       "reference": {
@@ -1583,17 +1625,20 @@
         {
           "en": "Tree with an ample crown.",
           "zh": "樹冠寬大的喬木。",
-          "image_id": "hkb-26103-habit"
+          "image_id": "hkb-26103-habit",
+          "code": "26103a"
         },
         {
           "en": "Abaxial leaf surface.",
           "zh": "葉背面。",
-          "image_id": "hkb-26103-leaf"
+          "image_id": "hkb-26103-leaf",
+          "code": "26103b"
         },
         {
           "en": "Yellowish-white flower.",
           "zh": "黃白色花。",
-          "image_id": "hkb-26103-flower"
+          "image_id": "hkb-26103-flower",
+          "code": "26103c"
         }
       ],
       "reference": {
@@ -1715,27 +1760,32 @@
         {
           "en": "Shrub or small tree.",
           "zh": "灌木或小喬木。",
-          "image_id": "hkb-55350-habit"
+          "image_id": "hkb-55350-habit",
+          "code": "55350a"
         },
         {
           "en": "Yellowish-white bark.",
           "zh": "黃白色樹皮。",
-          "image_id": "hkb-55350-bark"
+          "image_id": "hkb-55350-bark",
+          "code": "55350b"
         },
         {
           "en": "Elliptic leaves on a short petiole.",
           "zh": "短柄上的橢圓形葉。",
-          "image_id": "hkb-55350-leaf"
+          "image_id": "hkb-55350-leaf",
+          "code": "55350c"
         },
         {
           "en": "Red flower, about 1 cm across.",
           "zh": "紅色花，直徑約 1 厘米。",
-          "image_id": "hkb-55350-flower"
+          "image_id": "hkb-55350-flower",
+          "code": "55350d"
         },
         {
           "en": "Elliptic capsules.",
           "zh": "橢圓形蒴果。",
-          "image_id": "hkb-55350-fruit"
+          "image_id": "hkb-55350-fruit",
+          "code": "55350e"
         }
       ],
       "reference": {
@@ -1860,22 +1910,26 @@
         {
           "en": "Crown of a roadside tree.",
           "zh": "行道樹的樹冠。",
-          "image_id": "hkb-56506-habit"
+          "image_id": "hkb-56506-habit",
+          "code": "56506a"
         },
         {
           "en": "Palmately 3-foliolate leaf.",
           "zh": "掌狀三出複葉。",
-          "image_id": "hkb-56506-leaf"
+          "image_id": "hkb-56506-leaf",
+          "code": "56506b"
         },
         {
           "en": "Pendent panicle of small flowers.",
           "zh": "下垂的小花圓錐花序。",
-          "image_id": "hkb-56506-flower"
+          "image_id": "hkb-56506-flower",
+          "code": "56506c"
         },
         {
           "en": "Brownish globose fruits.",
           "zh": "褐色球形果。",
-          "image_id": "hkb-56506-fruit"
+          "image_id": "hkb-56506-fruit",
+          "code": "56506d"
         }
       ],
       "reference": {
@@ -2001,22 +2055,26 @@
         {
           "en": "Tree or shrub.",
           "zh": "喬木或灌木。",
-          "image_id": "hkb-55910-habit"
+          "image_id": "hkb-55910-habit",
+          "code": "55910a"
         },
         {
           "en": "White-tomentose lower leaf surface.",
           "zh": "被白色絨毛的葉背面。",
-          "image_id": "hkb-55910-leaf"
+          "image_id": "hkb-55910-leaf",
+          "code": "55910b"
         },
         {
           "en": "Flowers of the terminal inflorescence.",
           "zh": "頂生花序上的花。",
-          "image_id": "hkb-55910-flower"
+          "image_id": "hkb-55910-flower",
+          "code": "55910c"
         },
         {
           "en": "Soft-spiny capsule.",
           "zh": "具軟刺的蒴果。",
-          "image_id": "hkb-55910-fruit"
+          "image_id": "hkb-55910-fruit",
+          "code": "55910d"
         }
       ],
       "reference": {
@@ -2140,22 +2198,26 @@
         {
           "en": "Shrub at the mangrove edge.",
           "zh": "紅樹林邊緣的灌木。",
-          "image_id": "hkb-67415-habit"
+          "image_id": "hkb-67415-habit",
+          "code": "67415a"
         },
         {
           "en": "Leathery obovate leaf.",
           "zh": "革質倒卵形葉。",
-          "image_id": "hkb-67415-leaf"
+          "image_id": "hkb-67415-leaf",
+          "code": "67415b"
         },
         {
           "en": "White umbel, lobes reflexed.",
           "zh": "白色傘形花序，裂片反折。",
-          "image_id": "hkb-67415-flower"
+          "image_id": "hkb-67415-flower",
+          "code": "67415c"
         },
         {
           "en": "Curved fruits on the shrub.",
           "zh": "灌木上的彎曲果。",
-          "image_id": "hkb-67415-fruit"
+          "image_id": "hkb-67415-fruit",
+          "code": "67415d"
         }
       ],
       "reference": {
@@ -2280,22 +2342,26 @@
         {
           "en": "Tree by the water.",
           "zh": "水邊的樹。",
-          "image_id": "hkb-61052-habit"
+          "image_id": "hkb-61052-habit",
+          "code": "61052a"
         },
         {
           "en": "Silvery lower leaf surface.",
           "zh": "銀色的葉背面。",
-          "image_id": "hkb-61052-leaf"
+          "image_id": "hkb-61052-leaf",
+          "code": "61052b"
         },
         {
           "en": "Red-brown campanulate flower.",
           "zh": "紅褐色鐘形花。",
-          "image_id": "hkb-61052-flower"
+          "image_id": "hkb-61052-flower",
+          "code": "61052c"
         },
         {
           "en": "Woody fruit with a keeled outer edge.",
           "zh": "木質果，外緣有龍骨。",
-          "image_id": "hkb-61052-fruit"
+          "image_id": "hkb-61052-fruit",
+          "code": "61052d"
         }
       ],
       "reference": {
@@ -2418,22 +2484,26 @@
         {
           "en": "Tree in a mangrove.",
           "zh": "紅樹林中的樹。",
-          "image_id": "hkb-55904-habit"
+          "image_id": "hkb-55904-habit",
+          "code": "55904a"
         },
         {
           "en": "Elliptic leaves on a stout petiole.",
           "zh": "粗葉柄上的橢圓形葉。",
-          "image_id": "hkb-55904-leaf"
+          "image_id": "hkb-55904-leaf",
+          "code": "55904b"
         },
         {
           "en": "Axillary raceme.",
           "zh": "腋生總狀花序。",
-          "image_id": "hkb-55904-flower"
+          "image_id": "hkb-55904-flower",
+          "code": "55904c"
         },
         {
           "en": "Globose capsule.",
           "zh": "球形蒴果。",
-          "image_id": "hkb-55904-fruit"
+          "image_id": "hkb-55904-fruit",
+          "code": "55904d"
         }
       ],
       "reference": {
@@ -2557,17 +2627,20 @@
         {
           "en": "Shrub on a sandy beach.",
           "zh": "沙灘上的灌木。",
-          "image_id": "hkb-30100-habit"
+          "image_id": "hkb-30100-habit",
+          "code": "30100a"
         },
         {
           "en": "Loriform leaves with spines.",
           "zh": "帶形葉，邊緣有刺。",
-          "image_id": "hkb-30100-leaf"
+          "image_id": "hkb-30100-leaf",
+          "code": "30100b"
         },
         {
           "en": "Pendent syncarp.",
           "zh": "下垂的聚花果。",
-          "image_id": "hkb-30100-fruit"
+          "image_id": "hkb-30100-fruit",
+          "code": "30100c"
         }
       ],
       "reference": {
@@ -2693,17 +2766,20 @@
         {
           "en": "Woody liana in flower.",
           "zh": "開花的木質藤本。",
-          "image_id": "hkb-71834-habit"
+          "image_id": "hkb-71834-habit",
+          "code": "71834a"
         },
         {
           "en": "Ovate to elliptic leaves, lower surface.",
           "zh": "卵形至橢圓形葉的背面。",
-          "image_id": "hkb-71834-leaf"
+          "image_id": "hkb-71834-leaf",
+          "code": "71834b"
         },
         {
           "en": "White star-shaped flowers.",
           "zh": "白色星形花。",
-          "image_id": "hkb-71834-flower"
+          "image_id": "hkb-71834-flower",
+          "code": "71834c"
         }
       ],
       "reference": {
@@ -2826,22 +2902,26 @@
         {
           "en": "Unarmed shrub.",
           "zh": "無刺灌木。",
-          "image_id": "hkb-71045-habit"
+          "image_id": "hkb-71045-habit",
+          "code": "71045a"
         },
         {
           "en": "Opposite elliptic leaves.",
           "zh": "對生的橢圓形葉。",
-          "image_id": "hkb-71045-leaf"
+          "image_id": "hkb-71045-leaf",
+          "code": "71045b"
         },
         {
           "en": "White 6-lobed corolla.",
           "zh": "白色 6 裂的花冠。",
-          "image_id": "hkb-71045-flower"
+          "image_id": "hkb-71045-flower",
+          "code": "71045c"
         },
         {
           "en": "Ellipsoidal fruit with persistent calyx lobes.",
           "zh": "橢圓形果，具宿存萼裂片。",
-          "image_id": "hkb-71045-fruit"
+          "image_id": "hkb-71045-fruit",
+          "code": "71045d"
         }
       ],
       "reference": {
@@ -2979,107 +3059,110 @@
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-61065-habit-canopy-fl-wide-04"
+          "image_id": "hkb-61065-habit-canopy-fl-wide-04",
+          "code": "61065a"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-61065-habit-urban-fl-tree-12"
+          "image_id": "hkb-61065-habit-urban-fl-tree-12",
+          "code": "61065b"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-61065-habit-street-fl-group-16"
+          "image_id": "hkb-61065-habit-street-fl-group-16",
+          "code": "61065c"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-61065-habit-fl-with-leaves-21"
+          "image_id": "hkb-61065-habit-fl-with-leaves-21",
+          "code": "61065d"
         },
         {
           "en": "Fruiting habit.",
           "zh": "結果的植株。",
-          "image_id": "hkb-61065-habit-fruit-kapok-canopy-34"
+          "image_id": "hkb-61065-habit-fruit-kapok-canopy-34",
+          "code": "61065e"
         },
         {
           "en": "Spiny trunk.",
           "zh": "具刺的樹幹。",
-          "image_id": "hkb-61065-trunk-spiny-10"
+          "image_id": "hkb-61065-trunk-spiny-10",
+          "code": "61065f"
         },
         {
           "en": "Palmate leaf.",
           "zh": "掌狀葉。",
-          "image_id": "hkb-61065-leaf-palmate-5-7-08"
+          "image_id": "hkb-61065-leaf-palmate-5-7-08",
+          "code": "61065g"
         },
         {
           "en": "Palmate leaf.",
           "zh": "掌狀葉。",
-          "image_id": "hkb-61065-leaf-palmate-face-11"
+          "image_id": "hkb-61065-leaf-palmate-face-11",
+          "code": "61065h"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-61065-fl-canopy-close-01"
+          "image_id": "hkb-61065-fl-canopy-close-01",
+          "code": "61065i"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-61065-fl-branch-dense-23"
-        },
-        {
-          "en": "Stamens.",
-          "zh": "雄蕊。",
-          "image_id": "hkb-61065-fl-macro-stamens-26"
+          "image_id": "hkb-61065-fl-branch-dense-23",
+          "code": "61065j"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-61065-fl-macro-cluster-27"
+          "image_id": "hkb-61065-fl-macro-cluster-27",
+          "code": "61065l"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-61065-fl-bud-calyx-macro-28"
+          "image_id": "hkb-61065-fl-bud-calyx-macro-28",
+          "code": "61065m"
         },
         {
           "en": "Stamens.",
           "zh": "雄蕊。",
-          "image_id": "hkb-61065-fl-face-stamen-macro-30"
+          "image_id": "hkb-61065-fl-face-stamen-macro-30",
+          "code": "61065n"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-61065-fl-canopy-sky-02"
-        },
-        {
-          "en": "Flower.",
-          "zh": "花。",
-          "image_id": "hkb-61065-fl-canopy-sky2-03"
-        },
-        {
-          "en": "Flower.",
-          "zh": "花。",
-          "image_id": "hkb-61065-fl-branch-cluster-05"
+          "image_id": "hkb-61065-fl-canopy-sky-02",
+          "code": "61065o"
         },
         {
           "en": "Capsule.",
           "zh": "蒴果。",
-          "image_id": "hkb-61065-capsule-kapok-dehisced-31"
+          "image_id": "hkb-61065-capsule-kapok-dehisced-31",
+          "code": "61065r"
         },
         {
           "en": "Capsule.",
           "zh": "蒴果。",
-          "image_id": "hkb-61065-capsule-closed-leaves-33"
+          "image_id": "hkb-61065-capsule-closed-leaves-33",
+          "code": "61065s"
         },
         {
           "en": "Seeds.",
           "zh": "種子。",
-          "image_id": "hkb-61065-kapok-seeds-macro-36"
+          "image_id": "hkb-61065-kapok-seeds-macro-36",
+          "code": "61065t"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-61065-stem-young-spines-41"
+          "image_id": "hkb-61065-stem-young-spines-41",
+          "code": "61065u"
         }
       ],
       "hero_id": "hkb-61065-habit-canopy-fl-wide-04"
@@ -3205,102 +3288,122 @@
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-47029-habit-fl-umbrella-best-26"
+          "image_id": "hkb-47029-habit-fl-umbrella-best-26",
+          "code": "47029a"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-47029-habit-fl-street-umbrella-65"
+          "image_id": "hkb-47029-habit-fl-street-umbrella-65",
+          "code": "47029b"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-47029-habit-fl-umbrella-park-best-87"
+          "image_id": "hkb-47029-habit-fl-umbrella-park-best-87",
+          "code": "47029c"
         },
         {
           "en": "Bark.",
           "zh": "樹皮。",
-          "image_id": "hkb-47029-bark-trunk-close-24"
+          "image_id": "hkb-47029-bark-trunk-close-24",
+          "code": "47029d"
         },
         {
           "en": "Stipules.",
           "zh": "托葉。",
-          "image_id": "hkb-47029-stipule-leaf-flush-macro-10"
+          "image_id": "hkb-47029-stipule-leaf-flush-macro-10",
+          "code": "47029e"
         },
         {
           "en": "Palmate leaf.",
           "zh": "掌狀葉。",
-          "image_id": "hkb-47029-leaf-bipinnate-pinna-plate-17"
+          "image_id": "hkb-47029-leaf-bipinnate-pinna-plate-17",
+          "code": "47029f"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-47029-leaf-bipinnate-overhead-21"
+          "image_id": "hkb-47029-leaf-bipinnate-overhead-21",
+          "code": "47029g"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-47029-fl-leaf-bipinnate-mix-62"
+          "image_id": "hkb-47029-fl-leaf-bipinnate-mix-62",
+          "code": "47029h"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-47029-leaf-bipinnate-mature-plate-72"
+          "image_id": "hkb-47029-leaf-bipinnate-mature-plate-72",
+          "code": "47029i"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-47029-fl-raceme-white-standard-09"
+          "image_id": "hkb-47029-fl-raceme-white-standard-09",
+          "code": "47029j"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-47029-fl-calyx-ovary-macro-31"
+          "image_id": "hkb-47029-fl-calyx-ovary-macro-31",
+          "code": "47029k"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-47029-fl-calyx-disc-ovary-33"
+          "image_id": "hkb-47029-fl-calyx-disc-ovary-33",
+          "code": "47029l"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-47029-fl-dissection-plate-35"
+          "image_id": "hkb-47029-fl-dissection-plate-35",
+          "code": "47029m"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-47029-fl-macro-white-standard-best-58"
+          "image_id": "hkb-47029-fl-macro-white-standard-best-58",
+          "code": "47029n"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-47029-fl-macro-white-standard-best-59"
+          "image_id": "hkb-47029-fl-macro-white-standard-best-59",
+          "code": "47029o"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-47029-fl-macro-white-standard-best-83"
+          "image_id": "hkb-47029-fl-macro-white-standard-best-83",
+          "code": "47029p"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-47029-fl-macro-white-standard-best-86"
+          "image_id": "hkb-47029-fl-macro-white-standard-best-86",
+          "code": "47029q"
         },
         {
           "en": "Long woody pods.",
           "zh": "長木質莢果。",
-          "image_id": "hkb-47029-fl-canopy-pods-29"
+          "image_id": "hkb-47029-fl-canopy-pods-29",
+          "code": "47029r"
         },
         {
           "en": "Long woody pods.",
           "zh": "長木質莢果。",
-          "image_id": "hkb-47029-fl-canopy-young-pods-57"
+          "image_id": "hkb-47029-fl-canopy-young-pods-57",
+          "code": "47029s"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-47029-bud-twig-lenticels-macro-77"
+          "image_id": "hkb-47029-bud-twig-lenticels-macro-77",
+          "code": "47029t"
         }
       ],
       "hero_id": "hkb-47029-habit-fl-umbrella-best-26"
@@ -3425,72 +3528,86 @@
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-67603-habit-01"
+          "image_id": "hkb-67603-habit-01",
+          "code": "67603a"
         },
         {
           "en": "Bark.",
           "zh": "樹皮。",
-          "image_id": "hkb-67603-bark-15"
+          "image_id": "hkb-67603-bark-15",
+          "code": "67603b"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-67603-leaf-abaxial-14"
+          "image_id": "hkb-67603-leaf-abaxial-14",
+          "code": "67603c"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-67603-leaf-branch-48"
+          "image_id": "hkb-67603-leaf-branch-48",
+          "code": "67603d"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-67603-leaf-abaxial-57"
+          "image_id": "hkb-67603-leaf-abaxial-57",
+          "code": "67603e"
         },
         {
           "en": "Stamens.",
           "zh": "雄蕊。",
-          "image_id": "hkb-67603-flower-macro-02"
+          "image_id": "hkb-67603-flower-macro-02",
+          "code": "67603f"
         },
         {
           "en": "Petals.",
           "zh": "花瓣。",
-          "image_id": "hkb-67603-flower-macro-11"
+          "image_id": "hkb-67603-flower-macro-11",
+          "code": "67603g"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-67603-flower-macro-17"
+          "image_id": "hkb-67603-flower-macro-17",
+          "code": "67603h"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-67603-flower-macro-55"
+          "image_id": "hkb-67603-flower-macro-55",
+          "code": "67603i"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-67603-flower-macro-58"
+          "image_id": "hkb-67603-flower-macro-58",
+          "code": "67603j"
         },
         {
           "en": "Capsule.",
           "zh": "蒴果。",
-          "image_id": "hkb-67603-fruit-25"
+          "image_id": "hkb-67603-fruit-25",
+          "code": "67603k"
         },
         {
           "en": "Capsule.",
           "zh": "蒴果。",
-          "image_id": "hkb-67603-fruit-27"
+          "image_id": "hkb-67603-fruit-27",
+          "code": "67603l"
         },
         {
           "en": "Capsule.",
           "zh": "蒴果。",
-          "image_id": "hkb-67603-fruit-34"
+          "image_id": "hkb-67603-fruit-34",
+          "code": "67603m"
         },
         {
           "en": "White enlarged calyx lobe and yellow corolla.",
           "zh": "白色增大的萼裂片，花冠黃色。",
-          "image_id": "hkb-67603-bud-08"
+          "image_id": "hkb-67603-bud-08",
+          "code": "67603n"
         }
       ],
       "hero_id": "hkb-67603-habit-01"
@@ -3616,202 +3733,242 @@
         {
           "en": "Fruiting habit.",
           "zh": "結果的植株。",
-          "image_id": "hkb-45002-habit-crown-fruit-laden-sparse-leaf-16"
+          "image_id": "hkb-45002-habit-crown-fruit-laden-sparse-leaf-16",
+          "code": "45002a"
         },
         {
           "en": "Autumn habit.",
           "zh": "秋色的植株。",
-          "image_id": "hkb-45002-habit-tall-tree-roadside-autumn-20"
+          "image_id": "hkb-45002-habit-tall-tree-roadside-autumn-20",
+          "code": "45002b"
         },
         {
           "en": "Fruiting habit.",
           "zh": "結果的植株。",
-          "image_id": "hkb-45002-habit-young-tree-crimson-fruits-30"
+          "image_id": "hkb-45002-habit-young-tree-crimson-fruits-30",
+          "code": "45002c"
         },
         {
           "en": "Autumn habit.",
           "zh": "秋色的植株。",
-          "image_id": "hkb-45002-habit-roadside-red-pale-bark-49"
+          "image_id": "hkb-45002-habit-roadside-red-pale-bark-49",
+          "code": "45002d"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-45002-habit-crown-crimson-hillside-50"
+          "image_id": "hkb-45002-habit-crown-crimson-hillside-50",
+          "code": "45002e"
         },
         {
           "en": "Fruiting habit.",
           "zh": "結果的植株。",
-          "image_id": "hkb-45002-canopy-many-black-fruits-sparse-leaf-65"
+          "image_id": "hkb-45002-canopy-many-black-fruits-sparse-leaf-65",
+          "code": "45002f"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-45002-habit-full-green-crown-sky-83"
+          "image_id": "hkb-45002-habit-full-green-crown-sky-83",
+          "code": "45002g"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-45002-habit-full-crimson-tree-portrait-93"
+          "image_id": "hkb-45002-habit-full-crimson-tree-portrait-93",
+          "code": "45002h"
         },
         {
           "en": "Fruiting habit.",
           "zh": "結果的植株。",
-          "image_id": "hkb-45002-canopy-spring-flush-old-fruit-162"
+          "image_id": "hkb-45002-canopy-spring-flush-old-fruit-162",
+          "code": "45002i"
         },
         {
           "en": "Autumn habit.",
           "zh": "秋色的植株。",
-          "image_id": "hkb-45002-habit-tree-pathside-autumn-01"
+          "image_id": "hkb-45002-habit-tree-pathside-autumn-01",
+          "code": "45002j"
         },
         {
           "en": "Bark.",
           "zh": "樹皮。",
-          "image_id": "hkb-45002-bark-trunk-forest-habit-108"
+          "image_id": "hkb-45002-bark-trunk-forest-habit-108",
+          "code": "45002k"
         },
         {
           "en": "Autumn leaves.",
           "zh": "秋色的葉。",
-          "image_id": "hkb-45002-autumn-leaf-color-branch-17"
+          "image_id": "hkb-45002-autumn-leaf-color-branch-17",
+          "code": "45002l"
         },
         {
           "en": "Autumn leaves.",
           "zh": "秋色的葉。",
-          "image_id": "hkb-45002-autumn-leaf-orange-backlit-24"
+          "image_id": "hkb-45002-autumn-leaf-orange-backlit-24",
+          "code": "45002m"
         },
         {
           "en": "Pubescent surface.",
           "zh": "被毛的表面。",
-          "image_id": "hkb-45002-sapling-leaf-held-pubescent-37"
+          "image_id": "hkb-45002-sapling-leaf-held-pubescent-37",
+          "code": "45002n"
         },
         {
           "en": "Autumn leaves.",
           "zh": "秋色的葉。",
-          "image_id": "hkb-45002-autumn-leaf-red-sky-single-46"
+          "image_id": "hkb-45002-autumn-leaf-red-sky-single-46",
+          "code": "45002o"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-45002-leaf-single-red-portrait-76"
+          "image_id": "hkb-45002-leaf-single-red-portrait-76",
+          "code": "45002p"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-45002-leaf-backlit-venation-led-105"
+          "image_id": "hkb-45002-leaf-backlit-venation-led-105",
+          "code": "45002q"
         },
         {
           "en": "Three-lobed leaf.",
           "zh": "三裂的葉。",
-          "image_id": "hkb-45002-leaf-litter-3lobed-ground-140"
+          "image_id": "hkb-45002-leaf-litter-3lobed-ground-140",
+          "code": "45002r"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-45002-leaf-abaxial-red-venation-145"
+          "image_id": "hkb-45002-leaf-abaxial-red-venation-145",
+          "code": "45002s"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-45002-flower-male-inflo-young-leaf-159"
+          "image_id": "hkb-45002-flower-male-inflo-young-leaf-159",
+          "code": "45002t"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-45002-flower-female-pink-styles-112"
+          "image_id": "hkb-45002-flower-female-pink-styles-112",
+          "code": "45002u"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-45002-flower-female-male-catkins-113"
+          "image_id": "hkb-45002-flower-female-male-catkins-113",
+          "code": "45002v"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-45002-fruit-green-spiky-leaf-canopy-02"
+          "image_id": "hkb-45002-fruit-green-spiky-leaf-canopy-02",
+          "code": "45002w"
         },
         {
           "en": "Fruiting head.",
           "zh": "果序。",
-          "image_id": "hkb-45002-fruit-macro-styles-curled-07"
+          "image_id": "hkb-45002-fruit-macro-styles-curled-07",
+          "code": "45002x"
         },
         {
           "en": "Autumn leaves.",
           "zh": "秋色的葉。",
-          "image_id": "hkb-45002-autumn-red-leaves-black-fruits-28"
+          "image_id": "hkb-45002-autumn-red-leaves-black-fruits-28",
+          "code": "45002y"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-45002-fruit-single-brown-twig-sky-58"
+          "image_id": "hkb-45002-fruit-single-brown-twig-sky-58",
+          "code": "45002z"
         },
         {
           "en": "Fruiting head.",
           "zh": "果序。",
-          "image_id": "hkb-45002-leaf-fruit-pair-bench-102"
+          "image_id": "hkb-45002-leaf-fruit-pair-bench-102",
+          "code": "45002aa"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-45002-leaf-fruit-array-bench-106"
+          "image_id": "hkb-45002-leaf-fruit-array-bench-106",
+          "code": "45002ab"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-45002-winter-buds-old-fruit-sky-164"
+          "image_id": "hkb-45002-winter-buds-old-fruit-sky-164",
+          "code": "45002ac"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-45002-fruit-cluster-green-branch-03"
+          "image_id": "hkb-45002-fruit-cluster-green-branch-03",
+          "code": "45002ad"
         },
         {
           "en": "Bark.",
           "zh": "樹皮。",
-          "image_id": "hkb-45002-fruit-bark-leaf-trunk-44"
+          "image_id": "hkb-45002-fruit-bark-leaf-trunk-44",
+          "code": "45002ae"
         },
         {
           "en": "Pubescent surface.",
           "zh": "被毛的表面。",
-          "image_id": "hkb-45002-stem-pubescent-node-macro-40"
+          "image_id": "hkb-45002-stem-pubescent-node-macro-40",
+          "code": "45002af"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-45002-spring-young-leaves-backlit-79"
+          "image_id": "hkb-45002-spring-young-leaves-backlit-79",
+          "code": "45002ag"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-45002-spring-flush-red-cluster-82"
+          "image_id": "hkb-45002-spring-flush-red-cluster-82",
+          "code": "45002ah"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-45002-budbreak-young-leaves-111"
+          "image_id": "hkb-45002-budbreak-young-leaves-111",
+          "code": "45002ai"
         },
         {
           "en": "Pubescent surface.",
           "zh": "被毛的表面。",
-          "image_id": "hkb-45002-winter-bud-macro-pubescent-118"
+          "image_id": "hkb-45002-winter-bud-macro-pubescent-118",
+          "code": "45002aj"
         },
         {
           "en": "Pubescent surface.",
           "zh": "被毛的表面。",
-          "image_id": "hkb-45002-young-flush-pubescent-purple-127"
+          "image_id": "hkb-45002-young-flush-pubescent-purple-127",
+          "code": "45002ak"
         },
         {
           "en": "Pubescent surface.",
           "zh": "被毛的表面。",
-          "image_id": "hkb-45002-sapling-pubescent-stem-purple-tip-128"
+          "image_id": "hkb-45002-sapling-pubescent-stem-purple-tip-128",
+          "code": "45002al"
         },
         {
           "en": "Autumn leaves.",
           "zh": "秋色的葉。",
-          "image_id": "hkb-45002-stand-autumn-hillside-143"
+          "image_id": "hkb-45002-stand-autumn-hillside-143",
+          "code": "45002am"
         },
         {
           "en": "Autumn leaves.",
           "zh": "秋色的葉。",
-          "image_id": "hkb-45002-autumn-crimson-vs-pine-149"
+          "image_id": "hkb-45002-autumn-crimson-vs-pine-149",
+          "code": "45002an"
         }
       ],
       "hero_id": "hkb-45002-habit-crown-fruit-laden-sparse-leaf-16"
@@ -3938,157 +4095,158 @@
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-49028-habit-small-tree-flowering-01"
+          "image_id": "hkb-49028-habit-small-tree-flowering-01",
+          "code": "49028a"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-49028-habit-fl-shrub-close-04"
+          "image_id": "hkb-49028-habit-large-shrub-fl-city-61",
+          "code": "49028d"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-49028-habit-multi-trunk-tree-fl-42"
-        },
-        {
-          "en": "Flowering habit.",
-          "zh": "開花的植株。",
-          "image_id": "hkb-49028-habit-large-shrub-fl-city-61"
-        },
-        {
-          "en": "Habit.",
-          "zh": "植株。",
-          "image_id": "hkb-49028-habit-slope-mass-fl-16"
+          "image_id": "hkb-49028-habit-slope-mass-fl-16",
+          "code": "49028e"
         },
         {
           "en": "Bark.",
           "zh": "樹皮。",
-          "image_id": "hkb-49028-bark-trunk-fork-30"
+          "image_id": "hkb-49028-bark-trunk-fork-30",
+          "code": "49028f"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-49028-leaf-tip-whorl-bud-19"
+          "image_id": "hkb-49028-leaf-tip-whorl-bud-19",
+          "code": "49028g"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-49028-leaf-abaxial-hand-29"
+          "image_id": "hkb-49028-leaf-abaxial-hand-29",
+          "code": "49028h"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-49028-leaf-tip-whorls-plate-62"
+          "image_id": "hkb-49028-leaf-tip-whorls-plate-62",
+          "code": "49028i"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-49028-leaf-flush-red-abax-70"
+          "image_id": "hkb-49028-leaf-flush-red-abax-70",
+          "code": "49028j"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-49028-leaf-flush-red-whorl-84"
+          "image_id": "hkb-49028-leaf-flush-red-whorl-84",
+          "code": "49028k"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-49028-fl-macro-panicle-white-pink-35"
+          "image_id": "hkb-49028-fl-macro-panicle-white-pink-35",
+          "code": "49028l"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-49028-fl-macro-panicle-mass-36"
+          "image_id": "hkb-49028-fl-macro-panicle-mass-36",
+          "code": "49028m"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-49028-fl-macro-cluster-sepals-44"
+          "image_id": "hkb-49028-fl-macro-cluster-sepals-44",
+          "code": "49028n"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-49028-fl-raceme-open-buds-46"
+          "image_id": "hkb-49028-fl-raceme-open-buds-46",
+          "code": "49028o"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-49028-fl-macro-face-pink-centre-50"
+          "image_id": "hkb-49028-fl-macro-face-pink-centre-50",
+          "code": "49028p"
         },
         {
           "en": "Stamens.",
           "zh": "雄蕊。",
-          "image_id": "hkb-49028-fl-raceme-struct-macro-52"
+          "image_id": "hkb-49028-fl-raceme-struct-macro-52",
+          "code": "49028q"
         },
         {
           "en": "Pubescent surface.",
           "zh": "被毛的表面。",
-          "image_id": "hkb-49028-fl-macro-rusty-peduncle-64"
+          "image_id": "hkb-49028-fl-macro-rusty-peduncle-64",
+          "code": "49028r"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-49028-fl-macro-face-sepals-66"
+          "image_id": "hkb-49028-fl-single-face-macro-67",
+          "code": "49028t"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-49028-fl-single-face-macro-67"
+          "image_id": "hkb-49028-fl-canopy-mass-white-72",
+          "code": "49028u"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-49028-fl-canopy-mass-white-72"
-        },
-        {
-          "en": "Flower.",
-          "zh": "花。",
-          "image_id": "hkb-49028-fl-wild-shrub-panicles-85"
-        },
-        {
-          "en": "Flower.",
-          "zh": "花。",
-          "image_id": "hkb-49028-fl-branch-canopy-close-08"
+          "image_id": "hkb-49028-fl-wild-shrub-panicles-85",
+          "code": "49028v"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-49028-fruit-ripe-clusters-leaves-18"
+          "image_id": "hkb-49028-fruit-ripe-clusters-leaves-18",
+          "code": "49028x"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-49028-fruit-mass-canopy-32"
+          "image_id": "hkb-49028-fruit-mass-canopy-32",
+          "code": "49028y"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-49028-fruit-close-purple-black-33"
-        },
-        {
-          "en": "Fruiting head.",
-          "zh": "果序。",
-          "image_id": "hkb-49028-fruit-macro-ripe-cluster-55"
+          "image_id": "hkb-49028-fruit-close-purple-black-33",
+          "code": "49028z"
         },
         {
           "en": "Fruit.",
           "zh": "果。",
-          "image_id": "hkb-49028-fruit-mass-branch-sun-56"
+          "image_id": "hkb-49028-fruit-mass-branch-sun-56",
+          "code": "49028ab"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-49028-fruit-young-green-annular-68"
+          "image_id": "hkb-49028-fruit-young-green-annular-68",
+          "code": "49028ac"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-49028-branch-fl-red-flush-wild-47"
+          "image_id": "hkb-49028-branch-fl-red-flush-wild-47",
+          "code": "49028ad"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-49028-bud-raceme-green-pre-76"
+          "image_id": "hkb-49028-bud-raceme-green-pre-76",
+          "code": "49028ae"
         }
       ],
       "hero_id": "hkb-49028-habit-small-tree-flowering-01"
@@ -4214,122 +4372,128 @@
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-55919-habit-flower-16"
+          "image_id": "hkb-55919-habit-flower-16",
+          "code": "55919a"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-55919-habit-flower-28"
+          "image_id": "hkb-55919-habit-flower-28",
+          "code": "55919b"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-55919-habit-flower-61"
+          "image_id": "hkb-55919-habit-flower-61",
+          "code": "55919c"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-55919-habit-flower-68"
+          "image_id": "hkb-55919-habit-flower-68",
+          "code": "55919d"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-55919-habit-02"
+          "image_id": "hkb-55919-habit-02",
+          "code": "55919e"
         },
         {
           "en": "Bark.",
           "zh": "樹皮。",
-          "image_id": "hkb-55919-bark-flower-22"
+          "image_id": "hkb-55919-bark-flower-22",
+          "code": "55919f"
         },
         {
           "en": "Bark.",
           "zh": "樹皮。",
-          "image_id": "hkb-55919-bark-58"
+          "image_id": "hkb-55919-bark-58",
+          "code": "55919g"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-55919-leaf-flush-33"
+          "image_id": "hkb-55919-leaf-flush-33",
+          "code": "55919h"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-55919-leaf-47"
+          "image_id": "hkb-55919-leaf-47",
+          "code": "55919i"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-55919-leaf-abaxial-50"
+          "image_id": "hkb-55919-leaf-abaxial-50",
+          "code": "55919j"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-55919-flower-macro-09"
+          "image_id": "hkb-55919-flower-macro-10",
+          "code": "55919l"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-55919-flower-macro-10"
+          "image_id": "hkb-55919-flower-branch-15",
+          "code": "55919m"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-55919-flower-branch-15"
+          "image_id": "hkb-55919-flower-carpet-21",
+          "code": "55919n"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-55919-flower-carpet-21"
+          "image_id": "hkb-55919-flower-fallen-53",
+          "code": "55919o"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-55919-flower-fallen-53"
+          "image_id": "hkb-55919-flower-fallen-55",
+          "code": "55919p"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-55919-flower-fallen-55"
-        },
-        {
-          "en": "Flower.",
-          "zh": "花。",
-          "image_id": "hkb-55919-flower-macro-65"
-        },
-        {
-          "en": "Flower.",
-          "zh": "花。",
-          "image_id": "hkb-55919-flower-macro-72"
+          "image_id": "hkb-55919-flower-macro-65",
+          "code": "55919q"
         },
         {
           "en": "Ribbed fruit.",
           "zh": "有棱的果。",
-          "image_id": "hkb-55919-fruit-macro-01"
+          "image_id": "hkb-55919-fruit-macro-01",
+          "code": "55919s"
         },
         {
           "en": "Ribbed fruit.",
           "zh": "有棱的果。",
-          "image_id": "hkb-55919-fruit-branch-60"
+          "image_id": "hkb-55919-fruit-branch-60",
+          "code": "55919t"
         },
         {
           "en": "Glands on the petiole.",
           "zh": "葉柄上的腺體。",
-          "image_id": "hkb-55919-gland-macro-37"
+          "image_id": "hkb-55919-gland-macro-37",
+          "code": "55919u"
         },
         {
           "en": "Glands on the petiole.",
           "zh": "葉柄上的腺體。",
-          "image_id": "hkb-55919-gland-macro-41"
-        },
-        {
-          "en": "Glands on the petiole.",
-          "zh": "葉柄上的腺體。",
-          "image_id": "hkb-55919-gland-macro-43"
+          "image_id": "hkb-55919-gland-macro-41",
+          "code": "55919v"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-55919-stem-node-49"
+          "image_id": "hkb-55919-stem-node-49",
+          "code": "55919x"
         }
       ],
       "hero_id": "hkb-55919-habit-flower-16"
@@ -4452,117 +4616,134 @@
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-71031-habitat-wild-flowering-28"
+          "image_id": "hkb-71031-habitat-wild-flowering-28",
+          "code": "71031a"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-71031-habit-mass-flowering-slope-39"
+          "image_id": "hkb-71031-habit-mass-flowering-slope-39",
+          "code": "71031b"
         },
         {
           "en": "Stipules.",
           "zh": "托葉。",
-          "image_id": "hkb-71031-stem-node-stipule-macro-05"
+          "image_id": "hkb-71031-stem-node-stipule-macro-05",
+          "code": "71031c"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-71031-leaf-abaxial-node-macro-11"
+          "image_id": "hkb-71031-leaf-abaxial-node-macro-11",
+          "code": "71031d"
         },
         {
           "en": "Stipules.",
           "zh": "托葉。",
-          "image_id": "hkb-71031-stipule-node-hand-macro-12"
+          "image_id": "hkb-71031-stipule-node-hand-macro-12",
+          "code": "71031e"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-71031-leaf-abaxial-hand-48"
+          "image_id": "hkb-71031-leaf-abaxial-hand-48",
+          "code": "71031f"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-flower-corolla-face-macro-07"
+          "image_id": "hkb-71031-flower-corolla-face-macro-07",
+          "code": "71031g"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-71031-flower-corolla-side-macro-08"
+          "image_id": "hkb-71031-flower-corolla-side-macro-08",
+          "code": "71031h"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-calyx-inflorescence-macro-10"
+          "image_id": "hkb-71031-calyx-inflorescence-macro-10",
+          "code": "71031i"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-flower-cyme-white-calyx-19"
+          "image_id": "hkb-71031-flower-cyme-white-calyx-20",
+          "code": "71031k"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-flower-cyme-white-calyx-20"
-        },
-        {
-          "en": "Calyx.",
-          "zh": "萼。",
-          "image_id": "hkb-71031-flower-macro-var-alba-31"
+          "image_id": "hkb-71031-flower-macro-var-alba-31",
+          "code": "71031l"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-71031-flower-mass-thicket-37"
+          "image_id": "hkb-71031-flower-mass-thicket-37",
+          "code": "71031m"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-flower-cyme-wet-night-38"
+          "image_id": "hkb-71031-flower-cyme-wet-night-38",
+          "code": "71031n"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-71031-flower-corolla-pair-macro-42"
+          "image_id": "hkb-71031-flower-corolla-pair-macro-42",
+          "code": "71031o"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-white-calyx-lobe-macro-43"
+          "image_id": "hkb-71031-white-calyx-lobe-macro-43",
+          "code": "71031p"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-71031-flower-topdown-cluster-46"
+          "image_id": "hkb-71031-flower-topdown-cluster-46",
+          "code": "71031q"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-flower-cyme-branch-01"
+          "image_id": "hkb-71031-flower-cyme-branch-01",
+          "code": "71031r"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-postanthesis-calyx-fruit-init-49"
+          "image_id": "hkb-71031-postanthesis-calyx-fruit-init-49",
+          "code": "71031s"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-fruit-green-with-white-calyx-53"
+          "image_id": "hkb-71031-fruit-green-with-white-calyx-53",
+          "code": "71031t"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-fruit-cluster-close-54"
+          "image_id": "hkb-71031-fruit-cluster-close-54",
+          "code": "71031u"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-71031-stem-node-bud-macro-06"
+          "image_id": "hkb-71031-stem-node-bud-macro-06",
+          "code": "71031v"
         },
         {
           "en": "Pubescent surface.",
           "zh": "被毛的表面。",
-          "image_id": "hkb-71031-shoot-tip-young-leaves-13"
+          "image_id": "hkb-71031-shoot-tip-young-leaves-13",
+          "code": "71031w"
         }
       ],
       "hero_id": "hkb-71031-habitat-wild-flowering-28"
@@ -4688,92 +4869,110 @@
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-55050-canopy-fl-red-calyx-01"
+          "image_id": "hkb-55050-canopy-fl-red-calyx-01",
+          "code": "55050a"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-55050-canopy-hypocotyl-early-03"
+          "image_id": "hkb-55050-canopy-hypocotyl-early-03",
+          "code": "55050b"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-55050-habit-mudflat-pneumato-04"
+          "image_id": "hkb-55050-habit-mudflat-pneumato-04",
+          "code": "55050c"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-55050-habit-knee-roots-14"
+          "image_id": "hkb-55050-habit-knee-roots-14",
+          "code": "55050d"
         },
         {
           "en": "Flowering habit.",
           "zh": "開花的植株。",
-          "image_id": "hkb-55050-canopy-fl-leaf-02"
+          "image_id": "hkb-55050-canopy-fl-leaf-02",
+          "code": "55050e"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-55050-canopy-mud-close-05"
+          "image_id": "hkb-55050-canopy-mud-close-05",
+          "code": "55050f"
         },
         {
           "en": "Stipules.",
           "zh": "托葉。",
-          "image_id": "hkb-55050-fl-stipule-whorl-07"
+          "image_id": "hkb-55050-fl-stipule-whorl-07",
+          "code": "55050g"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-55050-leaf-adaxial-hand-11"
+          "image_id": "hkb-55050-leaf-adaxial-hand-11",
+          "code": "55050h"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-55050-leaf-abaxial-hand-12"
+          "image_id": "hkb-55050-leaf-abaxial-hand-12",
+          "code": "55050i"
         },
         {
           "en": "Stipules.",
           "zh": "托葉。",
-          "image_id": "hkb-55050-stipule-red-leaf-whorl-20"
+          "image_id": "hkb-55050-stipule-red-leaf-whorl-20",
+          "code": "55050j"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-55050-leaf-scale-lenscap-21"
+          "image_id": "hkb-55050-leaf-scale-lenscap-21",
+          "code": "55050k"
         },
         {
           "en": "Stipules.",
           "zh": "托葉。",
-          "image_id": "hkb-55050-stipule-young-leaf-13"
+          "image_id": "hkb-55050-stipule-young-leaf-13",
+          "code": "55050l"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-55050-calyx-lobe-count-08"
+          "image_id": "hkb-55050-calyx-lobe-count-08",
+          "code": "55050m"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-55050-fl-open-red-pair-09"
+          "image_id": "hkb-55050-fl-open-red-pair-09",
+          "code": "55050n"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-55050-fl-red-pair-whorl-15"
+          "image_id": "hkb-55050-fl-red-pair-whorl-15",
+          "code": "55050o"
         },
         {
           "en": "Hypocotyl.",
           "zh": "胚軸。",
-          "image_id": "hkb-55050-hypocotyl-propagule-16"
+          "image_id": "hkb-55050-hypocotyl-propagule-16",
+          "code": "55050p"
         },
         {
           "en": "Hypocotyl.",
           "zh": "胚軸。",
-          "image_id": "hkb-55050-hypocotyl-long-18"
+          "image_id": "hkb-55050-hypocotyl-long-18",
+          "code": "55050q"
         },
         {
           "en": "Hypocotyl.",
           "zh": "胚軸。",
-          "image_id": "hkb-55050-hypocotyl-hand-calyx-22"
+          "image_id": "hkb-55050-hypocotyl-hand-calyx-22",
+          "code": "55050r"
         }
       ],
       "hero_id": "hkb-55050-canopy-fl-red-calyx-01"
@@ -4893,97 +5092,110 @@
         {
           "en": "Fruiting habit.",
           "zh": "結果的植株。",
-          "image_id": "hkb-49591-habit-tree-clad-figs-01"
+          "image_id": "hkb-49591-habit-tree-clad-figs-01",
+          "code": "49591a"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-49591-habit-wall-juvenile-clad-21"
+          "image_id": "hkb-49591-habit-wall-juvenile-clad-21",
+          "code": "49591b"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-49591-habit-door-adult-foliage-25"
+          "image_id": "hkb-49591-habit-door-adult-foliage-25",
+          "code": "49591c"
         },
         {
           "en": "Fruiting habit.",
           "zh": "結果的植株。",
-          "image_id": "hkb-49591-habit-wall-juvenile-corner-22"
+          "image_id": "hkb-49591-habit-wall-juvenile-corner-22",
+          "code": "49591d"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-49591-habit-wall-hang-adult-24"
+          "image_id": "hkb-49591-habit-wall-hang-adult-24",
+          "code": "49591e"
         },
         {
           "en": "Stipules.",
           "zh": "托葉。",
-          "image_id": "hkb-49591-shoot-tip-stipule-12"
+          "image_id": "hkb-49591-shoot-tip-stipule-12",
+          "code": "49591f"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-49591-leaf-adaxial-hand-13"
+          "image_id": "hkb-49591-leaf-adaxial-hand-13",
+          "code": "49591g"
         },
         {
           "en": "Leaf venation.",
           "zh": "葉脈。",
-          "image_id": "hkb-49591-leaf-abaxial-retic-14"
+          "image_id": "hkb-49591-leaf-abaxial-retic-14",
+          "code": "49591h"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-fig-branch-macro-02"
+          "image_id": "hkb-49591-fig-branch-macro-02",
+          "code": "49591i"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-fig-macro-dark-03"
+          "image_id": "hkb-49591-fig-macro-dark-03",
+          "code": "49591j"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-fig-side-macro-06"
+          "image_id": "hkb-49591-fig-side-macro-06",
+          "code": "49591k"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-fig-green-fence-08"
+          "image_id": "hkb-49591-fig-green-fence-08",
+          "code": "49591l"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-figs-fence-canopy-09"
+          "image_id": "hkb-49591-figs-fence-canopy-09",
+          "code": "49591m"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-fig-green-macro-11"
+          "image_id": "hkb-49591-fig-green-macro-11",
+          "code": "49591n"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-figs-cluster-fence-17"
+          "image_id": "hkb-49591-figs-cluster-fence-17",
+          "code": "49591o"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-fig-apex-hand-18"
+          "image_id": "hkb-49591-fig-apex-hand-18",
+          "code": "49591p"
         },
         {
           "en": "Figs.",
           "zh": "隱頭花序。",
-          "image_id": "hkb-49591-fig-hanging-macro-04"
-        },
-        {
-          "en": "Detail.",
-          "zh": "細部。",
-          "image_id": "hkb-49591-label-garden-19"
+          "image_id": "hkb-49591-fig-hanging-macro-04",
+          "code": "49591q"
         },
         {
           "en": "Juvenile creeping shoots.",
           "zh": "幼態的匍匐枝。",
-          "image_id": "hkb-49591-juvenile-rock-cover-20"
+          "image_id": "hkb-49591-juvenile-rock-cover-20",
+          "code": "49591s"
         }
       ],
       "hero_id": "hkb-49591-habit-tree-clad-figs-01"
@@ -5109,102 +5321,104 @@
         {
           "en": "Fruiting habit.",
           "zh": "結果的植株。",
-          "image_id": "hkb-61083-canopy-fr-leaves-06"
+          "image_id": "hkb-61083-canopy-fr-leaves-06",
+          "code": "61083a"
         },
         {
           "en": "Habit.",
           "zh": "植株。",
-          "image_id": "hkb-61083-habit-street-full-18"
-        },
-        {
-          "en": "Bark.",
-          "zh": "樹皮。",
-          "image_id": "hkb-61083-bark-trunk-staked-20"
+          "image_id": "hkb-61083-habit-street-full-18",
+          "code": "61083b"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-61083-leaf-adaxial-hand-08"
+          "image_id": "hkb-61083-leaf-adaxial-hand-08",
+          "code": "61083d"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-61083-leaf-base-petiole-macro-09"
+          "image_id": "hkb-61083-leaf-base-petiole-macro-09",
+          "code": "61083e"
         },
         {
           "en": "Leaf.",
           "zh": "葉。",
-          "image_id": "hkb-61083-branch-petiole-leaf-04"
+          "image_id": "hkb-61083-branch-petiole-leaf-04",
+          "code": "61083f"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-61083-fl-aging-magenta-32"
+          "image_id": "hkb-61083-fl-aging-magenta-32",
+          "code": "61083g"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-61083-fl-fresh-yellow-33"
+          "image_id": "hkb-61083-fl-fresh-yellow-33",
+          "code": "61083h"
         },
         {
           "en": "Flower.",
           "zh": "花。",
-          "image_id": "hkb-61083-fl-macro-open-36"
+          "image_id": "hkb-61083-fl-macro-open-36",
+          "code": "61083i"
         },
         {
           "en": "Capsule.",
           "zh": "蒴果。",
-          "image_id": "hkb-61083-fr-woody-capsule-cluster-01"
+          "image_id": "hkb-61083-fr-woody-capsule-cluster-01",
+          "code": "61083j"
         },
         {
           "en": "Seeds.",
           "zh": "種子。",
-          "image_id": "hkb-61083-seed-capsule-open-11"
+          "image_id": "hkb-61083-seed-capsule-open-11",
+          "code": "61083k"
         },
         {
           "en": "Seeds.",
           "zh": "種子。",
-          "image_id": "hkb-61083-seeds-hand-12"
-        },
-        {
-          "en": "Seeds.",
-          "zh": "種子。",
-          "image_id": "hkb-61083-seeds-macro-13"
+          "image_id": "hkb-61083-seeds-hand-12",
+          "code": "61083l"
         },
         {
           "en": "Calyx.",
           "zh": "萼。",
-          "image_id": "hkb-61083-fl-spent-calyx-fruit-26"
-        },
-        {
-          "en": "Capsule.",
-          "zh": "蒴果。",
-          "image_id": "hkb-61083-fr-woody-capsules-02"
+          "image_id": "hkb-61083-fl-spent-calyx-fruit-26",
+          "code": "61083n"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-61083-fr-green-leaves-24"
+          "image_id": "hkb-61083-fr-green-leaves-24",
+          "code": "61083p"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-61083-fr-green-cluster-25"
+          "image_id": "hkb-61083-fr-green-cluster-25",
+          "code": "61083q"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-61083-branch-fr-green-mass-28"
+          "image_id": "hkb-61083-branch-fr-green-mass-28",
+          "code": "61083r"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-61083-buds-leaves-34"
+          "image_id": "hkb-61083-buds-leaves-34",
+          "code": "61083s"
         },
         {
           "en": "Detail.",
           "zh": "細部。",
-          "image_id": "hkb-61083-node-petiole-macro-03"
+          "image_id": "hkb-61083-node-petiole-macro-03",
+          "code": "61083t"
         }
       ],
       "hero_id": "hkb-61083-canopy-fr-leaves-06"

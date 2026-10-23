@@ -313,7 +313,7 @@ def render(page: dict) -> str:
         f'<span class="blp-badge blp-badge-ink">BLP {esc(blp)}</span>'
     )
     photos = [
-        {"image_id": photo.get("image_id"), "en": photo.get("en") or "", "zh": photo.get("zh") or "", "src": photo.get("src") or ""}
+        {"image_id": photo.get("image_id"), "code": photo.get("code") or "", "en": photo.get("en") or "", "zh": photo.get("zh") or "", "src": photo.get("src") or ""}
         for photo in (page.get("photos") or [])
     ]
     return f"""<!DOCTYPE html>
@@ -345,7 +345,7 @@ def render(page: dict) -> str:
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../css/hkb.css?v=4">
+    <link rel="stylesheet" href="../css/hkb.css?v=5">
     <script>
         tailwind.config = {{ theme: {{ extend: {{
             fontFamily: {{ sans: ['Roboto', 'Noto Sans TC', 'sans-serif'], serif: ['Playfair Display', 'Noto Serif TC', 'serif'] }},
@@ -464,7 +464,7 @@ def render(page: dict) -> str:
     </footer>
     <script type="application/json" id="page-photos">{json_for_script(photos)}</script>
     <script src="../js/hkb.js?v=4"></script>
-    <script src="../js/species-page.js?v=11"></script>
+    <script src="../js/species-page.js?v=12"></script>
 </body>
 </html>
 """

@@ -333,6 +333,27 @@ a.blp-chip {
     padding: 0.65rem 0.85rem 0;
     background: #fff;
 }
+.photo-code {
+    position: absolute;
+    z-index: 3;
+    top: 0.75rem;
+    left: 0.75rem;
+    margin: 0;
+    padding: 0.28rem 0.62rem;
+    border-radius: 999px;
+    background: rgba(28, 25, 23, 0.82);
+    color: #fff;
+    border: 1px solid rgba(212, 175, 55, 0.9);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
+    pointer-events: none;
+}
+.photo-stage.is-enlarged .photo-code {
+    top: max(0.75rem, env(safe-area-inset-top));
+    left: max(0.75rem, env(safe-area-inset-left));
+}
 .photo-dock {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));

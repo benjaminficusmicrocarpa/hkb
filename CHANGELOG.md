@@ -8,10 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 
 - Ten species pages: *Liquidambar formosana* (45002), *Delonix regia* (47029), *Rhaphiolepis indica* (49028), *Ficus pumila* (49591), *Bruguiera gymnorhiza* (55050), *Vernicia montana* (55919), *Bombax ceiba* (61065), *Thespesia populnea* (61083), *Camellia hongkongensis* (67603), *Mussaenda pubescens* (71031).
-- Species-page photo index grows from 80 to 310 images.
+- Species-page photo index grows from 80 to 310 images, then sixteen reviewed plates are removed (294 remain). Remaining codes are not renumbered.
 
 ### Changed
 
+- Species photographs are filed as `{blp}{letter}` (a–z, then aa, ab, …). The carousel shows that code in both the contracted and enlarged views. The plate note is `description` in `species_page_images.json`.
 - Shell pages (`index`, `search`, `species` directory, `families`, `about`) load Google fonts: Roboto and Noto Sans TC for sans, Playfair Display and Noto Serif TC for serif.
 - `data/build_pages.py` emits the Tailwind Play CDN, those Google fonts, and Font Awesome for newly generated species pages. Existing species pages still use `hkb.built.css` until they are rebuilt.
 
