@@ -1,5 +1,5 @@
 {
-  "total_images": 294,
+  "total_images": 464,
   "images": [
     {
       "filename": "49562/49562a.webp",
@@ -20,6 +20,16 @@
       "filename": "49562/49562d.webp",
       "image_id": "hkb-49562-leaf-plate",
       "description": "leaf-plate"
+    },
+    {
+      "filename": "49562/49562e.webp",
+      "image_id": "hkb-49562-sessile-figs-through-the-canopy",
+      "description": "sessile-figs-through-the-canopy"
+    },
+    {
+      "filename": "49562/49562f.webp",
+      "image_id": "hkb-49562-a-hanging-shoot-cuneate-bases-and-blunt-",
+      "description": "a-hanging-shoot-cuneate-bases-and-blunt-"
     },
     {
       "filename": "55052/55052a.webp",
@@ -45,6 +55,51 @@
       "filename": "55052/55052e.webp",
       "image_id": "hkb-55052-fruit",
       "description": "fruit"
+    },
+    {
+      "filename": "55052/55052f.webp",
+      "image_id": "hkb-55052-an-open-flower-with-the-stamens",
+      "description": "an-open-flower-with-the-stamens"
+    },
+    {
+      "filename": "55052/55052g.webp",
+      "image_id": "hkb-55052-a-cluster-of-open-flowers",
+      "description": "a-cluster-of-open-flowers"
+    },
+    {
+      "filename": "55052/55052h.webp",
+      "image_id": "hkb-55052-the-lower-leaf-surface",
+      "description": "the-lower-leaf-surface"
+    },
+    {
+      "filename": "55052/55052i.webp",
+      "image_id": "hkb-55052-buds-and-flowers-on-a-leafy-shoot",
+      "description": "buds-and-flowers-on-a-leafy-shoot"
+    },
+    {
+      "filename": "55052/55052j.webp",
+      "image_id": "hkb-55052-ring-scars-at-the-nodes",
+      "description": "ring-scars-at-the-nodes"
+    },
+    {
+      "filename": "55052/55052k.webp",
+      "image_id": "hkb-55052-a-seedling-with-opposite-leaves",
+      "description": "a-seedling-with-opposite-leaves"
+    },
+    {
+      "filename": "55052/55052l.webp",
+      "image_id": "hkb-55052-hypocotyls-still-hanging-on-the-tree",
+      "description": "hypocotyls-still-hanging-on-the-tree"
+    },
+    {
+      "filename": "55052/55052m.webp",
+      "image_id": "hkb-55052-bracteoles-at-the-base-of-the-flower",
+      "description": "bracteoles-at-the-base-of-the-flower"
+    },
+    {
+      "filename": "55052/55052n.webp",
+      "image_id": "hkb-55052-the-leaf-surface",
+      "description": "the-leaf-surface"
     },
     {
       "filename": "58702/58702a.webp",
@@ -77,6 +132,36 @@
       "description": "fruit-dehisced"
     },
     {
+      "filename": "58702/58702g.webp",
+      "image_id": "hkb-58702-fruits-at-the-node",
+      "description": "fruits-at-the-node"
+    },
+    {
+      "filename": "58702/58702h.webp",
+      "image_id": "hkb-58702-a-spent-calyx",
+      "description": "a-spent-calyx"
+    },
+    {
+      "filename": "58702/58702i.webp",
+      "image_id": "hkb-58702-a-ripe-fruit-from-above",
+      "description": "a-ripe-fruit-from-above"
+    },
+    {
+      "filename": "58702/58702j.webp",
+      "image_id": "hkb-58702-spreading-bristles-on-the-stem",
+      "description": "spreading-bristles-on-the-stem"
+    },
+    {
+      "filename": "58702/58702k.webp",
+      "image_id": "hkb-58702-the-flower-with-the-dimorphic-stamens",
+      "description": "the-flower-with-the-dimorphic-stamens"
+    },
+    {
+      "filename": "58702/58702l.webp",
+      "image_id": "hkb-58702-a-young-leaf-the-veins-flushed",
+      "description": "a-young-leaf-the-veins-flushed"
+    },
+    {
       "filename": "17001/17001a.webp",
       "image_id": "hkb-17001-habit",
       "description": "habit"
@@ -95,6 +180,21 @@
       "filename": "17001/17001d.webp",
       "image_id": "hkb-17001-cones",
       "description": "cones"
+    },
+    {
+      "filename": "17001/17001e.webp",
+      "image_id": "hkb-17001-male-catkins-along-a-branch",
+      "description": "male-catkins-along-a-branch"
+    },
+    {
+      "filename": "17001/17001f.webp",
+      "image_id": "hkb-17001-young-female-cones",
+      "description": "young-female-cones"
+    },
+    {
+      "filename": "17001/17001g.webp",
+      "image_id": "hkb-17001-candles-of-the-new-shoot-with-young-need",
+      "description": "candles-of-the-new-shoot-with-young-need"
     },
     {
       "filename": "67609/67609a.webp",
@@ -117,6 +217,41 @@
       "description": "capsule"
     },
     {
+      "filename": "67609/67609e.webp",
+      "image_id": "hkb-67609-the-bark",
+      "description": "the-bark"
+    },
+    {
+      "filename": "67609/67609f.webp",
+      "image_id": "hkb-67609-the-leaf-and-its-veins",
+      "description": "the-leaf-and-its-veins"
+    },
+    {
+      "filename": "67609/67609g.webp",
+      "image_id": "hkb-67609-the-lower-leaf-surface-before-flowering",
+      "description": "the-lower-leaf-surface-before-flowering"
+    },
+    {
+      "filename": "67609/67609h.webp",
+      "image_id": "hkb-67609-a-red-flush-of-young-leaves",
+      "description": "a-red-flush-of-young-leaves"
+    },
+    {
+      "filename": "67609/67609i.webp",
+      "image_id": "hkb-67609-an-open-flower",
+      "description": "an-open-flower"
+    },
+    {
+      "filename": "67609/67609j.webp",
+      "image_id": "hkb-67609-a-young-fruit",
+      "description": "a-young-fruit"
+    },
+    {
+      "filename": "67609/67609k.webp",
+      "image_id": "hkb-67609-flower-buds",
+      "description": "flower-buds"
+    },
+    {
       "filename": "82051/82051a.webp",
       "image_id": "hkb-82051-habit",
       "description": "habit"
@@ -137,6 +272,36 @@
       "description": "fruit"
     },
     {
+      "filename": "82051/82051e.webp",
+      "image_id": "hkb-82051-young-leaves-tawny",
+      "description": "young-leaves-tawny"
+    },
+    {
+      "filename": "82051/82051f.webp",
+      "image_id": "hkb-82051-an-open-umbel",
+      "description": "an-open-umbel"
+    },
+    {
+      "filename": "82051/82051g.webp",
+      "image_id": "hkb-82051-the-flower-five-petals-and-five-stamens",
+      "description": "the-flower-five-petals-and-five-stamens"
+    },
+    {
+      "filename": "82051/82051h.webp",
+      "image_id": "hkb-82051-a-canopy-in-flower",
+      "description": "a-canopy-in-flower"
+    },
+    {
+      "filename": "82051/82051i.webp",
+      "image_id": "hkb-82051-ripe-fruits-on-the-panicle",
+      "description": "ripe-fruits-on-the-panicle"
+    },
+    {
+      "filename": "82051/82051j.webp",
+      "image_id": "hkb-82051-a-panicle-of-buds-the-axes-tawny",
+      "description": "a-panicle-of-buds-the-axes-tawny"
+    },
+    {
       "filename": "58382/58382a.webp",
       "image_id": "hkb-58382-habit",
       "description": "habit"
@@ -150,6 +315,56 @@
       "filename": "58382/58382c.webp",
       "image_id": "hkb-58382-leaf",
       "description": "leaf"
+    },
+    {
+      "filename": "58382/58382d.webp",
+      "image_id": "hkb-58382-a-young-fruit-with-five-calyx-lobes",
+      "description": "a-young-fruit-with-five-calyx-lobes"
+    },
+    {
+      "filename": "58382/58382e.webp",
+      "image_id": "hkb-58382-a-young-urceolate-fruit-and-the-five-cal",
+      "description": "a-young-urceolate-fruit-and-the-five-cal"
+    },
+    {
+      "filename": "58382/58382f.webp",
+      "image_id": "hkb-58382-a-flowering-shoot",
+      "description": "a-flowering-shoot"
+    },
+    {
+      "filename": "58382/58382g.webp",
+      "image_id": "hkb-58382-an-open-flower-among-young-fruits",
+      "description": "an-open-flower-among-young-fruits"
+    },
+    {
+      "filename": "58382/58382h.webp",
+      "image_id": "hkb-58382-velvety-buds-on-long-pedicels",
+      "description": "velvety-buds-on-long-pedicels"
+    },
+    {
+      "filename": "58382/58382i.webp",
+      "image_id": "hkb-58382-the-lower-leaf-surface-grey-tomentum-and",
+      "description": "the-lower-leaf-surface-grey-tomentum-and"
+    },
+    {
+      "filename": "58382/58382j.webp",
+      "image_id": "hkb-58382-leaves-some-purple-mottled",
+      "description": "leaves-some-purple-mottled"
+    },
+    {
+      "filename": "58382/58382k.webp",
+      "image_id": "hkb-58382-an-open-flower-with-the-leaf",
+      "description": "an-open-flower-with-the-leaf"
+    },
+    {
+      "filename": "58382/58382l.webp",
+      "image_id": "hkb-58382-a-flowering-branch-petals-five",
+      "description": "a-flowering-branch-petals-five"
+    },
+    {
+      "filename": "58382/58382m.webp",
+      "image_id": "hkb-58382-an-open-flower-petals-magenta",
+      "description": "an-open-flower-petals-magenta"
     },
     {
       "filename": "47180/47180a.webp",
@@ -172,6 +387,61 @@
       "description": "pods"
     },
     {
+      "filename": "47180/47180e.webp",
+      "image_id": "hkb-47180-buds-on-the-old-wood",
+      "description": "buds-on-the-old-wood"
+    },
+    {
+      "filename": "47180/47180f.webp",
+      "image_id": "hkb-47180-pods-on-the-old-wood",
+      "description": "pods-on-the-old-wood"
+    },
+    {
+      "filename": "47180/47180g.webp",
+      "image_id": "hkb-47180-winged-rusty-pods",
+      "description": "winged-rusty-pods"
+    },
+    {
+      "filename": "47180/47180h.webp",
+      "image_id": "hkb-47180-rusty-pods",
+      "description": "rusty-pods"
+    },
+    {
+      "filename": "47180/47180i.webp",
+      "image_id": "hkb-47180-flowers-borne-on-the-old-wood",
+      "description": "flowers-borne-on-the-old-wood"
+    },
+    {
+      "filename": "47180/47180j.webp",
+      "image_id": "hkb-47180-flowers-pods-and-seeds-together",
+      "description": "flowers-pods-and-seeds-together"
+    },
+    {
+      "filename": "47180/47180k.webp",
+      "image_id": "hkb-47180-the-corolla-opened",
+      "description": "the-corolla-opened"
+    },
+    {
+      "filename": "47180/47180l.webp",
+      "image_id": "hkb-47180-the-keel-and-the-corolla",
+      "description": "the-keel-and-the-corolla"
+    },
+    {
+      "filename": "47180/47180m.webp",
+      "image_id": "hkb-47180-racemes-on-the-woody-climber",
+      "description": "racemes-on-the-woody-climber"
+    },
+    {
+      "filename": "47180/47180n.webp",
+      "image_id": "hkb-47180-the-climber-in-fruit",
+      "description": "the-climber-in-fruit"
+    },
+    {
+      "filename": "47180/47180o.webp",
+      "image_id": "hkb-47180-a-leaf-with-three-caudate-leaflets",
+      "description": "a-leaf-with-three-caudate-leaflets"
+    },
+    {
       "filename": "79200/79200a.webp",
       "image_id": "hkb-79200-habit",
       "description": "habit"
@@ -190,6 +460,51 @@
       "filename": "79200/79200d.webp",
       "image_id": "hkb-79200-fruit",
       "description": "fruit"
+    },
+    {
+      "filename": "79200/79200e.webp",
+      "image_id": "hkb-79200-a-cluster-of-fruits",
+      "description": "a-cluster-of-fruits"
+    },
+    {
+      "filename": "79200/79200f.webp",
+      "image_id": "hkb-79200-fruits-with-the-calyx-still-on",
+      "description": "fruits-with-the-calyx-still-on"
+    },
+    {
+      "filename": "79200/79200g.webp",
+      "image_id": "hkb-79200-the-face-of-the-fan-flower",
+      "description": "the-face-of-the-fan-flower"
+    },
+    {
+      "filename": "79200/79200h.webp",
+      "image_id": "hkb-79200-a-white-fan-flower",
+      "description": "a-white-fan-flower"
+    },
+    {
+      "filename": "79200/79200i.webp",
+      "image_id": "hkb-79200-the-back-of-the-flower",
+      "description": "the-back-of-the-flower"
+    },
+    {
+      "filename": "79200/79200j.webp",
+      "image_id": "hkb-79200-leaves-crowded-in-a-rosette",
+      "description": "leaves-crowded-in-a-rosette"
+    },
+    {
+      "filename": "79200/79200k.webp",
+      "image_id": "hkb-79200-a-purple-flushed-shoot-tip",
+      "description": "a-purple-flushed-shoot-tip"
+    },
+    {
+      "filename": "79200/79200l.webp",
+      "image_id": "hkb-79200-purple-leaves-and-a-flower",
+      "description": "purple-leaves-and-a-flower"
+    },
+    {
+      "filename": "79200/79200m.webp",
+      "image_id": "hkb-79200-flowers-and-fruits-on-the-same-shoot",
+      "description": "flowers-and-fruits-on-the-same-shoot"
     },
     {
       "filename": "61450/61450a.webp",
@@ -212,6 +527,51 @@
       "description": "seed"
     },
     {
+      "filename": "61450/61450e.webp",
+      "image_id": "hkb-61450-a-cluster-of-open-flowers",
+      "description": "a-cluster-of-open-flowers"
+    },
+    {
+      "filename": "61450/61450f.webp",
+      "image_id": "hkb-61450-a-dry-capsule-split",
+      "description": "a-dry-capsule-split"
+    },
+    {
+      "filename": "61450/61450g.webp",
+      "image_id": "hkb-61450-a-fruiting-crown",
+      "description": "a-fruiting-crown"
+    },
+    {
+      "filename": "61450/61450h.webp",
+      "image_id": "hkb-61450-a-cluster-of-buds",
+      "description": "a-cluster-of-buds"
+    },
+    {
+      "filename": "61450/61450i.webp",
+      "image_id": "hkb-61450-the-umbel-and-its-pedicels",
+      "description": "the-umbel-and-its-pedicels"
+    },
+    {
+      "filename": "61450/61450j.webp",
+      "image_id": "hkb-61450-roots-at-the-base-of-the-trunk",
+      "description": "roots-at-the-base-of-the-trunk"
+    },
+    {
+      "filename": "61450/61450k.webp",
+      "image_id": "hkb-61450-stamens-and-scales-in-the-throat",
+      "description": "stamens-and-scales-in-the-throat"
+    },
+    {
+      "filename": "61450/61450l.webp",
+      "image_id": "hkb-61450-the-face-of-the-flower-with-the-stamens",
+      "description": "the-face-of-the-flower-with-the-stamens"
+    },
+    {
+      "filename": "61450/61450m.webp",
+      "image_id": "hkb-61450-the-lower-leaf-surface",
+      "description": "the-lower-leaf-surface"
+    },
+    {
       "filename": "26103/26103a.webp",
       "image_id": "hkb-26103-habit",
       "description": "habit"
@@ -225,6 +585,61 @@
       "filename": "26103/26103c.webp",
       "image_id": "hkb-26103-flower",
       "description": "flower"
+    },
+    {
+      "filename": "26103/26103d.webp",
+      "image_id": "hkb-26103-old-bark",
+      "description": "old-bark"
+    },
+    {
+      "filename": "26103/26103e.webp",
+      "image_id": "hkb-26103-buds-at-the-node-and-a-purple-petiole",
+      "description": "buds-at-the-node-and-a-purple-petiole"
+    },
+    {
+      "filename": "26103/26103f.webp",
+      "image_id": "hkb-26103-five-leaves-lower-surface-with-domatia",
+      "description": "five-leaves-lower-surface-with-domatia"
+    },
+    {
+      "filename": "26103/26103g.webp",
+      "image_id": "hkb-26103-a-triple-bud",
+      "description": "a-triple-bud"
+    },
+    {
+      "filename": "26103/26103h.webp",
+      "image_id": "hkb-26103-open-flowers-about-3-mm-across",
+      "description": "open-flowers-about-3-mm-across"
+    },
+    {
+      "filename": "26103/26103i.webp",
+      "image_id": "hkb-26103-an-open-flower-and-buds-on-the-panicle",
+      "description": "an-open-flower-and-buds-on-the-panicle"
+    },
+    {
+      "filename": "26103/26103j.webp",
+      "image_id": "hkb-26103-immature-green-fruits-on-a-triplinerved-",
+      "description": "immature-green-fruits-on-a-triplinerved-"
+    },
+    {
+      "filename": "26103/26103k.webp",
+      "image_id": "hkb-26103-yellowish-white-flowers-in-an-axillary-p",
+      "description": "yellowish-white-flowers-in-an-axillary-p"
+    },
+    {
+      "filename": "26103/26103l.webp",
+      "image_id": "hkb-26103-immature-green-fruits",
+      "description": "immature-green-fruits"
+    },
+    {
+      "filename": "26103/26103m.webp",
+      "image_id": "hkb-26103-a-bract-opening-around-the-enclosed-buds",
+      "description": "a-bract-opening-around-the-enclosed-buds"
+    },
+    {
+      "filename": "26103/26103n.webp",
+      "image_id": "hkb-26103-a-canopy-in-flower",
+      "description": "a-canopy-in-flower"
     },
     {
       "filename": "55350/55350a.webp",
@@ -252,6 +667,61 @@
       "description": "fruit"
     },
     {
+      "filename": "55350/55350f.webp",
+      "image_id": "hkb-55350-a-red-flower-face-on-with-stamen-bundles",
+      "description": "a-red-flower-face-on-with-stamen-bundles"
+    },
+    {
+      "filename": "55350/55350g.webp",
+      "image_id": "hkb-55350-yellow-glands-on-the-face-of-the-flower",
+      "description": "yellow-glands-on-the-face-of-the-flower"
+    },
+    {
+      "filename": "55350/55350h.webp",
+      "image_id": "hkb-55350-a-deep-red-flower-with-white-stamens",
+      "description": "a-deep-red-flower-with-white-stamens"
+    },
+    {
+      "filename": "55350/55350i.webp",
+      "image_id": "hkb-55350-stamens-of-the-red-flower-at-finger-scal",
+      "description": "stamens-of-the-red-flower-at-finger-scal"
+    },
+    {
+      "filename": "55350/55350j.webp",
+      "image_id": "hkb-55350-spent-capsules-and-the-lower-leaf-surfac",
+      "description": "spent-capsules-and-the-lower-leaf-surfac"
+    },
+    {
+      "filename": "55350/55350k.webp",
+      "image_id": "hkb-55350-a-flower-closing-the-sepals-around-the-b",
+      "description": "a-flower-closing-the-sepals-around-the-b"
+    },
+    {
+      "filename": "55350/55350l.webp",
+      "image_id": "hkb-55350-capsules-with-the-calyx-still-attached",
+      "description": "capsules-with-the-calyx-still-attached"
+    },
+    {
+      "filename": "55350/55350m.webp",
+      "image_id": "hkb-55350-smooth-yellowish-bark",
+      "description": "smooth-yellowish-bark"
+    },
+    {
+      "filename": "55350/55350n.webp",
+      "image_id": "hkb-55350-flowers-in-the-leaf-axils",
+      "description": "flowers-in-the-leaf-axils"
+    },
+    {
+      "filename": "55350/55350o.webp",
+      "image_id": "hkb-55350-a-mass-of-green-capsules",
+      "description": "a-mass-of-green-capsules"
+    },
+    {
+      "filename": "55350/55350p.webp",
+      "image_id": "hkb-55350-red-young-leaves-opposite",
+      "description": "red-young-leaves-opposite"
+    },
+    {
       "filename": "56506/56506a.webp",
       "image_id": "hkb-56506-habit",
       "description": "habit"
@@ -270,6 +740,56 @@
       "filename": "56506/56506d.webp",
       "image_id": "hkb-56506-fruit",
       "description": "fruit"
+    },
+    {
+      "filename": "56506/56506e.webp",
+      "image_id": "hkb-56506-a-male-flower",
+      "description": "a-male-flower"
+    },
+    {
+      "filename": "56506/56506f.webp",
+      "image_id": "hkb-56506-five-sepals-of-the-male-flower",
+      "description": "five-sepals-of-the-male-flower"
+    },
+    {
+      "filename": "56506/56506g.webp",
+      "image_id": "hkb-56506-female-flowers-with-three-or-four-styles",
+      "description": "female-flowers-with-three-or-four-styles"
+    },
+    {
+      "filename": "56506/56506h.webp",
+      "image_id": "hkb-56506-the-styles-close",
+      "description": "the-styles-close"
+    },
+    {
+      "filename": "56506/56506i.webp",
+      "image_id": "hkb-56506-young-green-fruits-and-the-bark",
+      "description": "young-green-fruits-and-the-bark"
+    },
+    {
+      "filename": "56506/56506j.webp",
+      "image_id": "hkb-56506-panicles-on-a-bare-branch",
+      "description": "panicles-on-a-bare-branch"
+    },
+    {
+      "filename": "56506/56506k.webp",
+      "image_id": "hkb-56506-a-cluster-of-buds",
+      "description": "a-cluster-of-buds"
+    },
+    {
+      "filename": "56506/56506l.webp",
+      "image_id": "hkb-56506-a-crown-in-flower",
+      "description": "a-crown-in-flower"
+    },
+    {
+      "filename": "56506/56506m.webp",
+      "image_id": "hkb-56506-trifoliolate-leaves-and-the-fruit",
+      "description": "trifoliolate-leaves-and-the-fruit"
+    },
+    {
+      "filename": "56506/56506n.webp",
+      "image_id": "hkb-56506-a-trifoliolate-leaf-with-a-red-flush",
+      "description": "a-trifoliolate-leaf-with-a-red-flush"
     },
     {
       "filename": "55910/55910a.webp",
@@ -292,6 +812,61 @@
       "description": "fruit"
     },
     {
+      "filename": "55910/55910e.webp",
+      "image_id": "hkb-55910-rusty-young-leaves-and-buds",
+      "description": "rusty-young-leaves-and-buds"
+    },
+    {
+      "filename": "55910/55910f.webp",
+      "image_id": "hkb-55910-stellate-hairs-at-the-node",
+      "description": "stellate-hairs-at-the-node"
+    },
+    {
+      "filename": "55910/55910g.webp",
+      "image_id": "hkb-55910-a-capsule-split-open-with-black-seeds",
+      "description": "a-capsule-split-open-with-black-seeds"
+    },
+    {
+      "filename": "55910/55910h.webp",
+      "image_id": "hkb-55910-three-black-seeds",
+      "description": "three-black-seeds"
+    },
+    {
+      "filename": "55910/55910i.webp",
+      "image_id": "hkb-55910-an-open-male-panicle",
+      "description": "an-open-male-panicle"
+    },
+    {
+      "filename": "55910/55910j.webp",
+      "image_id": "hkb-55910-male-flowers-on-the-panicle",
+      "description": "male-flowers-on-the-panicle"
+    },
+    {
+      "filename": "55910/55910k.webp",
+      "image_id": "hkb-55910-a-soft-spiny-capsule",
+      "description": "a-soft-spiny-capsule"
+    },
+    {
+      "filename": "55910/55910l.webp",
+      "image_id": "hkb-55910-stellate-hairs-on-the-branchlet",
+      "description": "stellate-hairs-on-the-branchlet"
+    },
+    {
+      "filename": "55910/55910m.webp",
+      "image_id": "hkb-55910-a-male-raceme-and-rhombic-leaves",
+      "description": "a-male-raceme-and-rhombic-leaves"
+    },
+    {
+      "filename": "55910/55910n.webp",
+      "image_id": "hkb-55910-soft-spiny-capsules",
+      "description": "soft-spiny-capsules"
+    },
+    {
+      "filename": "55910/55910o.webp",
+      "image_id": "hkb-55910-a-flowering-branch",
+      "description": "a-flowering-branch"
+    },
+    {
       "filename": "67415/67415a.webp",
       "image_id": "hkb-67415-habit",
       "description": "habit"
@@ -310,6 +885,51 @@
       "filename": "67415/67415d.webp",
       "image_id": "hkb-67415-fruit",
       "description": "fruit"
+    },
+    {
+      "filename": "67415/67415e.webp",
+      "image_id": "hkb-67415-flowers-and-glands-on-the-leaf",
+      "description": "flowers-and-glands-on-the-leaf"
+    },
+    {
+      "filename": "67415/67415f.webp",
+      "image_id": "hkb-67415-glands-beside-the-flower",
+      "description": "glands-beside-the-flower"
+    },
+    {
+      "filename": "67415/67415g.webp",
+      "image_id": "hkb-67415-the-node-and-the-petiole",
+      "description": "the-node-and-the-petiole"
+    },
+    {
+      "filename": "67415/67415h.webp",
+      "image_id": "hkb-67415-the-shrub-with-roots-at-the-base",
+      "description": "the-shrub-with-roots-at-the-base"
+    },
+    {
+      "filename": "67415/67415i.webp",
+      "image_id": "hkb-67415-corolla-lobes-reflexed",
+      "description": "corolla-lobes-reflexed"
+    },
+    {
+      "filename": "67415/67415j.webp",
+      "image_id": "hkb-67415-the-styles-subulate",
+      "description": "the-styles-subulate"
+    },
+    {
+      "filename": "67415/67415k.webp",
+      "image_id": "hkb-67415-buds-in-the-umbel",
+      "description": "buds-in-the-umbel"
+    },
+    {
+      "filename": "67415/67415l.webp",
+      "image_id": "hkb-67415-a-mass-of-curved-fruits",
+      "description": "a-mass-of-curved-fruits"
+    },
+    {
+      "filename": "67415/67415m.webp",
+      "image_id": "hkb-67415-a-leaf-and-the-scar-at-the-node",
+      "description": "a-leaf-and-the-scar-at-the-node"
     },
     {
       "filename": "61052/61052a.webp",
@@ -332,6 +952,71 @@
       "description": "fruit"
     },
     {
+      "filename": "61052/61052e.webp",
+      "image_id": "hkb-61052-leaves-green-above-and-silvery-below",
+      "description": "leaves-green-above-and-silvery-below"
+    },
+    {
+      "filename": "61052/61052f.webp",
+      "image_id": "hkb-61052-the-bark",
+      "description": "the-bark"
+    },
+    {
+      "filename": "61052/61052g.webp",
+      "image_id": "hkb-61052-a-flower-and-a-young-fruit",
+      "description": "a-flower-and-a-young-fruit"
+    },
+    {
+      "filename": "61052/61052h.webp",
+      "image_id": "hkb-61052-the-campanulate-calyx",
+      "description": "the-campanulate-calyx"
+    },
+    {
+      "filename": "61052/61052i.webp",
+      "image_id": "hkb-61052-a-mass-of-flowers",
+      "description": "a-mass-of-flowers"
+    },
+    {
+      "filename": "61052/61052j.webp",
+      "image_id": "hkb-61052-buttress-roots",
+      "description": "buttress-roots"
+    },
+    {
+      "filename": "61052/61052k.webp",
+      "image_id": "hkb-61052-the-upper-leaf-surface",
+      "description": "the-upper-leaf-surface"
+    },
+    {
+      "filename": "61052/61052l.webp",
+      "image_id": "hkb-61052-venation-of-the-upper-surface",
+      "description": "venation-of-the-upper-surface"
+    },
+    {
+      "filename": "61052/61052m.webp",
+      "image_id": "hkb-61052-the-flower-pink",
+      "description": "the-flower-pink"
+    },
+    {
+      "filename": "61052/61052n.webp",
+      "image_id": "hkb-61052-the-flower-from-the-side",
+      "description": "the-flower-from-the-side"
+    },
+    {
+      "filename": "61052/61052o.webp",
+      "image_id": "hkb-61052-a-leathery-leaf-entire",
+      "description": "a-leathery-leaf-entire"
+    },
+    {
+      "filename": "61052/61052p.webp",
+      "image_id": "hkb-61052-the-flower-close",
+      "description": "the-flower-close"
+    },
+    {
+      "filename": "61052/61052q.webp",
+      "image_id": "hkb-61052-the-lower-surface-silvery-with-scales",
+      "description": "the-lower-surface-silvery-with-scales"
+    },
+    {
       "filename": "55904/55904a.webp",
       "image_id": "hkb-55904-habit",
       "description": "habit"
@@ -352,6 +1037,56 @@
       "description": "fruit"
     },
     {
+      "filename": "55904/55904e.webp",
+      "image_id": "hkb-55904-reddening-leaves-and-male-spikes",
+      "description": "reddening-leaves-and-male-spikes"
+    },
+    {
+      "filename": "55904/55904f.webp",
+      "image_id": "hkb-55904-a-male-raceme-each-flower-with-three-sta",
+      "description": "a-male-raceme-each-flower-with-three-sta"
+    },
+    {
+      "filename": "55904/55904g.webp",
+      "image_id": "hkb-55904-young-capsules-with-three-styles",
+      "description": "young-capsules-with-three-styles"
+    },
+    {
+      "filename": "55904/55904h.webp",
+      "image_id": "hkb-55904-male-racemes-among-the-elliptic-leaves",
+      "description": "male-racemes-among-the-elliptic-leaves"
+    },
+    {
+      "filename": "55904/55904i.webp",
+      "image_id": "hkb-55904-glands-at-the-node-and-a-stout-petiole",
+      "description": "glands-at-the-node-and-a-stout-petiole"
+    },
+    {
+      "filename": "55904/55904j.webp",
+      "image_id": "hkb-55904-a-spent-male-raceme-hanging",
+      "description": "a-spent-male-raceme-hanging"
+    },
+    {
+      "filename": "55904/55904k.webp",
+      "image_id": "hkb-55904-alternate-leaves-and-lenticels-on-the-tw",
+      "description": "alternate-leaves-and-lenticels-on-the-tw"
+    },
+    {
+      "filename": "55904/55904l.webp",
+      "image_id": "hkb-55904-the-base-of-the-tree-on-the-mud",
+      "description": "the-base-of-the-tree-on-the-mud"
+    },
+    {
+      "filename": "55904/55904m.webp",
+      "image_id": "hkb-55904-leaves-and-flowers-in-the-canopy",
+      "description": "leaves-and-flowers-in-the-canopy"
+    },
+    {
+      "filename": "55904/55904n.webp",
+      "image_id": "hkb-55904-alternate-leaves-in-the-canopy",
+      "description": "alternate-leaves-in-the-canopy"
+    },
+    {
       "filename": "30100/30100a.webp",
       "image_id": "hkb-30100-habit",
       "description": "habit"
@@ -367,6 +1102,21 @@
       "description": "fruit"
     },
     {
+      "filename": "30100/30100d.webp",
+      "image_id": "hkb-30100-prop-roots-with-the-fruit",
+      "description": "prop-roots-with-the-fruit"
+    },
+    {
+      "filename": "30100/30100e.webp",
+      "image_id": "hkb-30100-a-branched-tree-with-aerial-roots-at-the",
+      "description": "a-branched-tree-with-aerial-roots-at-the"
+    },
+    {
+      "filename": "30100/30100f.webp",
+      "image_id": "hkb-30100-fruits-in-a-thicket",
+      "description": "fruits-in-a-thicket"
+    },
+    {
       "filename": "71834/71834a.webp",
       "image_id": "hkb-71834-habit",
       "description": "habit"
@@ -380,6 +1130,71 @@
       "filename": "71834/71834c.webp",
       "image_id": "hkb-71834-flower",
       "description": "flower"
+    },
+    {
+      "filename": "71834/71834d.webp",
+      "image_id": "hkb-71834-the-liana-on-a-tree-trunk",
+      "description": "the-liana-on-a-tree-trunk"
+    },
+    {
+      "filename": "71834/71834e.webp",
+      "image_id": "hkb-71834-buds-and-the-calyx",
+      "description": "buds-and-the-calyx"
+    },
+    {
+      "filename": "71834/71834f.webp",
+      "image_id": "hkb-71834-calyx-lobes-spreading",
+      "description": "calyx-lobes-spreading"
+    },
+    {
+      "filename": "71834/71834g.webp",
+      "image_id": "hkb-71834-the-vine-over-a-walkway",
+      "description": "the-vine-over-a-walkway"
+    },
+    {
+      "filename": "71834/71834h.webp",
+      "image_id": "hkb-71834-a-woody-stem-with-lenticels",
+      "description": "a-woody-stem-with-lenticels"
+    },
+    {
+      "filename": "71834/71834i.webp",
+      "image_id": "hkb-71834-pubescence-on-a-young-stem",
+      "description": "pubescence-on-a-young-stem"
+    },
+    {
+      "filename": "71834/71834j.webp",
+      "image_id": "hkb-71834-a-leaf-at-hand-scale",
+      "description": "a-leaf-at-hand-scale"
+    },
+    {
+      "filename": "71834/71834k.webp",
+      "image_id": "hkb-71834-a-mass-of-flowers",
+      "description": "a-mass-of-flowers"
+    },
+    {
+      "filename": "71834/71834l.webp",
+      "image_id": "hkb-71834-an-open-flower-the-lobes-star-shaped",
+      "description": "an-open-flower-the-lobes-star-shaped"
+    },
+    {
+      "filename": "71834/71834m.webp",
+      "image_id": "hkb-71834-stamens-in-the-throat",
+      "description": "stamens-in-the-throat"
+    },
+    {
+      "filename": "71834/71834n.webp",
+      "image_id": "hkb-71834-the-upper-leaf-surface",
+      "description": "the-upper-leaf-surface"
+    },
+    {
+      "filename": "71834/71834o.webp",
+      "image_id": "hkb-71834-venation-of-the-lower-surface",
+      "description": "venation-of-the-lower-surface"
+    },
+    {
+      "filename": "71834/71834p.webp",
+      "image_id": "hkb-71834-a-mass-of-flowers-on-the-vine",
+      "description": "a-mass-of-flowers-on-the-vine"
     },
     {
       "filename": "71045/71045a.webp",
@@ -400,6 +1215,41 @@
       "filename": "71045/71045d.webp",
       "image_id": "hkb-71045-fruit",
       "description": "fruit"
+    },
+    {
+      "filename": "71045/71045e.webp",
+      "image_id": "hkb-71045-flowers-along-a-branch",
+      "description": "flowers-along-a-branch"
+    },
+    {
+      "filename": "71045/71045f.webp",
+      "image_id": "hkb-71045-the-corolla-tube-from-the-side",
+      "description": "the-corolla-tube-from-the-side"
+    },
+    {
+      "filename": "71045/71045g.webp",
+      "image_id": "hkb-71045-the-stipules-sheathing",
+      "description": "the-stipules-sheathing"
+    },
+    {
+      "filename": "71045/71045h.webp",
+      "image_id": "hkb-71045-ripe-fruits",
+      "description": "ripe-fruits"
+    },
+    {
+      "filename": "71045/71045i.webp",
+      "image_id": "hkb-71045-a-bud-and-the-corolla-tube",
+      "description": "a-bud-and-the-corolla-tube"
+    },
+    {
+      "filename": "71045/71045j.webp",
+      "image_id": "hkb-71045-a-flowering-branch",
+      "description": "a-flowering-branch"
+    },
+    {
+      "filename": "71045/71045k.webp",
+      "image_id": "hkb-71045-a-leafy-shoot-with-buds",
+      "description": "a-leafy-shoot-with-buds"
     },
     {
       "filename": "61065/61065a.webp",

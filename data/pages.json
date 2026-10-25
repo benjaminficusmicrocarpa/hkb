@@ -150,6 +150,18 @@
           "zh": "楔形葉基，先端鈍而具短尖。",
           "image_id": "hkb-49562-leaf-plate",
           "code": "49562d"
+        },
+        {
+          "en": "Sessile figs through the canopy.",
+          "zh": "樹冠上的無柄隱頭花序。",
+          "image_id": "hkb-49562-sessile-figs-through-the-canopy",
+          "code": "49562e"
+        },
+        {
+          "en": "A hanging shoot: cuneate bases and blunt tips.",
+          "zh": "下垂的枝，楔形葉基，先端鈍。",
+          "image_id": "hkb-49562-a-hanging-shoot-cuneate-bases-and-blunt-",
+          "code": "49562f"
         }
       ],
       "reference": {
@@ -319,6 +331,60 @@
           "zh": "卵形果，萼片反折。",
           "image_id": "hkb-55052-fruit",
           "code": "55052e"
+        },
+        {
+          "en": "An open flower, with the stamens.",
+          "zh": "開放的花，可見雄蕊。",
+          "image_id": "hkb-55052-an-open-flower-with-the-stamens",
+          "code": "55052f"
+        },
+        {
+          "en": "A cluster of open flowers.",
+          "zh": "一簇開放的花。",
+          "image_id": "hkb-55052-a-cluster-of-open-flowers",
+          "code": "55052g"
+        },
+        {
+          "en": "The lower leaf surface.",
+          "zh": "葉背面。",
+          "image_id": "hkb-55052-the-lower-leaf-surface",
+          "code": "55052h"
+        },
+        {
+          "en": "Buds and flowers on a leafy shoot.",
+          "zh": "帶葉枝上的花蕾與花。",
+          "image_id": "hkb-55052-buds-and-flowers-on-a-leafy-shoot",
+          "code": "55052i"
+        },
+        {
+          "en": "Ring scars at the nodes.",
+          "zh": "節上的環狀疤。",
+          "image_id": "hkb-55052-ring-scars-at-the-nodes",
+          "code": "55052j"
+        },
+        {
+          "en": "A seedling, with opposite leaves.",
+          "zh": "幼苗，葉對生。",
+          "image_id": "hkb-55052-a-seedling-with-opposite-leaves",
+          "code": "55052k"
+        },
+        {
+          "en": "Hypocotyls still hanging on the tree.",
+          "zh": "仍掛在樹上的胚軸。",
+          "image_id": "hkb-55052-hypocotyls-still-hanging-on-the-tree",
+          "code": "55052l"
+        },
+        {
+          "en": "Bracteoles at the base of the flower.",
+          "zh": "花基部的小苞片。",
+          "image_id": "hkb-55052-bracteoles-at-the-base-of-the-flower",
+          "code": "55052m"
+        },
+        {
+          "en": "The leaf surface.",
+          "zh": "葉面。",
+          "image_id": "hkb-55052-the-leaf-surface",
+          "code": "55052n"
         }
       ],
       "reference": {
@@ -512,6 +578,42 @@
           "zh": "蒴果不規則開裂。",
           "image_id": "hkb-58702-fruit-dehisced",
           "code": "58702f"
+        },
+        {
+          "en": "Fruits at the node.",
+          "zh": "節上的果。",
+          "image_id": "hkb-58702-fruits-at-the-node",
+          "code": "58702g"
+        },
+        {
+          "en": "A spent calyx.",
+          "zh": "殘留的花萼。",
+          "image_id": "hkb-58702-a-spent-calyx",
+          "code": "58702h"
+        },
+        {
+          "en": "A ripe fruit, from above.",
+          "zh": "成熟的果，俯視。",
+          "image_id": "hkb-58702-a-ripe-fruit-from-above",
+          "code": "58702i"
+        },
+        {
+          "en": "Spreading bristles on the stem.",
+          "zh": "莖上開展的剛毛。",
+          "image_id": "hkb-58702-spreading-bristles-on-the-stem",
+          "code": "58702j"
+        },
+        {
+          "en": "The flower, with the dimorphic stamens.",
+          "zh": "花，雄蕊二型。",
+          "image_id": "hkb-58702-the-flower-with-the-dimorphic-stamens",
+          "code": "58702k"
+        },
+        {
+          "en": "A young leaf, the veins flushed.",
+          "zh": "嫩葉，脈色較深。",
+          "image_id": "hkb-58702-a-young-leaf-the-veins-flushed",
+          "code": "58702l"
         }
       ],
       "reference": {
@@ -650,6 +752,24 @@
           "zh": "成熟的栗褐色球果。",
           "image_id": "hkb-17001-cones",
           "code": "17001d"
+        },
+        {
+          "en": "Male catkins along a branch.",
+          "zh": "枝上的雄球花。",
+          "image_id": "hkb-17001-male-catkins-along-a-branch",
+          "code": "17001e"
+        },
+        {
+          "en": "Young female cones.",
+          "zh": "幼嫩的雌球果。",
+          "image_id": "hkb-17001-young-female-cones",
+          "code": "17001f"
+        },
+        {
+          "en": "Candles of the new shoot, with young needles.",
+          "zh": "新梢的蠟燭狀嫩枝，帶幼針葉。",
+          "image_id": "hkb-17001-candles-of-the-new-shoot-with-young-need",
+          "code": "17001g"
         }
       ],
       "reference": {
@@ -793,6 +913,48 @@
           "zh": "近球形蒴果。",
           "image_id": "hkb-67609-capsule",
           "code": "67609d"
+        },
+        {
+          "en": "The bark.",
+          "zh": "樹皮。",
+          "image_id": "hkb-67609-the-bark",
+          "code": "67609e"
+        },
+        {
+          "en": "The leaf, and its veins.",
+          "zh": "葉與葉脈。",
+          "image_id": "hkb-67609-the-leaf-and-its-veins",
+          "code": "67609f"
+        },
+        {
+          "en": "The lower leaf surface, before flowering.",
+          "zh": "花前的葉背。",
+          "image_id": "hkb-67609-the-lower-leaf-surface-before-flowering",
+          "code": "67609g"
+        },
+        {
+          "en": "A red flush of young leaves.",
+          "zh": "紅色的嫩葉。",
+          "image_id": "hkb-67609-a-red-flush-of-young-leaves",
+          "code": "67609h"
+        },
+        {
+          "en": "An open flower.",
+          "zh": "開放的花。",
+          "image_id": "hkb-67609-an-open-flower",
+          "code": "67609i"
+        },
+        {
+          "en": "A young fruit.",
+          "zh": "幼果。",
+          "image_id": "hkb-67609-a-young-fruit",
+          "code": "67609j"
+        },
+        {
+          "en": "Flower buds.",
+          "zh": "花蕾。",
+          "image_id": "hkb-67609-flower-buds",
+          "code": "67609k"
         }
       ],
       "reference": {
@@ -934,6 +1096,42 @@
           "zh": "傘形果序上的綠色球形果。",
           "image_id": "hkb-82051-fruit",
           "code": "82051d"
+        },
+        {
+          "en": "Young leaves, tawny.",
+          "zh": "黃褐色的嫩葉。",
+          "image_id": "hkb-82051-young-leaves-tawny",
+          "code": "82051e"
+        },
+        {
+          "en": "An open umbel.",
+          "zh": "開放的傘形花序。",
+          "image_id": "hkb-82051-an-open-umbel",
+          "code": "82051f"
+        },
+        {
+          "en": "The flower: five petals and five stamens.",
+          "zh": "花，花瓣五枚，雄蕊五枚。",
+          "image_id": "hkb-82051-the-flower-five-petals-and-five-stamens",
+          "code": "82051g"
+        },
+        {
+          "en": "A canopy in flower.",
+          "zh": "樹冠開花。",
+          "image_id": "hkb-82051-a-canopy-in-flower",
+          "code": "82051h"
+        },
+        {
+          "en": "Ripe fruits on the panicle.",
+          "zh": "圓錐花序上的成熟果實。",
+          "image_id": "hkb-82051-ripe-fruits-on-the-panicle",
+          "code": "82051i"
+        },
+        {
+          "en": "A panicle of buds, the axes tawny.",
+          "zh": "花蕾組成的圓錐花序，花軸黃褐色。",
+          "image_id": "hkb-82051-a-panicle-of-buds-the-axes-tawny",
+          "code": "82051j"
         }
       ],
       "reference": {
@@ -1075,6 +1273,66 @@
           "zh": "葉背灰色絨毛。",
           "image_id": "hkb-58382-leaf",
           "code": "58382c"
+        },
+        {
+          "en": "A young fruit, with five calyx lobes.",
+          "zh": "幼果，五枚萼裂片。",
+          "image_id": "hkb-58382-a-young-fruit-with-five-calyx-lobes",
+          "code": "58382d"
+        },
+        {
+          "en": "A young urceolate fruit, and the five calyx lobes.",
+          "zh": "幼嫩的壇狀果，五枚萼裂片。",
+          "image_id": "hkb-58382-a-young-urceolate-fruit-and-the-five-cal",
+          "code": "58382e"
+        },
+        {
+          "en": "A flowering shoot.",
+          "zh": "開花的枝。",
+          "image_id": "hkb-58382-a-flowering-shoot",
+          "code": "58382f"
+        },
+        {
+          "en": "An open flower among young fruits.",
+          "zh": "幼果間的開放花。",
+          "image_id": "hkb-58382-an-open-flower-among-young-fruits",
+          "code": "58382g"
+        },
+        {
+          "en": "Velvety buds, on long pedicels.",
+          "zh": "絨毛花蕾，花梗長。",
+          "image_id": "hkb-58382-velvety-buds-on-long-pedicels",
+          "code": "58382h"
+        },
+        {
+          "en": "The lower leaf surface: grey tomentum and netted veins.",
+          "zh": "葉背灰色絨毛，網狀脈。",
+          "image_id": "hkb-58382-the-lower-leaf-surface-grey-tomentum-and",
+          "code": "58382i"
+        },
+        {
+          "en": "Leaves, some purple-mottled.",
+          "zh": "葉，部分帶紫色斑。",
+          "image_id": "hkb-58382-leaves-some-purple-mottled",
+          "code": "58382j"
+        },
+        {
+          "en": "An open flower, with the leaf.",
+          "zh": "開放的花，連葉。",
+          "image_id": "hkb-58382-an-open-flower-with-the-leaf",
+          "code": "58382k"
+        },
+        {
+          "en": "A flowering branch, petals five.",
+          "zh": "開花的枝，花瓣五枚。",
+          "image_id": "hkb-58382-a-flowering-branch-petals-five",
+          "code": "58382l"
+        },
+        {
+          "en": "An open flower, petals magenta.",
+          "zh": "開放的花，花瓣洋紅色。",
+          "image_id": "hkb-58382-an-open-flower-petals-magenta",
+          "code": "58382m"
         }
       ],
       "reference": {
@@ -1217,6 +1475,72 @@
           "zh": "下垂的條形莢果。",
           "image_id": "hkb-47180-pods",
           "code": "47180d"
+        },
+        {
+          "en": "Buds on the old wood.",
+          "zh": "老莖上的花蕾。",
+          "image_id": "hkb-47180-buds-on-the-old-wood",
+          "code": "47180e"
+        },
+        {
+          "en": "Pods on the old wood.",
+          "zh": "老莖上的莢果。",
+          "image_id": "hkb-47180-pods-on-the-old-wood",
+          "code": "47180f"
+        },
+        {
+          "en": "Winged, rusty pods.",
+          "zh": "有翅的鏽色莢果。",
+          "image_id": "hkb-47180-winged-rusty-pods",
+          "code": "47180g"
+        },
+        {
+          "en": "Rusty pods.",
+          "zh": "鏽色莢果。",
+          "image_id": "hkb-47180-rusty-pods",
+          "code": "47180h"
+        },
+        {
+          "en": "Flowers borne on the old wood.",
+          "zh": "花生於老莖。",
+          "image_id": "hkb-47180-flowers-borne-on-the-old-wood",
+          "code": "47180i"
+        },
+        {
+          "en": "Flowers, pods, and seeds together.",
+          "zh": "花、莢果與種子同框。",
+          "image_id": "hkb-47180-flowers-pods-and-seeds-together",
+          "code": "47180j"
+        },
+        {
+          "en": "The corolla, opened.",
+          "zh": "張開的花冠。",
+          "image_id": "hkb-47180-the-corolla-opened",
+          "code": "47180k"
+        },
+        {
+          "en": "The keel and the corolla.",
+          "zh": "龍骨瓣與花冠。",
+          "image_id": "hkb-47180-the-keel-and-the-corolla",
+          "code": "47180l"
+        },
+        {
+          "en": "Racemes on the woody climber.",
+          "zh": "木質藤上的總狀花序。",
+          "image_id": "hkb-47180-racemes-on-the-woody-climber",
+          "code": "47180m"
+        },
+        {
+          "en": "The climber in fruit.",
+          "zh": "結果的藤本。",
+          "image_id": "hkb-47180-the-climber-in-fruit",
+          "code": "47180n"
+        },
+        {
+          "en": "A leaf with three caudate leaflets.",
+          "zh": "三小葉，先端尾尖。",
+          "image_id": "hkb-47180-a-leaf-with-three-caudate-leaflets",
+          "code": "47180o"
         }
       ],
       "reference": {
@@ -1357,6 +1681,60 @@
           "zh": "白色果與扇形花。",
           "image_id": "hkb-79200-fruit",
           "code": "79200d"
+        },
+        {
+          "en": "A cluster of fruits.",
+          "zh": "一簇果實。",
+          "image_id": "hkb-79200-a-cluster-of-fruits",
+          "code": "79200e"
+        },
+        {
+          "en": "Fruits, with the calyx still on.",
+          "zh": "果實，花萼宿存。",
+          "image_id": "hkb-79200-fruits-with-the-calyx-still-on",
+          "code": "79200f"
+        },
+        {
+          "en": "The face of the fan flower.",
+          "zh": "扇形花的正面。",
+          "image_id": "hkb-79200-the-face-of-the-fan-flower",
+          "code": "79200g"
+        },
+        {
+          "en": "A white fan flower.",
+          "zh": "白色的扇形花。",
+          "image_id": "hkb-79200-a-white-fan-flower",
+          "code": "79200h"
+        },
+        {
+          "en": "The back of the flower.",
+          "zh": "花的背面。",
+          "image_id": "hkb-79200-the-back-of-the-flower",
+          "code": "79200i"
+        },
+        {
+          "en": "Leaves crowded in a rosette.",
+          "zh": "葉簇生如蓮座。",
+          "image_id": "hkb-79200-leaves-crowded-in-a-rosette",
+          "code": "79200j"
+        },
+        {
+          "en": "A purple-flushed shoot tip.",
+          "zh": "帶紫色的梢端。",
+          "image_id": "hkb-79200-a-purple-flushed-shoot-tip",
+          "code": "79200k"
+        },
+        {
+          "en": "Purple leaves, and a flower.",
+          "zh": "紫色的葉，連花。",
+          "image_id": "hkb-79200-purple-leaves-and-a-flower",
+          "code": "79200l"
+        },
+        {
+          "en": "Flowers and fruits on the same shoot.",
+          "zh": "同一枝上的花與果。",
+          "image_id": "hkb-79200-flowers-and-fruits-on-the-same-shoot",
+          "code": "79200m"
         }
       ],
       "reference": {
@@ -1501,6 +1879,60 @@
           "zh": "種子連尾狀附屬物懸垂。",
           "image_id": "hkb-61450-seed",
           "code": "61450d"
+        },
+        {
+          "en": "A cluster of open flowers.",
+          "zh": "一簇開放的花。",
+          "image_id": "hkb-61450-a-cluster-of-open-flowers",
+          "code": "61450e"
+        },
+        {
+          "en": "A dry capsule, split.",
+          "zh": "乾裂的蒴果。",
+          "image_id": "hkb-61450-a-dry-capsule-split",
+          "code": "61450f"
+        },
+        {
+          "en": "A fruiting crown.",
+          "zh": "結果的樹冠。",
+          "image_id": "hkb-61450-a-fruiting-crown",
+          "code": "61450g"
+        },
+        {
+          "en": "A cluster of buds.",
+          "zh": "一簇花蕾。",
+          "image_id": "hkb-61450-a-cluster-of-buds",
+          "code": "61450h"
+        },
+        {
+          "en": "The umbel, and its pedicels.",
+          "zh": "傘形花序與花梗。",
+          "image_id": "hkb-61450-the-umbel-and-its-pedicels",
+          "code": "61450i"
+        },
+        {
+          "en": "Roots at the base of the trunk.",
+          "zh": "樹幹基部的根。",
+          "image_id": "hkb-61450-roots-at-the-base-of-the-trunk",
+          "code": "61450j"
+        },
+        {
+          "en": "Stamens, and scales in the throat.",
+          "zh": "雄蕊，喉部有鱗片。",
+          "image_id": "hkb-61450-stamens-and-scales-in-the-throat",
+          "code": "61450k"
+        },
+        {
+          "en": "The face of the flower, with the stamens.",
+          "zh": "花的正面，可見雄蕊。",
+          "image_id": "hkb-61450-the-face-of-the-flower-with-the-stamens",
+          "code": "61450l"
+        },
+        {
+          "en": "The lower leaf surface.",
+          "zh": "葉背面。",
+          "image_id": "hkb-61450-the-lower-leaf-surface",
+          "code": "61450m"
         }
       ],
       "reference": {
@@ -1639,6 +2071,72 @@
           "zh": "黃白色花。",
           "image_id": "hkb-26103-flower",
           "code": "26103c"
+        },
+        {
+          "en": "Old bark.",
+          "zh": "老樹皮。",
+          "image_id": "hkb-26103-old-bark",
+          "code": "26103d"
+        },
+        {
+          "en": "Buds at the node, and a purple petiole.",
+          "zh": "節上的芽，葉柄帶紫色。",
+          "image_id": "hkb-26103-buds-at-the-node-and-a-purple-petiole",
+          "code": "26103e"
+        },
+        {
+          "en": "Five leaves, lower surface, with domatia.",
+          "zh": "五片葉的背面，具葉腋窩。",
+          "image_id": "hkb-26103-five-leaves-lower-surface-with-domatia",
+          "code": "26103f"
+        },
+        {
+          "en": "A triple bud.",
+          "zh": "三重芽。",
+          "image_id": "hkb-26103-a-triple-bud",
+          "code": "26103g"
+        },
+        {
+          "en": "Open flowers, about 3 mm across.",
+          "zh": "開放的花，直徑約 3 毫米。",
+          "image_id": "hkb-26103-open-flowers-about-3-mm-across",
+          "code": "26103h"
+        },
+        {
+          "en": "An open flower and buds on the panicle.",
+          "zh": "圓錐花序上的開放花與花蕾。",
+          "image_id": "hkb-26103-an-open-flower-and-buds-on-the-panicle",
+          "code": "26103i"
+        },
+        {
+          "en": "Immature green fruits on a triplinerved leaf.",
+          "zh": "三出脈的葉上，未成熟的綠色果實。",
+          "image_id": "hkb-26103-immature-green-fruits-on-a-triplinerved-",
+          "code": "26103j"
+        },
+        {
+          "en": "Yellowish-white flowers in an axillary panicle, with the leaf.",
+          "zh": "腋生圓錐花序，花黃白色，連葉。",
+          "image_id": "hkb-26103-yellowish-white-flowers-in-an-axillary-p",
+          "code": "26103k"
+        },
+        {
+          "en": "Immature green fruits.",
+          "zh": "未成熟的綠色果實。",
+          "image_id": "hkb-26103-immature-green-fruits",
+          "code": "26103l"
+        },
+        {
+          "en": "A bract opening around the enclosed buds.",
+          "zh": "苞片張開，包着花蕾。",
+          "image_id": "hkb-26103-a-bract-opening-around-the-enclosed-buds",
+          "code": "26103m"
+        },
+        {
+          "en": "A canopy in flower.",
+          "zh": "樹冠開花。",
+          "image_id": "hkb-26103-a-canopy-in-flower",
+          "code": "26103n"
         }
       ],
       "reference": {
@@ -1786,6 +2284,72 @@
           "zh": "橢圓形蒴果。",
           "image_id": "hkb-55350-fruit",
           "code": "55350e"
+        },
+        {
+          "en": "A red flower, face on, with stamen bundles.",
+          "zh": "紅色的花，正面，雄蕊成束。",
+          "image_id": "hkb-55350-a-red-flower-face-on-with-stamen-bundles",
+          "code": "55350f"
+        },
+        {
+          "en": "Yellow glands on the face of the flower.",
+          "zh": "花正面的黃色腺體。",
+          "image_id": "hkb-55350-yellow-glands-on-the-face-of-the-flower",
+          "code": "55350g"
+        },
+        {
+          "en": "A deep red flower with white stamens.",
+          "zh": "深紅色的花，雄蕊白色。",
+          "image_id": "hkb-55350-a-deep-red-flower-with-white-stamens",
+          "code": "55350h"
+        },
+        {
+          "en": "Stamens of the red flower, at finger scale.",
+          "zh": "紅色花的雄蕊，以手指作比例。",
+          "image_id": "hkb-55350-stamens-of-the-red-flower-at-finger-scal",
+          "code": "55350i"
+        },
+        {
+          "en": "Spent capsules, and the lower leaf surface.",
+          "zh": "殘留的蒴果，連葉背。",
+          "image_id": "hkb-55350-spent-capsules-and-the-lower-leaf-surfac",
+          "code": "55350j"
+        },
+        {
+          "en": "A flower closing, the sepals around the bud.",
+          "zh": "花將謝，萼片包着花蕾。",
+          "image_id": "hkb-55350-a-flower-closing-the-sepals-around-the-b",
+          "code": "55350k"
+        },
+        {
+          "en": "Capsules with the calyx still attached.",
+          "zh": "蒴果，花萼宿存。",
+          "image_id": "hkb-55350-capsules-with-the-calyx-still-attached",
+          "code": "55350l"
+        },
+        {
+          "en": "Smooth yellowish bark.",
+          "zh": "平滑的黃白色樹皮。",
+          "image_id": "hkb-55350-smooth-yellowish-bark",
+          "code": "55350m"
+        },
+        {
+          "en": "Flowers in the leaf axils.",
+          "zh": "葉腋的花。",
+          "image_id": "hkb-55350-flowers-in-the-leaf-axils",
+          "code": "55350n"
+        },
+        {
+          "en": "A mass of green capsules.",
+          "zh": "成簇的綠色蒴果。",
+          "image_id": "hkb-55350-a-mass-of-green-capsules",
+          "code": "55350o"
+        },
+        {
+          "en": "Red young leaves, opposite.",
+          "zh": "紅色嫩葉，對生。",
+          "image_id": "hkb-55350-red-young-leaves-opposite",
+          "code": "55350p"
         }
       ],
       "reference": {
@@ -1930,6 +2494,66 @@
           "zh": "褐色球形果。",
           "image_id": "hkb-56506-fruit",
           "code": "56506d"
+        },
+        {
+          "en": "A male flower.",
+          "zh": "雄花。",
+          "image_id": "hkb-56506-a-male-flower",
+          "code": "56506e"
+        },
+        {
+          "en": "Five sepals of the male flower.",
+          "zh": "雄花的五枚萼片。",
+          "image_id": "hkb-56506-five-sepals-of-the-male-flower",
+          "code": "56506f"
+        },
+        {
+          "en": "Female flowers, with three or four styles.",
+          "zh": "雌花，花柱三或四枚。",
+          "image_id": "hkb-56506-female-flowers-with-three-or-four-styles",
+          "code": "56506g"
+        },
+        {
+          "en": "The styles, close.",
+          "zh": "花柱的近觀。",
+          "image_id": "hkb-56506-the-styles-close",
+          "code": "56506h"
+        },
+        {
+          "en": "Young green fruits, and the bark.",
+          "zh": "幼嫩的綠色果實，連樹皮。",
+          "image_id": "hkb-56506-young-green-fruits-and-the-bark",
+          "code": "56506i"
+        },
+        {
+          "en": "Panicles on a bare branch.",
+          "zh": "裸枝上的圓錐花序。",
+          "image_id": "hkb-56506-panicles-on-a-bare-branch",
+          "code": "56506j"
+        },
+        {
+          "en": "A cluster of buds.",
+          "zh": "一簇花蕾。",
+          "image_id": "hkb-56506-a-cluster-of-buds",
+          "code": "56506k"
+        },
+        {
+          "en": "A crown in flower.",
+          "zh": "樹冠開花。",
+          "image_id": "hkb-56506-a-crown-in-flower",
+          "code": "56506l"
+        },
+        {
+          "en": "Trifoliolate leaves, and the fruit.",
+          "zh": "三出複葉，連果實。",
+          "image_id": "hkb-56506-trifoliolate-leaves-and-the-fruit",
+          "code": "56506m"
+        },
+        {
+          "en": "A trifoliolate leaf, with a red flush.",
+          "zh": "三出複葉，新葉帶紅色。",
+          "image_id": "hkb-56506-a-trifoliolate-leaf-with-a-red-flush",
+          "code": "56506n"
         }
       ],
       "reference": {
@@ -2075,6 +2699,72 @@
           "zh": "具軟刺的蒴果。",
           "image_id": "hkb-55910-fruit",
           "code": "55910d"
+        },
+        {
+          "en": "Rusty young leaves, and buds.",
+          "zh": "鏽色嫩葉，連花蕾。",
+          "image_id": "hkb-55910-rusty-young-leaves-and-buds",
+          "code": "55910e"
+        },
+        {
+          "en": "Stellate hairs at the node.",
+          "zh": "節上的星狀毛。",
+          "image_id": "hkb-55910-stellate-hairs-at-the-node",
+          "code": "55910f"
+        },
+        {
+          "en": "A capsule split open, with black seeds.",
+          "zh": "裂開的蒴果，黑色種子。",
+          "image_id": "hkb-55910-a-capsule-split-open-with-black-seeds",
+          "code": "55910g"
+        },
+        {
+          "en": "Three black seeds.",
+          "zh": "三粒黑色種子。",
+          "image_id": "hkb-55910-three-black-seeds",
+          "code": "55910h"
+        },
+        {
+          "en": "An open male panicle.",
+          "zh": "開放的雄圓錐花序。",
+          "image_id": "hkb-55910-an-open-male-panicle",
+          "code": "55910i"
+        },
+        {
+          "en": "Male flowers on the panicle.",
+          "zh": "圓錐花序上的雄花。",
+          "image_id": "hkb-55910-male-flowers-on-the-panicle",
+          "code": "55910j"
+        },
+        {
+          "en": "A soft-spiny capsule.",
+          "zh": "軟刺蒴果。",
+          "image_id": "hkb-55910-a-soft-spiny-capsule",
+          "code": "55910k"
+        },
+        {
+          "en": "Stellate hairs on the branchlet.",
+          "zh": "小枝上的星狀毛。",
+          "image_id": "hkb-55910-stellate-hairs-on-the-branchlet",
+          "code": "55910l"
+        },
+        {
+          "en": "A male raceme, and rhombic leaves.",
+          "zh": "雄花序，連菱形葉。",
+          "image_id": "hkb-55910-a-male-raceme-and-rhombic-leaves",
+          "code": "55910m"
+        },
+        {
+          "en": "Soft-spiny capsules.",
+          "zh": "軟刺蒴果。",
+          "image_id": "hkb-55910-soft-spiny-capsules",
+          "code": "55910n"
+        },
+        {
+          "en": "A flowering branch.",
+          "zh": "開花的枝。",
+          "image_id": "hkb-55910-a-flowering-branch",
+          "code": "55910o"
         }
       ],
       "reference": {
@@ -2218,6 +2908,60 @@
           "zh": "灌木上的彎曲果。",
           "image_id": "hkb-67415-fruit",
           "code": "67415d"
+        },
+        {
+          "en": "Flowers, and glands on the leaf.",
+          "zh": "花，葉上有腺體。",
+          "image_id": "hkb-67415-flowers-and-glands-on-the-leaf",
+          "code": "67415e"
+        },
+        {
+          "en": "Glands beside the flower.",
+          "zh": "花旁的腺體。",
+          "image_id": "hkb-67415-glands-beside-the-flower",
+          "code": "67415f"
+        },
+        {
+          "en": "The node and the petiole.",
+          "zh": "節與葉柄。",
+          "image_id": "hkb-67415-the-node-and-the-petiole",
+          "code": "67415g"
+        },
+        {
+          "en": "The shrub, with roots at the base.",
+          "zh": "灌木，基部有根。",
+          "image_id": "hkb-67415-the-shrub-with-roots-at-the-base",
+          "code": "67415h"
+        },
+        {
+          "en": "Corolla lobes reflexed.",
+          "zh": "花冠裂片反折。",
+          "image_id": "hkb-67415-corolla-lobes-reflexed",
+          "code": "67415i"
+        },
+        {
+          "en": "The styles, subulate.",
+          "zh": "花柱錐狀。",
+          "image_id": "hkb-67415-the-styles-subulate",
+          "code": "67415j"
+        },
+        {
+          "en": "Buds in the umbel.",
+          "zh": "傘形花序上的花蕾。",
+          "image_id": "hkb-67415-buds-in-the-umbel",
+          "code": "67415k"
+        },
+        {
+          "en": "A mass of curved fruits.",
+          "zh": "成簇的彎曲果實。",
+          "image_id": "hkb-67415-a-mass-of-curved-fruits",
+          "code": "67415l"
+        },
+        {
+          "en": "A leaf, and the scar at the node.",
+          "zh": "葉，節上有疤。",
+          "image_id": "hkb-67415-a-leaf-and-the-scar-at-the-node",
+          "code": "67415m"
         }
       ],
       "reference": {
@@ -2362,6 +3106,84 @@
           "zh": "木質果，外緣有龍骨。",
           "image_id": "hkb-61052-fruit",
           "code": "61052d"
+        },
+        {
+          "en": "Leaves green above and silvery below.",
+          "zh": "葉面綠色，葉背銀白色。",
+          "image_id": "hkb-61052-leaves-green-above-and-silvery-below",
+          "code": "61052e"
+        },
+        {
+          "en": "The bark.",
+          "zh": "樹皮。",
+          "image_id": "hkb-61052-the-bark",
+          "code": "61052f"
+        },
+        {
+          "en": "A flower, and a young fruit.",
+          "zh": "花與幼果。",
+          "image_id": "hkb-61052-a-flower-and-a-young-fruit",
+          "code": "61052g"
+        },
+        {
+          "en": "The campanulate calyx.",
+          "zh": "鐘狀花萼。",
+          "image_id": "hkb-61052-the-campanulate-calyx",
+          "code": "61052h"
+        },
+        {
+          "en": "A mass of flowers.",
+          "zh": "成簇的花。",
+          "image_id": "hkb-61052-a-mass-of-flowers",
+          "code": "61052i"
+        },
+        {
+          "en": "Buttress roots.",
+          "zh": "板根。",
+          "image_id": "hkb-61052-buttress-roots",
+          "code": "61052j"
+        },
+        {
+          "en": "The upper leaf surface.",
+          "zh": "葉面。",
+          "image_id": "hkb-61052-the-upper-leaf-surface",
+          "code": "61052k"
+        },
+        {
+          "en": "Venation of the upper surface.",
+          "zh": "葉面的脈。",
+          "image_id": "hkb-61052-venation-of-the-upper-surface",
+          "code": "61052l"
+        },
+        {
+          "en": "The flower, pink.",
+          "zh": "粉紅色的花。",
+          "image_id": "hkb-61052-the-flower-pink",
+          "code": "61052m"
+        },
+        {
+          "en": "The flower, from the side.",
+          "zh": "花的側面。",
+          "image_id": "hkb-61052-the-flower-from-the-side",
+          "code": "61052n"
+        },
+        {
+          "en": "A leathery leaf, entire.",
+          "zh": "革質葉，全緣。",
+          "image_id": "hkb-61052-a-leathery-leaf-entire",
+          "code": "61052o"
+        },
+        {
+          "en": "The flower, close.",
+          "zh": "花的近觀。",
+          "image_id": "hkb-61052-the-flower-close",
+          "code": "61052p"
+        },
+        {
+          "en": "The lower surface, silvery with scales.",
+          "zh": "葉背銀白色，被鱗片。",
+          "image_id": "hkb-61052-the-lower-surface-silvery-with-scales",
+          "code": "61052q"
         }
       ],
       "reference": {
@@ -2504,6 +3326,66 @@
           "zh": "球形蒴果。",
           "image_id": "hkb-55904-fruit",
           "code": "55904d"
+        },
+        {
+          "en": "Reddening leaves, and male spikes.",
+          "zh": "變紅的葉，連雄花穗。",
+          "image_id": "hkb-55904-reddening-leaves-and-male-spikes",
+          "code": "55904e"
+        },
+        {
+          "en": "A male raceme, each flower with three stamens.",
+          "zh": "雄花序，每朵花三枚雄蕊。",
+          "image_id": "hkb-55904-a-male-raceme-each-flower-with-three-sta",
+          "code": "55904f"
+        },
+        {
+          "en": "Young capsules, with three styles.",
+          "zh": "幼蒴果，三枚花柱。",
+          "image_id": "hkb-55904-young-capsules-with-three-styles",
+          "code": "55904g"
+        },
+        {
+          "en": "Male racemes among the elliptic leaves.",
+          "zh": "橢圓葉間的雄花序。",
+          "image_id": "hkb-55904-male-racemes-among-the-elliptic-leaves",
+          "code": "55904h"
+        },
+        {
+          "en": "Glands at the node, and a stout petiole.",
+          "zh": "節上的腺體，葉柄粗。",
+          "image_id": "hkb-55904-glands-at-the-node-and-a-stout-petiole",
+          "code": "55904i"
+        },
+        {
+          "en": "A spent male raceme, hanging.",
+          "zh": "下垂的殘留雄花序。",
+          "image_id": "hkb-55904-a-spent-male-raceme-hanging",
+          "code": "55904j"
+        },
+        {
+          "en": "Alternate leaves, and lenticels on the twig.",
+          "zh": "互生葉，小枝有皮孔。",
+          "image_id": "hkb-55904-alternate-leaves-and-lenticels-on-the-tw",
+          "code": "55904k"
+        },
+        {
+          "en": "The base of the tree on the mud.",
+          "zh": "泥灘上的樹基。",
+          "image_id": "hkb-55904-the-base-of-the-tree-on-the-mud",
+          "code": "55904l"
+        },
+        {
+          "en": "Leaves and flowers in the canopy.",
+          "zh": "樹冠上的葉與花。",
+          "image_id": "hkb-55904-leaves-and-flowers-in-the-canopy",
+          "code": "55904m"
+        },
+        {
+          "en": "Alternate leaves in the canopy.",
+          "zh": "樹冠上的互生葉。",
+          "image_id": "hkb-55904-alternate-leaves-in-the-canopy",
+          "code": "55904n"
         }
       ],
       "reference": {
@@ -2641,6 +3523,24 @@
           "zh": "下垂的聚花果。",
           "image_id": "hkb-30100-fruit",
           "code": "30100c"
+        },
+        {
+          "en": "Prop roots, with the fruit.",
+          "zh": "支柱根，連果實。",
+          "image_id": "hkb-30100-prop-roots-with-the-fruit",
+          "code": "30100d"
+        },
+        {
+          "en": "A branched tree, with aerial roots at the base.",
+          "zh": "分枝的喬木，基部有氣根。",
+          "image_id": "hkb-30100-a-branched-tree-with-aerial-roots-at-the",
+          "code": "30100e"
+        },
+        {
+          "en": "Fruits in a thicket.",
+          "zh": "灌叢中的果實。",
+          "image_id": "hkb-30100-fruits-in-a-thicket",
+          "code": "30100f"
         }
       ],
       "reference": {
@@ -2780,6 +3680,84 @@
           "zh": "白色星形花。",
           "image_id": "hkb-71834-flower",
           "code": "71834c"
+        },
+        {
+          "en": "The liana on a tree trunk.",
+          "zh": "攀在樹幹上的藤。",
+          "image_id": "hkb-71834-the-liana-on-a-tree-trunk",
+          "code": "71834d"
+        },
+        {
+          "en": "Buds, and the calyx.",
+          "zh": "花蕾與花萼。",
+          "image_id": "hkb-71834-buds-and-the-calyx",
+          "code": "71834e"
+        },
+        {
+          "en": "Calyx lobes spreading.",
+          "zh": "萼裂片開展。",
+          "image_id": "hkb-71834-calyx-lobes-spreading",
+          "code": "71834f"
+        },
+        {
+          "en": "The vine over a walkway.",
+          "zh": "藤蔓覆在路上。",
+          "image_id": "hkb-71834-the-vine-over-a-walkway",
+          "code": "71834g"
+        },
+        {
+          "en": "A woody stem, with lenticels.",
+          "zh": "木質的莖，有皮孔。",
+          "image_id": "hkb-71834-a-woody-stem-with-lenticels",
+          "code": "71834h"
+        },
+        {
+          "en": "Pubescence on a young stem.",
+          "zh": "幼莖被毛。",
+          "image_id": "hkb-71834-pubescence-on-a-young-stem",
+          "code": "71834i"
+        },
+        {
+          "en": "A leaf, at hand scale.",
+          "zh": "一片葉，以手作比例。",
+          "image_id": "hkb-71834-a-leaf-at-hand-scale",
+          "code": "71834j"
+        },
+        {
+          "en": "A mass of flowers.",
+          "zh": "成簇的花。",
+          "image_id": "hkb-71834-a-mass-of-flowers",
+          "code": "71834k"
+        },
+        {
+          "en": "An open flower, the lobes star-shaped.",
+          "zh": "開放的花，裂片星形。",
+          "image_id": "hkb-71834-an-open-flower-the-lobes-star-shaped",
+          "code": "71834l"
+        },
+        {
+          "en": "Stamens in the throat.",
+          "zh": "喉部的雄蕊。",
+          "image_id": "hkb-71834-stamens-in-the-throat",
+          "code": "71834m"
+        },
+        {
+          "en": "The upper leaf surface.",
+          "zh": "葉面。",
+          "image_id": "hkb-71834-the-upper-leaf-surface",
+          "code": "71834n"
+        },
+        {
+          "en": "Venation of the lower surface.",
+          "zh": "葉背的脈。",
+          "image_id": "hkb-71834-venation-of-the-lower-surface",
+          "code": "71834o"
+        },
+        {
+          "en": "A mass of flowers on the vine.",
+          "zh": "藤上成簇的花。",
+          "image_id": "hkb-71834-a-mass-of-flowers-on-the-vine",
+          "code": "71834p"
         }
       ],
       "reference": {
@@ -2922,6 +3900,48 @@
           "zh": "橢圓形果，具宿存萼裂片。",
           "image_id": "hkb-71045-fruit",
           "code": "71045d"
+        },
+        {
+          "en": "Flowers along a branch.",
+          "zh": "枝上的花。",
+          "image_id": "hkb-71045-flowers-along-a-branch",
+          "code": "71045e"
+        },
+        {
+          "en": "The corolla tube, from the side.",
+          "zh": "花冠筒的側面。",
+          "image_id": "hkb-71045-the-corolla-tube-from-the-side",
+          "code": "71045f"
+        },
+        {
+          "en": "The stipules, sheathing.",
+          "zh": "托葉成鞘。",
+          "image_id": "hkb-71045-the-stipules-sheathing",
+          "code": "71045g"
+        },
+        {
+          "en": "Ripe fruits.",
+          "zh": "成熟的果實。",
+          "image_id": "hkb-71045-ripe-fruits",
+          "code": "71045h"
+        },
+        {
+          "en": "A bud, and the corolla tube.",
+          "zh": "花蕾與花冠筒。",
+          "image_id": "hkb-71045-a-bud-and-the-corolla-tube",
+          "code": "71045i"
+        },
+        {
+          "en": "A flowering branch.",
+          "zh": "開花的枝。",
+          "image_id": "hkb-71045-a-flowering-branch",
+          "code": "71045j"
+        },
+        {
+          "en": "A leafy shoot, with buds.",
+          "zh": "帶蕾的葉枝。",
+          "image_id": "hkb-71045-a-leafy-shoot-with-buds",
+          "code": "71045k"
         }
       ],
       "reference": {

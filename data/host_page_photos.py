@@ -219,7 +219,9 @@ def main() -> None:
         for photo in page["photos"]:
             # image_id already set in the loop above only if missing; set from jobs.
             pass
-        page["hero_id"] = hero_by_blp[blp]
+        page["hero_id"] = hero_by_blp.get(blp) or page.get("hero_id")
+        if not page["hero_id"]:
+            raise SystemExit(f"{blp} hero did not match a photo")
         for photo, job in zip(page["photos"], [j for j in jobs if j["blp"] == blp]):
             photo.pop("src", None)
             photo["image_id"] = job["image_id"]
