@@ -6442,6 +6442,995 @@
         }
       ],
       "hero_id": "hkb-61083-canopy-fr-leaves-06"
+    },
+    "18050": {
+      "blp": "18050",
+      "sci": "Podocarpus macrophyllus",
+      "authority": "(Thunb.) Sweet",
+      "chi_line": "羅漢松",
+      "chi_names": [
+        "羅漢松"
+      ],
+      "en_names": [
+        "Buddhist Pine",
+        "Kusamaki"
+      ],
+      "native": true,
+      "order": "Araucariales",
+      "family": "Podocarpaceae",
+      "genus": "Podocarpus",
+      "flower": "4-5",
+      "fruit": "8-9",
+      "hero_id": "hkb-18050-habit-wild",
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree to 15 m; bark grey or greyish brown, irregularly fissured",
+          "zh": "喬木，高可達 15 米；樹皮灰色或灰褐色，不規則縱裂"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "Pollinating April–May. Seed maturing August–September.",
+          "zh": "傳粉期 4 月至 5 月。種子於 8 月至 9 月成熟。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Open thickets. Coastal hillslopes on eastern seashores; also cultivated in urban parks and gardens.",
+          "zh": "開闊灌叢。東部海岸的沿海山坡；亦栽培於市區公園及花園。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree to 15 m; trunk to 30 cm d.b.h.; branches dense, spreading, pale brown.",
+              "zh": "喬木，高可達 15 米；胸徑可達 30 厘米；枝密集開展，淡褐色。"
+            },
+            {
+              "label_en": "Bark",
+              "label_zh": "樹皮",
+              "en": "Grey or greyish brown, irregularly fissured.",
+              "zh": "灰色或灰褐色，不規則縱裂。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Arrangement",
+              "label_zh": "排列",
+              "en": "Spirally arranged on the upper half of branchlets, sessile.",
+              "zh": "螺旋狀排列於小枝上半部，無柄。"
+            },
+            {
+              "label_en": "Blade",
+              "label_zh": "葉片",
+              "en": "Linear-lanceolate, oblanceolate, or oblong-oblanceolate, 7–12 cm × 7–10 mm. Base cuneate. Apex mucronate or acute to long acuminate. Margin slightly recurved.",
+              "zh": "線狀披針形、倒披針形或長圓狀倒披針形，7–12 厘米 × 7–10 毫米。基部楔形。先端具短尖或急尖至長漸尖。邊緣微反卷。"
+            },
+            {
+              "label_en": "Surfaces",
+              "label_zh": "葉面",
+              "en": "Dark green and glossy adaxially; greyish green or pale green abaxially. Midvein prominently raised adaxially, slightly raised abaxially.",
+              "zh": "上面深綠色而有光澤；下面灰綠色或淺綠色。中脈在上面明顯隆起，在下面稍隆起。"
+            }
+          ]
+        },
+        {
+          "title_en": "Pollen cones",
+          "title_zh": "花粉球花",
+          "items": [
+            {
+              "label_en": "Appearance",
+              "label_zh": "外觀",
+              "en": "Axillary, usually in clusters of 3–5, spikelike, 3–5 cm, subsessile.",
+              "zh": "腋生，通常 3–5 枚簇生，穗狀，長 3–5 厘米，近無柄。"
+            }
+          ]
+        },
+        {
+          "title_en": "Seed structures",
+          "title_zh": "種子構造",
+          "items": [
+            {
+              "label_en": "Appearance",
+              "label_zh": "外觀",
+              "en": "Axillary, solitary, shortly pedunculate. Receptacle red or purplish red when ripe, columnar. Epimatium purplish black when ripe, with white powder. Seed ellipsoid or ovoid, ca. 1 cm in diam.",
+              "zh": "腋生，單生，具短梗。種托成熟時紅色或紫紅色，柱狀。套被成熟時紫黑色，被白粉。種子橢圓形或卵形，直徑約 1 厘米。"
+            }
+          ]
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Open thickets.",
+          "zh": "開闊灌叢。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native. Coastal hillslopes on eastern seashores; also cultivated in urban parks and gardens.",
+          "zh": "原生。東部海岸的沿海山坡；亦栽培於市區公園及花園。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Guangdong, Guangxi, Guizhou, Yunnan, Sichuan, Hunan, Anhui, Jiangxi, Fujian, Zhejiang and Jiangsu; Japan.",
+          "zh": "廣東、廣西、貴州、雲南、四川、湖南、安徽、江西、福建、浙江及江蘇；日本。"
+        }
+      ],
+      "photos": [
+        {
+          "en": "Wild shrub-tree in an open hillside thicket.",
+          "zh": "開闊山坡灌叢中的野生灌木狀小樹。",
+          "image_id": "hkb-18050-habit-wild",
+          "code": "18050a"
+        },
+        {
+          "en": "Cultivated tree with a forked trunk and a dense crown of linear leaves.",
+          "zh": "栽培的樹，樹幹分叉，樹冠密生線形葉。",
+          "image_id": "hkb-18050-habit-cloud",
+          "code": "18050b"
+        },
+        {
+          "en": "Massive trunks with grey fissured bark.",
+          "zh": "粗大的樹幹，樹皮灰色縱裂。",
+          "image_id": "hkb-18050-bark",
+          "code": "18050c"
+        },
+        {
+          "en": "Linear-lanceolate leaves on a grey branchlet.",
+          "zh": "灰色小枝上的線狀披針形葉。",
+          "image_id": "hkb-18050-leaf",
+          "code": "18050d"
+        },
+        {
+          "en": "Pale leaf undersides in the canopy.",
+          "zh": "樹冠中淺色的葉背。",
+          "image_id": "hkb-18050-leaf-underside",
+          "code": "18050e"
+        },
+        {
+          "en": "A pair of young spikelike pollen cones.",
+          "zh": "一對幼嫩的穗狀花粉球花。",
+          "image_id": "hkb-18050-pollen-young",
+          "code": "18050f"
+        },
+        {
+          "en": "An axillary cluster of spikelike pollen cones.",
+          "zh": "葉腋生的一簇穗狀花粉球花。",
+          "image_id": "hkb-18050-pollen-cluster",
+          "code": "18050g"
+        },
+        {
+          "en": "Elongated pollen cones shedding pollen.",
+          "zh": "伸長的花粉球花，正在散粉。",
+          "image_id": "hkb-18050-pollen-shedding",
+          "code": "18050h"
+        },
+        {
+          "en": "Glaucous seeds on a columnar receptacle.",
+          "zh": "柱狀種托上帶白粉的種子。",
+          "image_id": "hkb-18050-seed",
+          "code": "18050i"
+        },
+        {
+          "en": "A dense crop of glaucous seeds among linear leaves.",
+          "zh": "線形葉間密生帶白粉的種子。",
+          "image_id": "hkb-18050-seed-crop",
+          "code": "18050j"
+        },
+        {
+          "en": "Red new flush among green linear leaves.",
+          "zh": "綠色線形葉間的紅色新梢。",
+          "image_id": "hkb-18050-new-flush",
+          "code": "18050k"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "publisher": "Agriculture, Fisheries and Conservation Department",
+        "year": "2007",
+        "volume": "1"
+      }
+    },
+    "34000": {
+      "blp": "34000",
+      "sci": "Phoenix loureiroi",
+      "authority": "Kunth",
+      "chi_line": "刺葵",
+      "chi_names": [
+        "刺葵"
+      ],
+      "en_names": [
+        "Spiny Date Palm"
+      ],
+      "native": true,
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Phoenix",
+      "flower": "4-5",
+      "fruit": "6-10",
+      "synonyms": [
+        "Phoenix hanceana"
+      ],
+      "hero_id": "hkb-34000-habit-forest",
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Small to moderate tree, 1–5 m; stems rough, with petiole-base remains",
+          "zh": "小至中等喬木，高 1–5 米；莖粗糙，留有葉柄基部"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "Flowering April–May. Fruiting June–October.",
+          "zh": "花期 4 月至 5 月。果期 6 月至 10 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Open forests.",
+          "zh": "開闊的森林。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Small to moderate tree, 1–5 m. Stems solitary or clustered, 25–40 cm in diam., sometimes short and subterranean, rough, with petiole-base remains.",
+              "zh": "小至中等喬木，高 1–5 米。莖單生或叢生，直徑 25–40 厘米，有時短而埋於地下，粗糙，留有葉柄基部。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Blade",
+              "label_zh": "葉片",
+              "en": "Pinnate, to 2 m. Pinnae 35–120, linear, solitary or in groups of 2–3, not in the same plane. Middle pinnae 20–45 × 1–3 cm.",
+              "zh": "羽狀，長可達 2 米。羽片 35–120 枚，線形，單生或 2–3 枚成組，不在同一平面。中部羽片 20–45 × 1–3 厘米。"
+            },
+            {
+              "label_en": "Acanthophylls",
+              "label_zh": "刺狀羽片",
+              "en": "About 15 per side of the rachis, on the lower rachis.",
+              "zh": "葉軸每側約 15 枚，生於下部葉軸。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers",
+          "title_zh": "花",
+          "items": [
+            {
+              "label_en": "Inflorescence",
+              "label_zh": "花序",
+              "en": "Branched to one order, with 30–40 rachillae. Peduncles to 50 cm.",
+              "zh": "1 回分枝，小穗軸 30–40 條。花序梗長可達 50 厘米。"
+            },
+            {
+              "label_en": "Appearance",
+              "label_zh": "外觀",
+              "en": "Yellowish white. Male flowers: calyx 1–1.5 mm, 3-lobed; petals 3, 4–5 × 1.5–2 mm; stamens 6.",
+              "zh": "黃白色。雄花：花萼 1–1.5 毫米，3 裂；花瓣 3，4–5 × 1.5–2 毫米；雄蕊 6。"
+            }
+          ]
+        },
+        {
+          "title_en": "Fruit",
+          "title_zh": "果",
+          "items": [
+            {
+              "label_en": "Appearance",
+              "label_zh": "外觀",
+              "en": "Oblong, 1.5–2 cm, black or purplish black.",
+              "zh": "長圓形，1.5–2 厘米，黑色或紫黑色。"
+            }
+          ]
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Open forests.",
+          "zh": "開闊的森林。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native. Common in Hong Kong.",
+          "zh": "原生。香港常見。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan, Guangdong, Guangxi, Yunnan, Fujian and Taiwan; Indian Subcontinent, Southeast Asia.",
+          "zh": "海南、廣東、廣西、雲南、福建及台灣；印度次大陸、東南亞。"
+        }
+      ],
+      "photos": [
+        {
+          "en": "Solitary stem with petiole-base remains, and a pinnate crown, in open forest.",
+          "zh": "疏林中的單幹，幹上留有葉柄基部，樹冠羽狀。",
+          "image_id": "hkb-34000-habit-forest",
+          "code": "34000a"
+        },
+        {
+          "en": "Fruiting crown above a scarred trunk, with orange fruiting heads.",
+          "zh": "有疤的樹幹之上，樹冠結有橙黃色果序。",
+          "image_id": "hkb-34000-habit-fruiting",
+          "code": "34000b"
+        },
+        {
+          "en": "A cluster of oblong orange fruits on branched rachillae.",
+          "zh": "分枝小穗軸上的一簇長圓形橙色果實。",
+          "image_id": "hkb-34000-fruit-orange",
+          "code": "34000c"
+        },
+        {
+          "en": "Oblong fruits, black to purplish black, with some still orange.",
+          "zh": "長圓形果實，黑色至紫黑色，部分仍為橙色。",
+          "image_id": "hkb-34000-fruit-ripe",
+          "code": "34000d"
+        },
+        {
+          "en": "Linear pinnae, grouped, not in one plane.",
+          "zh": "線形羽片，成組，不在同一平面。",
+          "image_id": "hkb-34000-pinnae",
+          "code": "34000e"
+        },
+        {
+          "en": "Spine-like pinnae on the lower rachis.",
+          "zh": "下部葉軸上的刺狀羽片。",
+          "image_id": "hkb-34000-acanthophylls",
+          "code": "34000f"
+        },
+        {
+          "en": "Rough stem with persistent petiole bases.",
+          "zh": "粗糙的莖幹，留有宿存的葉柄基部。",
+          "image_id": "hkb-34000-stem",
+          "code": "34000g"
+        },
+        {
+          "en": "A dense cream to yellowish-white mass of male flowers among the pinnae.",
+          "zh": "羽片間密生的乳白色至淡黃白色雄花。",
+          "image_id": "hkb-34000-male-flowers",
+          "code": "34000h"
+        },
+        {
+          "en": "Yellow male flowers, with spine-like lower pinnae.",
+          "zh": "黃色雄花，下部羽片呈刺狀。",
+          "image_id": "hkb-34000-male-flowers-yellow",
+          "code": "34000i"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "publisher": "Agriculture, Fisheries and Conservation Department",
+        "year": "2011",
+        "volume": "4"
+      }
+    },
+    "38240": {
+      "blp": "38240",
+      "sci": "Miscanthus floridulus",
+      "authority": "(Labill.) Warb. ex K. Schum. & Lauterb.",
+      "chi_line": "五節芒",
+      "chi_names": [
+        "五節芒"
+      ],
+      "en_names": [
+        "Many-flowered Silvergrass",
+        "Japanese Silvergrass"
+      ],
+      "native": true,
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Miscanthus",
+      "flower": "",
+      "fruit": "",
+      "synonyms": [
+        "Miscanthus japonicus",
+        "Eulalia japonicum"
+      ],
+      "hero_id": "hkb-38240-habit",
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Perennial herb; culms erect, 1.5–4 m, unbranched",
+          "zh": "多年生草本；稈直立，高 1.5–4 米，不分枝"
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Hillslopes, valleys and open grassy fields.",
+          "zh": "山坡、山谷及開闊的草地。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Perennial herb. Culms erect, 1.5–4 m, glabrous, unbranched.",
+              "zh": "多年生草本。稈直立，高 1.5–4 米，無毛，不分枝。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Sheath",
+              "label_zh": "葉鞘",
+              "en": "Glabrous, or margins sparsely ciliate.",
+              "zh": "無毛，或邊緣疏生緣毛。"
+            },
+            {
+              "label_en": "Ligule",
+              "label_zh": "葉舌",
+              "en": "1–3 mm, rounded, ciliate.",
+              "zh": "長 1–3 毫米，圓形，具緣毛。"
+            },
+            {
+              "label_en": "Blade",
+              "label_zh": "葉片",
+              "en": "Linear, flat, tough, 20–85 × 0.5–4 cm. Midrib prominent. Margins scabrid.",
+              "zh": "線形，平展，質韌，20–85 × 0.5–4 厘米。中脈明顯。邊緣粗糙。"
+            }
+          ]
+        },
+        {
+          "title_en": "Inflorescence",
+          "title_zh": "花序",
+          "items": [
+            {
+              "label_en": "Panicle",
+              "label_zh": "圓錐花序",
+              "en": "Oblong or elliptic, dense, 30–50 cm. Axis more than two-thirds the panicle length. Racemes many, 10–30 cm, appressed or ascending.",
+              "zh": "長圓形或橢圓形，密集，長 30–50 厘米。軸長超過花序的三分之二。總狀花序多，長 10–30 厘米，貼生或上升。"
+            }
+          ]
+        },
+        {
+          "title_en": "Spikelets",
+          "title_zh": "小穗",
+          "items": [
+            {
+              "label_en": "Callus hairs",
+              "label_zh": "基盤毛",
+              "en": "As long as or slightly longer than the spikelet, white, spreading.",
+              "zh": "與小穗等長或稍長，白色，開展。"
+            },
+            {
+              "label_en": "Florets",
+              "label_zh": "小花",
+              "en": "Glumes subequal, membranous. Awn straight or geniculate. Anthers 3, 1–1.5 mm.",
+              "zh": "穎近等長，膜質。芒直或膝曲。花藥 3，長 1–1.5 毫米。"
+            },
+            {
+              "label_en": "Caryopsis",
+              "label_zh": "穎果",
+              "en": "Oblong.",
+              "zh": "長圓形。"
+            }
+          ]
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Hillslopes, valleys and open grassy fields.",
+          "zh": "山坡、山谷及開闊的草地。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native. Common in Hong Kong.",
+          "zh": "原生。香港常見。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan, Guangdong, Guangxi, Guizhou, Yunnan, Sichuan, Henan, Hubei, Jiangxi, Anhui, Jiangsu, Zhejiang, Fujian and Taiwan; Southeast Asia.",
+          "zh": "海南、廣東、廣西、貴州、雲南、四川、河南、湖北、江西、安徽、江蘇、浙江、福建及台灣；東南亞。"
+        }
+      ],
+      "photos": [
+        {
+          "en": "Tall culms with linear blades and dense panicles on a bank.",
+          "zh": "坡地上的高稈，線形葉片，圓錐花序密集。",
+          "image_id": "hkb-38240-habit",
+          "code": "38240a"
+        },
+        {
+          "en": "A dense pink-brown panicle of many racemes.",
+          "zh": "密集的粉褐色圓錐花序，總狀花序多。",
+          "image_id": "hkb-38240-panicle",
+          "code": "38240b"
+        },
+        {
+          "en": "A ciliate ligule at a culm node.",
+          "zh": "稈節上的具緣毛葉舌。",
+          "image_id": "hkb-38240-ligule",
+          "code": "38240d"
+        },
+        {
+          "en": "A linear blade with a prominent midrib, and a glabrous sheath.",
+          "zh": "線形葉片，中脈明顯，葉鞘無毛。",
+          "image_id": "hkb-38240-leaf",
+          "code": "38240e"
+        },
+        {
+          "en": "Paired spikelets with yellow anthers, purple stigmas and white callus hairs.",
+          "zh": "成對小穗，黃色花藥，紫色柱頭，白色基盤毛。",
+          "image_id": "hkb-38240-spikelet",
+          "code": "38240f"
+        },
+        {
+          "en": "A row of paired spikelets on a pink-brown raceme.",
+          "zh": "粉褐色總狀花序上成行的成對小穗。",
+          "image_id": "hkb-38240-spikelets",
+          "code": "38240g"
+        },
+        {
+          "en": "Spikelet tips, with awns, anthers and stigmas.",
+          "zh": "小穗先端，具芒、花藥及柱頭。",
+          "image_id": "hkb-38240-awn",
+          "code": "38240h"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "publisher": "Agriculture, Fisheries and Conservation Department",
+        "year": "2011",
+        "volume": "4"
+      }
+    },
+    "64302": {
+      "blp": "64302",
+      "sci": "Drosera spatulata",
+      "authority": "Labill.",
+      "chi_line": "寬苞茅膏菜",
+      "chi_names": [
+        "寬苞茅膏菜",
+        "匙葉茅膏菜"
+      ],
+      "en_names": [],
+      "native": true,
+      "order": "Caryophyllales",
+      "family": "Droseraceae",
+      "genus": "Drosera",
+      "flower": "3-9",
+      "fruit": "3-9",
+      "synonyms": [
+        "Drosera spathulata",
+        "Drosera loureirii"
+      ],
+      "hero_id": "hkb-64302-habit",
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Perennial herb; stem short, without a tuber",
+          "zh": "多年生草本；莖短，無塊莖"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "March–September.",
+          "zh": "3 月至 9 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Grassy fields and thickets.",
+          "zh": "草地及灌叢。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Perennial herb, with 1 or 2 black fibrous roots; stem short, without a tuber below ground.",
+              "zh": "多年生草本，具黑色纖維根 1 或 2 條；莖短，無地下塊莖。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Rosette",
+              "label_zh": "蓮座",
+              "en": "Dense and flat. Young leaves circinately folded once toward the stipule.",
+              "zh": "密集而扁平。幼葉向托葉方向拳卷對摺一次。"
+            },
+            {
+              "label_en": "Blade",
+              "label_zh": "葉片",
+              "en": "Obovate, spathulate, or cuneate, glandular hairy.",
+              "zh": "倒卵形、匙形或楔形，具腺毛。"
+            },
+            {
+              "label_en": "Petiole",
+              "label_zh": "葉柄",
+              "en": "Flattened, gradually widened toward the blade, glandular hairy.",
+              "zh": "扁平，向葉片方向逐漸變寬，具腺毛。"
+            },
+            {
+              "label_en": "Stipules",
+              "label_zh": "托葉",
+              "en": "Light red, narrow, 4–8 mm, scarious; apex fimbriate, setaceous.",
+              "zh": "淡紅色，狹，長 4–8 毫米，乾膜質；先端篦齒狀，剛毛狀。"
+            }
+          ]
+        },
+        {
+          "title_en": "Inflorescence",
+          "title_zh": "花序",
+          "items": [
+            {
+              "label_en": "Appearance",
+              "label_zh": "外觀",
+              "en": "1–6, scapiform, sometimes branched, 4–25 cm. Peduncle densely glandular hairy. Racemes one-sided, 10–20-flowered.",
+              "zh": "1–6 枚，花葶狀，有時分枝，高 4–25 厘米。花葶密被腺毛。總狀花序單側，有花 10–20 朵。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers",
+          "title_zh": "花",
+          "items": [
+            {
+              "label_en": "Appearance",
+              "label_zh": "外觀",
+              "en": "Petals white or pink to reddish violet, obovate, 2–6 mm. Stamens 5. Styles 3–4, each deeply 2-lobed.",
+              "zh": "花瓣白色或粉紅色至紅紫色，倒卵形，長 2–6 毫米。雄蕊 5。花柱 3–4，各深 2 裂。"
+            }
+          ]
+        },
+        {
+          "title_en": "Fruit",
+          "title_zh": "果",
+          "items": [
+            {
+              "label_en": "Capsule",
+              "label_zh": "蒴果",
+              "en": "3–4-valved, ca. 1.5 mm. Seeds small, black, ovoid or ellipsoid.",
+              "zh": "3–4 裂，長約 1.5 毫米。種子小，黑色，卵形或橢圓形。"
+            }
+          ]
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Grassy fields and thickets.",
+          "zh": "草地及灌叢。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native. Hong Kong Island, Tai Mo Shan, Ho Pui, Ma On Shan, Castle Peak and Lantau Island.",
+          "zh": "原生。香港島、大帽山、河背、馬鞍山、青山及大嶼山。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Guangdong, southern Guangxi, Fujian and Taiwan; Japan, Malaysia, Indonesia, the Philippines, Australia and Pacific Islands.",
+          "zh": "廣東、廣西南部、福建及台灣；日本、馬來西亞、印度尼西亞、菲律賓、澳洲及太平洋島嶼。"
+        }
+      ],
+      "photos": [
+        {
+          "en": "A single red rosette and a tall glandular scape with pink buds.",
+          "zh": "單株紅色蓮座，高的具腺花葶，粉紅色花蕾。",
+          "image_id": "hkb-64302-habit",
+          "code": "64302a"
+        },
+        {
+          "en": "A dense colony of flat red rosettes on a wet seep.",
+          "zh": "濕滲處密集的扁平紅色蓮座。",
+          "image_id": "hkb-64302-colony",
+          "code": "64302b"
+        },
+        {
+          "en": "A flat rosette on wet rock, with spathulate blades and red glandular tentacles.",
+          "zh": "濕石上的扁平蓮座，匙形葉片，紅色腺毛。",
+          "image_id": "hkb-64302-rosette",
+          "code": "64302c"
+        },
+        {
+          "en": "Glandular tentacles with mucilage droplets.",
+          "zh": "具黏液滴的腺毛。",
+          "image_id": "hkb-64302-tentacles",
+          "code": "64302d"
+        },
+        {
+          "en": "Flattened petioles, widened toward the blade.",
+          "zh": "扁平的葉柄，向葉片方向變寬。",
+          "image_id": "hkb-64302-petiole",
+          "code": "64302e"
+        },
+        {
+          "en": "A one-sided raceme of buds on a glandular peduncle.",
+          "zh": "具腺花葶上的單側總狀花蕾。",
+          "image_id": "hkb-64302-raceme",
+          "code": "64302f"
+        },
+        {
+          "en": "An open pale-pink flower, five petals, yellow stamens at the centre.",
+          "zh": "開放的淡粉紅色花，花瓣五枚，中央黃色雄蕊。",
+          "image_id": "hkb-64302-flower",
+          "code": "64302g"
+        },
+        {
+          "en": "An open magenta flower, with five petals and five yellow stamens.",
+          "zh": "開放的洋紅色花，花瓣五枚，黃色雄蕊五枚。",
+          "image_id": "hkb-64302-flower-magenta",
+          "code": "64302h"
+        },
+        {
+          "en": "Red capsules along one side of a fruiting scape.",
+          "zh": "果葶一側排列的紅色蒴果。",
+          "image_id": "hkb-64302-fruit",
+          "code": "64302i"
+        },
+        {
+          "en": "A young scape still coiled, above a red rosette.",
+          "zh": "紅色蓮座上仍拳卷的幼花葶。",
+          "image_id": "hkb-64302-scape",
+          "code": "64302j"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "publisher": "Agriculture, Fisheries and Conservation Department",
+        "year": "2007",
+        "volume": "1"
+      }
+    },
+    "32014": {
+      "blp": "32014",
+      "sci": "Arundina graminifolia",
+      "authority": "(D. Don) Hochr.",
+      "chi_line": "竹葉蘭",
+      "chi_names": [
+        "竹葉蘭"
+      ],
+      "en_names": [
+        "Bamboo Orchid"
+      ],
+      "native": true,
+      "order": "Asparagales",
+      "family": "Orchidaceae",
+      "genus": "Arundina",
+      "flower": "7-12",
+      "fruit": "",
+      "synonyms": [
+        "Arundina chinensis",
+        "Bletia graminifolia"
+      ],
+      "hero_id": "hkb-32014-habit",
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Terrestrial herb; stems erect, grass-like and stiff",
+          "zh": "地生草本；莖直立，似草而堅硬"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "Flowering July–December.",
+          "zh": "花期 7 月至 12 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Grassy slopes or stream banks in exposed areas.",
+          "zh": "開曠處的草坡，或溪岸。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Terrestrial herb. Stems erect, grass-like and stiff, leafy. Basal portion swelling into a small ovoid pseudobulb covered by overlapping brown tough scales.",
+              "zh": "地生草本。莖直立，似草而堅硬，具葉。基部膨大成小的卵形假鱗莖，被覆瓦狀褐色堅韌鱗片。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Blade",
+              "label_zh": "葉片",
+              "en": "Linear-lanceolate, thinly leathery or papery, 5–20 × 0.6 cm. Apex acute.",
+              "zh": "線狀披針形，薄革質或紙質，5–20 × 0.6 厘米。先端急尖。"
+            },
+            {
+              "label_en": "Sheath",
+              "label_zh": "葉鞘",
+              "en": "Amplexicaul and overlapping, 2–4 cm, articulate at the apical end.",
+              "zh": "抱莖而覆疊，長 2–4 厘米，頂端有關節。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers",
+          "title_zh": "花",
+          "items": [
+            {
+              "label_en": "Inflorescence",
+              "label_zh": "花序",
+              "en": "Terminal, racemose or paniculate. Flowers resupinate.",
+              "zh": "頂生，總狀或圓錐狀。花扭轉，唇瓣位於下方。"
+            },
+            {
+              "label_en": "Sepals",
+              "label_zh": "萼片",
+              "en": "Elliptic or elliptic-lanceolate, 2.5–4 × 0.7–0.9 cm, apex acute, pale rose-mauve.",
+              "zh": "橢圓形或橢圓狀披針形，2.5–4 × 0.7–0.9 厘米，先端急尖，淡玫瑰紫色。"
+            },
+            {
+              "label_en": "Petals",
+              "label_zh": "花瓣",
+              "en": "Elliptic or ovate-elliptic, 2.5–3.5 × 1.3–1.8 cm, rose-mauve with darker median veins.",
+              "zh": "橢圓形或卵狀橢圓形，2.5–3.5 × 1.3–1.8 厘米，玫瑰紫色，中脈顏色較深。"
+            },
+            {
+              "label_en": "Lip",
+              "label_zh": "唇瓣",
+              "en": "Trumpet-shaped, 3–4 cm, embracing the column, wavy at the margin, deeply cleft at the apex, pale magenta deepening to bright rose-purple towards the margin and apex.",
+              "zh": "喇叭形，長 3–4 厘米，抱蕊柱，邊緣波狀，先端深裂，淡洋紅色，向邊緣及先端加深為亮玫瑰紫色。"
+            },
+            {
+              "label_en": "Column",
+              "label_zh": "蕊柱",
+              "en": "Slender, curved, slightly winged at the apical end. Pollinia 8, discoid.",
+              "zh": "細長，彎曲，頂端稍具翅。花粉塊 8，盤狀。"
+            }
+          ]
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Grassy slopes or stream banks in exposed areas.",
+          "zh": "開曠處的草坡，或溪岸。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native. Common in Hong Kong.",
+          "zh": "原生。香港常見。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Central, east, south and southwest China; tropical Asia.",
+          "zh": "中國中、東、南及西南；熱帶亞洲。"
+        }
+      ],
+      "photos": [
+        {
+          "en": "A clump in a rock crevice, with grass-like leaves, two open pale rose-mauve flowers and buds.",
+          "zh": "石縫中的一叢，葉似草，兩朵開放的淡玫瑰紫色花及花蕾。",
+          "image_id": "hkb-32014-habit",
+          "code": "32014a"
+        },
+        {
+          "en": "Flowering stems on a rock bank beside a path.",
+          "zh": "路旁石岸上開花的莖。",
+          "image_id": "hkb-32014-habit-bank",
+          "code": "32014b"
+        },
+        {
+          "en": "Stem bases with brown overlapping scales in a rock crevice.",
+          "zh": "石縫中的莖基部，褐色鱗片覆疊。",
+          "image_id": "hkb-32014-base",
+          "code": "32014c"
+        },
+        {
+          "en": "A cylindrical stem with overlapping leaf sheaths and linear-lanceolate blades.",
+          "zh": "圓柱狀莖，葉鞘覆疊，葉片線狀披針形。",
+          "image_id": "hkb-32014-leaf",
+          "code": "32014d"
+        },
+        {
+          "en": "Flower face: pale mauve tepals, and a magenta lip with a pale throat and a deeply cleft wavy apex.",
+          "zh": "花正面：淡紫色花被片，唇瓣洋紅色，喉部淺色，先端深裂而波狀。",
+          "image_id": "hkb-32014-flower",
+          "code": "32014e"
+        },
+        {
+          "en": "Flower face, with the column visible in the lip throat.",
+          "zh": "花正面，唇瓣喉部可見蕊柱。",
+          "image_id": "hkb-32014-flower-column",
+          "code": "32014f"
+        },
+        {
+          "en": "A flowering colony on a grassy slope.",
+          "zh": "草坡上開花的一群。",
+          "image_id": "hkb-32014-colony",
+          "code": "32014g"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "publisher": "Agriculture, Fisheries and Conservation Department",
+        "year": "2011",
+        "volume": "4"
+      }
     }
   }
 }

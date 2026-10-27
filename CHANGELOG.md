@@ -9,7 +9,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Ten species pages: *Liquidambar formosana* (45002), *Delonix regia* (47029), *Rhaphiolepis indica* (49028), *Ficus pumila* (49591), *Bruguiera gymnorhiza* (55050), *Vernicia montana* (55919), *Bombax ceiba* (61065), *Thespesia populnea* (61083), *Camellia hongkongensis* (67603), *Mussaenda pubescens* (71031).
 - Species-page photo index grows from 80 to 310 images, then sixteen reviewed plates are removed (294 remain). Remaining codes are not renumbered.
-- The first twenty species pages gain 170 plates (80 to 250) so the set covers bark, venation, stipules, glands, stamens, seeds, and other parts the four-plate set left out. The page list is 464 images. Codes already on a page are not renumbered.
+- The first twenty species pages gain 170 plates (80 to 250) so the set covers bark, venation, stipules, glands, stamens, seeds, and other parts the four-plate set left out. The page list was 464 images. Codes already on a page are not renumbered.
+- Five species pages: *Podocarpus macrophyllus* (18050), *Phoenix loureiroi* (34000), *Miscanthus floridulus* (38240), *Drosera spatulata* (64302), *Arundina graminifolia* (32014). The page list is 508 images. Code 38240c was removed before publish and is not reused.
 
 ### Changed
 

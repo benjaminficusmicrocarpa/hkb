@@ -1,5 +1,5 @@
 {
-  "total_images": 464,
+  "total_images": 508,
   "images": [
     {
       "filename": "49562/49562a.webp",
@@ -2320,6 +2320,226 @@
       "filename": "61083/61083t.webp",
       "image_id": "hkb-61083-node-petiole-macro-03",
       "description": "node-petiole-macro-03"
+    },
+    {
+      "filename": "18050/18050a.webp",
+      "image_id": "hkb-18050-habit-wild",
+      "description": "habit-wild"
+    },
+    {
+      "filename": "18050/18050b.webp",
+      "image_id": "hkb-18050-habit-cloud",
+      "description": "habit-cloud"
+    },
+    {
+      "filename": "18050/18050c.webp",
+      "image_id": "hkb-18050-bark",
+      "description": "bark"
+    },
+    {
+      "filename": "18050/18050d.webp",
+      "image_id": "hkb-18050-leaf",
+      "description": "leaf"
+    },
+    {
+      "filename": "18050/18050e.webp",
+      "image_id": "hkb-18050-leaf-underside",
+      "description": "leaf-underside"
+    },
+    {
+      "filename": "18050/18050f.webp",
+      "image_id": "hkb-18050-pollen-young",
+      "description": "pollen-young"
+    },
+    {
+      "filename": "18050/18050g.webp",
+      "image_id": "hkb-18050-pollen-cluster",
+      "description": "pollen-cluster"
+    },
+    {
+      "filename": "18050/18050h.webp",
+      "image_id": "hkb-18050-pollen-shedding",
+      "description": "pollen-shedding"
+    },
+    {
+      "filename": "18050/18050i.webp",
+      "image_id": "hkb-18050-seed",
+      "description": "seed"
+    },
+    {
+      "filename": "18050/18050j.webp",
+      "image_id": "hkb-18050-seed-crop",
+      "description": "seed-crop"
+    },
+    {
+      "filename": "18050/18050k.webp",
+      "image_id": "hkb-18050-new-flush",
+      "description": "new-flush"
+    },
+    {
+      "filename": "34000/34000a.webp",
+      "image_id": "hkb-34000-habit-forest",
+      "description": "habit-forest"
+    },
+    {
+      "filename": "34000/34000b.webp",
+      "image_id": "hkb-34000-habit-fruiting",
+      "description": "habit-fruiting"
+    },
+    {
+      "filename": "34000/34000c.webp",
+      "image_id": "hkb-34000-fruit-orange",
+      "description": "fruit-orange"
+    },
+    {
+      "filename": "34000/34000d.webp",
+      "image_id": "hkb-34000-fruit-ripe",
+      "description": "fruit-ripe"
+    },
+    {
+      "filename": "34000/34000e.webp",
+      "image_id": "hkb-34000-pinnae",
+      "description": "pinnae"
+    },
+    {
+      "filename": "34000/34000f.webp",
+      "image_id": "hkb-34000-acanthophylls",
+      "description": "acanthophylls"
+    },
+    {
+      "filename": "34000/34000g.webp",
+      "image_id": "hkb-34000-stem",
+      "description": "stem"
+    },
+    {
+      "filename": "34000/34000h.webp",
+      "image_id": "hkb-34000-male-flowers",
+      "description": "male-flowers"
+    },
+    {
+      "filename": "34000/34000i.webp",
+      "image_id": "hkb-34000-male-flowers-yellow",
+      "description": "male-flowers-yellow"
+    },
+    {
+      "filename": "38240/38240a.webp",
+      "image_id": "hkb-38240-habit",
+      "description": "habit"
+    },
+    {
+      "filename": "38240/38240b.webp",
+      "image_id": "hkb-38240-panicle",
+      "description": "panicle"
+    },
+    {
+      "filename": "38240/38240d.webp",
+      "image_id": "hkb-38240-ligule",
+      "description": "ligule"
+    },
+    {
+      "filename": "38240/38240e.webp",
+      "image_id": "hkb-38240-leaf",
+      "description": "leaf"
+    },
+    {
+      "filename": "38240/38240f.webp",
+      "image_id": "hkb-38240-spikelet",
+      "description": "spikelet"
+    },
+    {
+      "filename": "38240/38240g.webp",
+      "image_id": "hkb-38240-spikelets",
+      "description": "spikelets"
+    },
+    {
+      "filename": "38240/38240h.webp",
+      "image_id": "hkb-38240-awn",
+      "description": "awn"
+    },
+    {
+      "filename": "64302/64302a.webp",
+      "image_id": "hkb-64302-habit",
+      "description": "habit"
+    },
+    {
+      "filename": "64302/64302b.webp",
+      "image_id": "hkb-64302-colony",
+      "description": "colony"
+    },
+    {
+      "filename": "64302/64302c.webp",
+      "image_id": "hkb-64302-rosette",
+      "description": "rosette"
+    },
+    {
+      "filename": "64302/64302d.webp",
+      "image_id": "hkb-64302-tentacles",
+      "description": "tentacles"
+    },
+    {
+      "filename": "64302/64302e.webp",
+      "image_id": "hkb-64302-petiole",
+      "description": "petiole"
+    },
+    {
+      "filename": "64302/64302f.webp",
+      "image_id": "hkb-64302-raceme",
+      "description": "raceme"
+    },
+    {
+      "filename": "64302/64302g.webp",
+      "image_id": "hkb-64302-flower",
+      "description": "flower"
+    },
+    {
+      "filename": "64302/64302h.webp",
+      "image_id": "hkb-64302-flower-magenta",
+      "description": "flower-magenta"
+    },
+    {
+      "filename": "64302/64302i.webp",
+      "image_id": "hkb-64302-fruit",
+      "description": "fruit"
+    },
+    {
+      "filename": "64302/64302j.webp",
+      "image_id": "hkb-64302-scape",
+      "description": "scape"
+    },
+    {
+      "filename": "32014/32014a.webp",
+      "image_id": "hkb-32014-habit",
+      "description": "habit"
+    },
+    {
+      "filename": "32014/32014b.webp",
+      "image_id": "hkb-32014-habit-bank",
+      "description": "habit-bank"
+    },
+    {
+      "filename": "32014/32014c.webp",
+      "image_id": "hkb-32014-base",
+      "description": "base"
+    },
+    {
+      "filename": "32014/32014d.webp",
+      "image_id": "hkb-32014-leaf",
+      "description": "leaf"
+    },
+    {
+      "filename": "32014/32014e.webp",
+      "image_id": "hkb-32014-flower",
+      "description": "flower"
+    },
+    {
+      "filename": "32014/32014f.webp",
+      "image_id": "hkb-32014-flower-column",
+      "description": "flower-column"
+    },
+    {
+      "filename": "32014/32014g.webp",
+      "image_id": "hkb-32014-colony",
+      "description": "colony"
     }
   ]
 }

@@ -4,11 +4,23 @@
     "17001": {
       "hero_id": "hkb-17001-habit"
     },
+    "18050": {
+      "hero_id": "hkb-18050-habit-wild"
+    },
     "26103": {
       "hero_id": "hkb-26103-habit"
     },
     "30100": {
       "hero_id": "hkb-30100-habit"
+    },
+    "32014": {
+      "hero_id": "hkb-32014-habit"
+    },
+    "34000": {
+      "hero_id": "hkb-34000-habit-forest"
+    },
+    "38240": {
+      "hero_id": "hkb-38240-habit"
     },
     "45002": {
       "hero_id": "hkb-45002-habit-crown-fruit-laden-sparse-leaf-16"
@@ -66,6 +78,9 @@
     },
     "61450": {
       "hero_id": "hkb-61450-trunk"
+    },
+    "64302": {
+      "hero_id": "hkb-64302-habit"
     },
     "67415": {
       "hero_id": "hkb-67415-habit"
