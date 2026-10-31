@@ -173,9 +173,55 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Ficus retusa"
+        {
+          "name": "Ficus retusa",
+          "author": "auct. non L."
+        }
       ],
-      "hero_id": "hkb-49562-habit-aerial-roots"
+      "hero_id": "hkb-49562-sessile-figs-through-the-canopy",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=153"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3055",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3055"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6HWT2"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:853217-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000689298"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000689298"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Ficus%20microcarpa"
+        }
+      ],
+      "publication": {
+        "text": "Suppl. Pl.: 442 (1782)",
+        "url": "https://www.ipni.org/n/853217-1",
+        "source": "IPNI"
+      }
     },
     "55052": {
       "blp": "55052",
@@ -396,9 +442,55 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Kandelia candel"
+        {
+          "name": "Kandelia candel",
+          "author": "auct. non (L.) Druce"
+        }
       ],
-      "hero_id": "hkb-55052-habit"
+      "hero_id": "hkb-55052-a-cluster-of-open-flowers",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=206"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6368",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6368"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/3R25J"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:70028704-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0001276482"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0001276482"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Kandelia%20obovata"
+        }
+      ],
+      "publication": {
+        "text": "Taxon 52: 291 (2003)",
+        "url": "https://www.ipni.org/n/70028704-1",
+        "source": "IPNI"
+      }
     },
     "58702": {
       "blp": "58702",
@@ -625,9 +717,55 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Melastoma decemfidum"
+        {
+          "name": "Melastoma decemfidum",
+          "author": "Roxb."
+        }
       ],
-      "hero_id": "hkb-58702-habit"
+      "hero_id": "hkb-58702-flower",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1043"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4065",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4065"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6R8WW"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:571204-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0001083258"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0001083258"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Melastoma%20sanguineum"
+        }
+      ],
+      "publication": {
+        "text": "Bot. Mag. 48: t. 2241 (1821)",
+        "url": "https://www.ipni.org/n/571204-1",
+        "source": "IPNI"
+      }
     },
     "17001": {
       "blp": "17001",
@@ -780,7 +918,51 @@
         "volume": "1",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
-      "hero_id": "hkb-17001-habit"
+      "hero_id": "hkb-17001-cones",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=314"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=9353",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=9353"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/4J2BR"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60437819-2"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000736339"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000736339"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Pinus%20massoniana"
+        }
+      ],
+      "publication": {
+        "text": "Descr. Pinus 1: 17 (1803)",
+        "url": "https://www.ipni.org/n/60437819-2",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "67609": {
       "blp": "67609",
@@ -965,7 +1147,51 @@
         "volume": "1",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
-      "hero_id": "hkb-67609-habit"
+      "hero_id": "hkb-67609-an-open-flower",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=343"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7705",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7705"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/4V8DD"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:829478-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0001142185"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0001142185"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Schima%20superba"
+        }
+      ],
+      "publication": {
+        "text": "Hooker's J. Bot. Kew Gard. Misc. 1: 246 (1849)",
+        "url": "https://www.ipni.org/n/829478-1",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "82051": {
       "blp": "82051",
@@ -1143,10 +1369,59 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Schefflera heptaphylla",
-        "Schefflera octophylla"
+        {
+          "name": "Schefflera heptaphylla",
+          "author": "(L.) Frodin"
+        },
+        {
+          "name": "Schefflera octophylla",
+          "author": "(Lour.) Harms"
+        }
       ],
-      "hero_id": "hkb-82051-habit"
+      "hero_id": "hkb-82051-a-canopy-in-flower",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=342"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4480",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4480"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/8XQQB"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77196882-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-1000004754"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-1000004754"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Schefflera%20heptaphylla"
+        }
+      ],
+      "publication": {
+        "text": "Med. Fl. China 7: 484 (2018)",
+        "url": "https://www.ipni.org/n/77196882-1",
+        "source": "IPNI"
+      }
     },
     "58382": {
       "blp": "58382",
@@ -1343,7 +1618,51 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
-      "hero_id": "hkb-58382-habit"
+      "hero_id": "hkb-58382-habit",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1111"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3074",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3074"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/4SHDH"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77560-3"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000296387"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000296387"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Rhodomyrtus%20tomentosa"
+        }
+      ],
+      "publication": {
+        "text": "Flora 25(2, Beibl.): 35 (1842)",
+        "url": "https://www.ipni.org/n/77560-3",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "47180": {
       "blp": "47180",
@@ -1551,7 +1870,51 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
-      "hero_id": "hkb-47180-habit"
+      "hero_id": "hkb-47180-racemes-on-the-woody-climber",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=2584"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3699",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3699"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/44HLK"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:509150-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000185575"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000185575"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Mucuna%20birdwoodiana"
+        }
+      ],
+      "publication": {
+        "text": "J. Linn. Soc., Bot. 37: 65 (1905)",
+        "url": "https://www.ipni.org/n/509150-1",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "79200": {
       "blp": "79200",
@@ -1746,9 +2109,55 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Scaevola taccada"
+        {
+          "name": "Scaevola taccada",
+          "author": "(Gaertn.) Roxb."
+        }
       ],
-      "hero_id": "hkb-79200-habit"
+      "hero_id": "hkb-79200-a-white-fan-flower",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=961"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=5680",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=5680"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/B3G2S"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30200356-2"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0001065171"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0001065171"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Scaevola%20sericea"
+        }
+      ],
+      "publication": {
+        "text": "Symb. Bot. 2: 37 (1791)",
+        "url": "https://www.ipni.org/n/30200356-2",
+        "source": "IPNI"
+      }
     },
     "61450": {
       "blp": "61450",
@@ -1944,9 +2353,55 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Aquilaria grandiflora"
+        {
+          "name": "Aquilaria grandiflora",
+          "author": "Benth."
+        }
       ],
-      "hero_id": "hkb-61450-trunk"
+      "hero_id": "hkb-61450-flower",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=32"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6214",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6214"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/FZN6"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:830849-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000541095"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000541095"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Aquilaria%20sinensis"
+        }
+      ],
+      "publication": {
+        "text": "Syst. Veg., ed. 16. 2: 356 (1825)",
+        "url": "https://www.ipni.org/n/830849-1",
+        "source": "IPNI"
+      }
     },
     "26103": {
       "blp": "26103",
@@ -2147,7 +2602,51 @@
         "year": "2007",
         "volume": "1"
       },
-      "hero_id": "hkb-26103-habit"
+      "hero_id": "hkb-26103-an-open-flower-and-buds-on-the-panicle",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=89"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=8770",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=8770"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/N25HR"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:463336-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000604955"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000604955"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Cinnamomum%20camphora"
+        }
+      ],
+      "publication": {
+        "text": "Přir. Rostlin Aneb. Rostl. 2: 36 (1825)",
+        "url": "https://www.ipni.org/n/463336-1",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "55350": {
       "blp": "55350",
@@ -2361,9 +2860,55 @@
         "volume": "1"
       },
       "synonyms": [
-        "Cratoxylum polyanthum"
+        {
+          "name": "Cratoxylum polyanthum",
+          "author": "Korth."
+        }
       ],
-      "hero_id": "hkb-55350-habit"
+      "hero_id": "hkb-55350-a-red-flower-face-on-with-stamen-bundles",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=98"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=5832",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=5832"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6BCJ7"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:433054-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000625754"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000625754"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Cratoxylum%20cochinchinense"
+        }
+      ],
+      "publication": {
+        "text": "Ann. Mus. Bot. Lugduno-Batavi 2: 17 (1856)",
+        "url": "https://www.ipni.org/n/433054-1",
+        "source": "IPNI"
+      }
     },
     "56506": {
       "blp": "56506",
@@ -2565,9 +3110,56 @@
         "volume": "2"
       },
       "synonyms": [
-        "Bischofia trifoliata"
+        {
+          "name": "Bischofia trifoliata",
+          "author": "(Roxb.) Hook."
+        }
       ],
-      "hero_id": "hkb-56506-habit"
+      "hero_id": "hkb-56506-hero",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=47"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=8147",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=8147"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/LWGX"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:339921-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000342237"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000342237"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Bischofia%20javanica"
+        }
+      ],
+      "publication": {
+        "text": "Bijdr. Fl. Ned. Ind.: 1168 (1827)",
+        "url": "https://www.ipni.org/n/339921-1",
+        "source": "IPNI"
+      },
+      "hero_code": "56506c"
     },
     "55910": {
       "blp": "55910",
@@ -2776,9 +3368,55 @@
         "volume": "2"
       },
       "synonyms": [
-        "Mallotus cochinchinensis"
+        {
+          "name": "Mallotus cochinchinensis",
+          "author": "Lour."
+        }
       ],
-      "hero_id": "hkb-55910-habit"
+      "hero_id": "hkb-55910-a-flowering-branch",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=267"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3760",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3760"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/3XPZS"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:351641-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000234677"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000234677"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Mallotus%20paniculatus"
+        }
+      ],
+      "publication": {
+        "text": "Linnaea 34: 189 (1865)",
+        "url": "https://www.ipni.org/n/351641-1",
+        "source": "IPNI"
+      }
     },
     "67415": {
       "blp": "67415",
@@ -2934,12 +3572,6 @@
           "code": "67415h"
         },
         {
-          "en": "Corolla lobes reflexed.",
-          "zh": "花冠裂片反折。",
-          "image_id": "hkb-67415-corolla-lobes-reflexed",
-          "code": "67415i"
-        },
-        {
           "en": "The styles, subulate.",
           "zh": "花柱錐狀。",
           "image_id": "hkb-67415-the-styles-subulate",
@@ -2973,9 +3605,55 @@
         "volume": "1"
       },
       "synonyms": [
-        "Aegiceras majus"
+        {
+          "name": "Aegiceras majus",
+          "author": "Gaertn."
+        }
       ],
-      "hero_id": "hkb-67415-habit"
+      "hero_id": "hkb-67415-flowers-and-glands-on-the-leaf",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1100"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3363",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3363"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/659BB"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:586618-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000521489"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000521489"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Aegiceras%20corniculatum"
+        }
+      ],
+      "publication": {
+        "text": "Fl. Filip.: 79 (1837)",
+        "url": "https://www.ipni.org/n/586618-1",
+        "source": "IPNI"
+      }
     },
     "61052": {
       "blp": "61052",
@@ -3194,7 +3872,51 @@
         "year": "2007",
         "volume": "1"
       },
-      "hero_id": "hkb-61052-habit"
+      "hero_id": "hkb-61052-flower",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=186"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7870",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7870"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/3KZ5L"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:823569-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000720317"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000720317"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Heritiera%20littoralis"
+        }
+      ],
+      "publication": {
+        "text": "Hortus Kew. 3: 546 (1789)",
+        "url": "https://www.ipni.org/n/823569-1",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "55904": {
       "blp": "55904",
@@ -3396,7 +4118,51 @@
         "year": "2008",
         "volume": "2"
       },
-      "hero_id": "hkb-55904-habit"
+      "hero_id": "hkb-55904-the-base-of-the-tree-on-the-mud",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=144"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=5211",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=5211"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/3DJXX"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:348815-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000965883"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000965883"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Excoecaria%20agallocha"
+        }
+      ],
+      "publication": {
+        "text": "Syst. Nat., ed. 10. 2: 1288 (1759)",
+        "url": "https://www.ipni.org/n/348815-1",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "30100": {
       "blp": "30100",
@@ -3552,10 +4318,59 @@
         "volume": "4"
       },
       "synonyms": [
-        "Pandanus odoratissimus",
-        "Pandanus fascicularis"
+        {
+          "name": "Pandanus odoratissimus",
+          "author": "L. f."
+        },
+        {
+          "name": "Pandanus fascicularis",
+          "author": "Lam."
+        }
       ],
-      "hero_id": "hkb-30100-habit"
+      "hero_id": "hkb-30100-prop-roots-with-the-fruit",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=304"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6806",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6806"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/CDV3Q"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:895770-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000725426"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000725426"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Pandanus%20tectorius"
+        }
+      ],
+      "publication": {
+        "text": "J. Voy. South Seas: 46 (1773)",
+        "url": "https://www.ipni.org/n/895770-1",
+        "source": "IPNI"
+      }
     },
     "71834": {
       "blp": "71834",
@@ -3768,7 +4583,51 @@
         "year": "2009",
         "volume": "3"
       },
-      "hero_id": "hkb-71834-habit"
+      "hero_id": "hkb-71834-a-mass-of-flowers",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=2660"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4088",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4088"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/57P5S"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:82553-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000326475"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000326475"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Trachelospermum%20jasminoides"
+        }
+      ],
+      "publication": {
+        "text": "Jard. Fleur. 1: t. 61 (1851)",
+        "url": "https://www.ipni.org/n/82553-1",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "71045": {
       "blp": "71045",
@@ -3953,9 +4812,55 @@
         "volume": "3"
       },
       "synonyms": [
-        "Gardenia florida"
+        {
+          "name": "Gardenia florida",
+          "author": "L."
+        }
       ],
-      "hero_id": "hkb-71045-habit"
+      "hero_id": "hkb-71045-flower",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1233"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=2793",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=2793"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6K95V"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:751073-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000970976"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000970976"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Gardenia%20jasminoides"
+        }
+      ],
+      "publication": {
+        "text": "Philos. Trans. 51(2): 935 (1761)",
+        "url": "https://www.ipni.org/n/751073-1",
+        "source": "IPNI"
+      }
     },
     "61065": {
       "blp": "61065",
@@ -4019,8 +4924,8 @@
             {
               "label_en": "Leaflets",
               "label_zh": "小葉",
-              "en": "Petioles 10–20 cm. Leaflets 5–7, oblong to oblong-lanceolate, 10–20 × 3.5–7 cm, base broadly cuneate, apex acuminate, margin entire, glabrous. Lateral veins 15–17 pairs.",
-              "zh": "葉柄 10–20 厘米。小葉 5–7 枚，長圓形至長圓狀披針形，10–20 × 3.5–7 厘米，基部闊楔形，先端漸尖，全緣，無毛。側脈 15–17 對。"
+              "en": "Palmately compound. Petioles 10–20 cm. Petiolules 1.5–4 cm. Leaflets 5–7, oblong to oblong-lanceolate, 10–20 × 3.5–7 cm, base broadly cuneate, apex acuminate, margin entire, glabrous. Lateral veins 15–17 pairs.",
+              "zh": "掌狀複葉。葉柄 10–20 厘米。小葉柄 1.5–4 厘米。小葉 5–7 枚，長圓形至長圓狀披針形，10–20 × 3.5–7 厘米，基部闊楔形，先端漸尖，全緣，無毛。側脈 15–17 對。"
             }
           ]
         },
@@ -4072,8 +4977,14 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Bombax malabaricum",
-        "Gossampinus malabarica"
+        {
+          "name": "Bombax malabaricum",
+          "author": "DC."
+        },
+        {
+          "name": "Gossampinus malabarica",
+          "author": "(DC.) Merr."
+        }
       ],
       "photos": [
         {
@@ -4185,7 +5096,50 @@
           "code": "61065u"
         }
       ],
-      "hero_id": "hkb-61065-habit-canopy-fl-wide-04"
+      "hero_id": "hkb-61065-habit-canopy-fl-wide-04",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=671"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4526",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4526"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/MF6V"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:559120-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000568369"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000568369"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Bombax%20ceiba"
+        }
+      ],
+      "publication": {
+        "text": "Sp. Pl.: 511 (1753)",
+        "url": "https://www.ipni.org/n/559120-1",
+        "source": "IPNI"
+      }
     },
     "47029": {
       "blp": "47029",
@@ -4302,7 +5256,10 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Poinciana regia"
+        {
+          "name": "Poinciana regia",
+          "author": "Bojer ex Hook."
+        }
       ],
       "photos": [
         {
@@ -4426,7 +5383,50 @@
           "code": "47029t"
         }
       ],
-      "hero_id": "hkb-47029-habit-fl-umbrella-best-26"
+      "hero_id": "hkb-47029-habit-fl-umbrella-best-26",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=509"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=8057",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=8057"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/34H4K"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:491231-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000166389"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000166389"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Delonix%20regia"
+        }
+      ],
+      "publication": {
+        "text": "Fl. Tellur. 2: 92 (1837)",
+        "url": "https://www.ipni.org/n/491231-1",
+        "source": "IPNI"
+      }
     },
     "67603": {
       "blp": "67603",
@@ -4542,7 +5542,10 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Thea hongkongensis"
+        {
+          "name": "Thea hongkongensis",
+          "author": "(Seem.) Pierre"
+        }
       ],
       "photos": [
         {
@@ -4630,7 +5633,50 @@
           "code": "67603n"
         }
       ],
-      "hero_id": "hkb-67603-habit-01"
+      "hero_id": "hkb-67603-flower-macro-11",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=58"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7154",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7154"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/Q9JT"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:828520-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000582389"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000582389"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Camellia%20hongkongensis"
+        }
+      ],
+      "publication": {
+        "text": "Trans. Linn. Soc. London 22: 342 (1859)",
+        "url": "https://www.ipni.org/n/828520-1",
+        "source": "IPNI"
+      }
     },
     "45002": {
       "blp": "45002",
@@ -4747,7 +5793,10 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Liquidambar formosana var. monticola"
+        {
+          "name": "Liquidambar formosana var. monticola",
+          "author": "Rehder & E.H.Wilson"
+        }
       ],
       "photos": [
         {
@@ -4991,7 +6040,50 @@
           "code": "45002an"
         }
       ],
-      "hero_id": "hkb-45002-habit-crown-fruit-laden-sparse-leaf-16"
+      "hero_id": "hkb-45002-autumn-red-leaves-black-fruits-28",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=224"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=5127",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=5127"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/3VCBY"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:430709-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000364066"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000364066"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Liquidambar%20formosana"
+        }
+      ],
+      "publication": {
+        "text": "Ann. Sci. Nat., Bot. , sér. 5, 5: 215 (1866)",
+        "url": "https://www.ipni.org/n/430709-1",
+        "source": "IPNI"
+      }
     },
     "49028": {
       "blp": "49028",
@@ -5109,7 +6201,10 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Crataegus indica"
+        {
+          "name": "Crataegus indica",
+          "author": "L."
+        }
       ],
       "photos": [
         {
@@ -5269,7 +6364,50 @@
           "code": "49028ae"
         }
       ],
-      "hero_id": "hkb-49028-habit-small-tree-flowering-01"
+      "hero_id": "hkb-49028-fl-macro-panicle-mass-36",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1186"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=2774",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=2774"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/4S4H5"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:731389-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0001016273"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0001016273"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Rhaphiolepis%20indica"
+        }
+      ],
+      "publication": {
+        "text": "Bot. Reg. 6: t. 468 (1820)",
+        "url": "https://www.ipni.org/n/731389-1",
+        "source": "IPNI"
+      }
     },
     "55919": {
       "blp": "55919",
@@ -5386,7 +6524,10 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Aleurites montana"
+        {
+          "name": "Aleurites montana",
+          "author": "(Lour.) E.H.Wilson"
+        }
       ],
       "photos": [
         {
@@ -5516,7 +6657,50 @@
           "code": "55919x"
         }
       ],
-      "hero_id": "hkb-55919-habit-flower-16"
+      "hero_id": "hkb-55919-habit-flower-28",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=689"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=5942",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=5942"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/5B48L"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:358199-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000332486"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000332486"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Vernicia%20montana"
+        }
+      ],
+      "publication": {
+        "text": "Fl. Cochinch.: 586 (1790)",
+        "url": "https://www.ipni.org/n/358199-1",
+        "source": "IPNI"
+      }
     },
     "71031": {
       "blp": "71031",
@@ -5766,7 +6950,50 @@
           "code": "71031w"
         }
       ],
-      "hero_id": "hkb-71031-habitat-wild-flowering-28"
+      "hero_id": "hkb-71031-habitat-wild-flowering-28",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1209"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7323",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7323"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/44QRS"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:756781-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000246740"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000246740"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Mussaenda%20pubescens"
+        }
+      ],
+      "publication": {
+        "text": "Hortus Kew., ed. 2. 1: 372 (1810)",
+        "url": "https://www.ipni.org/n/756781-1",
+        "source": "IPNI"
+      }
     },
     "55050": {
       "blp": "55050",
@@ -5882,8 +7109,14 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Rhizophora gymnorhiza",
-        "Bruguiera gymnorrhiza"
+        {
+          "name": "Rhizophora gymnorhiza",
+          "author": "L."
+        },
+        {
+          "name": "Bruguiera gymnorrhiza",
+          "author": ""
+        }
       ],
       "photos": [
         {
@@ -5995,7 +7228,50 @@
           "code": "55050r"
         }
       ],
-      "hero_id": "hkb-55050-canopy-fl-red-calyx-01"
+      "hero_id": "hkb-55050-habit-mudflat-pneumato-04",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=51"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6362",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6362"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/5X536"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:719532-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000572747"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000572747"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Bruguiera%20gymnorhiza"
+        }
+      ],
+      "publication": {
+        "text": "Encycl. 4: 696 (1798)",
+        "url": "https://www.ipni.org/n/719532-1",
+        "source": "IPNI"
+      }
     },
     "49591": {
       "blp": "49591",
@@ -6106,7 +7382,10 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Ficus stipulata"
+        {
+          "name": "Ficus stipulata",
+          "author": "Thunb."
+        }
       ],
       "photos": [
         {
@@ -6114,12 +7393,6 @@
           "zh": "結果的植株。",
           "image_id": "hkb-49591-habit-tree-clad-figs-01",
           "code": "49591a"
-        },
-        {
-          "en": "Habit.",
-          "zh": "植株。",
-          "image_id": "hkb-49591-habit-wall-juvenile-clad-21",
-          "code": "49591b"
         },
         {
           "en": "Habit.",
@@ -6218,7 +7491,50 @@
           "code": "49591s"
         }
       ],
-      "hero_id": "hkb-49591-habit-tree-clad-figs-01"
+      "hero_id": "hkb-49591-fig-branch-macro-02",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=2758"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6930",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6930"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6HY8T"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:853513-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000689922"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000689922"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Ficus%20pumila"
+        }
+      ],
+      "publication": {
+        "text": "Sp. Pl.: 1060 (1753)",
+        "url": "https://www.ipni.org/n/853513-1",
+        "source": "IPNI"
+      }
     },
     "61083": {
       "blp": "61083",
@@ -6335,7 +7651,10 @@
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
       "synonyms": [
-        "Hibiscus populneus"
+        {
+          "name": "Hibiscus populneus",
+          "author": "L."
+        }
       ],
       "photos": [
         {
@@ -6441,7 +7760,50 @@
           "code": "61083t"
         }
       ],
-      "hero_id": "hkb-61083-canopy-fr-leaves-06"
+      "hero_id": "hkb-61083-fl-macro-open-36",
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1041"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4055",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4055"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/56FSM"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:564713-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000455933"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000455933"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Thespesia%20populnea"
+        }
+      ],
+      "publication": {
+        "text": "Ann. Mus. Hist. Nat. 9: 290 (1807)",
+        "url": "https://www.ipni.org/n/564713-1",
+        "source": "IPNI"
+      }
     },
     "18050": {
       "blp": "18050",
@@ -6461,7 +7823,7 @@
       "genus": "Podocarpus",
       "flower": "4-5",
       "fruit": "8-9",
-      "hero_id": "hkb-18050-habit-wild",
+      "hero_id": "hkb-18050-pollen-shedding",
       "facts": [
         {
           "icon": "fa-seedling",
@@ -6649,7 +8011,51 @@
         "publisher": "Agriculture, Fisheries and Conservation Department",
         "year": "2007",
         "volume": "1"
-      }
+      },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=315"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=9338",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=9338"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/4KQ4R"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:263522-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000485230"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000485230"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Podocarpus%20macrophyllus"
+        }
+      ],
+      "publication": {
+        "text": "Hort. Suburb. Lond.: 211 (1818)",
+        "url": "https://www.ipni.org/n/263522-1",
+        "source": "IPNI"
+      },
+      "synonyms": []
     },
     "34000": {
       "blp": "34000",
@@ -6669,9 +8075,12 @@
       "flower": "4-5",
       "fruit": "6-10",
       "synonyms": [
-        "Phoenix hanceana"
+        {
+          "name": "Phoenix hanceana",
+          "author": "Naudin"
+        }
       ],
-      "hero_id": "hkb-34000-habit-forest",
+      "hero_id": "hkb-34000-acanthophylls",
       "facts": [
         {
           "icon": "fa-seedling",
@@ -6841,6 +8250,49 @@
         "publisher": "Agriculture, Fisheries and Conservation Department",
         "year": "2011",
         "volume": "4"
+      },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=309"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3166",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3166"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/4GKS2"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:668930-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000269784"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000269784"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Phoenix%20loureiroi"
+        }
+      ],
+      "publication": {
+        "text": "Enum. Pl. 3: 257 (1841)",
+        "url": "https://www.ipni.org/n/668930-1",
+        "source": "IPNI"
       }
     },
     "38240": {
@@ -6862,10 +8314,16 @@
       "flower": "",
       "fruit": "",
       "synonyms": [
-        "Miscanthus japonicus",
-        "Eulalia japonicum"
+        {
+          "name": "Miscanthus japonicus",
+          "author": "(Trin.) Andersson"
+        },
+        {
+          "name": "Eulalia japonicum",
+          "author": "Trin."
+        }
       ],
-      "hero_id": "hkb-38240-habit",
+      "hero_id": "hkb-38240-panicle",
       "facts": [
         {
           "icon": "fa-seedling",
@@ -7027,6 +8485,49 @@
         "publisher": "Agriculture, Fisheries and Conservation Department",
         "year": "2011",
         "volume": "4"
+      },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=3897"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3848",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3848"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/43MPT"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:408736-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000880245"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000880245"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Miscanthus%20floridulus"
+        }
+      ],
+      "publication": {
+        "text": "Fl. Schutzgeb. Südsee: 166 (1900)",
+        "url": "https://www.ipni.org/n/408736-1",
+        "source": "IPNI"
       }
     },
     "64302": {
@@ -7046,8 +8547,14 @@
       "flower": "3-9",
       "fruit": "3-9",
       "synonyms": [
-        "Drosera spathulata",
-        "Drosera loureirii"
+        {
+          "name": "Drosera spathulata",
+          "author": "Labill."
+        },
+        {
+          "name": "Drosera loureirii",
+          "author": "Hook. & Arn."
+        }
       ],
       "hero_id": "hkb-64302-habit",
       "facts": [
@@ -7243,6 +8750,49 @@
         "publisher": "Agriculture, Fisheries and Conservation Department",
         "year": "2007",
         "volume": "1"
+      },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1402"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4145",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4145"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/species/3191227"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:321972-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000946185"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000946185"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Drosera%20spatulata"
+        }
+      ],
+      "publication": {
+        "text": "Nov. Holl. Pl. 1: 79 (1805)",
+        "url": "https://www.ipni.org/n/321972-1",
+        "source": "IPNI"
       }
     },
     "32014": {
@@ -7263,10 +8813,16 @@
       "flower": "7-12",
       "fruit": "",
       "synonyms": [
-        "Arundina chinensis",
-        "Bletia graminifolia"
+        {
+          "name": "Arundina chinensis",
+          "author": "Blume"
+        },
+        {
+          "name": "Bletia graminifolia",
+          "author": "D.Don"
+        }
       ],
-      "hero_id": "hkb-32014-habit",
+      "hero_id": "hkb-32014-flower-column",
       "facts": [
         {
           "icon": "fa-seedling",
@@ -7430,6 +8986,4030 @@
         "publisher": "Agriculture, Fisheries and Conservation Department",
         "year": "2011",
         "volume": "4"
+      },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1471"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6478",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6478"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/H2XY"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1003834-2"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000282008"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000282008"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Arundina%20graminifolia"
+        }
+      ],
+      "publication": {
+        "text": "Bull. New York Bot. Gard. 6: 270 (1910)",
+        "url": "https://www.ipni.org/n/1003834-2",
+        "source": "IPNI"
+      }
+    },
+    "76626": {
+      "blp": "76626",
+      "sci": "Callicarpa kochiana",
+      "authority": "Makino",
+      "chi_line": "枇杷葉紫珠",
+      "chi_names": [
+        "枇杷葉紫珠"
+      ],
+      "en_names": [],
+      "family": "Lamiaceae",
+      "genus": "Callicarpa",
+      "order": "Lamiales",
+      "native": true,
+      "flower": "7-8",
+      "fruit": "9-12",
+      "hero_id": "hkb-76626-c",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Shrub, 1–4 m",
+          "zh": "灌木，高 1–4 米"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "July–August. Fruit September–December.",
+          "zh": "7 月至 8 月。果期 9 月至 12 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Forest edges and valley forests.",
+          "zh": "林緣及山谷林。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Forest edges and forests in valleys.",
+          "zh": "林緣及山谷林。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Fujian, Guangdong, Hunan, Jiangxi, Henan, Zhejiang, Taiwan; Japan and Vietnam.",
+          "zh": "福建、廣東、湖南、江西、河南、浙江、台灣；日本及越南。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Shrub, 1–4 m. Branchlets, petioles and the inflorescence are densely covered with yellowish-brown branched stellate hairs.",
+              "zh": "灌木，高 1–4 米。小枝、葉柄和花序密被黃褐色的分枝星狀毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Oblong-lanceolate, elliptic or ovate-elliptic, 12–22 × 4–8 cm. Base cuneate. Apex acuminate or acute. Margin serrate. Upper surface glabrous or slightly hairy on the veins. Lower surface densely yellowish-brown stellate-tomentose, and obscurely yellow-glandular.",
+              "zh": "長圓狀披針形、橢圓形或卵狀橢圓形，12–22 × 4–8 厘米。基部楔形。先端漸尖或急尖。邊緣有鋸齒。上面無毛或脈上稍被毛。下面密被黃褐色星狀絨毛，兩面有不明顯的黃色腺點。"
+            },
+            {
+              "label_en": "Venation",
+              "label_zh": "脈",
+              "en": "Lateral veins 10–18 pairs, prominent beneath. Petiole 1–3 cm.",
+              "zh": "側脈 10–18 對，下面明顯。葉柄 1–3 厘米。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Cymes 3–6 cm across, on a peduncle 1–2 cm. Flowers almost sessile. Calyx tubular, 2–2.5 mm, hairy, with acute teeth. Corolla pink to purple, the lobes densely hairy. Stamens exserted.",
+              "zh": "聚傘花序寬 3–6 厘米，花序梗 1–2 厘米。花近無柄。萼筒狀，長 2–2.5 毫米，被毛，齒尖。花冠粉紅至紫色，裂片密被毛。雄蕊伸出。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Globose, about 1.5 mm across, nearly enclosed by the persistent calyx.",
+              "zh": "球形，直徑約 1.5 毫米，幾乎全被宿存的萼包裹。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Shrub at a forest edge.",
+          "zh": "林緣的灌木。",
+          "image_id": "hkb-76626-a",
+          "code": "76626a"
+        },
+        {
+          "en": "Lower leaf surface, densely felted, with young cyme buds.",
+          "zh": "葉下面密被絨毛，並有幼小的聚傘花蕾。",
+          "image_id": "hkb-76626-b",
+          "code": "76626b"
+        },
+        {
+          "en": "Open pink-purple flower, the lobes hairy.",
+          "zh": "開放的粉紫色花，裂片被毛。",
+          "image_id": "hkb-76626-c",
+          "code": "76626c"
+        },
+        {
+          "en": "A mass of fruiting racemes.",
+          "zh": "一叢結果的花序。",
+          "image_id": "hkb-76626-d",
+          "code": "76626d"
+        },
+        {
+          "en": "White fruits on the shoot.",
+          "zh": "枝上的白色果。",
+          "image_id": "hkb-76626-e",
+          "code": "76626e"
+        },
+        {
+          "en": "Stellate hairs on the stem.",
+          "zh": "莖上的星狀毛。",
+          "image_id": "hkb-76626-f",
+          "code": "76626f"
+        },
+        {
+          "en": "The lower leaf surface, a carpet of stellate hairs.",
+          "zh": "葉下面，星狀毛如毯。",
+          "image_id": "hkb-76626-g",
+          "code": "76626g"
+        },
+        {
+          "en": "Hairy flower heads still in bud.",
+          "zh": "仍是花蕾的被毛花序。",
+          "image_id": "hkb-76626-h",
+          "code": "76626h"
+        },
+        {
+          "en": "A pair of flowers, the stamens exserted.",
+          "zh": "一對花，雄蕊伸出。",
+          "image_id": "hkb-76626-i",
+          "code": "76626i"
+        },
+        {
+          "en": "White fruits, partly held by the calyx.",
+          "zh": "白色的果，部分被萼托住。",
+          "image_id": "hkb-76626-j",
+          "code": "76626j"
+        },
+        {
+          "en": "A fruiting shrub.",
+          "zh": "結果的灌木。",
+          "image_id": "hkb-76626-k",
+          "code": "76626k"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2009",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "3",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Bot. Mag. (Tokyo) 28: 181 (1914)",
+        "url": "https://www.ipni.org/n/861360-1",
+        "source": "IPNI"
+      }
+    },
+    "76623": {
+      "blp": "76623",
+      "sci": "Clerodendrum cyrtophyllum",
+      "authority": "Turcz.",
+      "chi_line": "大青",
+      "chi_names": [
+        "大青"
+      ],
+      "en_names": [
+        "Mayflower Glorybower"
+      ],
+      "family": "Lamiaceae",
+      "genus": "Clerodendrum",
+      "order": "Lamiales",
+      "native": true,
+      "flower": "6-2",
+      "fruit": "6-2",
+      "hero_id": "hkb-76623-b",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Shrub or small tree, 1–10 m",
+          "zh": "灌木或小喬木，高 1–10 米"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "June–February.",
+          "zh": "6 月至次年 2 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Forest margins and wasteland.",
+          "zh": "林緣及荒地。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Margins of forests and wasteland.",
+          "zh": "林緣及荒地。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Southern and central China, north to Henan; Korea, Vietnam and Malaysia.",
+          "zh": "中國南部及中部，北至河南；朝鮮、越南及馬來西亞。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Shrub or small tree, 1–10 m. Branchlets yellowish brown and pubescent.",
+              "zh": "灌木或小喬木，高 1–10 米。小枝黃褐色，被短柔毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Papery, elliptic, ovate-elliptic, oblong or oblong-lanceolate, 6–20 × 3–9 cm. Base rounded to cuneate. Apex acuminate to acute. Margin entire. Glabrous, or sparsely hairy along the veins, and glandular beneath.",
+              "zh": "紙質，橢圓形、卵狀橢圓形、長圓形或長圓狀披針形，6–20 × 3–9 厘米。基部圓至楔形。先端漸尖至急尖。全緣。無毛，或沿脈疏被毛，下面有腺點。"
+            },
+            {
+              "label_en": "Venation",
+              "label_zh": "脈",
+              "en": "Lateral veins 6–10 pairs. Petiole 1–8 cm.",
+              "zh": "側脈 6–10 對。葉柄 1–8 厘米。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Terminal or near-terminal corymbose cymes, 10–16 cm. Flowers small and fragrant. Corolla white, the tube slender, about 1 cm, the lobes ovate, about 5 mm. Stamens and style exserted.",
+              "zh": "聚傘花序排成傘房狀，頂生或近頂生，長 10–16 厘米。花小而香。花冠白色，花冠管細，長約 1 厘米，裂片卵形，長約 5 毫米。雄蕊和花柱伸出。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Fruiting calyx red. Drupe blue-purple, obovoid to globose, 5–10 mm across.",
+              "zh": "果萼紅色。核果藍紫色，倒卵形至球形，直徑 5–10 毫米。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Leaf base at the node.",
+          "zh": "節上的葉基。",
+          "image_id": "hkb-76623-a",
+          "code": "76623a"
+        },
+        {
+          "en": "White flower, face on.",
+          "zh": "白色的花，正面。",
+          "image_id": "hkb-76623-b",
+          "code": "76623b"
+        },
+        {
+          "en": "Open flowers and calyx buds.",
+          "zh": "開放的花和花蕾。",
+          "image_id": "hkb-76623-c",
+          "code": "76623c"
+        },
+        {
+          "en": "Spent flower, the filaments coiled.",
+          "zh": "凋謝的花，花絲卷曲。",
+          "image_id": "hkb-76623-d",
+          "code": "76623d"
+        },
+        {
+          "en": "Hairs in the throat of the corolla.",
+          "zh": "花冠喉部的毛。",
+          "image_id": "hkb-76623-e",
+          "code": "76623e"
+        },
+        {
+          "en": "Hairs at the stem node.",
+          "zh": "莖節上的毛。",
+          "image_id": "hkb-76623-f",
+          "code": "76623f"
+        },
+        {
+          "en": "A flowering shrub with many white corymbs.",
+          "zh": "開花的灌木，有許多白色的聚傘花序。",
+          "image_id": "hkb-76623-g",
+          "code": "76623g"
+        },
+        {
+          "en": "Flowering shrubs along a roadside drain.",
+          "zh": "路旁排水溝邊開花的灌木。",
+          "image_id": "hkb-76623-h",
+          "code": "76623h"
+        },
+        {
+          "en": "A roadside shrub in flower.",
+          "zh": "路旁開花的灌木。",
+          "image_id": "hkb-76623-i",
+          "code": "76623i"
+        },
+        {
+          "en": "A fully open terminal corymb.",
+          "zh": "完全開放的頂生傘房花序。",
+          "image_id": "hkb-76623-j",
+          "code": "76623j"
+        },
+        {
+          "en": "A horizontal flowering branch.",
+          "zh": "水平的開花枝。",
+          "image_id": "hkb-76623-k",
+          "code": "76623k"
+        },
+        {
+          "en": "Elliptic entire leaves on the shoot.",
+          "zh": "枝上的橢圓形全緣葉。",
+          "image_id": "hkb-76623-l",
+          "code": "76623l"
+        },
+        {
+          "en": "The pale lower surface of a leaf, with flowers behind.",
+          "zh": "葉的淺色下面，後面有花。",
+          "image_id": "hkb-76623-m",
+          "code": "76623m"
+        },
+        {
+          "en": "Green cupular calyces under the flower tube.",
+          "zh": "花冠管下的綠色杯狀萼。",
+          "image_id": "hkb-76623-n",
+          "code": "76623n"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2009",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "3",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Bull. Soc. Imp. Naturalistes Moscou 36(II): 222 (1863)",
+        "url": "https://www.ipni.org/n/862022-1",
+        "source": "IPNI"
+      }
+    },
+    "38299": {
+      "blp": "38299",
+      "sci": "Dichanthium annulatum",
+      "authority": "(Forssk.) Stapf",
+      "chi_line": "雙花草",
+      "chi_names": [
+        "雙花草"
+      ],
+      "en_names": [
+        "Two-flowered Golden-beard"
+      ],
+      "family": "Poaceae",
+      "genus": "Dichanthium",
+      "order": "Poales",
+      "native": true,
+      "flower": "6-11",
+      "fruit": "6-11",
+      "hero_id": "hkb-38299-e",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Perennial grass",
+          "zh": "多年生草本"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "June–November.",
+          "zh": "6 月至 11 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Hillslopes and disturbed ground.",
+          "zh": "山坡及受干擾的地方。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Hillslopes and disturbed places.",
+          "zh": "山坡及受干擾的地方。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Southern China, north to Hubei; also from the Indian subcontinent to the Pacific islands.",
+          "zh": "中國南部，北至湖北；亦見於印度次大陸至太平洋島嶼。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Perennial grass. Culms tufted and erect, 30–100 cm. The nodes are densely bearded.",
+              "zh": "多年生草本。稈叢生，直立，高 30–100 厘米。節密被髯毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Blade",
+              "label_zh": "葉片",
+              "en": "Narrowly linear, 8–30 × 0.2–0.4 cm, silky-hairy above with tubercle-based hairs, usually glabrous beneath. Apex acuminate. Ligule a dry membrane, 1–2 mm, ciliate.",
+              "zh": "狹線形，8–30 × 0.2–0.4 厘米，上面被基部長疣的絲狀毛，下面通常無毛。先端漸尖。葉舌乾膜質，長 1–2 毫米，有緣毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Inflorescence",
+          "title_zh": "花序",
+          "items": [
+            {
+              "label_en": "Racemes",
+              "label_zh": "總狀花序",
+              "en": "Two to eight racemes, almost digitate. The sessile spikelet is bisexual, 3–5 mm. The upper lemma ends in a flexuous awn 1.5–2.5 cm.",
+              "zh": "總狀花序 2–8 枚，近指狀。無柄小穗兩性，長 3–5 毫米。上外稃先端有一屈曲的芒，長 1.5–2.5 厘米。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "A clump on a disturbed roadside.",
+          "zh": "受干擾路旁的一叢。",
+          "image_id": "hkb-38299-a",
+          "code": "38299a"
+        },
+        {
+          "en": "A densely bearded node.",
+          "zh": "密被髯毛的節。",
+          "image_id": "hkb-38299-b",
+          "code": "38299b"
+        },
+        {
+          "en": "Tufted culms on a concrete edge.",
+          "zh": "水泥邊的叢生稈。",
+          "image_id": "hkb-38299-d",
+          "code": "38299d"
+        },
+        {
+          "en": "Paired spikelets.",
+          "zh": "成對的小穗。",
+          "image_id": "hkb-38299-e",
+          "code": "38299e"
+        },
+        {
+          "en": "The bearded node, close.",
+          "zh": "被髯毛的節，近觀。",
+          "image_id": "hkb-38299-f",
+          "code": "38299f"
+        },
+        {
+          "en": "A length of the raceme, with paired spikelets.",
+          "zh": "一段總狀花序，小穗成對。",
+          "image_id": "hkb-38299-g",
+          "code": "38299g"
+        },
+        {
+          "en": "A node with a white beard.",
+          "zh": "有白色髯毛的節。",
+          "image_id": "hkb-38299-h",
+          "code": "38299h"
+        },
+        {
+          "en": "Silky hairs on the upper leaf surface.",
+          "zh": "葉上面的絲狀毛。",
+          "image_id": "hkb-38299-i",
+          "code": "38299i"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2011",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "4",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Fl. Trop. Afr. 9: 178 (1917)",
+        "url": "https://www.ipni.org/n/398528-1",
+        "source": "IPNI"
+      }
+    },
+    "73001": {
+      "blp": "73001",
+      "sci": "Ehretia acuminata",
+      "authority": "R. Br.",
+      "chi_line": "厚殼樹",
+      "chi_names": [
+        "厚殼樹"
+      ],
+      "en_names": [
+        "Heliotrope Ehretia"
+      ],
+      "family": "Boraginaceae",
+      "genus": "Ehretia",
+      "order": "Boraginales",
+      "native": true,
+      "flower": "4-9",
+      "fruit": "4-9",
+      "hero_id": "hkb-73001-c",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree to 15 m, glabrous except on the young parts",
+          "zh": "喬木，高可達 15 米，除幼嫩部分外無毛"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "April–September.",
+          "zh": "4 月至 9 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Forests.",
+          "zh": "森林。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Forests.",
+          "zh": "森林。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Southern, southwestern, central and eastern China; Bhutan, India, Indonesia, Japan, Vietnam and Australia.",
+          "zh": "中國南、西南、中及東部；不丹、印度、印度尼西亞、日本、越南及澳洲。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree to 15 m, glabrous except on the young parts. Bark black-grey and fissured. Branchlets brown, with conspicuous lenticels.",
+              "zh": "喬木，高可達 15 米，除幼嫩部分外無毛。樹皮黑灰色，條裂。小枝褐色，皮孔明顯。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Elliptic to obovate or oblong-obovate, 5–15 × 4–6 cm. Base broadly cuneate. Apex acute or apiculate. Margin serrulate, the teeth curved upward.",
+              "zh": "橢圓形至倒卵形或長圓狀倒卵形，5–15 × 4–6 厘米。基部闊楔形。先端急尖或具短尖。邊緣有細鋸齒，齒向上彎。"
+            },
+            {
+              "label_en": "Size",
+              "label_zh": "大小",
+              "en": "Petiole 1.5–3.5 cm.",
+              "zh": "葉柄 1.5–3.5 厘米。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Terminal panicles, 8–15 cm. Flowers small, crowded and fragrant. Corolla white, campanulate, 3–4 mm, the lobes spreading and longer than the tube.",
+              "zh": "圓錐花序頂生，長 8–15 厘米。花小，密集，有香氣。花冠白色，鐘狀，長 3–4 毫米，裂片開展，長於花冠管。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Drupe yellow or orange, 3–4 mm across.",
+              "zh": "核果黃色或橙色，直徑 3–4 毫米。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "A sapling by a canal.",
+          "zh": "渠邊的幼樹。",
+          "image_id": "hkb-73001-a",
+          "code": "73001a"
+        },
+        {
+          "en": "Branchlet with conspicuous lenticels.",
+          "zh": "皮孔明顯的小枝。",
+          "image_id": "hkb-73001-b",
+          "code": "73001b"
+        },
+        {
+          "en": "Crowded white campanulate flowers.",
+          "zh": "密集的白色鐘狀花。",
+          "image_id": "hkb-73001-c",
+          "code": "73001c"
+        },
+        {
+          "en": "A terminal panicle.",
+          "zh": "頂生的圓錐花序。",
+          "image_id": "hkb-73001-d",
+          "code": "73001d"
+        },
+        {
+          "en": "Fruiting canopy.",
+          "zh": "結果的樹冠。",
+          "image_id": "hkb-73001-e",
+          "code": "73001e"
+        },
+        {
+          "en": "Alternate leaves on the twig.",
+          "zh": "小枝上的互生葉。",
+          "image_id": "hkb-73001-f",
+          "code": "73001f"
+        },
+        {
+          "en": "Leaf margin, the small teeth curved upward.",
+          "zh": "葉緣，細齒向上彎。",
+          "image_id": "hkb-73001-g",
+          "code": "73001g"
+        },
+        {
+          "en": "Lenticels on a young trunk.",
+          "zh": "幼幹上的皮孔。",
+          "image_id": "hkb-73001-h",
+          "code": "73001h"
+        },
+        {
+          "en": "The upper surface of a leaf.",
+          "zh": "葉的上面。",
+          "image_id": "hkb-73001-i",
+          "code": "73001i"
+        },
+        {
+          "en": "The lower surface of a leaf.",
+          "zh": "葉的下面。",
+          "image_id": "hkb-73001-j",
+          "code": "73001j"
+        },
+        {
+          "en": "A panicle with buds and open flowers.",
+          "zh": "有花蕾和開放花的圓錐花序。",
+          "image_id": "hkb-73001-k",
+          "code": "73001k"
+        },
+        {
+          "en": "A panicle of green buds.",
+          "zh": "綠色花蕾的圓錐花序。",
+          "image_id": "hkb-73001-l",
+          "code": "73001l"
+        },
+        {
+          "en": "Mature bark.",
+          "zh": "成熟的樹皮。",
+          "image_id": "hkb-73001-m",
+          "code": "73001m"
+        },
+        {
+          "en": "The flowering tree.",
+          "zh": "開花的樹。",
+          "image_id": "hkb-73001-n",
+          "code": "73001n"
+        },
+        {
+          "en": "Drupes turning yellow.",
+          "zh": "轉黃的核果。",
+          "image_id": "hkb-73001-o",
+          "code": "73001o"
+        },
+        {
+          "en": "Open flowers and spent flowers.",
+          "zh": "開放的花和凋謝的花。",
+          "image_id": "hkb-73001-p",
+          "code": "73001p"
+        },
+        {
+          "en": "A canopy with flowers and fruit together.",
+          "zh": "花和果同在的樹冠。",
+          "image_id": "hkb-73001-q",
+          "code": "73001q"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2009",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "3",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Prodr. Fl. Nov. Holland.: 497 (1810)",
+        "url": "https://www.ipni.org/n/115963-1",
+        "source": "IPNI"
+      }
+    },
+    "56523": {
+      "blp": "56523",
+      "sci": "Flueggea virosa",
+      "authority": "(Roxb. ex Willd.) Royle",
+      "chi_line": "白飯樹",
+      "chi_names": [
+        "白飯樹",
+        "金柑藤"
+      ],
+      "en_names": [
+        "Snow Berry"
+      ],
+      "family": "Phyllanthaceae",
+      "genus": "Flueggea",
+      "order": "Malpighiales",
+      "native": true,
+      "flower": "3-8",
+      "fruit": "6-11",
+      "hero_id": "hkb-56523-c",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Unarmed, glabrous shrub, 1–4 m",
+          "zh": "無刺、無毛的灌木，高 1–4 米"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "March–August. Fruit June–November.",
+          "zh": "3 月至 8 月。果期 6 月至 11 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Shrubland on hill slopes.",
+          "zh": "山地灌叢。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Shrubland on montane slopes.",
+          "zh": "山地灌叢。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "China south of the Qinling range; also widespread in Africa, Oceania, and East and Southeast Asia.",
+          "zh": "秦嶺以南的中國；亦廣布於非洲、大洋洲及東亞、東南亞。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Unarmed, glabrous shrub, 1–4 m. Branchlets sharply angular, reddish brown when young.",
+              "zh": "無刺、無毛的灌木，高 1–4 米。小枝有銳稜，幼時紅褐色。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Alternate, papery, elliptic, oblong, obovate or round, 2–5 × 1–3 cm. Apex rounded to acute, with a small mucro. Margin entire. Whitish beneath. Stipules lanceolate, 1.5–3 mm.",
+              "zh": "互生，紙質，橢圓形、長圓形、倒卵形或近圓形，2–5 × 1–3 厘米。先端圓至急尖，有小短尖。全緣。下面帶白色。托葉披針形，長 1.5–3 毫米。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Small, yellowish, in axillary clusters. Male flowers have five stamens. Female flowers have a 3-locular ovary and three styles.",
+              "zh": "花小，黃綠色，簇生於葉腋。雄花有雄蕊 5 枚。雌花子房 3 室，花柱 3。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Berry-like capsule, nearly globose, 3–5 mm across, whitish when ripe, and not opening.",
+              "zh": "漿果狀蒴果，近球形，直徑 3–5 毫米，成熟時帶白色，不開裂。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Shrub, with the leaves.",
+          "zh": "灌木，連同葉。",
+          "image_id": "hkb-56523-a",
+          "code": "56523a"
+        },
+        {
+          "en": "Leaves and reddish twigs.",
+          "zh": "葉和帶紅色的小枝。",
+          "image_id": "hkb-56523-b",
+          "code": "56523b"
+        },
+        {
+          "en": "Male flowers in an axillary cluster.",
+          "zh": "葉腋的雄花簇。",
+          "image_id": "hkb-56523-c",
+          "code": "56523c"
+        },
+        {
+          "en": "Yellowish flowers and the leaf.",
+          "zh": "黃綠色的花和葉。",
+          "image_id": "hkb-56523-d",
+          "code": "56523d"
+        },
+        {
+          "en": "Axillary fruiting sites.",
+          "zh": "葉腋的結果位置。",
+          "image_id": "hkb-56523-e",
+          "code": "56523e"
+        },
+        {
+          "en": "An angular branchlet.",
+          "zh": "有稜的小枝。",
+          "image_id": "hkb-56523-f",
+          "code": "56523f"
+        },
+        {
+          "en": "Green fruits.",
+          "zh": "綠色的果。",
+          "image_id": "hkb-56523-g",
+          "code": "56523g"
+        },
+        {
+          "en": "A leaf, with the veins.",
+          "zh": "一片葉，並有脈。",
+          "image_id": "hkb-56523-h",
+          "code": "56523h"
+        },
+        {
+          "en": "An angular branchlet.",
+          "zh": "有稜的小枝。",
+          "image_id": "hkb-56523-i",
+          "code": "56523i"
+        },
+        {
+          "en": "A male flower, five stamens.",
+          "zh": "雄花，雄蕊五枚。",
+          "image_id": "hkb-56523-j",
+          "code": "56523j"
+        },
+        {
+          "en": "A female flower.",
+          "zh": "雌花。",
+          "image_id": "hkb-56523-k",
+          "code": "56523k"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Ill. Bot. Himal. Mts.: 328 (1836)",
+        "url": "https://www.ipni.org/n/1013601-1",
+        "source": "IPNI"
+      }
+    },
+    "75031": {
+      "blp": "75031",
+      "sci": "Fraxinus chinensis",
+      "authority": "Roxb.",
+      "chi_line": "白蠟樹",
+      "chi_names": [
+        "白蠟樹"
+      ],
+      "en_names": [
+        "Chinese Ash"
+      ],
+      "family": "Oleaceae",
+      "genus": "Fraxinus",
+      "order": "Lamiales",
+      "native": false,
+      "flower": "4-5",
+      "fruit": "5-9",
+      "hero_id": "hkb-75031-d",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Deciduous tree to 20 m",
+          "zh": "落葉喬木，高可達 20 米"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "April–May. Fruit May–September.",
+          "zh": "4 月至 5 月。果期 5 月至 9 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Widely distributed in China.",
+          "zh": "廣布於中國。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Not native.",
+          "zh": "非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Widely distributed in China; Vietnam and Korea.",
+          "zh": "廣布於中國；越南及朝鮮。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Deciduous tree to 20 m. Branchlets round in section. Winter buds brown and hairy.",
+              "zh": "落葉喬木，高可達 20 米。小枝圓柱形。冬芽褐色，被毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Leaflets",
+              "label_zh": "小葉",
+              "en": "Opposite and odd-pinnate, the leaf 12–25 cm, with 3–7(–9) leaflets. Leaflet blade broadly ovate to lanceolate, or elliptic to obovate-lanceolate, 3–10 × 2–4 cm, regularly serrate.",
+              "zh": "對生，奇數羽狀複葉，長 12–25 厘米，小葉 3–7（–9）片。小葉闊卵形至披針形，或橢圓形至倒卵狀披針形，3–10 × 2–4 厘米，有規則鋸齒。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Panicles terminal or lateral, 5–12 cm. Flowers unisexual, opening with the leaves. There is no corolla. Male flowers are crowded, with a cup-shaped calyx about 1 mm.",
+              "zh": "圓錐花序頂生或側生，長 5–12 厘米。花單性，與葉同放。無花冠。雄花密集，萼杯狀，長約 1 毫米。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Samara spatulate, 3–4 cm × 4–6 mm. The wing runs down to the middle of the nutlet.",
+              "zh": "翅果匙形，3–4 厘米 × 4–6 毫米。翅下延至堅果中部。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Odd-pinnate leaves, the leaflets serrate.",
+          "zh": "奇數羽狀複葉，小葉有鋸齒。",
+          "image_id": "hkb-75031-b",
+          "code": "75031b"
+        },
+        {
+          "en": "A pendulous panicle of male flowers, without a corolla.",
+          "zh": "下垂的雄花圓錐花序，無花冠。",
+          "image_id": "hkb-75031-c",
+          "code": "75031c"
+        },
+        {
+          "en": "Male panicles on a twig with young pinnate leaves.",
+          "zh": "小枝上的雄花序，並有幼嫩的羽狀葉。",
+          "image_id": "hkb-75031-d",
+          "code": "75031d"
+        },
+        {
+          "en": "Male flowers: anthers on slender filaments, no petals.",
+          "zh": "雄花：花藥生於細花絲上，無花瓣。",
+          "image_id": "hkb-75031-e",
+          "code": "75031e"
+        },
+        {
+          "en": "Young samaras, flattened and winged.",
+          "zh": "幼嫩的翅果，扁平有翅。",
+          "image_id": "hkb-75031-f",
+          "code": "75031f"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2009",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "3",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Fl. Ind. 1: 150 (1820)",
+        "url": "https://www.ipni.org/n/608968-1",
+        "source": "IPNI"
+      }
+    },
+    "55908": {
+      "blp": "55908",
+      "sci": "Mallotus apelta",
+      "authority": "(Lour.) Müll. Arg.",
+      "chi_line": "白背葉",
+      "chi_names": [
+        "白背葉",
+        "白桐"
+      ],
+      "en_names": [
+        "White-back Leaf Mallotus"
+      ],
+      "family": "Euphorbiaceae",
+      "genus": "Mallotus",
+      "order": "Malpighiales",
+      "native": true,
+      "flower": "6-9",
+      "fruit": "8-11",
+      "hero_id": "hkb-55908-c",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Shrub or small tree, usually 1–4 m",
+          "zh": "灌木或小喬木，通常高 1–4 米"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "June–September. Fruit August–November.",
+          "zh": "6 月至 9 月。果期 8 月至 11 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Thin forest and shrubland.",
+          "zh": "疏林及灌叢。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Thin forests and shrubland.",
+          "zh": "疏林及灌叢。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Southern and central China, from Hainan and Guangdong north to Henan and Shaanxi.",
+          "zh": "中國南部及中部，自海南、廣東北至河南及陝西。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Shrub or small tree, usually 1–4 m. Branchlets, petioles and the inflorescence are densely yellowish stellate-hairy, with scattered orange glands.",
+              "zh": "灌木或小喬木，通常高 1–4 米。小枝、葉柄和花序密被黃褐色星狀毛，並散生橙色腺體。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Alternate, ovate or broadly ovate, 6–16(–25) cm. Base truncate or slightly cordate, with two brown glands where the petiole joins. Apex acute or acuminate. Margin sparsely serrate. Lower surface white with stellate hairs.",
+              "zh": "互生，卵形或闊卵形，6–16（–25）厘米。基部截形或稍心形，葉柄着生處有褐色腺體 2 枚。先端急尖或漸尖。邊緣疏生鋸齒。下面白色，被星狀毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Male spikes 15–30 cm. Male flowers have 50–75 stamens. Female flowers are solitary in each bract, with 3–4 styles.",
+              "zh": "雄花序穗狀，長 15–30 厘米。雄花有雄蕊 50–75 枚。雌花單生於苞片內，花柱 3–4。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Capsule nearly globose, 1–1.3 cm across, stellate-hairy and softly prickly. The prickles are 5–10 mm.",
+              "zh": "蒴果近球形，直徑 1–1.3 厘米，被星狀毛，並有軟刺。刺長 5–10 毫米。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Habit, with male spikes.",
+          "zh": "植株，並有雄花穗。",
+          "image_id": "hkb-55908-a",
+          "code": "55908a"
+        },
+        {
+          "en": "Glands at the base of the leaf.",
+          "zh": "葉基的腺體。",
+          "image_id": "hkb-55908-b",
+          "code": "55908b"
+        },
+        {
+          "en": "Male flowers, the stamens burst open.",
+          "zh": "雄花，雄蕊伸出。",
+          "image_id": "hkb-55908-c",
+          "code": "55908c"
+        },
+        {
+          "en": "A young fruiting spike.",
+          "zh": "幼果穗。",
+          "image_id": "hkb-55908-d",
+          "code": "55908d"
+        },
+        {
+          "en": "Young fruit, close.",
+          "zh": "幼果，近觀。",
+          "image_id": "hkb-55908-e",
+          "code": "55908e"
+        },
+        {
+          "en": "Stellate hairs at the node.",
+          "zh": "節上的星狀毛。",
+          "image_id": "hkb-55908-f",
+          "code": "55908f"
+        },
+        {
+          "en": "The felted lower leaf surface.",
+          "zh": "被絨毛的葉下面。",
+          "image_id": "hkb-55908-g",
+          "code": "55908g"
+        },
+        {
+          "en": "Veins on the upper leaf surface.",
+          "zh": "葉上面的脈。",
+          "image_id": "hkb-55908-h",
+          "code": "55908h"
+        },
+        {
+          "en": "Bark on the stem.",
+          "zh": "莖上的樹皮。",
+          "image_id": "hkb-55908-i",
+          "code": "55908i"
+        },
+        {
+          "en": "Several male flowers.",
+          "zh": "數朵雄花。",
+          "image_id": "hkb-55908-j",
+          "code": "55908j"
+        },
+        {
+          "en": "A fruiting plant among ferns.",
+          "zh": "蕨叢中結果的植株。",
+          "image_id": "hkb-55908-k",
+          "code": "55908k"
+        },
+        {
+          "en": "A fruit that has opened.",
+          "zh": "已開裂的果。",
+          "image_id": "hkb-55908-l",
+          "code": "55908l"
+        },
+        {
+          "en": "A seed.",
+          "zh": "種子。",
+          "image_id": "hkb-55908-m",
+          "code": "55908m"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Linnaea 34: 189 (1865)",
+        "url": "https://www.ipni.org/n/351482-1",
+        "source": "IPNI"
+      }
+    },
+    "67400": {
+      "blp": "67400",
+      "sci": "Myrsine seguinii",
+      "authority": "H. Lév.",
+      "chi_line": "密花樹",
+      "chi_names": [
+        "密花樹"
+      ],
+      "en_names": [],
+      "family": "Primulaceae",
+      "genus": "Myrsine",
+      "order": "Ericales",
+      "native": true,
+      "flower": "4-5",
+      "fruit": "10-12",
+      "hero_id": "hkb-67400-c",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Shrub or small tree, 2–7 m, occasionally to 15 m",
+          "zh": "灌木或小喬木，高 2–7 米，有時可達 15 米"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "April–May. Fruit October–December.",
+          "zh": "4 月至 5 月。果期 10 月至 12 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Thickets and disturbed evergreen forest.",
+          "zh": "灌叢及受干擾的常綠林。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Thickets and disturbed evergreen forests.",
+          "zh": "灌叢及受干擾的常綠林。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Southern and central China, west to Yunnan and southeastern Xizang; Japan, Vietnam, Myanmar and Thailand.",
+          "zh": "中國南部及中部，西至雲南及西藏東南部；日本、越南、緬甸及泰國。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Shrub or small tree, 2–7 m, occasionally to 15 m. Branches greyish brown to dark brown, glabrous.",
+              "zh": "灌木或小喬木，高 2–7 米，有時可達 15 米。枝灰褐至深褐色，無毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Spirally arranged, leathery, narrowly oblong to oblong-lanceolate, 5–15 × 1.3–3 cm. Base cuneate. Apex acute or obtuse. Margin entire and narrowly recurved. The lower surface has many tiny sunken pits.",
+              "zh": "螺旋狀排列，革質，狹長圓形至長圓狀披針形，5–15 × 1.3–3 厘米。基部楔形。先端急尖或鈍。全緣，邊緣狹反卷。下面有許多細小的下陷小點。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Umbels of 3–10 flowers on short warty spurs. Flowers white to pale green, sometimes reddish. Corolla 2.5–3 mm, split for about three-quarters of its length.",
+              "zh": "傘形花序生於短而有疣的短枝上，有花 3–10 朵。花白色至淺綠色，有時帶紅。花冠長 2.5–3 毫米，約四分之三深裂。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Nearly globose, 4–5 mm across, dotted.",
+              "zh": "近球形，直徑 4–5 毫米，有點。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Understorey shrub.",
+          "zh": "林下的灌木。",
+          "image_id": "hkb-67400-a",
+          "code": "67400a"
+        },
+        {
+          "en": "Lower leaf surface, pale, with tiny pits.",
+          "zh": "葉下面淺色，有細小的下陷小點。",
+          "image_id": "hkb-67400-b",
+          "code": "67400b"
+        },
+        {
+          "en": "Pale yellow-green flowers in umbels on a short spur.",
+          "zh": "短枝上的淺黃綠色傘形花序。",
+          "image_id": "hkb-67400-c",
+          "code": "67400c"
+        },
+        {
+          "en": "Open flowers and reddish-striped buds.",
+          "zh": "開放的花和帶紅色條紋的花蕾。",
+          "image_id": "hkb-67400-d",
+          "code": "67400d"
+        },
+        {
+          "en": "Umbels along the twig.",
+          "zh": "小枝上的一串傘形花序。",
+          "image_id": "hkb-67400-e",
+          "code": "67400e"
+        },
+        {
+          "en": "A spiral cluster of entire leathery leaves, with small umbels below.",
+          "zh": "螺旋排列的革質全緣葉，下面有小傘形花序。",
+          "image_id": "hkb-67400-f",
+          "code": "67400f"
+        },
+        {
+          "en": "The pale lower leaf surface, with tiny pits.",
+          "zh": "淺色的葉下面，有細小的下陷小點。",
+          "image_id": "hkb-67400-g",
+          "code": "67400g"
+        },
+        {
+          "en": "Open flowers and magenta-striped buds.",
+          "zh": "開放的花和帶洋紅色條紋的花蕾。",
+          "image_id": "hkb-67400-h",
+          "code": "67400h"
+        },
+        {
+          "en": "Umbels along a woody spur.",
+          "zh": "木質短枝上的一串傘形花序。",
+          "image_id": "hkb-67400-i",
+          "code": "67400i"
+        },
+        {
+          "en": "The glossy upper surface of a leaf.",
+          "zh": "有光澤的葉上面。",
+          "image_id": "hkb-67400-j",
+          "code": "67400j"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2007",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "1",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Fl. Kouy-Tchéou: 288 (1915)",
+        "url": "https://www.ipni.org/n/589274-1",
+        "source": "IPNI"
+      }
+    },
+    "47056": {
+      "blp": "47056",
+      "sci": "Peltophorum pterocarpum",
+      "authority": "(DC.) Baker ex K. Heyne",
+      "chi_line": "雙翼豆",
+      "chi_names": [
+        "雙翼豆",
+        "盾柱木"
+      ],
+      "en_names": [
+        "Yellow Poinciana"
+      ],
+      "family": "Fabaceae",
+      "genus": "Peltophorum",
+      "order": "Fabales",
+      "native": false,
+      "flower": "6-8",
+      "fruit": "10",
+      "hero_id": "hkb-47056-b",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree, 4–15 m",
+          "zh": "喬木，高 4–15 米"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "June–August. Fruit in October.",
+          "zh": "6 月至 8 月。果期 10 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Vietnam, Sri Lanka, Malaysia, Indonesia and northern Australia.",
+          "zh": "越南、斯里蘭卡、馬來西亞、印度尼西亞及澳洲北部。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Not native. The Flora records it as cultivated in Guangzhou, and in Vietnam, Sri Lanka, Malaysia, Indonesia and northern Australia.",
+          "zh": "非原生。植物誌記為廣州有栽培，並見於越南、斯里蘭卡、馬來西亞、印度尼西亞及澳洲北部。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Vietnam, Sri Lanka, Malaysia, Indonesia and northern Australia.",
+          "zh": "越南、斯里蘭卡、馬來西亞、印度尼西亞及澳洲北部。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree, 4–15 m. Young branches and the inflorescence are densely rusty-hairy. Older branches have yellow lenticels.",
+              "zh": "喬木，高 4–15 米。幼枝和花序密被鏽色毛。老枝有黃色皮孔。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Leaflets",
+              "label_zh": "小葉",
+              "en": "Bipinnate, 30–42 cm. Pinnae 7–15 pairs. Leaflets 10–20 pairs, sessile, oblong, 1–1.8 × 0.5–0.7 cm, the base oblique and the apex obtuse with a small mucro.",
+              "zh": "二回羽狀複葉，長 30–42 厘米。羽片 7–15 對。小葉 10–20 對，無柄，長圓形，1–1.8 × 0.5–0.7 厘米，基部偏斜，先端鈍而有小短尖。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Panicles terminal or axillary. Flower buds globose, 5–8 mm. Petals obovate, 1.5–1.7 cm, rusty-hairy in the middle. Filaments hairy at the base.",
+              "zh": "圓錐花序頂生或腋生。花蕾球形，直徑 5–8 毫米。花瓣倒卵形，長 1.5–1.7 厘米，中部被鏽色毛。花絲基部有毛。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Pod dark red when ripe, oblong, 5–8 × 1.8–2.5 cm, flat, and winged along both sutures.",
+              "zh": "莢果成熟時暗紅色，長圓形，5–8 × 1.8–2.5 厘米，扁平，兩邊的縫線有翅。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "The whole tree.",
+          "zh": "整株。",
+          "image_id": "hkb-47056-a",
+          "code": "47056a"
+        },
+        {
+          "en": "Flowers, a pod, and the bipinnate leaf.",
+          "zh": "花、莢果和二回羽狀葉。",
+          "image_id": "hkb-47056-b",
+          "code": "47056b"
+        },
+        {
+          "en": "A panicle and the leaf.",
+          "zh": "圓錐花序和葉。",
+          "image_id": "hkb-47056-c",
+          "code": "47056c"
+        },
+        {
+          "en": "Flower buds.",
+          "zh": "花蕾。",
+          "image_id": "hkb-47056-d",
+          "code": "47056d"
+        },
+        {
+          "en": "Flowers and a pod against the sky.",
+          "zh": "天空下的花和莢果。",
+          "image_id": "hkb-47056-e",
+          "code": "47056e"
+        },
+        {
+          "en": "A fallen flower.",
+          "zh": "掉下的花。",
+          "image_id": "hkb-47056-f",
+          "code": "47056f"
+        },
+        {
+          "en": "A mass of pods, with the leaf.",
+          "zh": "一叢莢果，並有葉。",
+          "image_id": "hkb-47056-g",
+          "code": "47056g"
+        },
+        {
+          "en": "A flowering panicle.",
+          "zh": "開花的圓錐花序。",
+          "image_id": "hkb-47056-h",
+          "code": "47056h"
+        },
+        {
+          "en": "A leaflet and a pod, the pod marked with lines.",
+          "zh": "一片小葉和一枚有條紋的莢果。",
+          "image_id": "hkb-47056-i",
+          "code": "47056i"
+        },
+        {
+          "en": "The leafy canopy.",
+          "zh": "有葉的樹冠。",
+          "image_id": "hkb-47056-j",
+          "code": "47056j"
+        },
+        {
+          "en": "A rusty-hairy calyx.",
+          "zh": "被鏽色毛的萼。",
+          "image_id": "hkb-47056-k",
+          "code": "47056k"
+        },
+        {
+          "en": "A plate of flower buds.",
+          "zh": "一板花蕾。",
+          "image_id": "hkb-47056-l",
+          "code": "47056l"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Nutt. Pl. Ned.-Ind., ed. 2. 2: 755 (1927)",
+        "url": "https://www.ipni.org/n/513021-1",
+        "source": "IPNI"
+      }
+    },
+    "58370": {
+      "blp": "58370",
+      "sci": "Syzygium jambos",
+      "authority": "(L.) Alston",
+      "chi_line": "蒲桃",
+      "chi_names": [
+        "蒲桃"
+      ],
+      "en_names": [
+        "Rose Apple"
+      ],
+      "family": "Myrtaceae",
+      "genus": "Syzygium",
+      "order": "Myrtales",
+      "native": false,
+      "flower": "3-4",
+      "fruit": "5-6",
+      "hero_id": "hkb-58370-c",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree to 10 m, with spreading branches",
+          "zh": "喬木，高可達 10 米，枝開展"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "March–April. Fruit May–June.",
+          "zh": "3 月至 4 月。果期 5 月至 6 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Southern China; Indochina, Malaysia and Indonesia.",
+          "zh": "中國南部；中南半島、馬來西亞及印度尼西亞。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Not native.",
+          "zh": "非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Southern China; Indochina, Malaysia and Indonesia.",
+          "zh": "中國南部；中南半島、馬來西亞及印度尼西亞。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree to 10 m, with spreading branches. Branchlets round or nearly so.",
+              "zh": "喬木，高可達 10 米，枝開展。小枝圓柱形或近圓柱形。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Opposite, leathery or firmly papery, lanceolate to oblong, 12–25 × 3–4.5 cm. Base broadly cuneate. Apex long-acuminate. Both surfaces have many small translucent glands. Lateral veins 12–16 pairs, prominent beneath.",
+              "zh": "對生，革質或厚紙質，披針形至長圓形，12–25 × 3–4.5 厘米。基部闊楔形。先端長漸尖。兩面有許多小的透明腺點。側脈 12–16 對，下面明顯。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Terminal cymes. Flowers greenish white, 3–4 cm across. Petals broadly ovate, 1.4–1.5 cm. Stamens 2–2.8 cm.",
+              "zh": "聚傘花序頂生。花綠白色，直徑 3–4 厘米。花瓣闊卵形，長 1.4–1.5 厘米。雄蕊長 2–2.8 厘米。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Pale yellow or red when ripe, globose, 3–5 cm across, fleshy, with oil glands.",
+              "zh": "成熟時淺黃或紅色，球形，直徑 3–5 厘米，肉質，有油腺。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "A park tree with several trunks.",
+          "zh": "公園裡的多幹樹。",
+          "image_id": "hkb-58370-a",
+          "code": "58370a"
+        },
+        {
+          "en": "An opposite pair of leaves.",
+          "zh": "對生的一對葉。",
+          "image_id": "hkb-58370-b",
+          "code": "58370b"
+        },
+        {
+          "en": "A flowering branch.",
+          "zh": "開花的枝。",
+          "image_id": "hkb-58370-c",
+          "code": "58370c"
+        },
+        {
+          "en": "Flowering canopy in forest.",
+          "zh": "林中開花的樹冠。",
+          "image_id": "hkb-58370-d",
+          "code": "58370d"
+        },
+        {
+          "en": "Young green fruit.",
+          "zh": "幼嫩的綠色果。",
+          "image_id": "hkb-58370-e",
+          "code": "58370e"
+        },
+        {
+          "en": "A cluster of flowers on the branch.",
+          "zh": "枝上的一簇花。",
+          "image_id": "hkb-58370-f",
+          "code": "58370f"
+        },
+        {
+          "en": "A cluster of flowers.",
+          "zh": "一簇花。",
+          "image_id": "hkb-58370-g",
+          "code": "58370g"
+        },
+        {
+          "en": "A flower, face on.",
+          "zh": "一朵花，正面。",
+          "image_id": "hkb-58370-h",
+          "code": "58370h"
+        },
+        {
+          "en": "The tree by a lake.",
+          "zh": "湖邊的樹。",
+          "image_id": "hkb-58370-i",
+          "code": "58370i"
+        },
+        {
+          "en": "Veins on the lower leaf surface.",
+          "zh": "葉下面的脈。",
+          "image_id": "hkb-58370-j",
+          "code": "58370j"
+        },
+        {
+          "en": "An opposite pair of leaves at the node.",
+          "zh": "節上對生的一對葉。",
+          "image_id": "hkb-58370-k",
+          "code": "58370k"
+        },
+        {
+          "en": "A spent flower, four calyx lobes.",
+          "zh": "凋謝的花，萼裂片四枚。",
+          "image_id": "hkb-58370-l",
+          "code": "58370l"
+        },
+        {
+          "en": "One open flower and several buds.",
+          "zh": "一朵開放的花和數個花蕾。",
+          "image_id": "hkb-58370-m",
+          "code": "58370m"
+        },
+        {
+          "en": "A wet flowering canopy.",
+          "zh": "帶水的開花樹冠。",
+          "image_id": "hkb-58370-n",
+          "code": "58370n"
+        },
+        {
+          "en": "A hanging leaf.",
+          "zh": "下垂的葉。",
+          "image_id": "hkb-58370-o",
+          "code": "58370o"
+        },
+        {
+          "en": "A flower and a young fruit together.",
+          "zh": "一朵花和一個幼果。",
+          "image_id": "hkb-58370-p",
+          "code": "58370p"
+        },
+        {
+          "en": "Red young leaves, opposite.",
+          "zh": "紅色的幼葉，對生。",
+          "image_id": "hkb-58370-q",
+          "code": "58370q"
+        },
+        {
+          "en": "Oil glands on a young leaf.",
+          "zh": "幼葉上的油腺。",
+          "image_id": "hkb-58370-r",
+          "code": "58370r"
+        },
+        {
+          "en": "Ripe pale-yellow fruits.",
+          "zh": "成熟的淺黃色果。",
+          "image_id": "hkb-58370-s",
+          "code": "58370s"
+        },
+        {
+          "en": "Fruits at more than one stage.",
+          "zh": "不同成熟度的果。",
+          "image_id": "hkb-58370-t",
+          "code": "58370t"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Handb. Fl. Ceylon 6(Suppl.): 115 (1931)",
+        "url": "https://www.ipni.org/n/601802-1",
+        "source": "IPNI"
+      }
+    },
+    "25206": {
+      "blp": "25206",
+      "sci": "Uvaria calamistrata",
+      "authority": "Hance",
+      "chi_line": "刺果紫玉盤",
+      "chi_names": [
+        "刺果紫玉盤"
+      ],
+      "en_names": [
+        "Spiny-fruited Uvaria"
+      ],
+      "family": "Annonaceae",
+      "genus": "Uvaria",
+      "order": "Magnoliales",
+      "native": true,
+      "flower": "5-6",
+      "fruit": "8-11",
+      "hero_id": "hkb-25206-d",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Scandent shrub",
+          "zh": "攀援灌木"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "May–June. Fruit August–November.",
+          "zh": "5 月至 6 月。果期 8 月至 11 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Forests.",
+          "zh": "森林。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Forests.",
+          "zh": "森林。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Guangdong and Guangxi; Vietnam.",
+          "zh": "廣東及廣西；越南。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Scandent shrub. Young branches covered with stellate hairs.",
+              "zh": "攀援灌木。幼枝被星狀毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Leathery, ovate, obovate or elliptic, 8.5–13.5 × 3.5–5.5 cm. Densely short-stellate-hairy beneath, glabrous above. Base cuneate or rounded. Apex acuminate or acute. Secondary veins 8–12 pairs.",
+              "zh": "革質，卵形、倒卵形或橢圓形，8.5–13.5 × 3.5–5.5 厘米。下面密被短星狀毛，上面無毛。基部楔形或圓。先端漸尖或急尖。側脈 8–12 對。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Pale yellow, about 1.8 cm across, leaf-opposed or axillary, one to four together. Petals oblong and hairy on both sides. Outer petals 6–8 mm long. Stamens numerous.",
+              "zh": "花淺黃色，直徑約 1.8 厘米，與葉對生或腋生，1–4 朵。花瓣長圓形，兩面被毛。外輪花瓣長 6–8 毫米。雄蕊多數。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "One to three monocarps, 2.7–3 × 2–2.2 cm, ovate and spiny.",
+              "zh": "果由 1–3 個分果組成，2.7–3 × 2–2.2 厘米，卵形，有刺。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Stellate hairs on the young branch and petiole.",
+          "zh": "幼枝和葉柄上的星狀毛。",
+          "image_id": "hkb-25206-a",
+          "code": "25206a"
+        },
+        {
+          "en": "A closed pale-yellow hairy bud.",
+          "zh": "閉合的淺黃色被毛花蕾。",
+          "image_id": "hkb-25206-b",
+          "code": "25206b"
+        },
+        {
+          "en": "A flower opening, the petals oblong and hairy.",
+          "zh": "正在開放的花，花瓣長圓形，被毛。",
+          "image_id": "hkb-25206-c",
+          "code": "25206c"
+        },
+        {
+          "en": "An open pale-yellow flower.",
+          "zh": "開放的淺黃色花。",
+          "image_id": "hkb-25206-d",
+          "code": "25206d"
+        },
+        {
+          "en": "Dry brown spiny monocarps.",
+          "zh": "乾褐、有刺的分果。",
+          "image_id": "hkb-25206-e",
+          "code": "25206e"
+        },
+        {
+          "en": "Stellate hairs at the node.",
+          "zh": "節上的星狀毛。",
+          "image_id": "hkb-25206-f",
+          "code": "25206f"
+        },
+        {
+          "en": "Stellate hairs on the midrib, lower surface.",
+          "zh": "葉下面中脈上的星狀毛。",
+          "image_id": "hkb-25206-g",
+          "code": "25206g"
+        },
+        {
+          "en": "The leafy shoot in a thicket.",
+          "zh": "灌叢中的帶葉枝。",
+          "image_id": "hkb-25206-h",
+          "code": "25206h"
+        },
+        {
+          "en": "A spent flower, with many stamens.",
+          "zh": "凋謝的花，雄蕊多數。",
+          "image_id": "hkb-25206-i",
+          "code": "25206i"
+        },
+        {
+          "en": "Dry brown spiny fruits.",
+          "zh": "乾褐、有刺的果。",
+          "image_id": "hkb-25206-j",
+          "code": "25206j"
+        },
+        {
+          "en": "Young green spiny fruits.",
+          "zh": "幼嫩的綠色有刺果。",
+          "image_id": "hkb-25206-k",
+          "code": "25206k"
+        },
+        {
+          "en": "The pale lower leaf surface, with young buds.",
+          "zh": "淺色的葉下面，並有幼蕾。",
+          "image_id": "hkb-25206-l",
+          "code": "25206l"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2007",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "1",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "J. Bot. 20: 77 (1882)",
+        "url": "https://www.ipni.org/n/75602-1",
+        "source": "IPNI"
+      }
+    },
+    "60000": {
+      "blp": "60000",
+      "sci": "Canarium album",
+      "authority": "(Lour.) Raeusch.",
+      "chi_line": "橄欖",
+      "chi_names": [
+        "橄欖",
+        "白欖"
+      ],
+      "en_names": [
+        "Chinese White Olive"
+      ],
+      "family": "Burseraceae",
+      "genus": "Canarium",
+      "order": "Sapindales",
+      "native": false,
+      "flower": "4-5",
+      "fruit": "10-12",
+      "hero_id": "hkb-60000-b",
+      "synonyms": [
+        {
+          "name": "Pimela alba",
+          "author": "Lour."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree, 10–25 m.",
+          "zh": "喬木，高 10–25 米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "April–May. Fruit October–December.",
+          "zh": "4 月至 5 月。果期 10 月至 12 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan, Guangdong, Guangxi, Yunnan, Fujian and Taiwan; Vietnam.",
+          "zh": "海南、廣東、廣西、雲南、福建及台灣；越南。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Cultivated. Not native.",
+          "zh": "栽培。非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan, Guangdong, Guangxi, Yunnan, Fujian and Taiwan; Vietnam.",
+          "zh": "海南、廣東、廣西、雲南、福建及台灣；越南。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree, 10–25 m. Young branchlets yellowish brown and hairy, later nearly hairless.",
+              "zh": "喬木，高 10–25 米。幼枝黃褐色，被毛，後來近無毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Leaflets",
+              "label_zh": "小葉",
+              "en": "Odd-pinnate. Leaflets 7–11(–17), oblong-lanceolate to ovate-lanceolate, 6–20 × 2–5.5 cm. Base rounded or cuneate, oblique. Apex acuminate. Margin entire. Hairless, rough beneath. Lateral veins 12–16 pairs.",
+              "zh": "奇數羽狀複葉。小葉 7–11（–17）片，長圓狀披針形至卵狀披針形，6–20 × 2–5.5 厘米。基部圓或楔形，偏斜。先端漸尖。全緣。無毛，下面粗糙。側脈 12–16 對。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Inflorescence axillary, shorter than the leaves. Calyx cup-shaped, shallowly 3-lobed, 2.5–3 mm. Petals white, twice as long as the calyx.",
+              "zh": "花序腋生，短於葉。萼杯狀，淺 3 裂，長 2.5–3 毫米。花瓣白色，長為萼的兩倍。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Drupe ovoid or spindle-shaped, 2.5–3.5 cm, yellow-green, hairless.",
+              "zh": "核果卵形或紡錘形，長 2.5–3.5 厘米，黃綠色，無毛。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Axillary panicles of flower buds.",
+          "zh": "葉腋的花蕾圓錐花序。",
+          "image_id": "hkb-60000-a",
+          "code": "60000a"
+        },
+        {
+          "en": "Yellow-green ovoid fruits.",
+          "zh": "黃綠色的卵形果。",
+          "image_id": "hkb-60000-b",
+          "code": "60000b"
+        },
+        {
+          "en": "The crown of a cultivated tree.",
+          "zh": "栽培樹的樹冠。",
+          "image_id": "hkb-60000-c",
+          "code": "60000c"
+        },
+        {
+          "en": "The upper surface of a leaflet.",
+          "zh": "小葉的上面。",
+          "image_id": "hkb-60000-d",
+          "code": "60000d"
+        },
+        {
+          "en": "An odd-pinnate leaf.",
+          "zh": "一枚奇數羽狀複葉。",
+          "image_id": "hkb-60000-e",
+          "code": "60000e"
+        },
+        {
+          "en": "Bronze young leaflets.",
+          "zh": "帶銅色的幼小葉。",
+          "image_id": "hkb-60000-f",
+          "code": "60000f"
+        },
+        {
+          "en": "A rusty-hairy bud, and leaf scars.",
+          "zh": "被鏽色毛的芽，並有葉痕。",
+          "image_id": "hkb-60000-g",
+          "code": "60000g"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Prodr. 2: 80 (1825)",
+        "url": "https://www.ipni.org/n/127264-1",
+        "source": "IPNI"
+      }
+    },
+    "47144": {
+      "blp": "47144",
+      "sci": "Peltophorum tonkinense",
+      "authority": "(Pierre) Gagnep.",
+      "chi_line": "銀珠",
+      "chi_names": [
+        "銀珠"
+      ],
+      "en_names": [],
+      "family": "Fabaceae",
+      "genus": "Peltophorum",
+      "order": "Fabales",
+      "native": false,
+      "flower": "3-6",
+      "fruit": "7-10",
+      "hero_id": "hkb-47144-c",
+      "synonyms": [
+        {
+          "name": "Baryxylum tonkinense",
+          "author": "Pierre"
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree, 10–20 m.",
+          "zh": "喬木，高 10–20 米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "March–June. Fruit July–October.",
+          "zh": "3 月至 6 月。果期 7 月至 10 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan.",
+          "zh": "海南。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Cultivated. Not native.",
+          "zh": "栽培。非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan.",
+          "zh": "海南。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree, 10–20 m. Young branches and the inflorescence densely rusty-hairy, later nearly hairless. Old branches with many rusty lenticels.",
+              "zh": "喬木，高 10–20 米。幼枝和花序密被鏽色毛，後來近無毛。老枝有許多鏽色皮孔。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Leaflets",
+              "label_zh": "小葉",
+              "en": "Bipinnate, the leaf 15–35 cm. Pinnae 6–13 pairs. Leaflets 5–14 pairs, sessile, leathery, oblong, 1.5–2 × 0.6–1 cm. Base narrowed and unequal. Apex obtuse, notched or with a small point.",
+              "zh": "二回羽狀複葉，長 15–35 厘米。羽片 6–13 對。小葉 5–14 對，無柄，革質，長圓形，1.5–2 × 0.6–1 厘米。基部變狹，不對稱。先端鈍、微凹或有小短尖。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Racemes almost terminal, 8–12 cm. Flower buds globose, about 8 mm across. Calyx lobes ovate, 8–9 mm, densely rusty-hairy. Petals obovate, 1.5 cm, rusty-hairy along the midvein.",
+              "zh": "總狀花序近頂生，長 8–12 厘米。花蕾球形，直徑約 8 毫米。萼裂片卵形，長 8–9 毫米，密被鏽色毛。花瓣倒卵形，長 1.5 厘米，沿中脈被鏽色毛。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Pod reddish brown when ripe, spindle-shaped, 8–13 × 2.5–3 cm, hairless, winged along both sutures. The wings are 5–7 mm wide.",
+              "zh": "莢果成熟時紅褐色，紡錘形，8–13 × 2.5–3 厘米，無毛，兩邊的縫線有翅。翅寬 5–7 毫米。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Lenticels on mature bark.",
+          "zh": "成熟樹皮上的皮孔。",
+          "image_id": "hkb-47144-a",
+          "code": "47144a"
+        },
+        {
+          "en": "A young epicormic shoot.",
+          "zh": "一條幼嫩的萌條。",
+          "image_id": "hkb-47144-b",
+          "code": "47144b"
+        },
+        {
+          "en": "A flower, face on.",
+          "zh": "一朵花，正面。",
+          "image_id": "hkb-47144-c",
+          "code": "47144c"
+        },
+        {
+          "en": "A fallen flower, the calyx rusty-hairy.",
+          "zh": "掉下的花，萼被鏽色毛。",
+          "image_id": "hkb-47144-d",
+          "code": "47144d"
+        },
+        {
+          "en": "Winged pods.",
+          "zh": "有翅的莢果。",
+          "image_id": "hkb-47144-e",
+          "code": "47144e"
+        },
+        {
+          "en": "A flower and a young pod.",
+          "zh": "一朵花和一個幼莢。",
+          "image_id": "hkb-47144-f",
+          "code": "47144f"
+        },
+        {
+          "en": "A row of avenue trees.",
+          "zh": "行道樹的一列。",
+          "image_id": "hkb-47144-g",
+          "code": "47144g"
+        },
+        {
+          "en": "Flowers, buds, and leaflets.",
+          "zh": "花、花蕾和小葉。",
+          "image_id": "hkb-47144-h",
+          "code": "47144h"
+        },
+        {
+          "en": "Flowers and the bipinnate leaf.",
+          "zh": "花和二回羽狀葉。",
+          "image_id": "hkb-47144-i",
+          "code": "47144i"
+        },
+        {
+          "en": "One raceme.",
+          "zh": "一條總狀花序。",
+          "image_id": "hkb-47144-j",
+          "code": "47144j"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Fl. Indo-Chine 2: 192 (1913)",
+        "url": "https://www.ipni.org/n/513027-1",
+        "source": "IPNI"
+      }
+    },
+    "75013": {
+      "blp": "75013",
+      "sci": "Osmanthus fragrans",
+      "authority": "(Thunb.) Lour.",
+      "chi_line": "桂花",
+      "chi_names": [
+        "桂花",
+        "木犀"
+      ],
+      "en_names": [
+        "Kwai-fah"
+      ],
+      "family": "Oleaceae",
+      "genus": "Osmanthus",
+      "order": "Lamiales",
+      "native": false,
+      "flower": "10-5",
+      "fruit": "3",
+      "hero_id": "hkb-75013-d",
+      "synonyms": [
+        {
+          "name": "Olea fragrans",
+          "author": "Thunb."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree or shrub, 3–12(–18) m.",
+          "zh": "喬木或灌木，高 3–12（–18）米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "October–May. Fruit in March.",
+          "zh": "10 月至次年 5 月。果期 3 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Guizhou, Sichuan and Yunnan; widely cultivated.",
+          "zh": "貴州、四川及雲南；廣泛栽培。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Cultivated. Not native.",
+          "zh": "栽培。非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Guizhou, Sichuan and Yunnan; widely cultivated.",
+          "zh": "貴州、四川及雲南；廣泛栽培。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree or shrub, 3–12(–18) m. Branchlets hairless.",
+              "zh": "喬木或灌木，高 3–12（–18）米。小枝無毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Elliptic to elliptic-lanceolate, 4–12 × 2–4 cm. Base cuneate. Apex acuminate. Margin entire, or usually finely toothed on the outer half. Lateral veins 6–10 on each side, sunken above and raised beneath.",
+              "zh": "橢圓形至橢圓狀披針形，4–12 × 2–4 厘米。基部楔形。先端漸尖。全緣，或通常在遠端一半有細齒。側脈每邊 6–10 條，上面下陷，下面隆起。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Axillary clusters of 10–20 flowers. Corolla white, yellowish or orange, 3–4 mm, 4-lobed almost to the base.",
+              "zh": "聚傘花序簇生於葉腋，有花 10–20 朵。花冠白色、淡黃或橙色，長 3–4 毫米，近基部 4 裂。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Drupe elliptic, slightly oblique, 1–1.5 cm, purple-black when ripe.",
+              "zh": "核果橢圓形，稍偏斜，長 1–1.5 厘米，成熟時紫黑色。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Bark and the roots at the base.",
+          "zh": "樹皮和基部的根。",
+          "image_id": "hkb-75013-a",
+          "code": "75013a"
+        },
+        {
+          "en": "Yellow flower buds.",
+          "zh": "黃色的花蕾。",
+          "image_id": "hkb-75013-b",
+          "code": "75013b"
+        },
+        {
+          "en": "A white flower, face on.",
+          "zh": "一朵白色的花，正面。",
+          "image_id": "hkb-75013-c",
+          "code": "75013c"
+        },
+        {
+          "en": "An open yellow flower, four lobes.",
+          "zh": "一朵開放的黃花，四裂。",
+          "image_id": "hkb-75013-d",
+          "code": "75013d"
+        },
+        {
+          "en": "A flower, with the leaf veins and teeth.",
+          "zh": "一朵花，並有葉脈和鋸齒。",
+          "image_id": "hkb-75013-e",
+          "code": "75013e"
+        },
+        {
+          "en": "A cultivated tree in a plaza.",
+          "zh": "廣場上的栽培樹。",
+          "image_id": "hkb-75013-f",
+          "code": "75013f"
+        },
+        {
+          "en": "A cream-coloured flower cluster and the leaf.",
+          "zh": "淺色的花簇和葉。",
+          "image_id": "hkb-75013-g",
+          "code": "75013g"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2009",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "3",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Fl. Cochinch.: 29 (1790)",
+        "url": "https://www.ipni.org/n/610878-1",
+        "source": "IPNI"
+      }
+    },
+    "58392": {
+      "blp": "58392",
+      "sci": "Corymbia torelliana",
+      "authority": "(F. Muell.) K. D. Hill & L. A. S. Johnson",
+      "chi_line": "毛葉桉",
+      "chi_names": [
+        "毛葉桉"
+      ],
+      "en_names": [
+        "Cadaga"
+      ],
+      "family": "Myrtaceae",
+      "genus": "Corymbia",
+      "order": "Myrtales",
+      "native": false,
+      "flower": "10-11",
+      "fruit": "",
+      "hero_id": "hkb-58392-hero",
+      "synonyms": [
+        {
+          "name": "Eucalyptus torelliana",
+          "author": "F. Muell."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree. Bark smooth and peeling, persistent at the base.",
+          "zh": "喬木。樹皮平滑，片狀剝落，基部宿存。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "October–November.",
+          "zh": "10 月至 11 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Cultivated in Guangdong, Guangxi and Yunnan; native to Australia.",
+          "zh": "廣東、廣西及雲南有栽培；原產澳洲。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Cultivated. Not native.",
+          "zh": "栽培。非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Cultivated in Guangdong, Guangxi and Yunnan; native to Australia.",
+          "zh": "廣東、廣西及雲南有栽培；原產澳洲。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree. Bark greyish green, smooth, peeling, but persistent at the base of the trunk. Branchlets round and hairy.",
+              "zh": "喬木。樹皮灰綠色，平滑，片狀剝落，但在樹幹基部宿存。小枝圓柱形，被毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Adult leaves",
+              "label_zh": "成年葉",
+              "en": "Petiole 1–2 cm, hairy. Blade thinly leathery, ovate, 10–14 × 1–7 cm. Base rounded. Apex acute. Grey and hairy beneath. Juvenile leaves are peltate and ovate, 7–15 × 4–9 cm.",
+              "zh": "葉柄長 1–2 厘米，被毛。葉片薄革質，卵形，10–14 × 1–7 厘米。基部圓。先端急尖。下面灰色，被毛。幼葉盾狀着生，卵形，7–15 × 4–9 厘米。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Panicles terminal or axillary, 8–11 cm. Umbels of 3–7 flowers. Flower buds obovoid, about 10 × 6–7 mm. The cap of the bud is 4–4.5 mm, with a rounded tip. Stamens 8–10 mm.",
+              "zh": "圓錐花序頂生或腋生，長 8–11 厘米。傘形花序有花 3–7 朵。花蕾倒卵形，約 10 × 6–7 毫米。花蓋長 4–4.5 毫米，先端圓。雄蕊長 8–10 毫米。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Capsule globose, 1–1.3 cm across, narrowed at the top. Three valves, included in the cup.",
+              "zh": "蒴果球形，直徑 1–1.3 厘米，上部收縮。裂片 3，包在萼筒內。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Smooth bark, peeling, and persistent at the base.",
+          "zh": "平滑的樹皮，片狀剝落，基部宿存。",
+          "image_id": "hkb-58392-a",
+          "code": "58392a"
+        },
+        {
+          "en": "Hairy branchlets.",
+          "zh": "被毛的小枝。",
+          "image_id": "hkb-58392-b",
+          "code": "58392b"
+        },
+        {
+          "en": "A cluster of flowers.",
+          "zh": "一簇花。",
+          "image_id": "hkb-58392-c",
+          "code": "58392c"
+        },
+        {
+          "en": "Globose capsules.",
+          "zh": "球形的蒴果。",
+          "image_id": "hkb-58392-d",
+          "code": "58392d"
+        },
+        {
+          "en": "Spent flowers and young capsules.",
+          "zh": "凋謝的花和幼蒴果。",
+          "image_id": "hkb-58392-e",
+          "code": "58392e"
+        },
+        {
+          "en": "The whole tree.",
+          "zh": "整株。",
+          "image_id": "hkb-58392-f",
+          "code": "58392f"
+        },
+        {
+          "en": "An adult leaf, hairy beneath.",
+          "zh": "一片成年葉，下面被毛。",
+          "image_id": "hkb-58392-g",
+          "code": "58392g"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Telopea 6: 385 (1995)",
+        "url": "https://www.ipni.org/n/986335-1",
+        "source": "IPNI"
+      }
+    },
+    "49575": {
+      "blp": "49575",
+      "sci": "Artocarpus parvus",
+      "authority": "Gagnep.",
+      "chi_line": "桂木",
+      "chi_names": [
+        "桂木",
+        "紅桂木"
+      ],
+      "en_names": [
+        "Lingnan Artocarpus"
+      ],
+      "family": "Moraceae",
+      "genus": "Artocarpus",
+      "order": "Rosales",
+      "native": false,
+      "flower": "3-5",
+      "fruit": "5-9",
+      "hero_id": "hkb-49575-c",
+      "synonyms": [
+        {
+          "name": "Artocarpus nitidus subsp. lingnanensis",
+          "author": "(Merr.) F. M. Jarrett"
+        },
+        {
+          "name": "Artocarpus lingnanensis",
+          "author": "Merr."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Tree to 17 m.",
+          "zh": "喬木，高可達 17 米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "March–May. Fruit May–September.",
+          "zh": "3 月至 5 月。果期 5 月至 9 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan, Guangdong, Guangxi, Yunnan and Sichuan; Vietnam, Cambodia and Thailand.",
+          "zh": "海南、廣東、廣西、雲南及四川；越南、柬埔寨及泰國。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Cultivated. Not native.",
+          "zh": "栽培。非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan, Guangdong, Guangxi, Yunnan and Sichuan; Vietnam, Cambodia and Thailand.",
+          "zh": "海南、廣東、廣西、雲南及四川；越南、柬埔寨及泰國。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Tree to 17 m. Bark black to brown, split lengthways. Branchlets wrinkled, with appressed short hairs, soon nearly hairless.",
+              "zh": "喬木，高可達 17 米。樹皮黑至褐色，縱裂。小枝有皺紋，被貼伏的短毛，很快近無毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Distichous, thinly leathery, oblong-elliptic to obovate-elliptic, 7–15 × 3–7 cm. Base cuneate to nearly rounded. Apex with a short or long point. Margin entire or irregularly shallowly toothed. Hairless. Secondary veins 6–10 on each side, prominent above.",
+              "zh": "二列，薄革質，長圓狀橢圓形至倒卵狀橢圓形，7–15 × 3–7 厘米。基部楔形至近圓。先端有短尖或長尖。全緣或不規則淺齒。無毛。側脈每邊 6–10 條，上面明顯。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Male heads obovoid or oblong, 2.5–12 × 2.7–7 mm. Male flowers with 2–4 perianth lobes.",
+              "zh": "雄花序頭狀，倒卵形或長圓形，2.5–12 × 2.7–7 毫米。雄花花被裂片 2–4。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Syncarp red when ripe, nearly globose, coarsely hairy.",
+              "zh": "聚花果成熟時紅色，近球形，被粗毛。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "A fruit cut in two.",
+          "zh": "對切的果。",
+          "image_id": "hkb-49575-a",
+          "code": "49575a"
+        },
+        {
+          "en": "A seed in the fruit.",
+          "zh": "果中的種子。",
+          "image_id": "hkb-49575-b",
+          "code": "49575b"
+        },
+        {
+          "en": "Fruit in the canopy.",
+          "zh": "樹冠上的果。",
+          "image_id": "hkb-49575-c",
+          "code": "49575c"
+        },
+        {
+          "en": "Veins on the lower leaf surface.",
+          "zh": "葉下面的脈。",
+          "image_id": "hkb-49575-d",
+          "code": "49575d"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2007",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "1",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Bull. Soc. Bot. France 73: 89 (1926)",
+        "url": "https://www.ipni.org/n/582636-1",
+        "source": "IPNI"
+      }
+    },
+    "76204": {
+      "blp": "76204",
+      "sci": "Jacaranda mimosifolia",
+      "authority": "D. Don",
+      "chi_line": "藍花楹",
+      "chi_names": [
+        "藍花楹"
+      ],
+      "en_names": [
+        "Jacaranda"
+      ],
+      "family": "Bignoniaceae",
+      "genus": "Jacaranda",
+      "order": "Lamiales",
+      "native": false,
+      "flower": "4-6",
+      "fruit": "5-10",
+      "hero_id": "hkb-76204-hero",
+      "synonyms": [
+        {
+          "name": "Jacaranda acutifolia",
+          "author": "auct. non Humb. & Bonpl."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Deciduous tree to 15 m.",
+          "zh": "落葉喬木，高可達 15 米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "April–June. Fruit May–October.",
+          "zh": "4 月至 6 月。果期 5 月至 10 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Cultivated in Hainan, Guangdong, Guangxi, Fujian and Yunnan; native to Brazil.",
+          "zh": "海南、廣東、廣西、福建及雲南有栽培；原產巴西。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Cultivated. Not native.",
+          "zh": "栽培。非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Cultivated in Hainan, Guangdong, Guangxi, Fujian and Yunnan; native to Brazil.",
+          "zh": "海南、廣東、廣西、福建及雲南有栽培；原產巴西。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Deciduous tree to 15 m. Bark grey.",
+              "zh": "落葉喬木，高可達 15 米。樹皮灰色。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Leaflets",
+              "label_zh": "小葉",
+              "en": "Bipinnate, 15–30 cm. Pinnae more than 10 pairs, each 5–10 cm, with 16–24 pairs of leaflets. Leaflets sessile, narrowly elliptic, 0.6–1.2 × 0.2–0.7 cm. Margin entire and slightly rolled under.",
+              "zh": "二回羽狀複葉，長 15–30 厘米。羽片 10 對以上，每片長 5–10 厘米，有小葉 16–24 對。小葉無柄，狹橢圓形，0.6–1.2 × 0.2–0.7 厘米。全緣，邊緣稍反卷。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Terminal panicles, many-flowered. Corolla bluish purple and two-lipped. The tube is 3–4 mm, white inside, the throat 0.7–1.2 cm wide.",
+              "zh": "圓錐花序頂生，多花。花冠藍紫色，二唇形。花冠管長 3–4 毫米，內面白色，喉部寬 0.7–1.2 厘米。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Capsule nearly round, about 5 cm across.",
+              "zh": "蒴果近圓形，直徑約 5 厘米。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Grey fissured bark.",
+          "zh": "灰色、有裂紋的樹皮。",
+          "image_id": "hkb-76204-a",
+          "code": "76204a"
+        },
+        {
+          "en": "An opened capsule.",
+          "zh": "開裂的蒴果。",
+          "image_id": "hkb-76204-b",
+          "code": "76204b"
+        },
+        {
+          "en": "Flowers, a leaf, and a capsule.",
+          "zh": "花、葉和蒴果。",
+          "image_id": "hkb-76204-c",
+          "code": "76204c"
+        },
+        {
+          "en": "A street tree, the crown bipinnate.",
+          "zh": "一株行道樹，樹冠為二回羽狀。",
+          "image_id": "hkb-76204-d",
+          "code": "76204d"
+        },
+        {
+          "en": "A bipinnate leaf.",
+          "zh": "一枚二回羽狀複葉。",
+          "image_id": "hkb-76204-e",
+          "code": "76204e"
+        },
+        {
+          "en": "A sunlit panicle.",
+          "zh": "陽光下的圓錐花序。",
+          "image_id": "hkb-76204-f",
+          "code": "76204f"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2009",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "3",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Bot. Reg. 8: t. 631 (1822)",
+        "url": "https://www.ipni.org/n/130936-2",
+        "source": "IPNI"
+      }
+    },
+    "58005": {
+      "blp": "58005",
+      "sci": "Terminalia arjuna",
+      "authority": "Wight & Arn.",
+      "chi_line": "阿江欖仁",
+      "chi_names": [
+        "阿江欖仁"
+      ],
+      "en_names": [
+        "Arjune Terminalia"
+      ],
+      "family": "Combretaceae",
+      "genus": "Terminalia",
+      "order": "Myrtales",
+      "native": false,
+      "flower": "3-5",
+      "fruit": "7-9",
+      "hero_id": "hkb-58005-c",
+      "synonyms": [],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Large tree, 15–20 m.",
+          "zh": "大喬木，高 15–20 米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "March–May. Fruit July–September.",
+          "zh": "3 月至 5 月。果期 7 月至 9 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Cultivated in Guangdong and Taiwan; native to India and Sri Lanka.",
+          "zh": "廣東及台灣有栽培；原產印度及斯里蘭卡。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Cultivated in gardens. Not native.",
+          "zh": "庭園栽培。非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Cultivated in Guangdong and Taiwan; native to India and Sri Lanka.",
+          "zh": "廣東及台灣有栽培；原產印度及斯里蘭卡。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Large tree, 15–20 m. Bark greyish white, peeling in flakes. Branches alternate and spreading.",
+              "zh": "大喬木，高 15–20 米。樹皮灰白色，片狀剝落。枝互生，開展。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Almost opposite. Petiole shorter than 1.2 cm, with one pair of glands near the top. Blade oblong or elliptic, 10–15(–25) × 5–10 cm. Base cordate and unequal. Apex obtuse or very shortly acute. Lateral veins 15–22 pairs.",
+              "zh": "近對生。葉柄短於 1.2 厘米，近頂端有腺體 1 對。葉片長圓形或橢圓形，10–15（–25）× 5–10 厘米。基部心形，不對稱。先端鈍或極短急尖。側脈 15–22 對。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Calyx teeth nearly hairless. Ovary short, densely covered with crisped brown or rusty hairs.",
+              "zh": "萼齒近無毛。子房短，密被卷曲的褐色或鏽色毛。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Obovoid, 2–2.6 cm across, ridged. The wings are usually cut straight across, or suddenly narrowed, at the top.",
+              "zh": "倒卵形，直徑 2–2.6 厘米，有稜。翅的頂端通常截形，或突然變狹。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Bark peeling on a branchlet.",
+          "zh": "小枝上片狀剝落的樹皮。",
+          "image_id": "hkb-58005-a",
+          "code": "58005a"
+        },
+        {
+          "en": "Green winged fruits.",
+          "zh": "綠色有翅的果。",
+          "image_id": "hkb-58005-b",
+          "code": "58005b"
+        },
+        {
+          "en": "Winged fruits turning pink and green.",
+          "zh": "轉為粉紅和綠色的有翅果。",
+          "image_id": "hkb-58005-c",
+          "code": "58005c"
+        },
+        {
+          "en": "A cultivated tree in a plaza.",
+          "zh": "廣場上的栽培樹。",
+          "image_id": "hkb-58005-d",
+          "code": "58005d"
+        },
+        {
+          "en": "The lower surface of a leaf.",
+          "zh": "葉的下面。",
+          "image_id": "hkb-58005-e",
+          "code": "58005e"
+        },
+        {
+          "en": "Veins on the upper leaf surface.",
+          "zh": "葉上面的脈。",
+          "image_id": "hkb-58005-f",
+          "code": "58005f"
+        },
+        {
+          "en": "A pair of glands at the top of the petiole.",
+          "zh": "葉柄頂端的一對腺體。",
+          "image_id": "hkb-58005-g",
+          "code": "58005g"
+        },
+        {
+          "en": "A cordate, unequal leaf base.",
+          "zh": "心形、不對稱的葉基。",
+          "image_id": "hkb-58005-h",
+          "code": "58005h"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Prodr. Fl. Ind. Orient. 1: 314 (1834)",
+        "url": "https://www.ipni.org/n/170962-1",
+        "source": "IPNI"
+      }
+    },
+    "60503": {
+      "blp": "60503",
+      "sci": "Toona sinensis",
+      "authority": "(A. Juss.) M. Roem.",
+      "chi_line": "香椿",
+      "chi_names": [
+        "香椿"
+      ],
+      "en_names": [
+        "Chinese Mahogany"
+      ],
+      "family": "Meliaceae",
+      "genus": "Toona",
+      "order": "Sapindales",
+      "native": false,
+      "flower": "6-8",
+      "fruit": "10-12",
+      "hero_id": "hkb-60503-a",
+      "synonyms": [
+        {
+          "name": "Cedrela sinensis",
+          "author": "A. Juss."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Deciduous tree to 25 m.",
+          "zh": "落葉喬木，高可達 25 米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "June–August. Fruit October–December.",
+          "zh": "6 月至 8 月。果期 10 月至 12 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-earth-asia",
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "North, east, central, south and southwest China; India, Indonesia, North Korea, Malaysia and Myanmar.",
+          "zh": "中國北、東、中、南及西南部；印度、印度尼西亞、朝鮮、馬來西亞及緬甸。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Cultivated. Not native.",
+          "zh": "栽培。非原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "North, east, central, south and southwest China; India, Indonesia, North Korea, Malaysia and Myanmar.",
+          "zh": "中國北、東、中、南及西南部；印度、印度尼西亞、朝鮮、馬來西亞及緬甸。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Deciduous tree to 25 m.",
+              "zh": "落葉喬木，高可達 25 米。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Leaflets",
+              "label_zh": "小葉",
+              "en": "Even-pinnate, 25–50(–90) cm. Leaflets 14–28, opposite or alternate, ovate-lanceolate to oblong-elliptic, 6–17 × 2.5–4.5 cm. Base oblique. Apex long-pointed to acute. Margin sparsely toothed, rarely entire. Hairless, sometimes slightly hairy when young.",
+              "zh": "偶數羽狀複葉，長 25–50（–90）厘米。小葉 14–28 片，對生或互生，卵狀披針形至長圓狀橢圓形，6–17 × 2.5–4.5 厘米。基部偏斜。先端尾尖至急尖。邊緣疏生鋸齒，很少全緣。無毛，幼時有時稍被毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Panicles as long as the leaves, or longer. Flowers small. Calyx cup-shaped, about 1 mm. Petals 5, white, oblong, 4–5 mm.",
+              "zh": "圓錐花序與葉等長或更長。花小。萼杯狀，長約 1 毫米。花瓣 5，白色，長圓形，長 4–5 毫米。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Capsule purplish brown, narrowly ellipsoid, 1–3.5 cm, opening into 5 valves. Seed brown, with a long wing at the tip.",
+              "zh": "蒴果紫褐色，狹橢圓形，長 1–3.5 厘米，裂成 5 片。種子褐色，先端有長翅。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "Small cream-white flowers.",
+          "zh": "細小的乳白色花。",
+          "image_id": "hkb-60503-a",
+          "code": "60503a"
+        },
+        {
+          "en": "A long flowering panicle.",
+          "zh": "一條長的花序。",
+          "image_id": "hkb-60503-b",
+          "code": "60503b"
+        },
+        {
+          "en": "Young green capsules.",
+          "zh": "幼嫩的綠色蒴果。",
+          "image_id": "hkb-60503-c",
+          "code": "60503c"
+        },
+        {
+          "en": "The flowering crown.",
+          "zh": "開花的樹冠。",
+          "image_id": "hkb-60503-d",
+          "code": "60503d"
+        },
+        {
+          "en": "Many leaflets on one leaf.",
+          "zh": "一枚葉上的許多小葉。",
+          "image_id": "hkb-60503-e",
+          "code": "60503e"
+        },
+        {
+          "en": "Leaflets and a panicle against the sky.",
+          "zh": "天空下的小葉和花序。",
+          "image_id": "hkb-60503-f",
+          "code": "60503f"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Fam. Nat. Syn. Monogr. 1: 139 (1846)",
+        "url": "https://www.ipni.org/n/579315-1",
+        "source": "IPNI"
+      }
+    },
+    "56507": {
+      "blp": "56507",
+      "sci": "Bridelia tomentosa",
+      "authority": "Blume",
+      "chi_line": "土蜜樹",
+      "chi_names": [
+        "土蜜樹",
+        "逼迫仔"
+      ],
+      "en_names": [
+        "Pop-gun Seed"
+      ],
+      "family": "Phyllanthaceae",
+      "genus": "Bridelia",
+      "order": "Malpighiales",
+      "native": true,
+      "flower": "1-12",
+      "fruit": "1-12",
+      "hero_id": "hkb-56507-a",
+      "synonyms": [
+        {
+          "name": "Bridelia monoica",
+          "author": "Merr."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Shrub or small tree, 2–5 m.",
+          "zh": "灌木或小喬木，高 2–5 米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "Almost all year.",
+          "zh": "幾乎全年。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Thin montane forest and thickets.",
+          "zh": "山地疏林及灌叢。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Thin montane forest and thickets. Common in Hong Kong.",
+          "zh": "山地疏林及灌叢。香港常見。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Hainan, Guangdong, Guangxi, Yunnan, Fujian and Taiwan; Southeast Asia to Australia.",
+          "zh": "海南、廣東、廣西、雲南、福建及台灣；東南亞至澳洲。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Shrub or small tree, 2–5 m, with male and female flowers on one plant or on separate plants. Young branchlets slender and tawny-hairy.",
+              "zh": "灌木或小喬木，高 2–5 米，雌雄同株或異株。幼枝細，被黃褐色毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Papery, oblong, oblong-elliptic or obovate-oblong, 3–9 × 1.5–4 cm. Base broadly cuneate to rounded. Apex acute or obtuse. Rough above, greenish and hairy beneath. Lateral veins 9–12 on each side, raised beneath.",
+              "zh": "紙質，長圓形、長圓狀橢圓形或倒卵狀長圓形，3–9 × 1.5–4 厘米。基部闊楔形至圓。先端急尖或鈍。上面粗糙，下面帶綠色，被毛。側脈每邊 9–12 條，下面隆起。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Very small, in stalkless round clusters in the leaf axils. Male flowers have five triangular calyx lobes and five stamens joined in the lower half. Female flowers have two styles, each split in two.",
+              "zh": "花很小，無柄，圓球狀簇生於葉腋。雄花萼裂片 5，三角形，雄蕊 5，下半部合生。雌花花柱 2，各 2 裂。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Drupe nearly globose, 4–7 × 5 mm, 2-locular. Seeds brown-red.",
+              "zh": "核果近球形，4–7 × 5 毫米，2 室。種子棕紅色。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "A male flower.",
+          "zh": "一朵雄花。",
+          "image_id": "hkb-56507-a",
+          "code": "56507a"
+        },
+        {
+          "en": "Flowers in the hand.",
+          "zh": "手中的花。",
+          "image_id": "hkb-56507-b",
+          "code": "56507b"
+        },
+        {
+          "en": "Fruits on a branch.",
+          "zh": "枝上的果。",
+          "image_id": "hkb-56507-c",
+          "code": "56507c"
+        },
+        {
+          "en": "A shrub on a slope.",
+          "zh": "山坡上的灌木。",
+          "image_id": "hkb-56507-d",
+          "code": "56507d"
+        },
+        {
+          "en": "The lower surface of a leaf.",
+          "zh": "葉的下面。",
+          "image_id": "hkb-56507-e",
+          "code": "56507e"
+        },
+        {
+          "en": "The upper surface of a leaf.",
+          "zh": "葉的上面。",
+          "image_id": "hkb-56507-f",
+          "code": "56507f"
+        },
+        {
+          "en": "Flowers and the leaf veins.",
+          "zh": "花和葉脈。",
+          "image_id": "hkb-56507-g",
+          "code": "56507g"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2008",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "2",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Bijdr. Fl. Ned. Ind.: 597 (1826)",
+        "url": "https://www.ipni.org/n/340245-1",
+        "source": "IPNI"
+      }
+    },
+    "75839": {
+      "blp": "75839",
+      "sci": "Justicia championii",
+      "authority": "T. Anderson ex Benth.",
+      "chi_line": "杉氏爵床",
+      "chi_names": [
+        "杉氏爵床",
+        "杜根藤"
+      ],
+      "en_names": [],
+      "family": "Acanthaceae",
+      "genus": "Justicia",
+      "order": "Lamiales",
+      "native": true,
+      "flower": "10-11",
+      "fruit": "",
+      "hero_id": "hkb-75839-a",
+      "synonyms": [
+        {
+          "name": "Calophanoides chinensis",
+          "author": "(Champ.) C. Y. Wu & H. S. Lo ex C. C. Hu"
+        },
+        {
+          "name": "Adhatoda chinensis",
+          "author": "Champ."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Herb, about 50 cm.",
+          "zh": "草本，高約 50 厘米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "October–November.",
+          "zh": "10 月至 11 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Ravines.",
+          "zh": "山澗。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Ravines. Mount Gough, Aberdeen, Pok Fu Lam, Victoria Peak, Beacon Hill and Ma On Shan.",
+          "zh": "山澗。歌賦山、香港仔、薄扶林、太平山、筆架山及馬鞍山。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Guangdong, Guangxi, Guizhou, Yunnan, Hunan, Jiangxi, Anhui and Fujian.",
+          "zh": "廣東、廣西、貴州、雲南、湖南、江西、安徽及福建。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Herb, about 50 cm. Stems four-angled, grooved, with hairs pointing backwards.",
+              "zh": "草本，高約 50 厘米。莖四稜，有溝，被倒向的毛。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Elliptic to oblong-elliptic or ovate, 1–4(–7) × 0.5–2(–3.5) cm. Base cuneate. Apex acute or obtuse. Margin entire. Many cystoliths on the upper surface. Lateral veins 3–6 pairs.",
+              "zh": "橢圓形至長圓狀橢圓形或卵形，1–4（–7）× 0.5–2（–3.5）厘米。基部楔形。先端急尖或鈍。全緣。上面有許多鐘乳體。側脈 3–6 對。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "One to several in each leaf axil. Bracts leaf-like, round to obovate, 5–8 × 3–6 mm. Corolla 0.8–1 cm, white, two-lipped, with two lines of purple-red streaks. Two stamens, the anther cells one above the other.",
+              "zh": "花 1 至數朵簇生於葉腋。苞片葉狀，圓形至倒卵形，5–8 × 3–6 毫米。花冠長 0.8–1 厘米，白色，二唇形，有紫紅色條紋兩行。雄蕊 2，藥室上下排列。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Capsule about 8 mm, hairless, 4-seeded.",
+              "zh": "蒴果長約 8 毫米，無毛，有種子 4 顆。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "A white flower, the lower lip streaked purple-red.",
+          "zh": "一朵白花，下唇有紫紅色條紋。",
+          "image_id": "hkb-75839-a",
+          "code": "75839a"
+        },
+        {
+          "en": "Two stamens, the anther cells one above the other.",
+          "zh": "雄蕊兩枚，藥室上下排列。",
+          "image_id": "hkb-75839-b",
+          "code": "75839b"
+        },
+        {
+          "en": "Green capsules.",
+          "zh": "綠色的蒴果。",
+          "image_id": "hkb-75839-c",
+          "code": "75839c"
+        },
+        {
+          "en": "The plant on a rock ledge.",
+          "zh": "岩架上的植株。",
+          "image_id": "hkb-75839-d",
+          "code": "75839d"
+        },
+        {
+          "en": "Cystoliths on the upper leaf surface.",
+          "zh": "葉上面的鐘乳體。",
+          "image_id": "hkb-75839-e",
+          "code": "75839e"
+        },
+        {
+          "en": "A square stem and an opposite leaf.",
+          "zh": "四稜的莖和一片對生葉。",
+          "image_id": "hkb-75839-f",
+          "code": "75839f"
+        },
+        {
+          "en": "A leaf-like round bract.",
+          "zh": "一片葉狀的圓形苞片。",
+          "image_id": "hkb-75839-g",
+          "code": "75839g"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2009",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "3",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "Fl. Hongk.: 264 (1861)",
+        "url": "https://www.ipni.org/n/50481-1",
+        "source": "IPNI"
+      }
+    },
+    "71750": {
+      "blp": "71750",
+      "sci": "Gelsemium elegans",
+      "authority": "(Gardner & Champ.) Benth.",
+      "chi_line": "斷腸草",
+      "chi_names": [
+        "斷腸草",
+        "鈎吻"
+      ],
+      "en_names": [],
+      "family": "Gelsemiaceae",
+      "genus": "Gelsemium",
+      "order": "Gentianales",
+      "native": true,
+      "flower": "6-12",
+      "fruit": "12-3",
+      "hero_id": "hkb-71750-a",
+      "synonyms": [
+        {
+          "name": "Medicia elegans",
+          "author": "Gardner & Champ."
+        }
+      ],
+      "facts": [
+        {
+          "icon": "fa-seedling",
+          "label_en": "Growth form",
+          "label_zh": "生長形態",
+          "en": "Climber to 12 m.",
+          "zh": "攀援植物，長可達 12 米。"
+        },
+        {
+          "icon": "fa-flower-tulip",
+          "label_en": "Flowering and fruiting",
+          "label_zh": "花果期",
+          "en": "June–December. Fruit December–March.",
+          "zh": "6 月至 12 月。果期 12 月至次年 3 月。",
+          "phenology": true
+        },
+        {
+          "icon": "fa-tree",
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Scrubby forest and thickets.",
+          "zh": "灌木林及灌叢。"
+        }
+      ],
+      "ecology": [
+        {
+          "label_en": "Habitat",
+          "label_zh": "生境",
+          "en": "Scrubby forest and thickets.",
+          "zh": "灌木林及灌叢。"
+        },
+        {
+          "label_en": "Status",
+          "label_zh": "狀況",
+          "en": "Native.",
+          "zh": "原生。"
+        },
+        {
+          "label_en": "Distribution",
+          "label_zh": "分布",
+          "en": "Fujian, Hainan, Guangdong, Guangxi, Guizhou, Yunnan, Hunan, Jiangxi, Zhejiang and Taiwan; India to Myanmar and Malaysia.",
+          "zh": "福建、海南、廣東、廣西、貴州、雲南、湖南、江西、浙江及台灣；印度至緬甸及馬來西亞。"
+        }
+      ],
+      "morphology": [
+        {
+          "title_en": "Habit",
+          "title_zh": "習性",
+          "items": [
+            {
+              "label_en": "Growth form",
+              "label_zh": "生長形態",
+              "en": "Climber, to 12 m or longer.",
+              "zh": "攀援植物，長可達 12 米或更長。"
+            }
+          ]
+        },
+        {
+          "title_en": "Leaves",
+          "title_zh": "葉",
+          "items": [
+            {
+              "label_en": "Shape",
+              "label_zh": "形狀",
+              "en": "Opposite. Blade ovate to very narrowly ovate, 5–12 × 2–6 cm, thin to papery. Base broadly cuneate to nearly rounded. Apex acuminate. Lateral veins 5–7 pairs.",
+              "zh": "對生。葉片卵形至極狹卵形，5–12 × 2–6 厘米，膜質至紙質。基部闊楔形至近圓。先端漸尖。側脈 5–7 對。"
+            }
+          ]
+        },
+        {
+          "title_en": "Flowers and fruit",
+          "title_zh": "花與果",
+          "items": [
+            {
+              "label_en": "Flowers",
+              "label_zh": "花",
+              "en": "Thyrses. Corolla yellow to orange, 1.2–1.9 cm. The tube is brownish outside, and the mouth has reddish spots. Lobes ovate, 5–9 mm. Anthers exserted.",
+              "zh": "聚傘圓錐花序。花冠黃至橙色，長 1.2–1.9 厘米。花冠管外面帶褐色，喉部有紅斑。裂片卵形，長 5–9 毫米。花藥伸出。"
+            },
+            {
+              "label_en": "Fruit",
+              "label_zh": "果",
+              "en": "Capsule ellipsoid to ovoid, 10–14 × 6–8 mm, smooth and hairless. Seeds winged all round.",
+              "zh": "蒴果橢圓形至卵形，10–14 × 6–8 毫米，平滑無毛。種子周圍有翅。"
+            }
+          ]
+        }
+      ],
+      "photos": [
+        {
+          "en": "A yellow flower, face on, with red spots in the mouth.",
+          "zh": "一朵黃花，正面，喉部有紅斑。",
+          "image_id": "hkb-71750-a",
+          "code": "71750a"
+        },
+        {
+          "en": "A thyrse, the flower mouths spotted red.",
+          "zh": "一條聚傘圓錐花序，花喉有紅斑。",
+          "image_id": "hkb-71750-b",
+          "code": "71750b"
+        },
+        {
+          "en": "Dry capsules that have opened.",
+          "zh": "已開裂的乾蒴果。",
+          "image_id": "hkb-71750-c",
+          "code": "71750c"
+        },
+        {
+          "en": "A cluster of green capsules.",
+          "zh": "一簇綠色蒴果。",
+          "image_id": "hkb-71750-d",
+          "code": "71750d"
+        },
+        {
+          "en": "Green and ripe capsules together.",
+          "zh": "綠色和成熟的蒴果在一起。",
+          "image_id": "hkb-71750-e",
+          "code": "71750e"
+        },
+        {
+          "en": "A leafy bank.",
+          "zh": "長滿葉的坡岸。",
+          "image_id": "hkb-71750-f",
+          "code": "71750f"
+        },
+        {
+          "en": "The climber on a hillside.",
+          "zh": "山坡上的攀援株。",
+          "image_id": "hkb-71750-g",
+          "code": "71750g"
+        },
+        {
+          "en": "The lower leaf surface, with the veins.",
+          "zh": "葉下面，並有脈。",
+          "image_id": "hkb-71750-h",
+          "code": "71750h"
+        },
+        {
+          "en": "The upper surface of an opposite pair.",
+          "zh": "一對對生葉的上面。",
+          "image_id": "hkb-71750-i",
+          "code": "71750i"
+        },
+        {
+          "en": "An opposite pair at the node.",
+          "zh": "節上的一對對生葉。",
+          "image_id": "hkb-71750-j",
+          "code": "71750j"
+        }
+      ],
+      "reference": {
+        "authors": "Hong Kong Herbarium & South China Botanical Garden (Eds.).",
+        "year": "2009",
+        "title": "Flora of Hong Kong",
+        "title_zh": "香港植物誌",
+        "volume": "3",
+        "publisher": "Agriculture, Fisheries and Conservation Department"
+      },
+      "publication": {
+        "text": "J. Proc. Linn. Soc., Bot. 1: 90 (1856)",
+        "url": "https://www.ipni.org/n/546348-1",
+        "source": "IPNI"
       }
     }
   }

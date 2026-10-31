@@ -2,109 +2,175 @@
   "note": "Directory index only: which taxa have a generated page, plus the card photo. Full text is in species/{blp}.html.",
   "pages": {
     "17001": {
-      "hero_id": "hkb-17001-habit"
+      "hero_id": "hkb-17001-cones"
     },
     "18050": {
-      "hero_id": "hkb-18050-habit-wild"
+      "hero_id": "hkb-18050-pollen-shedding"
+    },
+    "25206": {
+      "hero_id": "hkb-25206-d"
     },
     "26103": {
-      "hero_id": "hkb-26103-habit"
+      "hero_id": "hkb-26103-an-open-flower-and-buds-on-the-panicle"
     },
     "30100": {
-      "hero_id": "hkb-30100-habit"
+      "hero_id": "hkb-30100-prop-roots-with-the-fruit"
     },
     "32014": {
-      "hero_id": "hkb-32014-habit"
+      "hero_id": "hkb-32014-flower-column"
     },
     "34000": {
-      "hero_id": "hkb-34000-habit-forest"
+      "hero_id": "hkb-34000-acanthophylls"
     },
     "38240": {
-      "hero_id": "hkb-38240-habit"
+      "hero_id": "hkb-38240-panicle"
+    },
+    "38299": {
+      "hero_id": "hkb-38299-e"
     },
     "45002": {
-      "hero_id": "hkb-45002-habit-crown-fruit-laden-sparse-leaf-16"
+      "hero_id": "hkb-45002-autumn-red-leaves-black-fruits-28"
     },
     "47029": {
       "hero_id": "hkb-47029-habit-fl-umbrella-best-26"
     },
+    "47056": {
+      "hero_id": "hkb-47056-b"
+    },
+    "47144": {
+      "hero_id": "hkb-47144-c"
+    },
     "47180": {
-      "hero_id": "hkb-47180-habit"
+      "hero_id": "hkb-47180-racemes-on-the-woody-climber"
     },
     "49028": {
-      "hero_id": "hkb-49028-habit-small-tree-flowering-01"
+      "hero_id": "hkb-49028-fl-macro-panicle-mass-36"
     },
     "49562": {
-      "hero_id": "hkb-49562-habit-aerial-roots"
+      "hero_id": "hkb-49562-sessile-figs-through-the-canopy"
+    },
+    "49575": {
+      "hero_id": "hkb-49575-c"
     },
     "49591": {
-      "hero_id": "hkb-49591-habit-tree-clad-figs-01"
+      "hero_id": "hkb-49591-fig-branch-macro-02"
     },
     "55050": {
-      "hero_id": "hkb-55050-canopy-fl-red-calyx-01"
+      "hero_id": "hkb-55050-habit-mudflat-pneumato-04"
     },
     "55052": {
-      "hero_id": "hkb-55052-habit"
+      "hero_id": "hkb-55052-a-cluster-of-open-flowers"
     },
     "55350": {
-      "hero_id": "hkb-55350-habit"
+      "hero_id": "hkb-55350-a-red-flower-face-on-with-stamen-bundles"
     },
     "55904": {
-      "hero_id": "hkb-55904-habit"
+      "hero_id": "hkb-55904-the-base-of-the-tree-on-the-mud"
+    },
+    "55908": {
+      "hero_id": "hkb-55908-c"
     },
     "55910": {
-      "hero_id": "hkb-55910-habit"
+      "hero_id": "hkb-55910-a-flowering-branch"
     },
     "55919": {
-      "hero_id": "hkb-55919-habit-flower-16"
+      "hero_id": "hkb-55919-habit-flower-28"
     },
     "56506": {
-      "hero_id": "hkb-56506-habit"
+      "hero_id": "hkb-56506-hero"
+    },
+    "56507": {
+      "hero_id": "hkb-56507-a"
+    },
+    "56523": {
+      "hero_id": "hkb-56523-c"
+    },
+    "58005": {
+      "hero_id": "hkb-58005-c"
+    },
+    "58370": {
+      "hero_id": "hkb-58370-c"
     },
     "58382": {
       "hero_id": "hkb-58382-habit"
     },
+    "58392": {
+      "hero_id": "hkb-58392-hero"
+    },
     "58702": {
-      "hero_id": "hkb-58702-habit"
+      "hero_id": "hkb-58702-flower"
+    },
+    "60000": {
+      "hero_id": "hkb-60000-b"
+    },
+    "60503": {
+      "hero_id": "hkb-60503-a"
     },
     "61052": {
-      "hero_id": "hkb-61052-habit"
+      "hero_id": "hkb-61052-flower"
     },
     "61065": {
       "hero_id": "hkb-61065-habit-canopy-fl-wide-04"
     },
     "61083": {
-      "hero_id": "hkb-61083-canopy-fr-leaves-06"
+      "hero_id": "hkb-61083-fl-macro-open-36"
     },
     "61450": {
-      "hero_id": "hkb-61450-trunk"
+      "hero_id": "hkb-61450-flower"
     },
     "64302": {
       "hero_id": "hkb-64302-habit"
     },
+    "67400": {
+      "hero_id": "hkb-67400-c"
+    },
     "67415": {
-      "hero_id": "hkb-67415-habit"
+      "hero_id": "hkb-67415-flowers-and-glands-on-the-leaf"
     },
     "67603": {
-      "hero_id": "hkb-67603-habit-01"
+      "hero_id": "hkb-67603-flower-macro-11"
     },
     "67609": {
-      "hero_id": "hkb-67609-habit"
+      "hero_id": "hkb-67609-an-open-flower"
     },
     "71031": {
       "hero_id": "hkb-71031-habitat-wild-flowering-28"
     },
     "71045": {
-      "hero_id": "hkb-71045-habit"
+      "hero_id": "hkb-71045-flower"
+    },
+    "71750": {
+      "hero_id": "hkb-71750-a"
     },
     "71834": {
-      "hero_id": "hkb-71834-habit"
+      "hero_id": "hkb-71834-a-mass-of-flowers"
+    },
+    "73001": {
+      "hero_id": "hkb-73001-c"
+    },
+    "75013": {
+      "hero_id": "hkb-75013-d"
+    },
+    "75031": {
+      "hero_id": "hkb-75031-d"
+    },
+    "75839": {
+      "hero_id": "hkb-75839-a"
+    },
+    "76204": {
+      "hero_id": "hkb-76204-hero"
+    },
+    "76623": {
+      "hero_id": "hkb-76623-b"
+    },
+    "76626": {
+      "hero_id": "hkb-76626-c"
     },
     "79200": {
-      "hero_id": "hkb-79200-habit"
+      "hero_id": "hkb-79200-a-white-fan-flower"
     },
     "82051": {
-      "hero_id": "hkb-82051-habit"
+      "hero_id": "hkb-82051-a-canopy-in-flower"
     }
   }
 }

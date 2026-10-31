@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 ~photos/
 ~original-jpg/
+~heroes/
 _parked/
 ~local.md
 ~localhost.sh

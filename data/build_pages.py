@@ -18,6 +18,7 @@ import json
 import re
 from html import escape
 from pathlib import Path
+from urllib.parse import quote
 
 HKB = Path(__file__).resolve().parents[1]
 PAGES = HKB / "data" / "pages.json"
@@ -113,6 +114,38 @@ def card(icon: str, title_html: str, body_html: str) -> str:
     )
 
 
+def external_buttons(page: dict) -> str:
+    links = page.get("external") or []
+    if not links:
+        return ""
+    cls = (
+        "inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium rounded-lg "
+        "border border-stone-300 bg-white text-stone-700 "
+        "hover:border-botanical hover:text-botanical transition"
+    )
+    icon = '<i class="fa-solid fa-arrow-up-right-from-square text-[0.7rem] opacity-70" aria-hidden="true"></i>'
+    bits = []
+    for item in links:
+        en = item.get("en") or ""
+        zh = item.get("zh") or en
+        url = item.get("url") or ""
+        url_zh = item.get("url_zh") or url
+        if not url:
+            continue
+        if url_zh != url:
+            bits.append(
+                f'<a class="lang-en {cls}" href="{esc(url)}" target="_blank" rel="noopener noreferrer">{esc(en)}{icon}</a>'
+                f'<a class="lang-zh hidden {cls}" href="{esc(url_zh)}" target="_blank" rel="noopener noreferrer">{esc(zh)}{icon}</a>'
+            )
+        else:
+            bits.append(
+                f'<a class="{cls}" href="{esc(url)}" target="_blank" rel="noopener noreferrer">{pair(en, zh)}{icon}</a>'
+            )
+    if not bits:
+        return ""
+    return f'<div class="flex flex-wrap gap-2">{"".join(bits)}</div>'
+
+
 def apa(ref: dict | None) -> str:
     if not ref:
         return ""
@@ -121,6 +154,35 @@ def apa(ref: dict | None) -> str:
     return (
         f"{esc(ref.get('authors'))} ({esc(ref.get('year'))}). "
         f"<em>{esc(ref.get('title'))}</em>{title_zh}{volume}. {esc(ref.get('publisher'))}."
+    )
+
+
+_VOL_ZH = {"1": "第一卷", "2": "第二卷", "3": "第三卷", "4": "第四卷"}
+
+
+def section_source(page: dict) -> str:
+    ref = page.get("reference") or {}
+    if ref.get("title") != "Flora of Hong Kong" or not ref.get("volume"):
+        return ""
+    vol = str(ref["volume"])
+    vol_zh = _VOL_ZH.get(vol, f"第{vol}卷")
+    icon = '<i class="fa-solid fa-arrow-up-right-from-square text-[0.65rem] opacity-70" aria-hidden="true"></i>'
+    en_url = zh_url = ""
+    for item in page.get("external") or []:
+        if item.get("en") == "Hong Kong Herbarium":
+            en_url = item.get("url") or ""
+            zh_url = item.get("url_zh") or en_url
+            break
+    en_label = f'<em>Flora of Hong Kong</em> [{esc(ref.get("title_zh"))}], Vol. {esc(vol)}'
+    zh_label = f'《{esc(ref.get("title_zh"))}》，{esc(vol_zh)}'
+    if en_url:
+        en_label = f'<a class="hover:text-botanical" href="{esc(en_url)}" target="_blank" rel="noopener noreferrer">{en_label} {icon}</a>'
+        zh_label = f'<a class="hover:text-botanical" href="{esc(zh_url)}" target="_blank" rel="noopener noreferrer">{zh_label} {icon}</a>'
+    return (
+        '<p class="text-xs text-stone-400 mb-4">'
+        f'<span class="lang-en">Source: {en_label}</span>'
+        f'<span class="lang-zh hidden">出處：{zh_label}</span>'
+        "</p>"
     )
 
 
@@ -152,22 +214,52 @@ def json_for_script(value) -> str:
     return text.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
 
 
+_LINEAGE = None
+
+
+def lineage_index() -> dict:
+    global _LINEAGE
+    if _LINEAGE is not None:
+        return _LINEAGE
+    tree = json.loads((HKB / "data" / "taxonomy-tree.json").read_text())
+    found = {}
+
+    def walk(node, path):
+        ident = node["r"] + ":" + node["n"] + (":" + str(node["b"]) if node.get("b") else "")
+        node_id = (path[-1][0] + "/" if path else "") + ident
+        here = path + [(node_id, node)]
+        if node.get("b"):
+            found[str(node["b"])] = here
+        for child in node.get("k") or []:
+            walk(child, here)
+
+    walk(tree["root"], [])
+    _LINEAGE = found
+    return found
+
+
+def lineage_nav(blp: str) -> str:
+    chain = lineage_index().get(str(blp))
+    if not chain:
+        return ""
+    bits = []
+    for i, (node_id, node) in enumerate(chain):
+        latin = esc(node.get("n"))
+        if node.get("r") in ("genus", "species"):
+            latin = f'<span class="italic">{latin}</span>'
+        z = node.get("z") or ""
+        label = latin + (f" {esc(z)}" if z else "")
+        if node.get("r") == "species":
+            bits.append(f'<span class="text-stone-900">{label}</span>')
+        else:
+            href = "../taxonomy/index.html?node=" + quote(node_id, safe="")
+            bits.append(f'<a href="{href}">{label}</a>')
+        if i != len(chain) - 1:
+            bits.append('<span class="separator">/</span>')
+    return f'<nav class="breadcrumb" aria-label="Taxonomic lineage">{"".join(bits)}</nav>'
+
+
 def columns(page: dict) -> str:
-    system_en, system_zh = class_system(page.get("order") or "")
-    tax_rows = []
-    for en, zh, value, italic in (
-        ("Order", "目", page.get("order"), False),
-        ("Family", "科", page.get("family"), False),
-        ("Genus", "屬", page.get("genus"), True),
-        ("Species", "種", page.get("sci"), True),
-    ):
-        style = " italic" if italic else ""
-        tax_rows.append(
-            '<tr class="border-b border-stone-100 last:border-b-0">'
-            f'<td class="py-2.5 pr-4 text-stone-500 font-medium w-32">{pair(en, zh)}</td>'
-            f'<td class="py-2.5{style}">{esc(value)}</td>'
-            "</tr>"
-        )
     morph_blocks = []
     for i, block in enumerate(page.get("morphology") or []):
         items = []
@@ -212,8 +304,34 @@ def columns(page: dict) -> str:
     synonyms = page.get("synonyms") or []
     synonym_html = ""
     if synonyms:
-        names = ", ".join(f'<span class="italic">{esc(name)}</span>' for name in synonyms)
-        synonym_html = f'<p class="text-sm text-stone-500 mt-1">{pair("Synonyms", "異名")} {names}</p>'
+        bits = []
+        for syn in synonyms:
+            if isinstance(syn, str):
+                name, author = syn, ""
+            else:
+                name, author = syn.get("name") or "", syn.get("author") or ""
+            bit = f'<span class="italic">{esc(name)}</span>'
+            if author:
+                bit += f' <span class="not-italic text-stone-500">{esc(author)}</span>'
+            bits.append(bit)
+        names = "; ".join(bits)
+        synonym_html = (
+            '<div class="border-t border-stone-100 pt-4">'
+            f'<div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1.5">{pair("Synonyms", "異名")}</div>'
+            f'<div class="text-sm text-stone-600">{names}</div>'
+            "</div>"
+        )
+    pub = page.get("publication") or {}
+    publication_html = ""
+    if pub.get("text"):
+        icon = '<i class="fa-solid fa-arrow-up-right-from-square text-[0.65rem] opacity-70" aria-hidden="true"></i>'
+        label = esc(pub["text"])
+        if pub.get("url"):
+            label = (
+                f'<a class="hover:text-botanical" href="{esc(pub["url"])}" target="_blank" rel="noopener noreferrer">'
+                f'{label} {icon}</a>'
+            )
+        publication_html = f'<p class="text-xs text-stone-500 not-italic mt-1">{label}</p>'
     photos = page.get("photos") or []
     if photos:
         first = photos[0]
@@ -230,9 +348,9 @@ def columns(page: dict) -> str:
         )
     left = (
         '<div class="w-full lg:w-[60%] space-y-8">'
-        + card("fa-solid fa-sitemap", pair(f"Taxonomic classification ({system_en})", f"分類（{system_zh}）"), f'<table class="w-full text-sm"><tbody>{"".join(tax_rows)}</tbody></table>')
-        + card("fa-solid fa-seedling", pair("Plant morphology", "植物形態"), f'<div class="space-y-6 text-stone-700 leading-relaxed text-sm">{"".join(morph_blocks)}</div>')
-        + card("fa-solid fa-leaf", pair("Ecology", "生態"), f'<ul class="list-disc list-inside space-y-3 text-stone-700 leading-relaxed">{ecology}</ul>')
+        + external_buttons(page)
+        + card("fa-solid fa-seedling", pair("Plant morphology", "植物形態"), section_source(page) + f'<div class="space-y-6 text-stone-700 leading-relaxed text-sm">{"".join(morph_blocks)}</div>')
+        + card("fa-solid fa-leaf", pair("Ecology", "生態"), section_source(page) + f'<ul class="list-disc list-inside space-y-3 text-stone-700 leading-relaxed">{ecology}</ul>')
         + card("fa-solid fa-camera", pair("Representative photographs", "代表照片"), photo_body)
         + card("fa-solid fa-bookmark", pair("Source", "出處"), f'<p class="text-sm text-stone-600 leading-relaxed">{apa(page.get("reference"))}</p>')
         + "</div>"
@@ -250,10 +368,11 @@ def columns(page: dict) -> str:
             pair("Names", "名稱"),
             '<div class="space-y-4">'
             "<div>"
-            '<div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1">Scientific name</div>'
+            f'<div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1">{pair("Scientific name", "學名")}</div>'
             f'<div class="text-stone-900 font-serif italic text-lg">{esc(page.get("sci"))} <span class="not-italic text-stone-500 text-sm">{esc(page.get("authority"))}</span></div>'
-            f"{synonym_html}"
+            f"{publication_html}"
             "</div>"
+            f"{synonym_html}"
             '<div class="border-t border-stone-100 pt-4">'
             f'<div class="text-xs text-stone-400 font-semibold uppercase tracking-wider mb-1.5">{pair("Chinese names", "中文名")}</div>'
             f'<div class="flex flex-wrap gap-2">{chips(page.get("chi_names"))}</div>'
@@ -308,10 +427,7 @@ def render(page: dict) -> str:
     desc = description(page)
     canonical = f"{SITE}/species/{blp}.html"
     style, inner = hero(page)
-    crumb = (
-        f'<span class="text-stone-900 font-medium italic">{esc(page.get("sci"))}</span>'
-        f'<span class="blp-badge blp-badge-ink">BLP {esc(blp)}</span>'
-    )
+    lineage = lineage_nav(blp)
     photos = [
         {"image_id": photo.get("image_id"), "code": photo.get("code") or "", "en": photo.get("en") or "", "zh": photo.get("zh") or "", "src": photo.get("src") or ""}
         for photo in (page.get("photos") or [])
@@ -435,13 +551,7 @@ def render(page: dict) -> str:
     <main id="speciesMain" class="animate-in">
         <section class="bg-white border-b border-stone-200 py-4">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <nav class="breadcrumb">
-                    <a href="../index.html"><i class="fa-solid fa-house text-xs"></i> <span class="lang-en">Home</span><span class="lang-zh hidden">首頁</span></a>
-                    <span class="separator"><i class="fa-solid fa-chevron-right text-[10px]"></i></span>
-                    <a href="index.html"><span class="lang-en">Species Directory</span><span class="lang-zh hidden">物種目錄</span></a>
-                    <span class="separator"><i class="fa-solid fa-chevron-right text-[10px]"></i></span>
-                    <span id="speciesCrumb" class="inline-flex items-center gap-2 flex-wrap">{crumb}</span>
-                </nav>
+                {lineage}
             </div>
         </section>
         <section class="py-10 md:py-14">
