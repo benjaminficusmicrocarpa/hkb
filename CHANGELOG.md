@@ -1,71 +1,64 @@
 # Changelog
 
-All notable changes to [Hong Kong Botanica](https://benjaminficusmicrocarpa.github.io/hkb/) are recorded here.
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+A dated log of what changed on [Hong Kong Botanica](https://benjaminficusmicrocarpa.github.io/hkb/) and what was pushed to GitHub. Newest first. Times are Hong Kong time.
 
-## [Unreleased]
+This is not an undated Unreleased list. Each entry names the clock time, whether the live site changed, and the commit that was pushed. A push that does not change a page says so.
 
-### Added
+The site repo is [benjaminficusmicrocarpa/hkb](https://github.com/benjaminficusmicrocarpa/hkb). On the morning of 22 October the same URL was still a folder of [benjaminficusmicrocarpa.github.io](https://github.com/benjaminficusmicrocarpa/benjaminficusmicrocarpa.github.io). Those pushes are marked below.
 
-- The 22 species pages added after the first 35 now have the same database buttons: HKCWW, Hong Kong Herbarium, GBIF, POWO, WFO, WFO List, and CVH. Ids come from the backbones workbook. 毛葉桉 CVH uses the stored SP2000 accepted name, Eucalyptus torelliana. 阿江欖仁 has no CVH button, because that workbook has no SP2000 name for it.
-- The 22 new species pages now show the IPNI publication under the scientific name, from the local WCVP row for that page binomial.
-- Eleven further species pages: 橄欖, 銀珠, 桂花, 毛葉桉, 桂木, 藍花楹, 阿江欖仁, 香椿, 土蜜樹, 杉氏爵床, 斷腸草. Plate count follows the Best frames that are not the same state. 毛葉桉 and 藍花楹 use a cropped banner because the flower frame is vertical. The taxonomic tree marks every species that has a page.
-- The first new species pages follow the Best-frame rule, not a quota of 14. 蒲桃 is 20 plates. 白蠟樹 stays at 5. The Project Overview photograph is a Kadoorie Farm overlook, not a stock image.
-- Eleven species pages from the local Flora of Hong Kong extract: *Uvaria calamistrata* (25206), *Dichanthium annulatum* (38299), *Peltophorum pterocarpum* (47056), *Mallotus apelta* (55908), *Flueggea virosa* (56523), *Syzygium jambos* (58370), *Myrsine seguinii* (67400), *Ehretia acuminata* (73001), *Fraxinus chinensis* (75031), *Clerodendrum cyrtophyllum* (76623), *Callicarpa kochiana* (76626). New plates are short side 720. The hero is a landscape flower or spikelet frame.
-- Taxonomic tree page: collapsible outline and column browser, from the catalogue placed on APG V, PPG, and Yang, Ferguson et al. (2022). Chinese names sit beside the Latin names where the export gives one. The detail panel lists every lower rank under the selection. Family limits on that page are not the Families & Genera filing list.
-- Ten species pages: *Liquidambar formosana* (45002), *Delonix regia* (47029), *Rhaphiolepis indica* (49028), *Ficus pumila* (49591), *Bruguiera gymnorhiza* (55050), *Vernicia montana* (55919), *Bombax ceiba* (61065), *Thespesia populnea* (61083), *Camellia hongkongensis* (67603), *Mussaenda pubescens* (71031).
-- Species-page photo index grows from 80 to 310 images, then sixteen reviewed plates are removed (294 remain). Remaining codes are not renumbered.
-- The first twenty species pages gain 170 plates (80 to 250) so the set covers bark, venation, stipules, glands, stamens, seeds, and other parts the four-plate set left out. The page list was 464 images. Codes already on a page are not renumbered.
-- Five species pages: *Podocarpus macrophyllus* (18050), *Phoenix loureiroi* (34000), *Miscanthus floridulus* (38240), *Drosera spatulata* (64302), *Arundina graminifolia* (32014). The page list is 508 images. Code 38240c was removed before publish and is not reused.
+Photo counts are rows in `species_page_images.json` at that commit.
 
-### Changed
+## 2026-11-01
 
-- Species-page heroes use a flower, fruit, autumn colour, or a wide stand, not a trunk. A portrait source is cropped to a 12:5 banner before resize (`hkb-{blp}-hero`); landscape plates stay the hero id. Codes 67415i and 49591b are removed and not reused.
-- Species photographs are filed as `{blp}{letter}` (a–z, then aa, ab, …). The carousel shows that code in both the contracted and enlarged views. The plate note is `description` in `species_page_images.json`.
-- Shell pages (`index`, `search`, `species` directory, `families`, `about`) load Google fonts: Roboto and Noto Sans TC for sans, Playfair Display and Noto Serif TC for serif.
-- `data/build_pages.py` emits the Tailwind Play CDN, those Google fonts, and Font Awesome for newly generated species pages. Existing species pages still use `hkb.built.css` until they are rebuilt.
+- 09:47 committed, pushed 09:48. Commit `00e3317`, “Add the database buttons to the twenty-two newer species pages.” Remote `main` is this commit.
+- Website: the 22 species pages added on 31 October gained the same database buttons as the earlier pages: HKCWW, Hong Kong Herbarium, GBIF, POWO, WFO, WFO List, and CVH. 毛葉桉 (`58392`) CVH uses the stored SP2000 name *Eucalyptus torelliana*. 阿江欖仁 (`58005`) has no CVH button. Photo count stayed 718.
+- Checked live: https://benjaminficusmicrocarpa.github.io/hkb/species/58392.html shows the HKCWW button and that CVH link.
 
-## [2026-10-22] — Performance pass
+## 2026-10-31
 
-Baseline restored to `631de1e`, then the six improvements from [`docs/hkb-improvement-plan.md`](docs/hkb-improvement-plan.md) were applied in one checked commit (`c17c5b5`).
+- 14:33 committed, pushed 14:34. Commit `b25ad9a`, “Add twenty-two species pages, flowering heroes, and the IPNI name citations.”
+- Website: 22 new species pages. Photo count 508 to 718. Each page shows the IPNI publication under the scientific name. The taxonomic tree marks every species that has a page.
+- The 22 pages: 刺果紫玉盤 *Uvaria calamistrata* (`25206`), 雙花草 *Dichanthium annulatum* (`38299`), 雙翼豆 *Peltophorum pterocarpum* (`47056`), 銀珠 *Peltophorum tonkinense* (`47144`), 桂木 *Artocarpus parvus* (`49575`), 白背葉 *Mallotus apelta* (`55908`), 土蜜樹 *Bridelia tomentosa* (`56507`), 白飯樹 *Flueggea virosa* (`56523`), 阿江欖仁 *Terminalia arjuna* (`58005`), 蒲桃 *Syzygium jambos* (`58370`), 毛葉桉 *Corymbia torelliana* (`58392`), 橄欖 *Canarium album* (`60000`), 香椿 *Toona sinensis* (`60503`), 密花樹 *Myrsine seguinii* (`67400`), 斷腸草 *Gelsemium elegans* (`71750`), 厚殼樹 *Ehretia acuminata* (`73001`), 桂花 *Osmanthus fragrans* (`75013`), 白蠟樹 *Fraxinus chinensis* (`75031`), 杉氏爵床 *Justicia championii* (`75839`), 藍花楹 *Jacaranda mimosifolia* (`76204`), 大青 *Clerodendrum cyrtophyllum* (`76623`), 枇杷葉紫珠 *Callicarpa kochiana* (`76626`).
+- Homepage: the Project Overview photograph left the stock image and now uses the Kadoorie Farm overlook (`hkb-about-kfbg-overlook`). The first hero slide left the 細葉榕 trunk and now uses the canopy figs.
+- Species heroes on this pass use a flower, fruit, autumn colour, or a wide stand, not a trunk. A portrait source is cropped to a 12:5 banner before resize. 毛葉桉 and 藍花楹 use that cropped banner. Codes `67415i` (桐花樹) and `49591b` (薜荔) were removed and are not reused.
 
-### Added
+## 2026-10-29
 
-- `css/hkb.built.css` — purged Tailwind build (~27 KB) for the main shells
-- `data/stats.json` — tiny header counts for the homepage and search page
-- `data/search.json` — slim search index (short keys; full catalogue, ~557 KB)
-- `data/qaqc.py` — JSON/HTML alignment check (`python3 data/qaqc.py`; `--realign` rewrites generated species HTML)
-- `js/taxa.js` — `hkbLoadSearch()` maps slim rows back to the names the UI expects
-- `docs/hkb-improvement-plan.md` — plan, caveats, and safe order
+- 00:10 committed and pushed the same minute. Commit `77a90b4`, “Add a taxonomic tree with Chinese names beside the Latin names.” GitHub push record: 28 October 16:10 UTC, `f3a9039` to `77a90b4`.
+- Website: new page at `taxonomy/`. Collapsible outline and column browser. Chinese names sit beside the Latin names. The detail panel lists every lower rank under the selection. Family limits on that page are not the Families & Genera filing list. Shell nav points at the tree. Photo count stayed 508. No new species page.
 
-### Changed
+## 2026-10-27
 
-- **Hero:** first slide loads eager with `fetchpriority="high"`; remaining slides use `data-src` and load on `requestIdleCallback` or first interaction. Image URLs keep the Cloudflare `"public"` variant (flexible width variants are not enabled on the account).
-- **Homepage / search counts:** read `data/stats.json` instead of downloading full `data/taxa.json`.
-- **CSS:** main shells (`index`, `search`, `species` directory, `families`, `about`) link the purged file and drop the Tailwind Play CDN.
-- **Fonts:** system stack (PingFang TC / Noto Sans TC / Microsoft JhengHei; Songti TC / Noto Serif TC for serif) instead of Google Fonts.
-- **Icons:** Font Awesome CDN removed on those shells; inline SVG sprite instead.
-- **`data/build_taxa.py`:** also writes `stats.json` and `search.json` when the catalogue is rebuilt.
-- **`data/build_pages.py`:** generated species pages point at `hkb.built.css` instead of the Tailwind CDN.
+- 08:28 committed and pushed the same minute. Commit `f3a9039`, “Add five species pages for a conifer, a palm, a grass, a sundew, and an orchid.” GitHub push record: 00:28 UTC, `18e964c` to `f3a9039`.
+- Website: 羅漢松 *Podocarpus macrophyllus* (`18050`), 竹葉蘭 *Arundina graminifolia* (`32014`), 刺葵 *Phoenix loureiroi* (`34000`), 五節芒 *Miscanthus floridulus* (`38240`), 寬苞茅膏菜 *Drosera spatulata* (`64302`). Photo count 464 to 508. Code `38240c` is not on the published 五節芒 page and is not reused.
 
-### Fixed / restored
+## 2026-10-25
 
-- `main` was force-reset to `631de1e` (“Remove private working-copy notes from the README.”) to undo the earlier broken performance attempt (truncated HTML, missing hero script, purged-CSS gaps, API-truncated `search.json`).
-- The improvement plan was re-added on top of that baseline as `d3e724f`, then the careful one-pass implementation landed as `c17c5b5`.
+- 21:27 committed and pushed the same minute. Commit `18e964c`, “Add 170 plates to the first twenty species pages.” GitHub push record: 13:27 UTC, `08b31d8` to `18e964c`.
+- Website: the first twenty species pages gained 170 plates (photo count 294 to 464), covering bark, venation, stipules, glands, stamens, seeds, and other parts the short set left out. No new species page. Codes already on a page were not renumbered.
 
-### Notes
+## 2026-10-24
 
-- The species directory still loads `data/taxa.json` for order / family hierarchy. Slim `search.json` is available for search-shaped loads via `hkbLoadSearch()`.
-- Do not switch hero images to width-limited Cloudflare URLs until flexible variants are enabled.
-- After changing the catalogue workbook, run `python3 data/build_taxa.py` so `taxa.json`, `stats.json`, and `search.json` stay in sync, then `python3 data/qaqc.py`.
+- 00:17 two commits, pushed 00:19. GitHub push record: 23 October 16:19 UTC, `a15194a` to `08b31d8`.
+- Commit `b4b93d0`, “Name each species photograph by its BLP code and remove sixteen reviewed plates.” Website: each plate is filed as the BLP number plus a letter (`a`–`z`, then `aa`, `ab`, …). The carousel shows that code in the contracted and enlarged views. Sixteen reviewed plates were removed (photo count 310 to 294), from 石斑木, 薜荔, 木油樹, 木棉, 恆春黃槿, and 玉葉金花. Remaining codes were not renumbered.
+- Commit `08b31d8`, “Ignore the local preview script.” No website change. The ignore rule only keeps the local script out of the repo.
 
-### Verification checklist
+## 2026-10-22
 
-1. Hard-refresh the homepage on a throttled mobile connection.
-2. Confirm the hero image appears and the text is readable.
-3. Confirm the stats strip shows all six counts with correct spacing.
-4. Confirm search still redirects and returns results.
-5. Run `python3 data/qaqc.py`.
+The URL did not move. The files did: morning pushes were the parent site; from 08:20 the project repo serves that URL.
 
-[Unreleased]: https://github.com/benjaminficusmicrocarpa/hkb/compare/c17c5b5...HEAD
-[2026-10-22]: https://github.com/benjaminficusmicrocarpa/hkb/commit/c17c5b5
+- 00:05 parent repo, pushed 00:05. Commit `1e3bc07`, “Publish Hong Kong Botanica species pages and serve the photographs from Cloudflare Images.” GitHub push record on `benjaminficusmicrocarpa.github.io`: 21 October 16:05 UTC. Website: the species pages went live under `/hkb/`, photographs from Cloudflare Images.
+- 00:12 parent repo, pushed 00:12. Commit `672fc63`, “Add the Hong Kong Botanica logo as the link preview image.” The share card is `og.png`.
+- 00:26 parent repo, commit `b60addb`, “Name the classification system on each species page.” Website: each species page names the classification system. This commit was already the parent remote tip when the folder was removed at 08:21. The public push feed does not give a separate clock time for this push.
+- 08:19 this repo, first commit `39cc33f`, “Publish Hong Kong Botanica as its own site.” GitHub created the repo at 08:20. Website, once this repo was the one served: twenty species pages (馬尾松, 樟, 露兜樹, 白花油麻藤, 細葉榕, 水筆仔, 黃牛木, 海漆, 白楸, 秋楓, 桃金娘, 毛稔, 銀葉樹, 土沉香, 桐花樹, 木荷, 梔子, 絡石, 草海桐, 鴨腳木), the directory, families, search, and about. Three older hand-written pages stay beside the numbered pages: `bauhinia-blakeana.html`, `rhododendron-simsii.html`, and `mucuna-birdwoodiana.html`. Photo count 80.
+- 08:21 parent repo, pushed 08:21. Commit `26e1e9a`, “Move Hong Kong Botanica to its own repository.” The `hkb/` folder left the parent site. The URL is the project site from here on.
+- 08:23 pushed `3d75d85`, “Add a README for the Hong Kong Botanica site.” No page change.
+- 08:27 pushed `631de1e`, “Remove private working-copy notes from the README.” No page change. The public README no longer names local folders.
+- 13:59–15:53 a run of performance commits was pushed to `main` (hero lazy-load, `stats.json`, purged CSS, system fonts, a slim search index, `data/qaqc.py`, and two doc files, `docs/hkb-update-log.md` and `docs/hkb-outstanding.md`). The homepage broke on that run: the hero script was dropped, stats labels collided, and the remote search file was a one-item sample. Those commits are not on `main` now.
+- 19:06 force-pushed `main` back to `631de1e` (remote tip had been `1042684`). That undid the broken run, including the update log. Then pushed `d3e724f`, “docs: performance improvement plan with caveats.” The plan is `docs/hkb-improvement-plan.md`. No page change.
+- 19:11 pushed `c17c5b5`, “perf: apply homepage improvements in one carefully checked pass.” Website: the first hero slide loads immediately and the rest wait; homepage and search counts read `data/stats.json` instead of the full catalogue; the shells (`index`, `search`, species directory, `families`, `about`) use the purged CSS, a system font stack, and inline icons, and drop the Tailwind Play CDN and Font Awesome. The species directory still loads `data/taxa.json` for the order and family tree.
+- 19:13 pushed `30b9420`, “docs: add CHANGELOG for the 2026-10-22 performance pass.” No page change. That file is the one this log replaces: it dated only the performance pass and left every later change in Unreleased.
+- 22:27 pushed `0151e30`, “Bake EXIF orientation into species-page photos before Cloudflare upload.” No page change. The upload script now applies the camera orientation before resize. The five corrected photos had already been replaced on Cloudflare.
+- 23:44 committed and pushed the same minute. Commit `a15194a`, “Publish ten species pages and switch shells to Roboto and Playfair Display.” The public push feed does not list this push; the 24 October push records `a15194a` as the previous remote tip, and the push was confirmed against `origin/main` at 23:44.
+- Website: ten new pages — 楓香 *Liquidambar formosana* (`45002`), 鳳凰木 *Delonix regia* (`47029`), 石斑木 *Rhaphiolepis indica* (`49028`), 薜荔 *Ficus pumila* (`49591`), 木欖 *Bruguiera gymnorhiza* (`55050`), 木油樹 *Vernicia montana* (`55919`), 木棉 *Bombax ceiba* (`61065`), 恆春黃槿 *Thespesia populnea* (`61083`), 香港茶 *Camellia hongkongensis* (`67603`), 玉葉金花 *Mussaenda pubescens* (`71031`). Photo count 80 to 310.
+- This push reversed the 19:11 font change. The shells load Google fonts again: Roboto and Noto Sans TC for sans, Playfair Display and Noto Serif TC for serif. Newly generated species pages use the Tailwind Play CDN, those fonts, and Font Awesome. The system-font stack from the performance pass is not what the site serves.
