@@ -10,7 +10,9 @@ Photo counts are rows in `species_page_images.json` at that commit.
 
 ## 2026-11-01
 
-- 09:47 committed, pushed 09:48. Commit `00e3317`, “Add the database buttons to the twenty-two newer species pages.” Remote `main` is this commit.
+- 18:51 committed, pushing now. Eleven new species pages with dedicated 12:5 Cloudflare heroes (`hkb-{blp}-hero`), 48 plates, photo count 718 to 766. Frames with a hand, a nursery label, or a tag were left off. Heroes use flower, fruit, pitcher, or wide stand (not trunk); source plates `24051a` and `29051c`, others `a`. CVH uses the stored SP2000 accepted name when that name is not the page binomial: 香港木蘭 points at *Lirianthe championii*. The same rule was applied to three pages already live: 草海桐 to *Scaevola taccada*, 樟 to *Camphora officinarum*, 銀珠 to *Peltophorum dasyrrhachis* var. *tonkinensis*.
+- The eleven: 香港杜鵑 *Rhododendron hongkongense* (`68008`), 豬籠草 *Nepenthes mirabilis* (`64350`), 香港木蘭 *Magnolia championii* (`25050`), 灰冬青 *Ilex cinerea* (`78101`), 中華報春苣苔 *Primulina dryas* (`75208`), 小葉買麻藤 *Gnetum parvifolium* (`20001`), 豔山薑 *Alpinia zerumbet* (`36424`), 兩面針 *Zanthoxylum nitidum* (`60274`), 黃獨 *Dioscorea bulbifera* (`29051`), 黧蒴錐 *Castanopsis fissa* (`51005`), 假蒟 *Piper sarmentosum* (`24051`). 假蒟 has no fruiting months in the account, so the fruit bar is empty. 黧蒴錐 has no English name in the account, so that line stays empty.
+- 09:47 committed, pushed 09:48. Commit `00e3317`, “Add the database buttons to the twenty-two newer species pages.”
 - Website: the 22 species pages added on 31 October gained the same database buttons as the earlier pages: HKCWW, Hong Kong Herbarium, GBIF, POWO, WFO, WFO List, and CVH. 毛葉桉 (`58392`) CVH uses the stored SP2000 name *Eucalyptus torelliana*. 阿江欖仁 (`58005`) has no CVH button. Photo count stayed 718.
 - Checked live: https://benjaminficusmicrocarpa.github.io/hkb/species/58392.html shows the HKCWW button and that CVH link.
 
