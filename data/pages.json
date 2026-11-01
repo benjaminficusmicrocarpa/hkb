@@ -9218,6 +9218,44 @@
         "volume": "3",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1345"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7916",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7916"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/5WW3K"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:861360-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000769493"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000769493"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Callicarpa%20kochiana"
+        }
+      ],
       "publication": {
         "text": "Bot. Mag. (Tokyo) 28: 181 (1914)",
         "url": "https://www.ipni.org/n/861360-1",
@@ -9431,6 +9469,44 @@
         "volume": "3",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1342"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7376",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7376"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/W3QK"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:862022-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000880939"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000880939"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Clerodendrum%20cyrtophyllum"
+        }
+      ],
       "publication": {
         "text": "Bull. Soc. Imp. Naturalistes Moscou 36(II): 222 (1863)",
         "url": "https://www.ipni.org/n/862022-1",
@@ -9596,6 +9672,44 @@
         "volume": "4",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=6917"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=5390",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=5390"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/35KQD"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:398528-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000863549"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000863549"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Dichanthium%20annulatum"
+        }
+      ],
       "publication": {
         "text": "Fl. Trop. Afr. 9: 178 (1917)",
         "url": "https://www.ipni.org/n/398528-1",
@@ -9827,6 +9941,44 @@
         "volume": "3",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=128"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4153",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4153"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6DZ5D"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:115963-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000663323"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000663323"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Ehretia%20acuminata"
+        }
+      ],
       "publication": {
         "text": "Prodr. Fl. Nov. Holland.: 497 (1810)",
         "url": "https://www.ipni.org/n/115963-1",
@@ -10017,6 +10169,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=904"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=5215",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=5215"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6JB9K"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1013601-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000967255"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000967255"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Flueggea%20virosa"
+        }
+      ],
       "publication": {
         "text": "Ill. Bot. Himal. Mts.: 328 (1836)",
         "url": "https://www.ipni.org/n/1013601-1",
@@ -10164,6 +10354,44 @@
         "volume": "3",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=6360"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3544",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3544"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6JMRF"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:608968-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000832398"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000832398"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Fraxinus%20chinensis"
+        }
+      ],
       "publication": {
         "text": "Fl. Ind. 1: 150 (1820)",
         "url": "https://www.ipni.org/n/608968-1",
@@ -10366,6 +10594,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=265"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3753",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3753"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6R588"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:351482-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000234436"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000234436"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Mallotus%20apelta"
+        }
+      ],
       "publication": {
         "text": "Linnaea 34: 189 (1865)",
         "url": "https://www.ipni.org/n/351482-1",
@@ -10547,6 +10813,44 @@
         "volume": "1",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=287"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3500",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3500"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6S59G"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:589274-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0001085930"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0001085930"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Myrsine%20seguinii"
+        }
+      ],
       "publication": {
         "text": "Fl. Kouy-Tchéou: 288 (1915)",
         "url": "https://www.ipni.org/n/589274-1",
@@ -10737,6 +11041,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=695"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4544",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4544"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/VLQFJ"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:513021-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000178769"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000178769"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Peltophorum%20pterocarpum"
+        }
+      ],
       "publication": {
         "text": "Nutt. Pl. Ned.-Ind., ed. 2. 2: 755 (1927)",
         "url": "https://www.ipni.org/n/513021-1",
@@ -10974,6 +11316,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=625"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7068",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7068"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/5468B"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:601802-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000318809"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000318809"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Syzygium%20jambos"
+        }
+      ],
       "publication": {
         "text": "Handb. Fl. Ceylon 6(Suppl.): 115 (1931)",
         "url": "https://www.ipni.org/n/601802-1",
@@ -11169,6 +11549,44 @@
         "volume": "1",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=728"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=3740",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=3740"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/7F72Y"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:75602-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0001066569"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0001066569"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Uvaria%20calamistrata"
+        }
+      ],
       "publication": {
         "text": "J. Bot. 20: 77 (1882)",
         "url": "https://www.ipni.org/n/75602-1",
@@ -11334,6 +11752,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=481"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=8302",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=8302"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/5WY2F"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:127264-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000583426"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000583426"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Canarium%20album"
+        }
+      ],
       "publication": {
         "text": "Prodr. 2: 80 (1825)",
         "url": "https://www.ipni.org/n/127264-1",
@@ -11514,6 +11970,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1968"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=9980",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=9980"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/76FW7"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:513027-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000195063"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000195063"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Peltophorum%20tonkinense"
+        }
+      ],
       "publication": {
         "text": "Fl. Indo-Chine 2: 192 (1913)",
         "url": "https://www.ipni.org/n/513027-1",
@@ -11679,6 +12173,44 @@
         "volume": "3",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=1116"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6430",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6430"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/74ZQZ"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:610878-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000817133"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000817133"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Osmanthus%20fragrans"
+        }
+      ],
       "publication": {
         "text": "Fl. Cochinch.: 29 (1790)",
         "url": "https://www.ipni.org/n/610878-1",
@@ -11843,6 +12375,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=3854"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6922",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6922"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/YQCL"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:986335-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000925593"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000925593"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Eucalyptus%20torelliana"
+        }
+      ],
       "publication": {
         "text": "Telopea 6: 385 (1995)",
         "url": "https://www.ipni.org/n/986335-1",
@@ -11994,6 +12564,44 @@
         "volume": "1",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=563"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=8849",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=8849"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/67SFM"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:582636-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000550565"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000550565"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Artocarpus%20parvus"
+        }
+      ],
       "publication": {
         "text": "Bull. Soc. Bot. France 73: 89 (1926)",
         "url": "https://www.ipni.org/n/582636-1",
@@ -12152,6 +12760,44 @@
         "volume": "3",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=539"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=9676",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=9676"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/6NDH8"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:130936-2"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000778761"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000778761"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Jacaranda%20mimosifolia"
+        }
+      ],
       "publication": {
         "text": "Bot. Reg. 8: t. 631 (1822)",
         "url": "https://www.ipni.org/n/130936-2",
@@ -12317,6 +12963,39 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=2015"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=8456",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=8456"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/55FZR"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:170962-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000407013"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000407013"
+        }
+      ],
       "publication": {
         "text": "Prodr. Fl. Ind. Orient. 1: 314 (1834)",
         "url": "https://www.ipni.org/n/170962-1",
@@ -12475,6 +13154,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=477"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7009",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7009"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/7CHJF"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:579315-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000455502"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000455502"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Toona%20sinensis"
+        }
+      ],
       "publication": {
         "text": "Fam. Nat. Syn. Monogr. 1: 139 (1846)",
         "url": "https://www.ipni.org/n/579315-1",
@@ -12646,6 +13363,44 @@
         "volume": "2",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=48"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=4177",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=4177"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/692T7"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:340245-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000428079"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000428079"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Bridelia%20tomentosa"
+        }
+      ],
       "publication": {
         "text": "Bijdr. Fl. Ned. Ind.: 597 (1826)",
         "url": "https://www.ipni.org/n/340245-1",
@@ -12819,6 +13574,44 @@
         "volume": "3",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=3158"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=7962",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=7962"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/3QW4J"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:50481-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0001045704"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0001045704"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Justicia%20championii"
+        }
+      ],
       "publication": {
         "text": "Fl. Hongk.: 264 (1861)",
         "url": "https://www.ipni.org/n/50481-1",
@@ -13006,6 +13799,44 @@
         "volume": "3",
         "publisher": "Agriculture, Fisheries and Conservation Department"
       },
+      "external": [
+        {
+          "en": "HKCWW",
+          "zh": "柴娃娃",
+          "url": "https://hkcww.org/hkplant/readid.php?id=2607"
+        },
+        {
+          "en": "Hong Kong Herbarium",
+          "zh": "香港植物標本室",
+          "url": "https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species&oID=6504",
+          "url_zh": "https://www.herbarium.gov.hk/tc/hk-plant-database/plant-detail/index.html?pType=species&oID=6504"
+        },
+        {
+          "en": "GBIF",
+          "zh": "GBIF",
+          "url": "https://www.gbif.org/taxon/3FK5L"
+        },
+        {
+          "en": "POWO",
+          "zh": "POWO",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:546348-1"
+        },
+        {
+          "en": "WFO",
+          "zh": "WFO",
+          "url": "https://www.worldfloraonline.org/taxon/wfo-0000696048"
+        },
+        {
+          "en": "WFO List",
+          "zh": "WFO List",
+          "url": "https://list.worldfloraonline.org/wfo-0000696048"
+        },
+        {
+          "en": "CVH",
+          "zh": "中國數字植物標本館",
+          "url": "https://www.cvh.ac.cn/species/taxon_tree.php?type=sp&param=Gelsemium%20elegans"
+        }
+      ],
       "publication": {
         "text": "J. Proc. Linn. Soc., Bot. 1: 90 (1856)",
         "url": "https://www.ipni.org/n/546348-1",

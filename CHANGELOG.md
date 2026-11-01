@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
+- The 22 species pages added after the first 35 now have the same database buttons: HKCWW, Hong Kong Herbarium, GBIF, POWO, WFO, WFO List, and CVH. Ids come from the backbones workbook. 毛葉桉 CVH uses the stored SP2000 accepted name, Eucalyptus torelliana. 阿江欖仁 has no CVH button, because that workbook has no SP2000 name for it.
 - The 22 new species pages now show the IPNI publication under the scientific name, from the local WCVP row for that page binomial.
 - Eleven further species pages: 橄欖, 銀珠, 桂花, 毛葉桉, 桂木, 藍花楹, 阿江欖仁, 香椿, 土蜜樹, 杉氏爵床, 斷腸草. Plate count follows the Best frames that are not the same state. 毛葉桉 and 藍花楹 use a cropped banner because the flower frame is vertical. The taxonomic tree marks every species that has a page.
 - The first new species pages follow the Best-frame rule, not a quota of 14. 蒲桃 is 20 plates. 白蠟樹 stays at 5. The Project Overview photograph is a Kadoorie Farm overlook, not a stock image.
