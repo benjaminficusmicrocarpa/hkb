@@ -139,6 +139,10 @@
                         <span class="lang-en">Taxonomic tree</span>
                         <span class="lang-zh hidden">分類樹</span>
                     </a>
+                    <a href="../compare/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Compare</span>
+                        <span class="lang-zh hidden">對照</span>
+                    </a>
                     <a style="display:none" href="../about/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
                         <span class="lang-en">About</span>
                         <span class="lang-zh hidden">關於本庫</span>
@@ -181,6 +185,10 @@
                 <svg class="icon w-6 text-center mr-2 text-botanical" aria-hidden="true"><use href="#i-tree"></use></svg>
                 <span class="lang-en">Taxonomic tree</span><span class="lang-zh hidden">分類樹</span>
             </a>
+            <a href="../compare/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <svg class="icon w-6 text-center mr-2 text-stone-400" aria-hidden="true" viewBox="0 0 24 24"><path fill="currentColor" d="M4 4h7v16H4V4zm9 0h7v16h-7V4z"/></svg>
+                <span class="lang-en">Compare</span><span class="lang-zh hidden">對照</span>
+            </a>
             <a style="display:none" href="../about/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
                 <svg class="icon w-6 text-center mr-2 text-stone-400" aria-hidden="true"><use href="#i-circle-info"></use></svg>
                 <span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span>
@@ -208,10 +216,20 @@
                 <span class="lang-en">Taxonomic tree</span>
                 <span class="lang-zh hidden">分類樹</span>
             </h1>
-            <p class="text-stone-500 mt-2 text-lg max-w-3xl">
-                <span class="lang-en">The same catalogue, placed on APG V for flowering plants, PPG for ferns and lycophytes, and Yang, Ferguson et al. (2022) for gymnosperms. Expand a branch, or use the browser to move one rank at a time. Family limits here are not the filing list on Families & Genera.</span>
-                <span class="lang-zh hidden">同一名錄。被子植物依 APG V，蕨類和石松類依 PPG，裸子植物依 Yang、Ferguson 等（2022）。可展開分支，或用瀏覽一次看一個階層。這一頁的科範圍跟「科與屬」的排列名單不同。</span>
-            </p>
+            <div class="text-stone-500 mt-2 text-lg max-w-3xl space-y-3">
+                <p>
+                    <span class="lang-en">Explore the taxonomic hierarchy of plants recorded in Hong Kong through this interactive classification tree. The catalogue is organised into four major plant groups: lycophytes, ferns, gymnosperms and angiosperms. Each group is further organised according to its taxonomic classification, which may include classes, subclasses, clades, orders, suborders and families.</span>
+                    <span class="lang-zh hidden">透過互動式分類樹，探索香港植物名錄中各種植物的分類階層。本名錄分為四大植物類群：石松類、蕨類植物、裸子植物及被子植物，並按其所採用的分類系統，進一步劃分為綱、亞綱、演化支、目、亞目及科等不同分類層級。</span>
+                </p>
+                <p>
+                    <span class="lang-en">The number displayed alongside each group or classification level indicates the number of taxa at species or lower levels recorded under that branch in the catalogue. Expand the branches to explore the classification hierarchy, or use the Browser to navigate one level at a time.</span>
+                    <span class="lang-zh hidden">各分類分支旁的數字，代表名錄中歸入該分支的種或以下分類群數量。你可以展開不同分支，逐層探索植物的分類架構；亦可使用「瀏覽」功能，逐一查看不同分類層級。</span>
+                </p>
+                <p>
+                    <span class="lang-en">The classification follows APG V for angiosperms, PPG for ferns and lycophytes, and Yang, Ferguson et al. (2022) for gymnosperms.</span>
+                    <span class="lang-zh hidden">本頁採用的分類系統如下：被子植物依據 APG V 分類系統；蕨類及石松類依據 PPG 分類系統；裸子植物則依據 Yang、Ferguson 等人（2022） 的分類。</span>
+                </p>
+            </div>
             <div class="tx-groups" id="txGroups"></div>
         </div>
     </header>
@@ -289,6 +307,6 @@
 
     <script src="../js/hkb.js?v=3"></script>
     <script src="../js/taxa.js"></script>
-    <script src="../js/taxonomy-tree.js?v=5"></script>
+    <script src="../js/taxonomy-tree.js?v=6"></script>
 </body>
 </html>

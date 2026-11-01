@@ -3,7 +3,10 @@
 
 Accepts either the flat export (lex + taxa) or the older export (meta,
 reference, taxa with a rank path). A clade that only repeats the subclass
-name, or the group name with a plural -s, is not a second node.
+name, the group name with a plural -s, or that taxon's suborder is not a
+second node. PPG lists Lindsaeineae and the other -ineae names in clades
+and again as suborder; emitting both splits one order into a copy per
+suborder.
 
 Chinese names come from the export. A rank with no name in the file stays
 Latin only. Do not invent one. Do not put workbook paths or photo fields
@@ -114,6 +117,8 @@ def steps_from_flat(taxon: dict) -> list[tuple[str, str]]:
             continue
         if clade == group or clade == group + "s":
             continue
+        if taxon.get("suborder") and clade == taxon["suborder"]:
+            continue
         steps.append(("clade", clade))
     for rank, key in (
         ("order", "order"),
@@ -169,10 +174,14 @@ def main() -> None:
             raise SystemExit(f"unexpected root on {code}: {steps[:2]}")
         node = root
         previous = None
+        suborder_name = next((name for rank, name in steps if rank == "suborder"), "")
         for rank, name in steps[1:-1]:
             if not name or "/" in name or ":" in name:
                 raise SystemExit(f"bad node name {name!r} on {code}")
-            if previous and rank == "clade" and name == previous[1] and previous[0] == "subclass":
+            if rank == "clade" and (
+                (previous and name == previous[1] and previous[0] == "subclass")
+                or (suborder_name and name == suborder_name)
+            ):
                 skipped += 1
                 continue
             key = (rank, name)

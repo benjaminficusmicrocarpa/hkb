@@ -459,7 +459,7 @@ function txFillStats() {
 
 function txBoot() {
     const base = document.querySelector('meta[name="hkb-base"]')?.content || "..";
-    fetch(base + "/data/taxonomy-tree.json").then((res) => {
+    fetch(base + "/data/taxonomy-tree.json?v=2").then((res) => {
         if (!res.ok) throw new Error("taxonomy-tree.json " + res.status);
         return res.json();
     }).then((data) => {

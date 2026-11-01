@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="hkb-base" content="..">
+    <title>Compare | Hong Kong Botanica</title>
+    <meta name="description" content="Compare two published species accounts.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hong Kong Botanica">
+    <meta property="og:title" content="Compare | Hong Kong Botanica">
+    <meta property="og:description" content="Compare two published species accounts.">
+    <meta property="og:url" content="https://benjaminficusmicrocarpa.github.io/hkb/compare/index.html">
+    <meta property="og:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:secure_url" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Hong Kong Botanica">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Compare | Hong Kong Botanica">
+    <meta name="twitter:description" content="Compare two published species accounts.">
+    <meta name="twitter:image" content="https://benjaminficusmicrocarpa.github.io/hkb/og.png">
+    <link rel="icon" href="../hkb.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/hkb.built.css?v=2">
+    <link rel="stylesheet" href="../css/hkb.css?v=6">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        html, .font-sans { font-family: Roboto, "Noto Sans TC", sans-serif; }
+        .font-serif { font-family: "Playfair Display", "Noto Serif TC", serif; }
+        svg.icon { display: inline-block; width: 1em; height: 1em; vertical-align: -0.125em; fill: currentColor; }
+        .compare-picks { display: grid; gap: 1rem; }
+        @media (min-width: 800px) {
+            .compare-picks { grid-template-columns: 1fr 1fr auto; align-items: end; }
+        }
+        .compare-field { position: relative; z-index: 5; }
+        main { min-height: calc(100vh - 8rem); }
+        .compare-field label { display: block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #78716c; margin-bottom: 0.4rem; }
+        .compare-control { display: flex; align-items: center; background: #fff; border: 1px solid #d6d3d1; border-radius: 0.75rem; }
+        .compare-control:focus-within { border-color: #4a8244; box-shadow: 0 0 0 3px rgba(74, 130, 68, 0.15); }
+        .compare-control input { flex: 1; min-width: 0; border: 0; outline: none; background: transparent; padding: 0.8rem 0.9rem; font: inherit; color: #1c1917; }
+        .compare-clear { border: 0; background: transparent; color: #a8a29e; padding: 0 0.8rem; cursor: pointer; font-size: 1.1rem; }
+        .compare-list { position: absolute; z-index: 20; left: 0; right: 0; top: calc(100% + 4px); max-height: 16rem; overflow: auto; margin: 0; padding: 0.25rem; list-style: none; background: #fff; border: 1px solid #e7e5e4; border-radius: 0.75rem; box-shadow: 0 8px 24px rgba(28, 25, 23, 0.08); }
+        .compare-option, .compare-empty { display: block; width: 100%; text-align: left; border: 0; background: transparent; padding: 0.55rem 0.7rem; border-radius: 0.5rem; cursor: pointer; }
+        .compare-option:hover, .compare-option.on { background: #f0fdf4; }
+        .compare-option:disabled { color: #a8a29e; cursor: default; }
+        .compare-sci { display: block; font-family: "Playfair Display", "Noto Serif TC", serif; font-style: italic; color: #1c1917; }
+        .compare-meta, .compare-zh { display: block; font-size: 0.8rem; color: #78716c; font-style: normal; }
+        .compare-same-genus .compare-sci { color: #2d5229; }
+        .compare-go { border: 0; border-radius: 0.75rem; background: #4a8244; color: #fff; font-weight: 700; padding: 0.85rem 1.25rem; cursor: pointer; }
+        .compare-go:disabled { background: #d6d3d1; color: #78716c; cursor: default; }
+        .compare-note { margin: 0.75rem 0 0; color: #78716c; font-size: 0.875rem; }
+        .compare-result { margin-top: 2rem; background: #fff; border: 1px solid #e7e5e4; border-radius: 0.75rem; }
+        .compare-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+        .compare-label-col { width: 7.5rem; }
+        .compare-table thead th { background: #fff; text-align: left; padding: 1rem 1.1rem; border-bottom: 1px solid #e7e5e4; vertical-align: bottom; }
+        .compare-name { text-decoration: none; }
+        .compare-name:hover .compare-sci { color: #4a8244; }
+        .compare-table td, .compare-table tbody th { padding: 0.85rem 1.1rem; border-top: 1px solid #f5f5f4; vertical-align: top; font-size: 0.875rem; line-height: 1.65; color: #44403c; font-weight: 400; text-align: left; word-break: keep-all; overflow-wrap: break-word; }
+        .compare-table tbody th { color: #78716c; font-size: 0.75rem; letter-spacing: 0; text-transform: none; }
+        .compare-block th { background: #fafaf9; color: #1c1917; font-family: "Playfair Display", "Noto Serif TC", serif; font-size: 1rem; letter-spacing: 0; text-transform: none; padding-top: 0.9rem; padding-bottom: 0.9rem; }
+        .compare-empty-cell { color: #d6d3d1; }
+        #compareLoad { color: #b91c1c; font-size: 0.875rem; }
+    </style>
+</head>
+<body class="bg-stone-50 text-gray-800 font-sans antialiased">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-search" viewBox="0 0 24 24"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></symbol>
+  <symbol id="i-bars" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></symbol>
+  <symbol id="i-xmark" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="currentColor" d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75S7 14 17 8z"/></symbol>
+  <symbol id="i-sitemap" viewBox="0 0 24 24"><path fill="currentColor" d="M15 15h3v3h-3zm-6 0h3v3H9zm-6 0h3v3H3zm6-6h3v3H9zm-6 0h3v3H3zm12-6h3v3h-3zm-6 0h3v3H9zM3 3h3v3H3z"/></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 6.5 10H10v3H7l5 7 5-7h-3v-3h3.5L12 2z"/></symbol>
+  <symbol id="i-house" viewBox="0 0 24 24"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></symbol>
+</svg>
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="../index.html" class="flex items-center gap-2.5 text-botanical-dark font-serif font-bold text-xl sm:text-2xl tracking-tight">
+                        <img src="../hkb.svg" alt="HKB" class="h-9 w-9">
+                        <span class="lang-en">Hong Kong Botanica</span>
+                        <span class="lang-zh hidden">香港草木誌</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 lg:space-x-8 text-sm lg:text-base">
+                    <a href="../index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Home</span>
+                        <span class="lang-zh hidden">主頁</span>
+                    </a>
+                    <a href="../species/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Species Directory</span>
+                        <span class="lang-zh hidden">物種目錄</span>
+                    </a>
+                    <a href="../families/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Families &amp; Genera</span>
+                        <span class="lang-zh hidden">科屬分類</span>
+                    </a>
+                    <a href="../taxonomy/index.html" class="text-stone-600 hover:text-botanical font-medium transition">
+                        <span class="lang-en">Taxonomic tree</span>
+                        <span class="lang-zh hidden">分類樹</span>
+                    </a>
+                    <a href="index.html" class="text-botanical font-bold border-b-2 border-botanical pb-0.5 transition">
+                        <span class="lang-en">Compare</span>
+                        <span class="lang-zh hidden">對照</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4 text-stone-500">
+                    <a href="../search/index.html" class="hover:text-botanical transition"><svg class="icon text-lg" aria-hidden="true"><use href="#i-search"></use></svg></a>
+                    <button onclick="toggleLanguage()" class="hover:text-botanical transition font-bold text-sm px-2 py-1 rounded border border-stone-200 hover:border-botanical">
+                        <span class="lang-en">中</span>
+                        <span class="lang-zh hidden">EN</span>
+                    </button>
+                    <button onclick="openMobileNav()" class="md:hidden hover:text-botanical transition"><svg class="icon text-xl" aria-hidden="true"><use href="#i-bars"></use></svg></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mobileOverlay" class="mobile-nav-overlay" onclick="closeMobileNav()"></div>
+    <div id="mobileDrawer" class="mobile-nav-drawer">
+        <div class="p-5 border-b border-stone-100 flex justify-between items-center">
+            <span class="font-serif font-bold text-lg text-botanical-dark">
+                <span class="lang-en">Menu</span><span class="lang-zh hidden">選單</span>
+            </span>
+            <button onclick="closeMobileNav()" class="text-stone-400 hover:text-stone-700"><svg class="icon text-xl" aria-hidden="true"><use href="#i-xmark"></use></svg></button>
+        </div>
+        <div class="p-5 space-y-1">
+            <a href="../index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <svg class="icon w-6 text-center mr-2 text-stone-400" aria-hidden="true"><use href="#i-house"></use></svg>
+                <span class="lang-en">Home</span><span class="lang-zh hidden">主頁</span>
+            </a>
+            <a href="../species/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <svg class="icon w-6 text-center mr-2 text-stone-400" aria-hidden="true"><use href="#i-leaf"></use></svg>
+                <span class="lang-en">Species Directory</span><span class="lang-zh hidden">物種目錄</span>
+            </a>
+            <a href="../families/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <svg class="icon w-6 text-center mr-2 text-stone-400" aria-hidden="true"><use href="#i-sitemap"></use></svg>
+                <span class="lang-en">Families &amp; Genera</span><span class="lang-zh hidden">科屬分類</span>
+            </a>
+            <a href="../taxonomy/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <svg class="icon w-6 text-center mr-2 text-stone-400" aria-hidden="true"><use href="#i-tree"></use></svg>
+                <span class="lang-en">Taxonomic tree</span><span class="lang-zh hidden">分類樹</span>
+            </a>
+            <a href="index.html" class="block px-4 py-3 rounded-lg bg-botanical/10 text-botanical font-bold transition">
+                <svg class="icon w-6 text-center mr-2 text-botanical" aria-hidden="true" viewBox="0 0 24 24"><path fill="currentColor" d="M4 4h7v16H4V4zm9 0h7v16h-7V4z"/></svg>
+                <span class="lang-en">Compare</span><span class="lang-zh hidden">對照</span>
+            </a>
+            <a href="../search/index.html" class="block px-4 py-3 rounded-lg text-stone-700 hover:bg-botanical/10 hover:text-botanical font-medium transition">
+                <svg class="icon w-6 text-center mr-2 text-stone-400" aria-hidden="true"><use href="#i-search"></use></svg>
+                <span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span>
+            </a>
+        </div>
+        <div class="p-5 border-t border-stone-100">
+            <button onclick="toggleLanguage()" class="w-full px-4 py-3 rounded-lg border border-stone-200 text-stone-600 font-medium hover:border-botanical hover:text-botanical transition">
+                <span class="lang-en">切換中文</span><span class="lang-zh hidden">Switch to English</span>
+            </button>
+        </div>
+    </div>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <h1 class="text-3xl md:text-4xl font-serif font-bold text-stone-900 mb-2">
+            <span class="lang-en">Compare</span><span class="lang-zh hidden">對照</span>
+        </h1>
+        <p class="text-stone-500 mb-8">
+            <span class="lang-en">Two published pages. A label lines up only when both accounts use it.</span>
+            <span class="lang-zh hidden">兩頁已寫的記述。兩邊用同一標籤才排在同一列。</span>
+        </p>
+        <p id="compareLoad" hidden>
+            <span class="lang-en">The species accounts did not load.</span>
+            <span class="lang-zh hidden">物種記述未能載入。</span>
+        </p>
+        <form class="compare-picks" onsubmit="return false;">
+            <div class="compare-field">
+                <label for="pickA"><span class="lang-en">First species</span><span class="lang-zh hidden">第一種</span></label>
+                <div class="compare-control">
+                    <input id="pickA" type="text" autocomplete="off" data-placeholder-en="Type a name, for example Elaeocarpus or 杜英" data-placeholder-zh="輸入名稱，例如 Elaeocarpus 或 杜英">
+                    <button type="button" class="compare-clear" hidden aria-label="Clear">×</button>
+                </div>
+                <ul id="listA" class="compare-list" hidden></ul>
+            </div>
+            <div class="compare-field">
+                <label for="pickB"><span class="lang-en">Second species</span><span class="lang-zh hidden">第二種</span></label>
+                <div class="compare-control">
+                    <input id="pickB" type="text" autocomplete="off" data-placeholder-en="Type a name" data-placeholder-zh="輸入名稱">
+                    <button type="button" class="compare-clear" hidden aria-label="Clear">×</button>
+                </div>
+                <ul id="listB" class="compare-list" hidden></ul>
+            </div>
+            <button type="button" id="compareGo" class="compare-go" disabled>
+                <span class="lang-en">Compare</span><span class="lang-zh hidden">對照</span>
+            </button>
+        </form>
+        <p id="compareNote" class="compare-note" hidden>
+            <span class="lang-en">Choose two different pages.</span>
+            <span class="lang-zh hidden">請選兩個不同的頁。</span>
+        </p>
+        <div id="compareResult" class="compare-result" hidden></div>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3 text-white">
+                <img src="../hkb.svg" alt="" class="h-8 w-8 opacity-80">
+                <span class="font-serif font-bold text-xl">
+                    <span class="lang-en">Hong Kong Botanica</span><span class="lang-zh hidden">香港草木誌</span>
+                </span>
+            </div>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm font-medium">
+                <a href="../species/index.html" class="hover:text-white transition"><span class="lang-en">Species List</span><span class="lang-zh hidden">物種名錄</span></a>
+                <a href="../families/index.html" class="hover:text-white transition"><span class="lang-en">Taxonomy Guide</span><span class="lang-zh hidden">分類指南</span></a>
+                <a style="display:none" href="../about/index.html" class="hover:text-white transition"><span class="lang-en">About</span><span class="lang-zh hidden">關於本庫</span></a>
+                <a href="../search/index.html" class="hover:text-white transition"><span class="lang-en">Search</span><span class="lang-zh hidden">搜尋</span></a>
+            </div>
+            <div class="text-sm text-stone-500 text-center md:text-right">
+                <span class="lang-en">&copy; 2026 Hong Kong Botanica. All rights reserved.</span>
+                <span class="lang-zh hidden">&copy; 2026 香港草木誌。保留所有權利。</span>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/hkb.js?v=4"></script>
+    <script src="../js/compare.js?v=2"></script>
+</body>
+</html>
