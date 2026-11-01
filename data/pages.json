@@ -14598,6 +14598,12 @@
           "image_id": "hkb-78101-f",
           "en": "Many clusters of green globose fruits on a leafy branch.",
           "zh": "帶葉枝上許多成簇的綠色球形果。"
+        },
+        {
+          "en": "The upper surface of a narrow leaf, the lateral veins impressed.",
+          "zh": "狹葉的上表面，側脈下陷。",
+          "image_id": "hkb-78101-g",
+          "code": "78101g"
         }
       ],
       "blp": "78101",
@@ -15566,6 +15572,12 @@
           "image_id": "hkb-29051-f",
           "en": "Heart-shaped leaves twining up a trunk.",
           "zh": "心形葉沿樹幹纏繞上升。"
+        },
+        {
+          "en": "The upper surface of a leaf, the veins in a fine net.",
+          "zh": "葉的上表面，葉脈成細網。",
+          "image_id": "hkb-29051-g",
+          "code": "29051g"
         }
       ],
       "blp": "29051",
@@ -16081,6 +16093,12 @@
           "zh": "聚傘果序上的幼嫩青果，果柄短，旁有光亮的葉。",
           "image_id": "hkb-78110-e",
           "code": "78110e"
+        },
+        {
+          "en": "Clusters of ripe red fruits among glossy elliptic leaves, in sun.",
+          "zh": "陽光下，光亮的橢圓形葉間結着成簇的成熟紅色果實。",
+          "image_id": "hkb-78110-g",
+          "code": "78110g"
         }
       ],
       "reference": {
@@ -17501,6 +17519,12 @@
           "zh": "日照下密集的開放雄花，花藥橙色。",
           "image_id": "hkb-67167-e",
           "code": "67167e"
+        },
+        {
+          "en": "A twig carrying ripe black fruits and green ones still unripe.",
+          "zh": "小枝上同時有已熟的黑色果和尚未轉色的綠色果。",
+          "image_id": "hkb-67167-g",
+          "code": "67167g"
         }
       ],
       "reference": {
@@ -18524,6 +18548,12 @@
           "zh": "數條花枝，各生許多小圓錐花序。",
           "image_id": "hkb-26138-f",
           "code": "26138f"
+        },
+        {
+          "en": "The leaf base, three veins running out from the petiole.",
+          "zh": "葉基，三條脈自葉柄處伸出。",
+          "image_id": "hkb-26138-g",
+          "code": "26138g"
         }
       ],
       "reference": {
@@ -19327,6 +19357,12 @@
           "zh": "樹幹，樹皮縱裂。",
           "image_id": "hkb-47006-e",
           "code": "47006e"
+        },
+        {
+          "en": "An open greenish flower among crowded buds, beside wet leaflets.",
+          "zh": "密集的花蕾間有一朵開放的淡綠色花，旁是帶水珠的小葉。",
+          "image_id": "hkb-47006-g",
+          "code": "47006g"
         }
       ],
       "reference": {
@@ -20717,6 +20753,12 @@
           "zh": "光亮的葉上結滿褐色梨形蒴果。",
           "image_id": "hkb-61056-f",
           "code": "61056f"
+        },
+        {
+          "en": "A red flush of young leaves, the midvein pale.",
+          "zh": "紅色的幼葉，中脈淺色。",
+          "image_id": "hkb-61056-g",
+          "code": "61056g"
         }
       ],
       "reference": {
@@ -21702,6 +21744,12 @@
           "zh": "灌叢中的灌木，深綠色老葉間有粉紅的新葉。",
           "image_id": "hkb-67156-f",
           "code": "67156f"
+        },
+        {
+          "en": "Open brown capsules, split into pointed valves, on a leafy twig.",
+          "zh": "葉枝上已裂開的褐色蒴果，裂瓣先端尖。",
+          "image_id": "hkb-67156-g",
+          "code": "67156g"
         }
       ],
       "reference": {
@@ -22096,6 +22144,12 @@
           "zh": "枝端輪生葉旁的一枚核果。",
           "image_id": "hkb-54151-f",
           "code": "54151f"
+        },
+        {
+          "en": "A raceme of open flowers, the petals fringed, hanging among glossy leaves.",
+          "zh": "光亮的葉間垂下一條花序，花已開放，花瓣流蘇狀。",
+          "image_id": "hkb-54151-g",
+          "code": "54151g"
         }
       ],
       "reference": {

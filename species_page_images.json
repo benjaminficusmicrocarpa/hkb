@@ -1,5 +1,5 @@
 {
-  "total_images": 953,
+  "total_images": 962,
   "images": [
     {
       "filename": "17001/17001a.webp",
@@ -109,7 +109,7 @@
     {
       "filename": "24051/24051c.webp",
       "image_id": "hkb-24051-c",
-      "description": "upright pale spike"
+      "description": "colony along a wall"
     },
     {
       "filename": "25050/25050a.webp",
@@ -119,12 +119,12 @@
     {
       "filename": "25050/25050b.webp",
       "image_id": "hkb-25050-b",
-      "description": "stipular scar on the petiole"
+      "description": "small tree beside a stone wall"
     },
     {
       "filename": "25050/25050c.webp",
       "image_id": "hkb-25050-c",
-      "description": "leaf underside with midvein hairs"
+      "description": "two open flowers"
     },
     {
       "filename": "25206/25206a.webp",
@@ -347,6 +347,11 @@
       "description": "f"
     },
     {
+      "filename": "26138/26138g.webp",
+      "image_id": "hkb-26138-g",
+      "description": "leaf base, three veins"
+    },
+    {
       "filename": "26150/26150a.webp",
       "image_id": "hkb-26150-a",
       "description": "a"
@@ -424,7 +429,7 @@
     {
       "filename": "29051/29051e.webp",
       "image_id": "hkb-29051-e",
-      "description": "vine climbing a trunk"
+      "description": "pendulous female spikes"
     },
     {
       "filename": "30100/30100a.webp",
@@ -554,7 +559,7 @@
     {
       "filename": "36424/36424d.webp",
       "image_id": "hkb-36424-d",
-      "description": "pale flower close-up"
+      "description": "leafy pseudostems with a flower spike"
     },
     {
       "filename": "38240/38240a.webp",
@@ -870,6 +875,11 @@
       "filename": "47006/47006e.webp",
       "image_id": "hkb-47006-e",
       "description": "e"
+    },
+    {
+      "filename": "47006/47006g.webp",
+      "image_id": "hkb-47006-g",
+      "description": "open flower among buds"
     },
     {
       "filename": "47029/47029a.webp",
@@ -1469,7 +1479,7 @@
     {
       "filename": "51005/51005d.webp",
       "image_id": "hkb-51005-d",
-      "description": "cream male spikes"
+      "description": "elliptic leaves, crenate margin"
     },
     {
       "filename": "51017/51017a.webp",
@@ -1545,6 +1555,11 @@
       "filename": "54151/54151f.webp",
       "image_id": "hkb-54151-f",
       "description": "f"
+    },
+    {
+      "filename": "54151/54151g.webp",
+      "image_id": "hkb-54151-g",
+      "description": "raceme of fringed flowers"
     },
     {
       "filename": "54152/54152a.webp",
@@ -2859,7 +2874,7 @@
     {
       "filename": "60274/60274e.webp",
       "image_id": "hkb-60274-e",
-      "description": "flowers beside a dried fruit"
+      "description": "spine and red flower buds"
     },
     {
       "filename": "60503/60503a.webp",
@@ -3000,6 +3015,11 @@
       "filename": "61056/61056f.webp",
       "image_id": "hkb-61056-f",
       "description": "f"
+    },
+    {
+      "filename": "61056/61056g.webp",
+      "image_id": "hkb-61056-g",
+      "description": "red flush of young leaves"
     },
     {
       "filename": "61057/61057a.webp",
@@ -3407,6 +3427,11 @@
       "description": "f"
     },
     {
+      "filename": "67156/67156g.webp",
+      "image_id": "hkb-67156-g",
+      "description": "open brown capsules"
+    },
+    {
       "filename": "67167/67167a.webp",
       "image_id": "hkb-67167-a",
       "description": "a"
@@ -3425,6 +3450,11 @@
       "filename": "67167/67167e.webp",
       "image_id": "hkb-67167-e",
       "description": "e"
+    },
+    {
+      "filename": "67167/67167g.webp",
+      "image_id": "hkb-67167-g",
+      "description": "ripe black and green fruits"
     },
     {
       "filename": "67400/67400a.webp",
@@ -3764,7 +3794,7 @@
     {
       "filename": "68008/68008e.webp",
       "image_id": "hkb-68008-e",
-      "description": "pink young leaves"
+      "description": "young glandular capsules"
     },
     {
       "filename": "68010/68010a.webp",
@@ -4489,7 +4519,7 @@
     {
       "filename": "78101/78101c.webp",
       "image_id": "hkb-78101-c",
-      "description": "cluster of green fruits"
+      "description": "male flowers"
     },
     {
       "filename": "78108/78108a.webp",
@@ -4570,6 +4600,11 @@
       "filename": "78110/78110e.webp",
       "image_id": "hkb-78110-e",
       "description": "e"
+    },
+    {
+      "filename": "78110/78110g.webp",
+      "image_id": "hkb-78110-g",
+      "description": "ripe red fruit clusters"
     },
     {
       "filename": "79200/79200a.webp",
@@ -4712,6 +4747,11 @@
       "description": "twining-on-trunk"
     },
     {
+      "filename": "29051/29051g.webp",
+      "image_id": "hkb-29051-g",
+      "description": "leaf upper surface, netted veins"
+    },
+    {
       "filename": "36424/36424e.webp",
       "image_id": "hkb-36424-e",
       "description": "pink-tipped-bracts"
@@ -4750,6 +4790,11 @@
       "filename": "78101/78101f.webp",
       "image_id": "hkb-78101-f",
       "description": "fruiting-branch"
+    },
+    {
+      "filename": "78101/78101g.webp",
+      "image_id": "hkb-78101-g",
+      "description": "leaf upper surface, impressed veins"
     },
     {
       "filename": "20001/20001e.webp",
