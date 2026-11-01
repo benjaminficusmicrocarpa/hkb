@@ -1,5 +1,5 @@
 {
-  "total_images": 958,
+  "total_images": 953,
   "images": [
     {
       "filename": "17001/17001a.webp",
@@ -102,19 +102,9 @@
       "description": "slender hanging spikes"
     },
     {
-      "filename": "20001/20001c.webp",
-      "image_id": "hkb-20001-c",
-      "description": "spike with ringed collars"
-    },
-    {
       "filename": "24051/24051a.webp",
       "image_id": "hkb-24051-a",
       "description": "cream spike opposite a leaf"
-    },
-    {
-      "filename": "24051/24051b.webp",
-      "image_id": "hkb-24051-b",
-      "description": "ground colony"
     },
     {
       "filename": "24051/24051c.webp",
@@ -425,11 +415,6 @@
       "filename": "29051/29051b.webp",
       "image_id": "hkb-29051-b",
       "description": "heart-shaped leaves"
-    },
-    {
-      "filename": "29051/29051c.webp",
-      "image_id": "hkb-29051-c",
-      "description": "purple hanging spike"
     },
     {
       "filename": "29051/29051d.webp",
@@ -847,16 +832,6 @@
       "description": "fruit-single-brown-twig-sky-58"
     },
     {
-      "filename": "45054/45054a.webp",
-      "image_id": "hkb-45054-a",
-      "description": "a"
-    },
-    {
-      "filename": "45054/45054b.webp",
-      "image_id": "hkb-45054-b",
-      "description": "b"
-    },
-    {
       "filename": "45054/45054c.webp",
       "image_id": "hkb-45054-c",
       "description": "c"
@@ -887,11 +862,6 @@
       "description": "b"
     },
     {
-      "filename": "47006/47006c.webp",
-      "image_id": "hkb-47006-c",
-      "description": "c"
-    },
-    {
       "filename": "47006/47006d.webp",
       "image_id": "hkb-47006-d",
       "description": "d"
@@ -900,11 +870,6 @@
       "filename": "47006/47006e.webp",
       "image_id": "hkb-47006-e",
       "description": "e"
-    },
-    {
-      "filename": "47006/47006f.webp",
-      "image_id": "hkb-47006-f",
-      "description": "f"
     },
     {
       "filename": "47029/47029a.webp",
@@ -1547,11 +1512,6 @@
       "description": "b"
     },
     {
-      "filename": "53012/53012c.webp",
-      "image_id": "hkb-53012-c",
-      "description": "c"
-    },
-    {
       "filename": "53012/53012d.webp",
       "image_id": "hkb-53012-d",
       "description": "d"
@@ -1567,11 +1527,6 @@
       "description": "f"
     },
     {
-      "filename": "54151/54151a.webp",
-      "image_id": "hkb-54151-a",
-      "description": "a"
-    },
-    {
       "filename": "54151/54151b.webp",
       "image_id": "hkb-54151-b",
       "description": "b"
@@ -1580,11 +1535,6 @@
       "filename": "54151/54151c.webp",
       "image_id": "hkb-54151-c",
       "description": "c"
-    },
-    {
-      "filename": "54151/54151d.webp",
-      "image_id": "hkb-54151-d",
-      "description": "d"
     },
     {
       "filename": "54151/54151e.webp",
@@ -3047,11 +2997,6 @@
       "description": "d"
     },
     {
-      "filename": "61056/61056e.webp",
-      "image_id": "hkb-61056-e",
-      "description": "e"
-    },
-    {
       "filename": "61056/61056f.webp",
       "image_id": "hkb-61056-f",
       "description": "f"
@@ -3452,16 +3397,6 @@
       "description": "b"
     },
     {
-      "filename": "67156/67156c.webp",
-      "image_id": "hkb-67156-c",
-      "description": "c"
-    },
-    {
-      "filename": "67156/67156d.webp",
-      "image_id": "hkb-67156-d",
-      "description": "d"
-    },
-    {
       "filename": "67156/67156e.webp",
       "image_id": "hkb-67156-e",
       "description": "e"
@@ -3482,11 +3417,6 @@
       "description": "b"
     },
     {
-      "filename": "67167/67167c.webp",
-      "image_id": "hkb-67167-c",
-      "description": "c"
-    },
-    {
       "filename": "67167/67167d.webp",
       "image_id": "hkb-67167-d",
       "description": "d"
@@ -3495,11 +3425,6 @@
       "filename": "67167/67167e.webp",
       "image_id": "hkb-67167-e",
       "description": "e"
-    },
-    {
-      "filename": "67167/67167f.webp",
-      "image_id": "hkb-67167-f",
-      "description": "f"
     },
     {
       "filename": "67400/67400a.webp",
@@ -3742,11 +3667,6 @@
       "description": "a"
     },
     {
-      "filename": "67761/67761b.webp",
-      "image_id": "hkb-67761-b",
-      "description": "b"
-    },
-    {
       "filename": "67761/67761c.webp",
       "image_id": "hkb-67761-c",
       "description": "c"
@@ -3825,11 +3745,6 @@
       "filename": "67853/67853f.webp",
       "image_id": "hkb-67853-f",
       "description": "f"
-    },
-    {
-      "filename": "68008/68008a.webp",
-      "image_id": "hkb-68008-a",
-      "description": "pale flowers on a leafy shoot"
     },
     {
       "filename": "68008/68008b.webp",
@@ -4367,11 +4282,6 @@
       "description": "two-lipped flower"
     },
     {
-      "filename": "75208/75208d.webp",
-      "image_id": "hkb-75208-d",
-      "description": "hairy leaf underside"
-    },
-    {
       "filename": "75208/75208e.webp",
       "image_id": "hkb-75208-e",
       "description": "rosette with one small flower"
@@ -4572,11 +4482,6 @@
       "description": "k"
     },
     {
-      "filename": "78101/78101a.webp",
-      "image_id": "hkb-78101-a",
-      "description": "flower clusters on a leafy branch"
-    },
-    {
       "filename": "78101/78101b.webp",
       "image_id": "hkb-78101-b",
       "description": "small green flower"
@@ -4647,11 +4552,6 @@
       "description": "f"
     },
     {
-      "filename": "78110/78110a.webp",
-      "image_id": "hkb-78110-a",
-      "description": "a"
-    },
-    {
       "filename": "78110/78110b.webp",
       "image_id": "hkb-78110-b",
       "description": "b"
@@ -4670,11 +4570,6 @@
       "filename": "78110/78110e.webp",
       "image_id": "hkb-78110-e",
       "description": "e"
-    },
-    {
-      "filename": "78110/78110f.webp",
-      "image_id": "hkb-78110-f",
-      "description": "f"
     },
     {
       "filename": "79200/79200a.webp",
@@ -4790,6 +4685,86 @@
       "filename": "82051/82051j.webp",
       "image_id": "hkb-82051-a-panicle-of-buds-the-axes-tawny",
       "description": "a-panicle-of-buds-the-axes-tawny"
+    },
+    {
+      "filename": "20001/20001d.webp",
+      "image_id": "hkb-20001-d",
+      "description": "ringed-collars"
+    },
+    {
+      "filename": "24051/24051d.webp",
+      "image_id": "hkb-24051-d",
+      "description": "spike-surface"
+    },
+    {
+      "filename": "25050/25050e.webp",
+      "image_id": "hkb-25050-e",
+      "description": "stipular-scars"
+    },
+    {
+      "filename": "25050/25050f.webp",
+      "image_id": "hkb-25050-f",
+      "description": "leaf-underside-hairs"
+    },
+    {
+      "filename": "29051/29051f.webp",
+      "image_id": "hkb-29051-f",
+      "description": "twining-on-trunk"
+    },
+    {
+      "filename": "36424/36424e.webp",
+      "image_id": "hkb-36424-e",
+      "description": "pink-tipped-bracts"
+    },
+    {
+      "filename": "51005/51005e.webp",
+      "image_id": "hkb-51005-e",
+      "description": "single-cupule"
+    },
+    {
+      "filename": "51005/51005f.webp",
+      "image_id": "hkb-51005-f",
+      "description": "male-flowers"
+    },
+    {
+      "filename": "60274/60274f.webp",
+      "image_id": "hkb-60274-f",
+      "description": "flower-and-seed"
+    },
+    {
+      "filename": "68008/68008f.webp",
+      "image_id": "hkb-68008-f",
+      "description": "red-flush"
+    },
+    {
+      "filename": "78101/78101d.webp",
+      "image_id": "hkb-78101-d",
+      "description": "young-fruit"
+    },
+    {
+      "filename": "78101/78101e.webp",
+      "image_id": "hkb-78101-e",
+      "description": "short-petiole-flowers"
+    },
+    {
+      "filename": "78101/78101f.webp",
+      "image_id": "hkb-78101-f",
+      "description": "fruiting-branch"
+    },
+    {
+      "filename": "20001/20001e.webp",
+      "image_id": "hkb-20001-e",
+      "description": "male-panicle"
+    },
+    {
+      "filename": "24051/24051e.webp",
+      "image_id": "hkb-24051-e",
+      "description": "leaves-and-spikes"
+    },
+    {
+      "filename": "45054/45054g.webp",
+      "image_id": "hkb-45054-g",
+      "description": "pink-flowers"
     }
   ]
 }
